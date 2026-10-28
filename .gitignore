@@ -1,0 +1,51 @@
+# Personal progress, local binaries and backups
+/data/
+/runtime/
+/backups/
+/local-version.json
+*.log
+*.lnk
+
+# Generated files
+/www/
+**/node_modules/
+**/dist/
+**/.next/
+**/.vinext/
+**/.wrangler/
+**/.sites-runtime/
+**/coverage/
+*.tsbuildinfo
+.DS_Store
+
+# Local credentials and editor state
+**/.env*
+**/.dev.vars*
+*.pem
+**/.agents/
+**/.codex/
+
+# Cloud-only starter files; this repository runs the local application
+/source/.openai/
+/source/app/api/
+/source/app/chatgpt-auth.ts
+/source/components/
+/source/db/
+/source/drizzle/
+/source/examples/
+/source/hooks/
+/source/worker/
+/source/vendor/
+/source/lib/*
+!/source/lib/course/
+/source/scripts/*
+!/source/scripts/validate-*.mjs
+/source/package.cloud.json
+/source/pnpm-lock.yaml
+/source/pnpm-workspace.yaml
+/source/vite.config.ts
+/source/next.config.ts
+/source/cloudflare-env.d.ts
+/source/drizzle.config.ts
+/source/eslint.config.mjs
+/source/components.json

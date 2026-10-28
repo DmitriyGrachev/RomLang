@@ -1,0 +1,45 @@
+/* Word memory uses the existing white and emerald practice surfaces. */
+.word-mode{display:flex;gap:7px;padding:5px;background:#f2f6f3;border-radius:14px;margin:27px 0 9px;max-width:100%}
+.word-mode button{flex:1;padding:12px 14px;border-radius:10px;color:var(--muted);font-size:14px;font-weight:700;text-align:center}
+.word-mode button.selected{background:#fff;color:var(--green-dark);box-shadow:0 2px 6px #20372016}
+.word-mode-note{color:var(--muted);font-size:14px;line-height:1.5}
+.word-trainer .word-source{margin:21px 0}
+.word-trainer .word-source button{font-size:13px;padding:10px 12px}
+.word-save{font-size:13px;color:var(--muted);line-height:1.5;margin-top:22px}
+.word-prep-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:24px 0}
+.word-prep-card{min-width:0;border:1px solid var(--line);background:#fff;border-radius:15px;padding:17px;display:flex;flex-direction:column;gap:5px}
+.word-prep-card>strong{font-size:21px;color:var(--green-dark);overflow-wrap:anywhere}
+.word-prep-card>span{font-size:16px;font-weight:600}
+.word-prep-card small{display:block;color:var(--muted);line-height:1.5;margin-top:7px}
+.word-prep-card small span{color:var(--ink)}
+.word-prep-card .word-prep-note{border-top:1px solid var(--line);padding-top:8px}
+.word-prep-actions{margin:23px 0}
+.word-trainer .recall-card .recall-prompt{font-size:clamp(25px,4vw,37px);line-height:1.28;color:var(--ink);margin:0 0 21px}
+.word-answer-form{display:flex;flex-wrap:wrap;align-items:flex-end;gap:12px;width:100%}
+.word-answer-form label{flex:1 0 100%;font-size:13px;font-weight:700;color:var(--muted)}
+.word-answer-form input{flex:1;min-width:130px;background:#fbfdfb;border:1px solid #aebfb3;border-radius:10px;padding:12px 15px;color:var(--green-dark);font-size:20px}
+.word-answer-form input:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+.word-result{width:100%;background:#f3faf5;border:1px solid #bfdfca;border-radius:13px;padding:15px 18px;line-height:1.5}
+.word-result.incorrect{background:#fff8f3;border-color:#ebd2bf}
+.word-result strong,.word-result b{color:var(--green-dark)}
+.word-result p{margin:5px 0}
+.word-result small{display:block;border-top:1px solid #dce8df;margin-top:11px;padding-top:9px;color:var(--muted)}
+.word-history{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:20px 0;margin:23px 0}
+.word-history h3,.word-progress h2{margin:0 0 8px}
+.word-history>p,.word-progress>p{color:var(--muted);line-height:1.5;font-size:14px}
+.word-history-modes,.word-progress-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.word-history-modes>div,.word-progress-grid>div{padding:14px;border:1px solid var(--line);border-radius:12px;background:#f8fbf9;display:flex;flex-direction:column;gap:5px}
+.word-history-modes strong{font-size:14px}
+.word-history-modes span,.word-history-modes small{font-size:13px;color:var(--muted)}
+.word-history-list{list-style:none;padding:0;margin:16px 0 0}
+.word-history-list li{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 12px;border-top:1px solid var(--line);padding:10px 0;font-size:13px}
+.word-history-list li small{color:var(--muted)}
+.word-history-list li small:last-child:not(:nth-child(2)){flex:1 0 100%}
+.word-history-empty{margin-bottom:0}
+.word-progress{border:1px solid var(--line);border-radius:17px;background:#fff;padding:24px;margin:30px 0}
+.word-progress-grid{margin:18px 0}
+.word-progress-grid h3{font-size:16px;margin:0 0 7px}
+.word-progress-grid strong{font-size:31px;color:var(--green-dark);line-height:1}
+.word-progress-grid span,.word-progress-grid p{font-size:13px;color:var(--muted);margin:0;line-height:1.45}
+.word-progress .button-row{margin-top:18px}
+@media(max-width:600px){.word-mode{flex-direction:column}.word-trainer .word-source{width:100%}.word-trainer .word-source button{flex:1 1 100%;text-align:center}.word-prep-grid,.word-history-modes,.word-progress-grid{grid-template-columns:1fr}.word-answer-form input,.word-answer-form .button{flex:1 0 100%}.word-progress{padding:18px}}

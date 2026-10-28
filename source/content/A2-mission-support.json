@@ -1,0 +1,778 @@
+{
+  "missions": [
+    {
+      "missionId": "MISSION.A2.1",
+      "phrases": [
+        {
+          "ro": "Sala A este mai aproape de casă. Sala B este mai ieftină, dar mai departe. Ce preferați?",
+          "ru": "Зал A ближе к дому. Зал B дешевле, но дальше. Что вы предпочитаете?",
+          "note": "Mai aproape, mai ieftină, mai departe — «ближе, дешевле, дальше»; mai образует сравнительную степень."
+        },
+        {
+          "ro": "Prefer sala A, pentru că am puțin timp după lucru.",
+          "ru": "Я предпочитаю зал A, потому что у меня мало времени после работы.",
+          "note": "Prefer — «предпочитаю»; pentru că вводит причину; puțin timp — «мало времени»."
+        },
+        {
+          "ro": "Prefer sala B, pentru că este mai aproape de casă.",
+          "ru": "Я предпочитаю зал B, потому что он ближе к дому.",
+          "note": "Mai aproape de — «ближе к». Фраза грамматически понятна; проверьте, какому залу в условии соответствует это свойство."
+        },
+        {
+          "ro": "Sala B este mai departe. Dacă aveți puțin timp, sala A poate fi mai comodă.",
+          "ru": "Зал B дальше. Если у вас мало времени, зал A может быть удобнее.",
+          "note": "Dacă — «если»; poate fi — «может быть»; mai comodă — «удобнее»."
+        },
+        {
+          "ro": "Înțeleg. Atunci prefer sala A, cea de lângă casă.",
+          "ru": "Понимаю. Тогда я предпочитаю зал A, тот, что рядом с домом.",
+          "note": "Atunci — «тогда»; cea de lângă casă уточняет существительное женского рода sala."
+        },
+        {
+          "ro": "Bine. Vreți să mergeți dimineața sau seara?",
+          "ru": "Хорошо. Вы хотите ходить утром или вечером?",
+          "note": "Vreți să mergeți — вежливое «хотите ходить»; dimineața / seara — «утром / вечером»."
+        },
+        {
+          "ro": "Prefer să merg seara. La ce oră începe antrenamentul?",
+          "ru": "Я предпочитаю ходить вечером. Во сколько начинается тренировка?",
+          "note": "Prefer să merg — «предпочитаю ходить»; la ce oră — вопрос о точном времени."
+        },
+        {
+          "ro": "Da, trebuie mai ieftin.",
+          "ru": "Да, нужно подешевле.",
+          "note": "Mai ieftin — «дешевле, подешевле». Это краткая реплика о цене; она сама по себе не сообщает время занятий."
+        },
+        {
+          "ro": "Putem vorbi despre preț mai târziu. Acum trebuie să alegem dimineața sau seara.",
+          "ru": "О цене можно поговорить позже. Сейчас нужно выбрать утро или вечер.",
+          "note": "Mai târziu — «позже»; acum — «сейчас»; trebuie să alegem — «нам нужно выбрать»."
+        },
+        {
+          "ro": "Atunci aleg seara. La ce oră începe antrenamentul?",
+          "ru": "Тогда я выбираю вечер. Во сколько начинается тренировка?",
+          "note": "Aleg — «выбираю»; începe — «начинается»."
+        },
+        {
+          "ro": "În scenariul nostru, antrenamentul de seară începe la șapte.",
+          "ru": "В нашем сценарии вечерняя тренировка начинается в семь.",
+          "note": "Antrenamentul de seară — «вечерняя тренировка»; începe la — «начинается в»."
+        },
+        {
+          "ro": "Bine, pot veni la șapte. Mulțumesc.",
+          "ru": "Хорошо, я могу прийти в семь. Спасибо.",
+          "note": "Pot veni — «могу прийти»; la șapte — «в семь»."
+        },
+        {
+          "ro": "Sala mică este aglomerată seara. Sala mare este mai liniștită, dar mai departe. Care variantă vi se pare mai bună?",
+          "ru": "Маленький зал по вечерам переполнен. Большой тише, но дальше. Какой вариант вам кажется лучше?",
+          "note": "Aglomerată — «переполненная, многолюдная»; vi se pare — «вам кажется»; mai bună — «лучше»."
+        },
+        {
+          "ro": "Prefer sala mare, pentru că seara vreau mai multă liniște.",
+          "ru": "Я предпочитаю большой зал, потому что вечером хочу больше тишины.",
+          "note": "Mai multă liniște — «больше тишины»; vreau — «хочу»."
+        },
+        {
+          "ro": "Prefer sala mică, pentru că seara este mai liniștită.",
+          "ru": "Я предпочитаю маленький зал, потому что вечером там тише.",
+          "note": "Mai liniștită — «тише, спокойнее»; форма согласуется с sala. Смысл нужно сверить с описанием зала."
+        },
+        {
+          "ro": "Seara este mai liniște în sala mare. Sala mică este aglomerată atunci.",
+          "ru": "По вечерам тише в большом зале. Маленький в это время переполнен.",
+          "note": "Este mai liniște — «тише»; atunci — «тогда, в это время»."
+        },
+        {
+          "ro": "Atunci aleg sala mare. Liniștea este mai importantă pentru mine.",
+          "ru": "Тогда я выбираю большой зал. Тишина для меня важнее.",
+          "note": "Liniștea — «тишина» с определённым артиклем; mai importantă — «важнее»."
+        },
+        {
+          "ro": "Puteți veni seara. Vreți să verificați și dacă trebuie să vă înscrieți înainte?",
+          "ru": "Можно приходить вечером. Хотите также проверить, нужно ли записываться заранее?",
+          "note": "Dacă после verificați вводит косвенный вопрос «нужно ли»; să vă înscrieți — «записаться»."
+        },
+        {
+          "ro": "Da. Trebuie să mă înscriu înainte de antrenament?",
+          "ru": "Да. Мне нужно записаться до тренировки?",
+          "note": "Trebuie să mă înscriu — «мне нужно записаться»; înainte de — «до, перед»."
+        },
+        {
+          "ro": "Nu, dimineața este mai comod pentru mine.",
+          "ru": "Нет, утром мне удобнее.",
+          "note": "Dimineața — «утром»; mai comod pentru mine — «удобнее для меня». Проверьте доступное время в условии."
+        },
+        {
+          "ro": "Ați spus că lucrați dimineața. Putem să păstrăm varianta de seară și să verificăm înscrierea.",
+          "ru": "Вы сказали, что работаете утром. Можно сохранить вечерний вариант и проверить запись.",
+          "note": "Ați spus că — «вы сказали, что»; să păstrăm — «сохранить»; înscrierea — «запись»."
+        },
+        {
+          "ro": "Da, păstrez seara. Trebuie să mă înscriu înainte?",
+          "ru": "Да, оставляю вечерний вариант. Мне нужно записаться заранее?",
+          "note": "Păstrez — «сохраняю, оставляю»; înainte без дополнения здесь означает «заранее»."
+        },
+        {
+          "ro": "Pentru această probă nu trebuie să vă înscrieți. Puteți veni direct.",
+          "ru": "Для этого пробного занятия записываться не нужно. Можно прийти сразу.",
+          "note": "Nu trebuie să — «не нужно»; puteți veni direct — «можете прийти сразу, без предварительной записи»."
+        },
+        {
+          "ro": "Mulțumesc. Atunci vin seara la sala mare.",
+          "ru": "Спасибо. Тогда я приду вечером в большой зал.",
+          "note": "Vin — «прихожу»; настоящее время может обозначать согласованный будущий приход."
+        }
+      ],
+      "notes": [
+        "Перед разговором назовите свой приоритет: дорога, тишина или цена. Потренируйте связку Prefer … pentru că … — «Я предпочитаю …, потому что …».",
+        "Разделите вопросы о времени суток (dimineața sau seara?), точном времени (la ce oră?) и записи (trebuie să mă înscriu?). Прочитайте переводы, затем ответьте без подсказки."
+      ]
+    },
+    {
+      "missionId": "MISSION.A2.2",
+      "phrases": [
+        {
+          "ro": "De ce ai ajuns târziu ieri? Am așteptat la intrare.",
+          "ru": "Почему ты вчера пришёл поздно? Я ждал у входа.",
+          "note": "De ce — «почему»; ai ajuns — «ты пришёл, добрался»; la intrare — «у входа»."
+        },
+        {
+          "ro": "Am uitat geanta în cafenea și m-am întors după ea.",
+          "ru": "Я забыл сумку в кафе и вернулся за ней.",
+          "note": "Am uitat и m-am întors — завершённые события; după ea здесь — «за ней», то есть за сумкой."
+        },
+        {
+          "ro": "Am ajuns devreme și nu am uitat nimic.",
+          "ru": "Я пришёл рано и ничего не забыл.",
+          "note": "Devreme — «рано»; nu … nimic — обычное румынское отрицание «ничего не…»."
+        },
+        {
+          "ro": "Ai spus că ai uitat geanta și a trebuit să te întorci. Asta a durat, nu?",
+          "ru": "Ты говорил, что забыл сумку и пришлось вернуться. На это ушло время, верно?",
+          "note": "A trebuit să te întorci — «тебе пришлось вернуться»; a durat — «заняло время, длилось»."
+        },
+        {
+          "ro": "Da, m-am întors la cafenea. De aceea am venit târziu.",
+          "ru": "Да, я вернулся в кафе. Поэтому я пришёл поздно.",
+          "note": "De aceea — «поэтому»; târziu — «поздно»."
+        },
+        {
+          "ro": "Și ce făceai când am sunat înainte să pleci?",
+          "ru": "А что ты делал, когда я позвонил перед твоим выходом?",
+          "note": "Făceai — imperfect: «ты делал» в тот момент; când am sunat — событие «когда я позвонил»."
+        },
+        {
+          "ro": "Scriam un mesaj când ai sunat. După aceea am plecat.",
+          "ru": "Я писал сообщение, когда ты позвонил. После этого я ушёл.",
+          "note": "Scriam — imperfect: процесс в прошлом; ai sunat и am plecat — отдельные завершённые события."
+        },
+        {
+          "ro": "O să scriu un mesaj mâine.",
+          "ru": "Я напишу сообщение завтра.",
+          "note": "O să scriu — форма будущего времени; mâine — «завтра»."
+        },
+        {
+          "ro": "Întreb despre ieri, în momentul în care am sunat. Ce se întâmpla atunci?",
+          "ru": "Я спрашиваю о вчерашнем моменте, когда я позвонил. Что тогда происходило?",
+          "note": "Ce se întâmpla atunci? — «что тогда происходило?»; în momentul în care — «в тот момент, когда»."
+        },
+        {
+          "ro": "Atunci scriam un mesaj. Apelul tău a venit în timpul lucrului.",
+          "ru": "В тот момент я писал сообщение. Твой звонок поступил во время работы.",
+          "note": "În timpul lucrului — «во время работы»; apelul tău — «твой звонок»."
+        },
+        {
+          "ro": "Acum înțeleg: lucrai, apoi ai plecat, ai uitat geanta și te-ai întors.",
+          "ru": "Теперь понимаю: ты работал, потом ушёл, забыл сумку и вернулся.",
+          "note": "Lucrai описывает процесс в прошлом; apoi — «потом» — помогает перечислить последующие события."
+        },
+        {
+          "ro": "Da. Data viitoare o să verific geanta înainte să plec.",
+          "ru": "Да. В следующий раз я проверю сумку перед выходом.",
+          "note": "Data viitoare — «в следующий раз»; înainte să plec — «прежде чем я уйду»."
+        },
+        {
+          "ro": "De ce ați intrat în cafenea? Voiam să vă întâlnesc în parc.",
+          "ru": "Почему вы зашли в кафе? Я хотела встретиться с вами в парке.",
+          "note": "Ați intrat — «вы вошли»; voiam — imperfect от a vrea, «я хотела»; să vă întâlnesc — «встретиться с вами»."
+        },
+        {
+          "ro": "Ploua și era frig, de aceea am intrat în cafenea.",
+          "ru": "Шёл дождь и было холодно, поэтому мы зашли в кафе.",
+          "note": "Ploua и era описывают фон в imperfect; am intrat — событие, изменившее ситуацию."
+        },
+        {
+          "ro": "Am intrat în cafenea pentru că nu ploua și era foarte cald.",
+          "ru": "Мы зашли в кафе, потому что дождя не было и было очень тепло.",
+          "note": "Pentru că — «потому что»; nu ploua — «дождя не было». Реплика меняет погодные факты исходной истории."
+        },
+        {
+          "ro": "În poveste era frig și ploua. Ploaia v-a schimbat planul.",
+          "ru": "В истории было холодно и шёл дождь. Дождь изменил ваш план.",
+          "note": "Era frig и ploua — фон; v-a schimbat planul — «изменил ваш план»."
+        },
+        {
+          "ro": "Da, ploua. Am schimbat locul și am intrat în cafenea.",
+          "ru": "Да, шёл дождь. Мы сменили место и зашли в кафе.",
+          "note": "Am schimbat locul — «мы сменили место»; am intrat — «мы вошли, зашли»."
+        },
+        {
+          "ro": "Acolo ai întâlnit o fostă colegă. Cum a fost?",
+          "ru": "Там ты встретил бывшую коллегу. Как это было?",
+          "note": "O fostă colegă — «бывшая коллега»; cum a fost? — вопрос о впечатлении: «как всё прошло?»."
+        },
+        {
+          "ro": "A fost o surpriză plăcută. M-am bucurat să o văd.",
+          "ru": "Это был приятный сюрприз. Я был рад её увидеть.",
+          "note": "O surpriză plăcută — «приятный сюрприз»; m-am bucurat să — «я обрадовался тому, что… / был рад…»."
+        },
+        {
+          "ro": "Nu a venit nimeni și nu am întâlnit pe nimeni.",
+          "ru": "Никто не пришёл, и я ни с кем не встретился.",
+          "note": "Nu … nimeni и nu … pe nimeni означают «никто не…» и «ни с кем не…»; отрицание здесь построено правильно."
+        },
+        {
+          "ro": "Ai întâlnit o colegă pe care nu ai văzut-o de mult. Poți spune ce impresie ți-a făcut întâlnirea.",
+          "ru": "Ты встретил коллегу, которую давно не видел. Можно сказать, какое впечатление произвела встреча.",
+          "note": "De mult — «давно»; ce impresie ți-a făcut — «какое впечатление на тебя произвела»."
+        },
+        {
+          "ro": "Mi-a plăcut întâlnirea și m-am bucurat mult.",
+          "ru": "Мне понравилась встреча, и я очень обрадовался.",
+          "note": "Mi-a plăcut — «мне понравилось»; m-am bucurat — «я обрадовался»."
+        },
+        {
+          "ro": "Deci vremea a schimbat planul, dar întâlnirea a fost o bucurie.",
+          "ru": "Значит, погода изменила план, но встреча принесла радость.",
+          "note": "Deci — «значит»; vremea — «погода»; o bucurie — «радость»."
+        },
+        {
+          "ro": "Exact. La sfârșit am ajuns acasă obosit, dar bucuros.",
+          "ru": "Именно. В конце я пришёл домой уставший, но радостный.",
+          "note": "La sfârșit — «в конце»; obosit и bucuros — мужские формы, женские: obosită и bucuroasă."
+        }
+      ],
+      "notes": [
+        "Сначала восстановите хронологию: что происходило в фоне, какое событие произошло и что было потом. Отмечайте ieri, când, apoi и după aceea.",
+        "Сопоставьте письменно пары scriam — am scris и ploua — am intrat: imperfect показывает процесс или фон, а perfect compus — событие. В репликах от себя obosit / bucuros можно заменить на obosită / bucuroasă."
+      ]
+    },
+    {
+      "missionId": "MISSION.A2.3",
+      "phrases": [
+        {
+          "ro": "Putem veni marți la unsprezece sau miercuri la unsprezece. Ce variantă alegeți?",
+          "ru": "Можно прийти во вторник в одиннадцать или в среду в одиннадцать. Что выбираете?",
+          "note": "Marți / miercuri — «вторник / среда»; ce variantă alegeți? — «какой вариант выбираете?»."
+        },
+        {
+          "ro": "Miercuri la unsprezece este bine. Marți nu sunt acasă.",
+          "ru": "В среду в одиннадцать подходит. Во вторник меня нет дома.",
+          "note": "Miercuri — «в среду»; marți — «во вторник»; nu sunt acasă — «меня нет дома»."
+        },
+        {
+          "ro": "Marți la unsprezece este bine, deși nu sunt acasă.",
+          "ru": "Во вторник в одиннадцать подходит, хотя меня нет дома.",
+          "note": "Deși — «хотя». Предложение грамматически возможно; в этой задаче приезд требует вашего присутствия."
+        },
+        {
+          "ro": "Pentru vizită trebuie să fiți acasă. Miercuri între zece și douăsprezece ați spus că puteți.",
+          "ru": "Для визита нужно быть дома. Вы сказали, что можете в среду с десяти до двенадцати.",
+          "note": "Trebuie să fiți acasă — «вы должны быть дома»; între zece și douăsprezece — «между десятью и двенадцатью»."
+        },
+        {
+          "ro": "Atunci aleg miercuri la unsprezece.",
+          "ru": "Тогда я выбираю среду в одиннадцать.",
+          "note": "Aleg — «выбираю»; la unsprezece — «в одиннадцать»."
+        },
+        {
+          "ro": "Bine, miercuri la unsprezece. Cum doriți confirmarea?",
+          "ru": "Хорошо, в среду в одиннадцать. Как вы хотите получить подтверждение?",
+          "note": "Cum doriți confirmarea? — буквально «как вы хотите подтверждение?», то есть каким способом его получить."
+        },
+        {
+          "ro": "Prin mesaj, vă rog. Ne vom întâlni la intrare.",
+          "ru": "Сообщением, пожалуйста. Мы встретимся у входа.",
+          "note": "Prin mesaj — «сообщением»; ne vom întâlni — «мы встретимся»."
+        },
+        {
+          "ro": "Deci rămâne marți la unsprezece.",
+          "ru": "Значит, остаётся вторник в одиннадцать.",
+          "note": "Deci rămâne — «значит, остаётся / договорились на…»; обязательно проверьте название дня."
+        },
+        {
+          "ro": "Am ales miercuri, nu marți. Puteți repeta ziua și spune cum doriți confirmarea?",
+          "ru": "Мы выбрали среду, а не вторник. Повторите день и скажите, как хотите подтверждение.",
+          "note": "Puteți repeta — вежливая просьба «можете повторить»; ziua — «день»."
+        },
+        {
+          "ro": "Deci rămâne miercuri la unsprezece. Trimiteți confirmarea prin mesaj, vă rog.",
+          "ru": "Значит, договорились на среду в одиннадцать. Пришлите подтверждение сообщением, пожалуйста.",
+          "note": "Trimiteți — вежливая просьба «пришлите»; confirmarea — «подтверждение»."
+        },
+        {
+          "ro": "Confirm pentru miercuri la unsprezece, la intrare. Veți primi un mesaj.",
+          "ru": "Подтверждаю: среда, одиннадцать, у входа. Вы получите сообщение.",
+          "note": "Confirm pentru — «подтверждаю на…»; veți primi — вежливое «вы получите»."
+        },
+        {
+          "ro": "Mulțumesc, voi fi acasă atunci.",
+          "ru": "Спасибо, я буду дома в это время.",
+          "note": "Voi fi — «я буду»; atunci — «тогда, в это время»."
+        },
+        {
+          "ro": "Azi putem ajunge la patru sau după șase. La ce oră sunteți acasă?",
+          "ru": "Сегодня можем приехать в четыре или после шести. Во сколько вы дома?",
+          "note": "Azi — «сегодня»; la patru — «в четыре»; după șase — «после шести»."
+        },
+        {
+          "ro": "Sunt acasă după cinci, deci aleg varianta de după șase.",
+          "ru": "Я дома после пяти, поэтому выбираю вариант после шести.",
+          "note": "După cinci / după șase — «после пяти / после шести»; deci связывает условие и вывод."
+        },
+        {
+          "ro": "Sunt acasă după cinci, deci veniți la patru.",
+          "ru": "Я дома после пяти, поэтому приходите в четыре.",
+          "note": "Veniți — «приходите, приезжайте»; la patru — «в четыре». Сопоставьте время приезда со временем своего присутствия."
+        },
+        {
+          "ro": "La patru este înainte de cinci. Putem păstra varianta de după șase.",
+          "ru": "Четыре — раньше пяти. Можно сохранить вариант после шести.",
+          "note": "Înainte de — «до, раньше»; putem păstra — «можем сохранить»."
+        },
+        {
+          "ro": "Da, după șase este bine pentru azi.",
+          "ru": "Да, сегодня после шести подходит.",
+          "note": "Pentru azi — «на сегодня»; după șase — время позже шести."
+        },
+        {
+          "ro": "Putem oferi un interval de la șase până la șapte. Vă convine?",
+          "ru": "Можем предложить окно с шести до семи. Вам подходит?",
+          "note": "De la șase până la șapte — «с шести до семи»; vă convine? — «вам подходит?»."
+        },
+        {
+          "ro": "Da, azi de la șase până la șapte. Voi aștepta în acest interval.",
+          "ru": "Да, сегодня с шести до семи. Я буду ждать в этот промежуток.",
+          "note": "De la … până la … — «с … до …»; voi aștepta — «я буду ждать»."
+        },
+        {
+          "ro": "Da, mâine dimineață la șapte.",
+          "ru": "Да, завтра утром в семь.",
+          "note": "Mâine dimineață — «завтра утром»; это другой день и другая часть суток, чем azi seară."
+        },
+        {
+          "ro": "Vorbim despre azi seară, nu despre mâine dimineață. Intervalul este șase–șapte.",
+          "ru": "Мы говорим о сегодняшнем вечере, а не завтрашнем утре. Окно — с шести до семи.",
+          "note": "Azi seară — «сегодня вечером»; mâine dimineață — «завтра утром»; intervalul — «промежуток времени»."
+        },
+        {
+          "ro": "Înțeleg. Confirm pentru azi, între șase și șapte seara.",
+          "ru": "Понимаю. Подтверждаю: сегодня между шестью и семью вечера.",
+          "note": "Între … și … — «между … и …»; seara уточняет вечернее время."
+        },
+        {
+          "ro": "Atunci rămâne azi seară. Vom trimite un mesaj înainte de sosire.",
+          "ru": "Тогда договорились на сегодняшний вечер. Перед прибытием отправим сообщение.",
+          "note": "Rămâne здесь закрепляет договорённость; înainte de sosire — «перед прибытием»."
+        },
+        {
+          "ro": "Mulțumesc. O să fiu acasă și o să aștept mesajul.",
+          "ru": "Спасибо. Я буду дома и буду ждать сообщения.",
+          "note": "O să fiu и o să aștept — две формы будущего времени; mesajul — «сообщение»."
+        }
+      ],
+      "notes": [
+        "До выбора выпишите день и промежуток, когда вы дома. Сопоставьте предложение собеседника с этим промежутком, затем запишите день и время.",
+        "Потренируйте выражения de la … până la … («с … до …»), între … și … («между … и …») и prin mesaj («сообщением»), чтобы уточнить окно визита и способ подтверждения."
+      ]
+    },
+    {
+      "missionId": "MISSION.A2.4",
+      "phrases": [
+        {
+          "ro": "Avem cheia vecinei și geanta Mariei. Cui dăm cheia?",
+          "ru": "У нас ключ соседки и сумка Марии. Кому отдаём ключ?",
+          "note": "Cui? — «кому?»; cheia vecinei — «ключ соседки»; geanta Mariei — «сумка Марии»."
+        },
+        {
+          "ro": "Îi dăm vecinei cheia. Geanta este a Mariei.",
+          "ru": "Мы отдаём соседке ключ. Сумка принадлежит Марии.",
+          "note": "Îi dăm vecinei — «отдаём соседке»: îi указывает получателя; a Mariei обозначает владельца сумки."
+        },
+        {
+          "ro": "Îi dăm Mariei cheia, pentru că geanta este a ei.",
+          "ru": "Мы отдаём Марии ключ, потому что сумка принадлежит ей.",
+          "note": "Mariei — «Марии»; a ei — «её». Владение сумкой не определяет, кому нужно передать ключ."
+        },
+        {
+          "ro": "Cheia aparține vecinei. Maria are geanta, nu cheia.",
+          "ru": "Ключ принадлежит соседке. Марии принадлежит сумка, а не ключ.",
+          "note": "Aparține — «принадлежит»; vecinei после этого глагола — «соседке»."
+        },
+        {
+          "ro": "Înțeleg. Îi dăm vecinei cheia, iar geanta este a Mariei.",
+          "ru": "Понимаю. Мы отдаём соседке ключ, а сумка принадлежит Марии.",
+          "note": "Iar связывает разные сведения и здесь переводится «а»; получатель ключа и владелец сумки названы отдельно."
+        },
+        {
+          "ro": "Ai văzut geanta Mariei ieri?",
+          "ru": "Ты видел вчера сумку Марии?",
+          "note": "Ai văzut — «ты видел»; geanta — прямое дополнение женского рода."
+        },
+        {
+          "ro": "Da, am văzut-o acasă, lângă ușă.",
+          "ru": "Да, я видел её дома, возле двери.",
+          "note": "Am văzut-o — «я видел её»: -o заменяет существительное женского рода geanta."
+        },
+        {
+          "ro": "Da, l-am văzut acasă, lângă ușă.",
+          "ru": "Да, я видел его дома, возле двери.",
+          "note": "L-am văzut — «я видел его»: l- заменяет объект мужского или среднего рода в единственном числе. Для geanta нужна форма -o."
+        },
+        {
+          "ro": "Vorbim despre geantă, un cuvânt feminin. În trecut spunem am văzut-o.",
+          "ru": "Мы говорим о сумке — слове женского рода. В прошедшем времени говорим am văzut-o — «я видел её».",
+          "note": "Geantă — женский род; am văzut-o значит «я видел её», где -o заменяет сумку."
+        },
+        {
+          "ro": "Da, am văzut-o ieri lângă ușă.",
+          "ru": "Да, я видел её вчера возле двери.",
+          "note": "Ieri — «вчера»; lângă ușă — «возле двери»; -o отсылает к сумке."
+        },
+        {
+          "ro": "Bine. Vecina primește cheia, iar Maria poate lua geanta de la tine.",
+          "ru": "Хорошо. Соседка получает ключ, а Мария может забрать сумку у тебя.",
+          "note": "Primește — «получает»; poate lua — «может взять, забрать»; de la tine — «у тебя»."
+        },
+        {
+          "ro": "Le voi trimite un mesaj ca să stabilim ora.",
+          "ru": "Я отправлю им сообщение, чтобы мы согласовали время.",
+          "note": "Le voi trimite — «я отправлю им»; le указывает нескольких получателей; ca să stabilim — «чтобы мы согласовали»."
+        },
+        {
+          "ro": "Mesajele sunt pentru Ana. Telefonul este al lui Vlad. Cui trimiți mesajele?",
+          "ru": "Сообщения для Аны. Телефон Влада. Кому ты отправляешь сообщения?",
+          "note": "Pentru Ana — «для Аны»; al lui Vlad — «принадлежит Владу»; cui trimiți? — «кому отправляешь?»."
+        },
+        {
+          "ro": "Îi trimit Anei mesajele. Telefonul rămâne pentru Vlad.",
+          "ru": "Я отправляю сообщения Ане. Телефон остаётся для Влада.",
+          "note": "Îi trimit Anei — «я отправляю Ане»; telefonul rămâne — «телефон остаётся»."
+        },
+        {
+          "ro": "Îi trimit lui Vlad mesajele, pentru că telefonul este al lui.",
+          "ru": "Я отправляю сообщения Владу, потому что телефон принадлежит ему.",
+          "note": "Lui Vlad — «Владу»; al lui — «его». Владелец телефона и адресат сообщений могут быть разными людьми."
+        },
+        {
+          "ro": "Vlad este proprietarul telefonului. Ana este destinatara mesajelor.",
+          "ru": "Влад — владелец телефона. Ана — адресат сообщений.",
+          "note": "Proprietarul — «владелец»; destinatara — «получательница, адресат». Эти роли не обязательно совпадают."
+        },
+        {
+          "ro": "Da, îi trimit Anei mesajele și păstrez telefonul până seara.",
+          "ru": "Да, я отправляю сообщения Ане и оставляю телефон у себя до вечера.",
+          "note": "Păstrez telefonul — «оставляю телефон у себя»; până seara — «до вечера»."
+        },
+        {
+          "ro": "Acum ai terminat de trimis mesajele?",
+          "ru": "Теперь ты закончил отправлять сообщения?",
+          "note": "Ai terminat de trimis — «ты закончил отправлять»; mesajele — «сообщения» во множественном числе."
+        },
+        {
+          "ro": "Da, le-am trimis. Telefonul este încă la mine.",
+          "ru": "Да, я их отправил. Телефон всё ещё у меня.",
+          "note": "Le-am trimis — «я их отправил»: le- заменяет mesajele; încă — «всё ещё»."
+        },
+        {
+          "ro": "Da, l-am trimis. Telefonul este încă la mine.",
+          "ru": "Да, я его отправил. Телефон всё ещё у меня.",
+          "note": "L-am trimis относится к одному предмету мужского или среднего рода. Для нескольких сообщений нужно le-am trimis."
+        },
+        {
+          "ro": "L-am trimis ar însemna un singur obiect masculin sau neutru. Pentru mesajele la plural folosim le-am trimis.",
+          "ru": "L-am trimis — «я его отправил» — относилось бы к одному предмету мужского или среднего рода. Для слова mesajele («сообщения») во множественном числе используем le-am trimis — «я их отправил».",
+          "note": "L-am trimis — «я его отправил», le-am trimis — «я их отправил». Слово mesaj — среднего рода: в единственном местоимение l-, во множественном le-."
+        },
+        {
+          "ro": "Da, le-am trimis Anei. Sunt mai multe mesaje.",
+          "ru": "Да, я отправил их Ане. Сообщений несколько.",
+          "note": "Le- заменяет сообщения, Anei называет получателя; mai multe mesaje — «несколько сообщений, больше одного»."
+        },
+        {
+          "ro": "Perfect. Ana are mesajele, iar Vlad va primi telefonul seara.",
+          "ru": "Отлично. У Аны сообщения, а Влад получит телефон вечером.",
+          "note": "Va primi — «получит»; seara — «вечером»; iar — «а»."
+        },
+        {
+          "ro": "Îl voi aștepta pe Vlad la intrare după șase.",
+          "ru": "Я буду ждать Влада у входа после шести.",
+          "note": "Îl voi aștepta pe Vlad — «буду ждать Влада»: îl и pe Vlad относятся к одному человеку; после шести — după șase."
+        }
+      ],
+      "notes": [
+        "Отделяйте владельца вещи (geanta este a Mariei) от получателя (îi dăm vecinei cheia). Сначала назовите вещь, владельца и адресата полными словами.",
+        "Потренируйте замены: geanta → am văzut-o; telefonul → l-am trimis; mesajele → le-am trimis. Îi / le перед глаголом могут также обозначать получателя: îi trimit Anei — «отправляю Ане», le trimit — «отправляю им»."
+      ]
+    },
+    {
+      "missionId": "MISSION.A2.5",
+      "phrases": [
+        {
+          "ro": "Ce problemă aveți și de când?",
+          "ru": "Какая у вас проблема и с каких пор?",
+          "note": "De când? — «с каких пор?»; вопрос просит назвать начало проблемы, например de dimineață."
+        },
+        {
+          "ro": "Internetul nu funcționează de dimineață. Nu știu de ce.",
+          "ru": "Интернет не работает с утра. Я не знаю почему.",
+          "note": "Nu funcționează — «не работает»; de dimineață — «с утра»; nu știu de ce — «не знаю почему»."
+        },
+        {
+          "ro": "Știu sigur că toate aparatele sunt stricate, dar nu am verificat.",
+          "ru": "Я точно знаю, что все приборы сломаны, но я не проверял.",
+          "note": "Știu sigur — «точно знаю»; toate aparatele — «все приборы»; dar — «но». Сверьте степень уверенности с тем, что проверено."
+        },
+        {
+          "ro": "Dacă nu ați verificat cauza, spuneți doar ce observați: internetul nu funcționează.",
+          "ru": "Если вы не проверили причину, скажите только наблюдение: интернет не работает.",
+          "note": "Cauza — «причина»; doar ce observați — «только то, что вы наблюдаете»."
+        },
+        {
+          "ro": "Da, internetul nu funcționează de dimineață. Puteți verifica?",
+          "ru": "Да, интернет не работает с утра. Можете проверить?",
+          "note": "Puteți verifica? — вежливая просьба о проверке; предмет проверки понятен из предыдущего предложения."
+        },
+        {
+          "ro": "Putem trimite un tehnician mâine. Când sunteți acasă?",
+          "ru": "Можем отправить специалиста завтра. Когда вы дома?",
+          "note": "Un tehnician — «специалист, техник»; când sunteți acasă? — вопрос о времени вашего присутствия."
+        },
+        {
+          "ro": "Sunt acasă după patru. Puteți confirma ora vizitei?",
+          "ru": "Я дома после четырёх. Можете подтвердить время визита?",
+          "note": "După patru — «после четырёх»; ora vizitei — «время визита»."
+        },
+        {
+          "ro": "Internetul nu funcționează, deci veniți ieri.",
+          "ru": "Интернет не работает, поэтому приходите вчера.",
+          "note": "Veniți — просьба или команда «приходите»; ieri — «вчера». Несовместимое время сохранено в переводе."
+        },
+        {
+          "ro": "Vizita poate fi mâine. Avem nevoie de un interval în care sunteți acasă.",
+          "ru": "Визит возможен завтра. Нам нужно время, когда вы дома.",
+          "note": "Avem nevoie de — «нам нужно»; un interval în care — «промежуток, в течение которого»."
+        },
+        {
+          "ro": "Mâine sunt acasă după ora patru. Ce oră puteți confirma?",
+          "ru": "Завтра я дома после четырёх часов. Какое время вы можете подтвердить?",
+          "note": "Mâine — «завтра»; ce oră — «какое время, который час»."
+        },
+        {
+          "ro": "În acest scenariu putem veni mâine la cinci. Veți primi o confirmare.",
+          "ru": "В этом сценарии можем прийти завтра в пять. Вы получите подтверждение.",
+          "note": "Putem veni — «можем прийти»; veți primi o confirmare — «вы получите подтверждение»."
+        },
+        {
+          "ro": "Confirm pentru mâine la cinci. Mulțumesc.",
+          "ru": "Подтверждаю: завтра в пять. Спасибо.",
+          "note": "Confirm pentru — «подтверждаю на…»; mâine la cinci — «завтра в пять»."
+        },
+        {
+          "ro": "Ați primit factura? Ce trebuie să verificăm?",
+          "ru": "Вы получили счёт? Что нужно проверить?",
+          "note": "Factura — «счёт»; ați primit — «вы получили»; să verificăm — «нам проверить»."
+        },
+        {
+          "ro": "Da, am primit factura. Numele este corect, dar adresa este greșită.",
+          "ru": "Да, я получил счёт. Имя указано правильно, но адрес неверный.",
+          "note": "Am primit — «я получил»; numele — «имя»; adresa — «адрес»; corect / greșită — «правильный / неверная»."
+        },
+        {
+          "ro": "Nu am primit nimic, deși factura este aici.",
+          "ru": "Я ничего не получил, хотя счёт здесь.",
+          "note": "Nu am primit nimic — «ничего не получил»; deși — «хотя». Перевод сохраняет противоречие исходной реплики."
+        },
+        {
+          "ro": "Factura a ajuns. Problema este adresa de pe ea, nu lipsa facturii.",
+          "ru": "Счёт пришёл. Проблема в адресе на нём, а не в отсутствии счёта.",
+          "note": "A ajuns — «дошёл, пришёл»; de pe ea — «на нём» (буквально «на ней»: factură в румынском женского рода)."
+        },
+        {
+          "ro": "Am primit factura, dar vă rog să verificați adresa.",
+          "ru": "Я получил счёт, но прошу вас проверить адрес.",
+          "note": "Vă rog să verificați — вежливое «прошу вас проверить»; адрес — объект проверки."
+        },
+        {
+          "ro": "Adresa poate fi corectată în scenariul nostru. Ce doriți să primiți?",
+          "ru": "В нашем сценарии адрес можно исправить. Что вы хотите получить?",
+          "note": "Poate fi corectată — «может быть исправлен»; ce doriți să primiți? — «что хотите получить?»."
+        },
+        {
+          "ro": "Vă rog să trimiteți o copie cu adresa corectă.",
+          "ru": "Пожалуйста, пришлите копию с правильным адресом.",
+          "note": "Vă rog să trimiteți — «пожалуйста, пришлите»; cu adresa corectă — «с правильным адресом»."
+        },
+        {
+          "ro": "Vă rog să trimiteți aceeași adresă greșită.",
+          "ru": "Пожалуйста, пришлите тот же неверный адрес.",
+          "note": "Aceeași — «та же самая» в женском роде, согласуется с adresă; greșită — «неверная»."
+        },
+        {
+          "ro": "Doriți o copie nouă cu adresa corectă, nu aceeași greșeală.",
+          "ru": "Вам нужна новая копия с верным адресом, а не та же ошибка.",
+          "note": "O copie nouă — «новая копия»; aceeași greșeală — «та же самая ошибка»."
+        },
+        {
+          "ro": "Da, o copie cu adresa corectă, vă rog.",
+          "ru": "Да, копию с правильным адресом, пожалуйста.",
+          "note": "O copie — «копия»; vă rog в конце смягчает просьбу."
+        },
+        {
+          "ro": "Vom verifica adresa și vom trimite o copie nouă prin mesaj.",
+          "ru": "Мы проверим адрес и отправим новую копию сообщением.",
+          "note": "Vom verifica / vom trimite — «мы проверим / отправим»; prin mesaj — «сообщением»."
+        },
+        {
+          "ro": "Mulțumesc. Voi verifica mesajul și noua adresă.",
+          "ru": "Спасибо. Я проверю сообщение и новый адрес.",
+          "note": "Voi verifica — «я проверю»; noua adresă — «новый адрес»."
+        }
+      ],
+      "notes": [
+        "Подготовьте три части сообщения: наблюдение (ce problemă?), начало (de când?) и просьбу о действии (puteți verifica? / vă rog să trimiteți…). Причину называйте только если она вам известна.",
+        "При согласовании визита отдельно повторите день и часы своего присутствия. В задаче со счётом назовите, что уже правильно, что ошибочно и какую копию вы просите."
+      ]
+    },
+    {
+      "missionId": "MISSION.A2.6",
+      "phrases": [
+        {
+          "ro": "Trenul a fost anulat. Avem varianta A, cu sosire la două, și varianta B, cu sosire la patru. Ce preferați?",
+          "ru": "Поезд отменён. Есть вариант A с прибытием в два и B с прибытием в четыре. Что предпочитаете?",
+          "note": "A fost anulat — «был отменён»; cu sosire la — «с прибытием в»; două / patru здесь означают 14:00 / 16:00 по условию."
+        },
+        {
+          "ro": "Prefer varianta A, pentru că trebuie să ajung înainte de trei. Pot schimba biletul?",
+          "ru": "Я предпочитаю вариант A, потому что мне нужно прибыть до трёх. Можно обменять билет?",
+          "note": "Trebuie să ajung — «мне нужно прибыть»; înainte de trei — «до трёх»; pot schimba — вопрос о возможности обмена."
+        },
+        {
+          "ro": "Prefer varianta B, pentru că ajunge înainte de trei.",
+          "ru": "Я предпочитаю вариант B, потому что он прибывает до трёх.",
+          "note": "Ajunge — «прибывает»; утверждение о времени нужно сопоставить с расписанием."
+        },
+        {
+          "ro": "Varianta B ajunge la patru, după limita dumneavoastră. Varianta A ajunge la două.",
+          "ru": "Вариант B прибывает в четыре, после вашего ограничения. Вариант A прибывает в два.",
+          "note": "După limita dumneavoastră — «после установленного вами предельного времени»; ajunge — «прибывает»."
+        },
+        {
+          "ro": "Atunci aleg A. Pot schimba biletul pentru această variantă?",
+          "ru": "Тогда я выбираю A. Можно обменять билет на этот вариант?",
+          "note": "Pentru această variantă — «на этот вариант»; pot schimba biletul — «могу ли я обменять билет»."
+        },
+        {
+          "ro": "În acest scenariu schimbarea este posibilă. Ce faceți când ajungeți la destinație?",
+          "ru": "В этом сценарии обмен возможен. Что вы сделаете по прибытии?",
+          "note": "Schimbarea — «обмен» в контексте билета; la destinație — «в пункт назначения»; când — «когда»."
+        },
+        {
+          "ro": "O să trimit un mesaj prietenului și o să confirm locul întâlnirii.",
+          "ru": "Я отправлю другу сообщение и подтвержу место встречи.",
+          "note": "O să trimit / o să confirm — будущее время; prietenului — «другу»; locul întâlnirii — «место встречи»."
+        },
+        {
+          "ro": "Am trimis mâine un mesaj și nu trebuie să ajung înainte de trei.",
+          "ru": "Я отправил завтра сообщение, и мне не нужно прибывать до трёх.",
+          "note": "Am trimis — прошедшее «я отправил», mâine — «завтра». Перевод намеренно сохраняет смешение времён и отрицание ограничения."
+        },
+        {
+          "ro": "Vorbim despre un plan de viitor. Prietenul vă poate aștepta numai înainte de trei.",
+          "ru": "Мы говорим о будущем плане. Друг может ждать только до трёх.",
+          "note": "Un plan de viitor — «план на будущее»; numai — «только»; înainte de trei — «до трёх»."
+        },
+        {
+          "ro": "Când ajung la două, o să trimit un mesaj și o să confirm locul.",
+          "ru": "Когда я прибуду в два, я отправлю сообщение и подтвержу место.",
+          "note": "Când ajung — «когда прибуду»: в таком придаточном настоящее может иметь будущий смысл; o să — будущее в главной части."
+        },
+        {
+          "ro": "Atunci rămâne varianta A. În acest scenariu veți ajunge la două.",
+          "ru": "Тогда выбираем вариант A. В этом сценарии вы прибудете в два.",
+          "note": "Rămâne varianta A — «остаётся вариант A»; veți ajunge — «вы прибудете»."
+        },
+        {
+          "ro": "Mulțumesc. La sosire voi trimite confirmarea prietenului.",
+          "ru": "Спасибо. По прибытии я отправлю подтверждение другу.",
+          "note": "La sosire — «по прибытии»; voi trimite — «я отправлю»; prietenului — получатель."
+        },
+        {
+          "ro": "Unde vă doare și de când?",
+          "ru": "Где у вас болит и с каких пор?",
+          "note": "Unde vă doare? — вежливое «где у вас болит?»; de când? спрашивает, когда ощущение началось."
+        },
+        {
+          "ro": "Mă doare piciorul drept de ieri. Aș vrea o programare.",
+          "ru": "У меня со вчерашнего дня болит правая нога. Я хотел бы записаться на приём.",
+          "note": "Mă doare — «у меня болит»; piciorul drept — «правая нога»; de ieri — «со вчерашнего дня»; aș vrea — вежливое «хотелось бы»."
+        },
+        {
+          "ro": "Mâine la trei, acesta este momentul când a început ieri.",
+          "ru": "Завтра в три — это тот момент, когда всё началось вчера.",
+          "note": "Mâine — «завтра», ieri — «вчера»; перевод сохраняет несогласованность времени в исходной реплике."
+        },
+        {
+          "ro": "Întreb mai întâi despre starea de acum: ce vă doare și de când? Ora programării o alegem după aceea.",
+          "ru": "Сначала я спрашиваю о текущем состоянии: что болит и с каких пор? Время записи выберем после этого.",
+          "note": "Mai întâi — «сначала»; starea de acum — «нынешнее состояние»; după aceea — «после этого»."
+        },
+        {
+          "ro": "Mă doare piciorul drept. Durerea a început ieri.",
+          "ru": "У меня болит правая нога. Боль началась вчера.",
+          "note": "Durerea — «боль»; a început ieri — «началась вчера»: это начало ощущения, а не время будущего визита."
+        },
+        {
+          "ro": "Mâine avem un loc la unsprezece și unul la trei. Puteți veni doar după două, corect?",
+          "ru": "Завтра есть окно в одиннадцать и в три. Вы можете только после двух, верно?",
+          "note": "Un loc здесь — свободное время для записи; doar după două — «только после двух»; три по условию означает 15:00."
+        },
+        {
+          "ro": "Da, atunci aleg mâine la trei. Puteți confirma locul?",
+          "ru": "Да, тогда я выбираю завтра в три. Можете подтвердить место?",
+          "note": "Aleg — «выбираю»; locul здесь — «место», а не время приёма."
+        },
+        {
+          "ro": "Da, aleg mâine la unsprezece, pentru că este după două.",
+          "ru": "Да, я выбираю завтра в одиннадцать, потому что это после двух.",
+          "note": "La unsprezece — «в одиннадцать»; după două — «после двух». Сопоставьте эти часы, сохраняя условие задачи."
+        },
+        {
+          "ro": "Unsprezece este înainte de două. Ora trei este după două și respectă programul dumneavoastră.",
+          "ru": "Одиннадцать — до двух. Три — после двух и соответствует вашему расписанию.",
+          "note": "Înainte de / după — «до / после»; respectă programul — «соответствует расписанию»."
+        },
+        {
+          "ro": "Înțeleg. Confirm pentru mâine la trei. Unde trebuie să vin?",
+          "ru": "Понимаю. Подтверждаю запись на завтра в три. Куда мне нужно прийти?",
+          "note": "Unde trebuie să vin? — «куда мне нужно прийти?»; confirm — «подтверждаю»."
+        },
+        {
+          "ro": "În scenariul nostru veniți la recepția de la parter. Programarea este mâine la trei.",
+          "ru": "В нашем сценарии нужно прийти в регистратуру на первом этаже. Запись завтра в три.",
+          "note": "Recepția — «регистратура, стойка приёма»; parter — этаж на уровне земли; mâine la trei — «завтра в три»."
+        },
+        {
+          "ro": "Mulțumesc. Voi veni mâine la trei, la recepția de la parter.",
+          "ru": "Спасибо. Я приду завтра в три, в регистратуру на первом этаже.",
+          "note": "Voi veni — «я приду»; recepția — «регистратура, стойка приёма»; parter — уровень земли, обычно первый этаж по русскому счёту."
+        }
+      ],
+      "notes": [
+        "Перед выбором соберите ограничения: самое позднее время прибытия или самое раннее время приёма. Сравнивайте часы, обращая внимание на înainte de («до») и după («после»).",
+        "Отделите прошлое начало ощущения (de ieri) от будущей записи (mâine). Для будущего действия используйте o să + глагол или voi + инфинитив: o să trimit / voi trimite — «я отправлю»."
+      ]
+    }
+  ]
+}

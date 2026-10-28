@@ -1,0 +1,13 @@
+import {createRoot} from "react-dom/client";
+import CourseApp from "./app/components/CourseApp";
+import "./app/globals.css";
+import "./app/learning-app.css";
+import "./app/practice-app.css";
+import "./app/study-app.css";
+import "./app/word-memory.css";
+import "./app/clinic.css";
+import "./app/life-study.css";
+import "./app/phone.css";
+import "./app/academy.css";
+import "./app/cards.css";
+createRoot(document.getElementById("root")!).render(<CourseApp/>);
