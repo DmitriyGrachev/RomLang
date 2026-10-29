@@ -16,7 +16,8 @@
     "check:content": "node scripts/validate-content.mjs",
     "check:teaching": "node scripts/validate-teaching.mjs",
     "check:depth": "node scripts/validate-depth.mjs",
-    "check:deep": "node scripts/validate-deep.mjs"
+    "check:deep": "node scripts/validate-deep.mjs",
+    "check:visuals": "node --experimental-strip-types scripts/validate-theory-visuals.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
