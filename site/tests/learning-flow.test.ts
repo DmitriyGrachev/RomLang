@@ -1,0 +1,11 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {emptySnapshot,reduceEvents,validateEvent} from '../lib/course/records.ts';
+import type {ExerciseItem,LearningEvent} from '../lib/course/types.ts';
+const a:ExerciseItem={id:'A1.01.e1',type:'gap',prompt:'_ară',answers:['ț'],explanation:'țară',hint:'ț',tag:'letters',skill:'grammar'};
+const b:ExerciseItem={...a,id:'CHECK.A1.1.e1'};
+const catalog={exercises:new Map([[a.id,a],[b.id,b]]),lessonIds:new Set(['A1.01','CHECK.A1.1']),wordIds:new Set<string>(),missions:new Map(),lessonExercises:new Map([['A1.01',[a.id]],['CHECK.A1.1',[b.id]]]),productionCriteria:new Map([['A1.01',3],['CHECK.A1.1',3]])};
+const event=(id:string,type:LearningEvent['type'],payload:Record<string,unknown>):LearningEvent=>({id,type,payload,at:'2026-10-25T12:00:00Z'});
+test('a lesson can finish after its exercises without a speaking form',()=>{const attempt=validateEvent(event('a','attempt',{exerciseId:a.id,answer:'ț'}),catalog,emptySnapshot());const s=reduceEvents([attempt],catalog);const finish=validateEvent(event('f','finish',{lessonId:'A1.01'}),catalog,s);assert.ok(reduceEvents([attempt,finish],catalog).completed['A1.01'])});
+test('the module checkpoint still requires its independent production task',()=>{const attempt=validateEvent(event('a','attempt',{exerciseId:b.id,answer:'ț'}),catalog,emptySnapshot());let s=reduceEvents([attempt],catalog);assert.throws(()=>validateEvent(event('f','finish',{lessonId:'CHECK.A1.1'}),catalog,s),/самостоятельную/);const p=validateEvent(event('p','production',{lessonId:'CHECK.A1.1',text:'',criteria:[0,1,2],spoken:true}),catalog,s);s=reduceEvents([attempt,p],catalog);const f=validateEvent(event('f','finish',{lessonId:'CHECK.A1.1'}),catalog,s);assert.ok(reduceEvents([attempt,p,f],catalog).completed['CHECK.A1.1'])});
+test('old adjudicated listening attempts retain their original skill after reading conversion',()=>{const old=event('old','attempt',{exerciseId:a.id,answer:'ț',result:{correct:true,spelling:false,canonical:'ț'},skill:'listening',courseVersion:'1.1.0'});const changed={...catalog,exercises:new Map([[a.id,{...a,skill:'reading' as const}]])};const s=reduceEvents([old],changed);assert.equal(s.attempts[a.id][0].skill,'listening');assert.equal(s.xp,5)});

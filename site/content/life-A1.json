@@ -1,0 +1,3135 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "id": "LIFE.A1.SHOP",
+      "level": "A1",
+      "domain": "Магазин",
+      "title": "Футболка: размер, цвет и оплата",
+      "anchorLessonId": "A1.22",
+      "prerequisites": [
+        "A1.08",
+        "A1.12",
+        "A1.13",
+        "A1.18",
+        "A1.22"
+      ],
+      "goal": "Выяснить наличие конкретной вещи, назвать размер и цвет, затем отдельно спросить о способе оплаты.",
+      "fictionNote": "Вымышленный учебный эпизод; сведения о товарах, местах, доступности и оплате не описывают действительные условия.",
+      "theory": {
+        "core": "В этом вымышленном магазине Дима выбирает футболку. Сначала назовите предмет и размер вместе: Aveți acest tricou în mărimea M? Так продавец понимает, какой вариант проверять. Для синей футболки скажите un tricou albastru; для синей юбки нужна другая форма: o fustă albastră. Если предложенный вариант мал, готовое уточнение Aveți ceva mai mare? спрашивает о чём-то побольше. Оно не сообщает, что найденный вариант уже подходит.",
+        "detail": [
+          "Ответ Avem mărimea M относится к наличию размера, а Nu avem mărimea M означает его отсутствие. Продавец может сказать, что другого цвета нет; проверяйте цвет отдельно от размера. Ce culoare doriți? просит назвать цвет. Для брюк употребляется множественное pantaloni albaștri. Для одного tricou — albastru, для одной fustă — albastră. Не выводите румынскую форму прилагательного из русского рода слова «футболка»: tricou в румынском среднего рода, в единственном согласуется как мужской.",
+          "Cât costă? спрашивает цену. Числа в сцене, как и наличие товара, целиком придуманы для практики: они не описывают магазин в Бухаресте. Если стоимость действительно важна, переспросите, какая вещь названа, и не переносите учебную сумму на реальную покупку. Две отдельные реплики Pot plăti cu cardul? и Plătesc în numerar показывают разные способы расчёта: cu cardul, но în numerar. Вопрос о возможности не равен утверждению, что магазин принимает карту.",
+          "Последовательность проста: назовите товар, размер и цвет; проверьте ответ о наличии; затем спросите цену и оплату. Вежливое Aș dori... можно употребить как готовую просьбу без разбора условного наклонения. Vă rog смягчает вопрос, но не заменяет необходимую деталь: один только «пожалуйста» не укажет размер. Если продавец отвечает о размере L вместо M, остановитесь и уточните M, прежде чем делать выбор.",
+          "Для чтения магазинного ответа отмечайте каждый вариант отдельно: название вещи, её цвет, её размер, а также положительный или отрицательный ответ. Например, ответ о юбке не сообщает наличие футболки, даже если размер одинаковый. Если желаемый вариант отсутствует, можете попросить ceva mai mare или ceva mai mic; слово albastru добавьте, только если цвет обязателен. Vânzătoarea значит продавщица, numai — только, alege — выбирает. Эти слова нужны для распознавания рассказа, а не для активного спряжения. Если цена вообще не названа, число нельзя вывести из способа оплаты."
+        ],
+        "comparison": "Русское «синяя футболка» не подсказывает румынское albastru при tricou. В способах оплаты устойчивы разные предлоги: cu cardul и în numerar. Наличие, цена и возможность оплаты — три разных сведения.",
+        "examples": [
+          {
+            "ro": "Aveți acest tricou în mărimea M?",
+            "ru": "У вас есть эта футболка размера M?"
+          },
+          {
+            "ro": "Un tricou albastru, vă rog.",
+            "ru": "Синюю футболку, пожалуйста."
+          },
+          {
+            "ro": "O fustă albastră este aici.",
+            "ru": "Синяя юбка здесь."
+          },
+          {
+            "ro": "Pantalonii sunt albaștri.",
+            "ru": "Брюки синие."
+          },
+          {
+            "ro": "Nu avem mărimea M, dar avem L.",
+            "ru": "У нас нет M, но есть L."
+          },
+          {
+            "ro": "Pot plăti cu cardul?",
+            "ru": "Можно оплатить картой?"
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "o tricou albastră",
+            "right": "un tricou albastru",
+            "why": "Tricou — средний род; в единственном здесь un и albastru."
+          },
+          {
+            "wrong": "Plătesc cu numerar.",
+            "right": "Plătesc în numerar.",
+            "why": "С наличными в этой модели употребляется în."
+          },
+          {
+            "wrong": "Aveți M? — Avem L. — Aș dori M.",
+            "right": "Aveți M? — Avem L. — Aveți ceva mai mic?",
+            "why": "Ответ о L не подтверждает наличие M; уточните другой вариант."
+          }
+        ],
+        "sheet": {
+          "title": "В магазине: три проверки",
+          "formula": "предмет + размер/цвет → наличие → цена → способ оплаты",
+          "rows": [
+            [
+              "Товар",
+              "Aveți acest tricou în mărimea M?"
+            ],
+            [
+              "Цвет",
+              "un tricou albastru / o fustă albastră"
+            ],
+            [
+              "Цена",
+              "Cât costă acest tricou?"
+            ],
+            [
+              "Оплата",
+              "Pot plăti cu cardul? / Plătesc în numerar."
+            ]
+          ],
+          "notes": [
+            "Все товары и суммы в чтении вымышленные.",
+            "Tricou albastru и fustă albastră согласуются по румынскому роду.",
+            "Возможность оплаты спрашивают отдельно от наличия размера."
+          ]
+        }
+      },
+      "words": [
+        {
+          "ro": "tricou",
+          "ru": "футболка"
+        },
+        {
+          "ro": "fustă",
+          "ru": "юбка"
+        },
+        {
+          "ro": "pantaloni",
+          "ru": "брюки"
+        },
+        {
+          "ro": "mărimea M",
+          "ru": "размер M"
+        },
+        {
+          "ro": "mărimea L",
+          "ru": "размер L"
+        },
+        {
+          "ro": "albastru",
+          "ru": "синий для одной футболки"
+        },
+        {
+          "ro": "albastră",
+          "ru": "синяя для одной юбки"
+        },
+        {
+          "ro": "albaștri",
+          "ru": "синие для брюк"
+        },
+        {
+          "ro": "alb",
+          "ru": "белый"
+        },
+        {
+          "ro": "ceva mai mare",
+          "ru": "что-нибудь побольше"
+        },
+        {
+          "ro": "ceva mai mic",
+          "ru": "что-нибудь поменьше"
+        },
+        {
+          "ro": "aveți",
+          "ru": "у вас есть"
+        },
+        {
+          "ro": "nu avem",
+          "ru": "у нас нет"
+        },
+        {
+          "ro": "cât costă",
+          "ru": "сколько стоит"
+        },
+        {
+          "ro": "cu cardul",
+          "ru": "картой"
+        },
+        {
+          "ro": "în numerar",
+          "ru": "наличными"
+        },
+        {
+          "ro": "vă rog",
+          "ru": "пожалуйста"
+        },
+        {
+          "ro": "acest",
+          "ru": "этот перед мужским/средним существительным"
+        },
+        {
+          "ro": "magazin imaginar",
+          "ru": "вымышленный магазин"
+        },
+        {
+          "ro": "Dima",
+          "ru": "Дима, учебный герой"
+        },
+        {
+          "ro": "caută",
+          "ru": "ищет"
+        },
+        {
+          "ro": "întreabă",
+          "ru": "спрашивает"
+        },
+        {
+          "ro": "spune",
+          "ru": "говорит"
+        },
+        {
+          "ro": "poate",
+          "ru": "может"
+        },
+        {
+          "ro": "dacă",
+          "ru": "ли в косвенном вопросе"
+        },
+        {
+          "ro": "tricoul",
+          "ru": "известная футболка"
+        },
+        {
+          "ro": "vânzătoarea",
+          "ru": "продавщица в рассказе"
+        },
+        {
+          "ro": "numai",
+          "ru": "только"
+        },
+        {
+          "ro": "alege",
+          "ru": "выбирает"
+        },
+        {
+          "ro": "răspunde",
+          "ru": "отвечает"
+        }
+      ],
+      "phrases": [
+        {
+          "ro": "Aveți acest tricou în mărimea M?",
+          "ru": "У вас есть эта футболка размера M?"
+        },
+        {
+          "ro": "Ce culoare doriți?",
+          "ru": "Какой цвет вы хотите?"
+        },
+        {
+          "ro": "Aș dori un tricou albastru.",
+          "ru": "Я хотел бы синюю футболку."
+        },
+        {
+          "ro": "Nu avem mărimea M.",
+          "ru": "У нас нет размера M."
+        },
+        {
+          "ro": "Aveți ceva mai mare?",
+          "ru": "Есть что-нибудь побольше?"
+        },
+        {
+          "ro": "Cât costă acest tricou?",
+          "ru": "Сколько стоит эта футболка?"
+        },
+        {
+          "ro": "Pot plăti cu cardul?",
+          "ru": "Можно оплатить картой?"
+        },
+        {
+          "ro": "Plătesc în numerar.",
+          "ru": "Я плачу наличными."
+        },
+        {
+          "ro": "Aveți o fustă albastră?",
+          "ru": "У вас есть синяя юбка?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "A1.22.e501",
+          "type": "choice",
+          "prompt": "Продавец предлагает синий L вместо синего M. Что следует уточнить, если важен синий цвет и меньший размер?",
+          "answers": [
+            "Aveți ceva mai mic, albastru?"
+          ],
+          "explanation": "Нужен другой размер синей вещи; оплата пока не решает этот вопрос.",
+          "hint": "Сначала проверьте, какого размера синяя вещь и нужен ли размер меньше.",
+          "tag": "life-a1-22-1",
+          "skill": "grammar",
+          "choices": [
+            "Aveți ceva mai mic, albastru?",
+            "Plătesc în numerar.",
+            "Nota, vă rog."
+          ]
+        },
+        {
+          "id": "A1.22.e502",
+          "type": "choice",
+          "prompt": "Вы хотите назвать одну синюю футболку. Какая группа согласована?",
+          "answers": [
+            "un tricou albastru"
+          ],
+          "explanation": "Tricou в единственном требует un и albastru.",
+          "hint": "Определите род tricou в единственном числе.",
+          "tag": "life-a1-22-2",
+          "skill": "grammar",
+          "choices": [
+            "o tricou albastră",
+            "un tricou albastru",
+            "un tricou albaștri"
+          ]
+        },
+        {
+          "id": "A1.22.e503",
+          "type": "choice",
+          "prompt": "Какая реплика спрашивает именно возможность оплаты картой?",
+          "answers": [
+            "Pot plăti cu cardul?"
+          ],
+          "explanation": "Pot plăti cu cardul? — вопрос о допустимом способе оплаты.",
+          "hint": "Ищите вопрос о возможности, а не заявление о выбранном способе.",
+          "tag": "life-a1-22-3",
+          "skill": "grammar",
+          "choices": [
+            "Plătesc în numerar.",
+            "Ce culoare doriți?",
+            "Pot plăti cu cardul?"
+          ]
+        },
+        {
+          "id": "A1.22.e504",
+          "type": "choice",
+          "prompt": "Продавец спрашивает Ce culoare doriți? Что нужно назвать?",
+          "answers": [
+            "Цвет"
+          ],
+          "explanation": "Culoare означает цвет; размер спрашивается отдельно.",
+          "hint": "Culoare обозначает один признак товара.",
+          "tag": "life-a1-22-4",
+          "skill": "grammar",
+          "choices": [
+            "Цвет",
+            "Размер",
+            "Способ оплаты"
+          ]
+        },
+        {
+          "id": "A1.22.e505",
+          "type": "gap",
+          "prompt": "Выберите устойчивый предлог: Plătesc ___ numerar.",
+          "answers": [
+            "în"
+          ],
+          "explanation": "Для наличных употребляется în numerar.",
+          "hint": "Сравните устойчивые сочетания для карты и наличных.",
+          "tag": "life-a1-22-5",
+          "skill": "grammar"
+        },
+        {
+          "id": "A1.22.e506",
+          "type": "gap",
+          "prompt": "Одна синяя юбка: o fustă ___.",
+          "answers": [
+            "albastră"
+          ],
+          "explanation": "Женский род fustă требует albastră.",
+          "hint": "Согласуйте прилагательное с fustă.",
+          "tag": "life-a1-22-6",
+          "skill": "grammar"
+        },
+        {
+          "id": "A1.22.e507",
+          "type": "gap",
+          "prompt": "Ответ об отсутствии: Nu ___ mărimea M.",
+          "answers": [
+            "avem"
+          ],
+          "explanation": "Nu avem — у нас нет.",
+          "hint": "Нужен отрицательный ответ от лица магазина: «у нас».",
+          "tag": "life-a1-22-7",
+          "skill": "grammar"
+        },
+        {
+          "id": "A1.22.e508",
+          "type": "gap",
+          "prompt": "Вопрос о стоимости: Cât ___ acest tricou?",
+          "answers": [
+            "costă"
+          ],
+          "explanation": "Costă — стоит в вопросе о конкретной вещи.",
+          "hint": "Спросите стоимость указанной футболки.",
+          "tag": "life-a1-22-8",
+          "skill": "grammar"
+        },
+        {
+          "id": "A1.22.e509",
+          "type": "order",
+          "prompt": "Соберите уточнение о наличии этой футболки размера M.",
+          "answers": [
+            "Aveți acest tricou în mărimea M"
+          ],
+          "explanation": "Вопрос связывает вещь с размером через în mărimea.",
+          "hint": "Начните с Aveți; затем укажите вещь и размер.",
+          "tag": "life-a1-22-9",
+          "skill": "grammar",
+          "tokens": [
+            "în",
+            "M",
+            "tricou",
+            "Aveți",
+            "mărimea",
+            "acest"
+          ]
+        },
+        {
+          "id": "A1.22.e510",
+          "type": "order",
+          "prompt": "Соберите просьбу о синей юбке.",
+          "answers": [
+            "Aș dori o fustă albastră"
+          ],
+          "explanation": "Aș dori — готовая вежливая формула; fustă albastră.",
+          "hint": "Вежливая формула стоит перед названием юбки.",
+          "tag": "life-a1-22-10",
+          "skill": "grammar",
+          "tokens": [
+            "albastră",
+            "dori",
+            "fustă",
+            "Aș",
+            "o"
+          ]
+        },
+        {
+          "id": "A1.22.e511",
+          "type": "order",
+          "prompt": "Соберите вопрос о возможности оплаты картой.",
+          "answers": [
+            "Pot plăti cu cardul"
+          ],
+          "explanation": "Pot plăti + cu cardul.",
+          "hint": "Вопрос начинается с Pot и завершается способом оплаты.",
+          "tag": "life-a1-22-11",
+          "skill": "grammar",
+          "tokens": [
+            "cardul",
+            "Pot",
+            "cu",
+            "plăti"
+          ]
+        },
+        {
+          "id": "A1.22.e512",
+          "type": "order",
+          "prompt": "Соберите ответ об отсутствии M.",
+          "answers": [
+            "Nu avem mărimea M"
+          ],
+          "explanation": "Nu стоит перед avem.",
+          "hint": "Отрицание предшествует глаголу наличия.",
+          "tag": "life-a1-22-12",
+          "skill": "grammar",
+          "tokens": [
+            "M",
+            "avem",
+            "Nu",
+            "mărimea"
+          ]
+        },
+        {
+          "id": "A1.22.e513",
+          "type": "read",
+          "prompt": "Какой размер есть у белой футболки?",
+          "answers": [
+            "M"
+          ],
+          "explanation": "В тексте M относится к белой футболке.",
+          "hint": "В тексте размер указан рядом с цветом каждой вещи.",
+          "tag": "life-a1-22-13",
+          "skill": "reading",
+          "choices": [
+            "L",
+            "M",
+            "Размер не назван"
+          ],
+          "text": "În acest magazin imaginar, Dima caută un tricou albastru în mărimea M. El întreabă: „Aveți acest tricou în mărimea M?” Vânzătoarea spune: „Avem mărimea M, dar numai un tricou alb. Tricoul albastru este în mărimea L.” Dima întreabă: „Aveți ceva mai mic, albastru?” Vânzătoarea spune că nu. Dima alege tricoul alb în mărimea M. El întreabă cât costă și dacă poate plăti cu cardul. Vânzătoarea răspunde că poate plăti cu cardul."
+        },
+        {
+          "id": "A1.22.e514",
+          "type": "read",
+          "prompt": "Что сказано о синей футболке?",
+          "answers": [
+            "Она есть в L"
+          ],
+          "explanation": "Синяя футболка названа в размере L.",
+          "hint": "Сопоставьте слово albastru с размером в следующей фразе.",
+          "tag": "life-a1-22-14",
+          "skill": "reading",
+          "choices": [
+            "Она есть в M",
+            "Её нет ни в одном размере",
+            "Она есть в L"
+          ],
+          "text": "În acest magazin imaginar, Dima caută un tricou albastru în mărimea M. El întreabă: „Aveți acest tricou în mărimea M?” Vânzătoarea spune: „Avem mărimea M, dar numai un tricou alb. Tricoul albastru este în mărimea L.” Dima întreabă: „Aveți ceva mai mic, albastru?” Vânzătoarea spune că nu. Dima alege tricoul alb în mărimea M. El întreabă cât costă și dacă poate plăti cu cardul. Vânzătoarea răspunde că poate plăti cu cardul."
+        },
+        {
+          "id": "A1.22.e515",
+          "type": "read",
+          "prompt": "Что Дима выбирает в конце?",
+          "answers": [
+            "Белую футболку размера M"
+          ],
+          "explanation": "Он выбирает белую M после уточнения.",
+          "hint": "Ищите глагол alege после повторного вопроса.",
+          "tag": "life-a1-22-15",
+          "skill": "reading",
+          "choices": [
+            "Белую футболку размера M",
+            "Синюю футболку размера L",
+            "Синюю юбку размера M"
+          ],
+          "text": "În acest magazin imaginar, Dima caută un tricou albastru în mărimea M. El întreabă: „Aveți acest tricou în mărimea M?” Vânzătoarea spune: „Avem mărimea M, dar numai un tricou alb. Tricoul albastru este în mărimea L.” Dima întreabă: „Aveți ceva mai mic, albastru?” Vânzătoarea spune că nu. Dima alege tricoul alb în mărimea M. El întreabă cât costă și dacă poate plăti cu cardul. Vânzătoarea răspunde că poate plăti cu cardul."
+        },
+        {
+          "id": "A1.22.e516",
+          "type": "read",
+          "prompt": "Как продавец отвечает на вопрос о карте?",
+          "answers": [
+            "Можно оплатить картой"
+          ],
+          "explanation": "Последняя реплика подтверждает оплату картой в этой вымышленной сцене.",
+          "hint": "Читайте ответ продавщицы на вопрос о карте.",
+          "tag": "life-a1-22-16",
+          "skill": "reading",
+          "choices": [
+            "Только наличными",
+            "Можно оплатить картой",
+            "Она не отвечает"
+          ],
+          "text": "În acest magazin imaginar, Dima caută un tricou albastru în mărimea M. El întreabă: „Aveți acest tricou în mărimea M?” Vânzătoarea spune: „Avem mărimea M, dar numai un tricou alb. Tricoul albastru este în mărimea L.” Dima întreabă: „Aveți ceva mai mic, albastru?” Vânzătoarea spune că nu. Dima alege tricoul alb în mărimea M. El întreabă cât costă și dacă poate plăti cu cardul. Vânzătoarea răspunde că poate plăti cu cardul."
+        }
+      ],
+      "transfer": {
+        "prompt": "Сыграйте другой выбор: нужна синяя юбка размера M, а продавец предлагает только L. Составьте короткую просьбу и одно уточнение без выдуманной цены.",
+        "checklist": [
+          "Назовите именно юбку и размер M.",
+          "Используйте форму albastră.",
+          "Переспросите о размере перед оплатой."
+        ],
+        "model": "Bună ziua! Aveți o fustă albastră în mărimea M? Nu aveți M? Aveți ceva mai mic? Mulțumesc."
+      }
+    },
+    {
+      "id": "LIFE.A1.CAFE",
+      "level": "A1",
+      "domain": "Кафе",
+      "title": "Заказ, уточнение и счёт",
+      "anchorLessonId": "A1.21",
+      "prerequisites": [
+        "A1.06",
+        "A1.08",
+        "A1.12",
+        "A1.21"
+      ],
+      "goal": "Заказать конкретную порцию, уточнить напиток и попросить счёт после заказа.",
+      "fictionNote": "Вымышленный учебный эпизод; сведения о товарах, местах, доступности и оплате не описывают действительные условия.",
+      "theory": {
+        "core": "В вымышленном кафе Дима заказывает напиток и еду. Готовая вежливая модель Aș dori un ceai, vă rog сообщает просьбу, а не уже сделанный заказ. Можно назвать порцию без полного предложения: Un pahar de apă, vă rog. Если важно отсутствие молока, запишите ограничение вместе с напитком: un ceai fără lapte. Для воды различайте apă fără gaz и apă cu gaz; слова fără и cu меняют нужный вариант.",
+        "detail": [
+          "Сначала выберите единицу: un pahar de apă — стакан воды, o sticlă de apă — бутылка воды, o felie de pâine — ломтик хлеба. Между мерой и продуктом стоит de. Вопрос Pot vedea meniul? просит меню до выбора; Nota, vă rog просит счёт после заказа. Если перепутать их, собеседник выполнит другую просьбу. Название nota de plată яснее обозначает счёт, а короткое nota в кафе понятно по ситуации.",
+          "При совместном заказе получателей называют отдельно: Pentru mine — для меня, pentru Ana — для Аны. Например, если вы заказали un pahar de apă cu gaz, а официант повторил fără gaz, ещё раз укажите cu gaz. Не считайте слово apă достаточным подтверждением: ограничение — существенная часть заказа. Можно спросить Puteți repeta, vă rog? как готовую вежливую просьбу, если не удалось расслышать ответ.",
+          "Îmi place cafeaua относится к одному напитку, поэтому place; Îmi plac merele относится к нескольким яблокам, поэтому plac. Форма зависит от того, что нравится, а не от того, сколько людей говорят. Для простого заказа эту конструкцию использовать необязательно. Сначала назовите напиток, количество и ограничение; после подтверждения заказа попросите счёт. Возможность оплаты картой уточняется отдельным вопросом Pot plăti cu cardul?, а не предполагается автоматически. Все названия и наличие продуктов здесь придуманы.",
+          "В рассказе chelnerul означает официанта, se așază — садятся, cere — просит, alege — выбирает, repetă — повторяет, după ce termină — после того как заканчивают. Узнавайте эти формы в чтении целиком; для собственной просьбы достаточно Aș dori, vă rog и Puteți repeta? Когда официант повторяет заказ, проверяйте напиток, ограничение и человека, которому он предназначен. Даже если названа верная вода, добавленное fără gaz вместо cu gaz меняет заказ. Счёт запрашивается отдельно от меню; способ оплаты также выясняют отдельным вопросом. Если в тексте говорится для меня и для другого гостя, ставьте рядом с каждым именем его собственную порцию; одно общее название продукта без получателя не даёт однозначного распределения заказа."
+        ],
+        "comparison": "Русский род слова «кофе» не управляет place/plac: там решает число нравящегося предмета. В un pahar de apă de связывает меру с продуктом. Meniul и nota обозначают разные моменты заказа.",
+        "examples": [
+          {
+            "ro": "Aș dori un ceai fără lapte.",
+            "ru": "Я хотел бы чай без молока."
+          },
+          {
+            "ro": "O sticlă de apă cu gaz, vă rog.",
+            "ru": "Бутылку воды с газом, пожалуйста."
+          },
+          {
+            "ro": "Pentru mine, un sendviș.",
+            "ru": "Для меня сэндвич."
+          },
+          {
+            "ro": "Pentru Ana, o cafea.",
+            "ru": "Для Аны кофе."
+          },
+          {
+            "ro": "Îmi place cafeaua.",
+            "ru": "Мне нравится кофе."
+          },
+          {
+            "ro": "Îmi plac merele.",
+            "ru": "Мне нравятся яблоки."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "un pahar apă",
+            "right": "un pahar de apă",
+            "why": "Мера соединяется с продуктом через de."
+          },
+          {
+            "wrong": "Îmi plac cafeaua.",
+            "right": "Îmi place cafeaua.",
+            "why": "Один напиток требует place."
+          },
+          {
+            "wrong": "Meniul, vă rog. [после еды, нужен счёт]",
+            "right": "Nota de plată, vă rog.",
+            "why": "Meniul — меню для выбора; nota — счёт."
+          }
+        ],
+        "sheet": {
+          "title": "Кафе: заказ и завершение",
+          "formula": "порция + de + продукт + ограничение; затем nota",
+          "rows": [
+            [
+              "Меню",
+              "Pot vedea meniul?"
+            ],
+            [
+              "Порция",
+              "un pahar de apă / o sticlă de apă"
+            ],
+            [
+              "Ограничение",
+              "un ceai fără lapte / apă cu gaz"
+            ],
+            [
+              "Счёт",
+              "Nota de plată, vă rog."
+            ]
+          ],
+          "notes": [
+            "Назовите fără lapte или fără gaz при заказе, а не после получения напитка.",
+            "De связывает меру с продуктом.",
+            "Meniul запрашивается перед выбором, nota — после заказа."
+          ]
+        }
+      },
+      "words": [
+        {
+          "ro": "meniu",
+          "ru": "меню"
+        },
+        {
+          "ro": "nota de plată",
+          "ru": "счёт в кафе"
+        },
+        {
+          "ro": "ceai",
+          "ru": "чай"
+        },
+        {
+          "ro": "cafea",
+          "ru": "кофе"
+        },
+        {
+          "ro": "sendviș",
+          "ru": "сэндвич"
+        },
+        {
+          "ro": "apă",
+          "ru": "вода"
+        },
+        {
+          "ro": "apă cu gaz",
+          "ru": "вода с газом"
+        },
+        {
+          "ro": "apă fără gaz",
+          "ru": "вода без газа"
+        },
+        {
+          "ro": "lapte",
+          "ru": "молоко"
+        },
+        {
+          "ro": "fără lapte",
+          "ru": "без молока"
+        },
+        {
+          "ro": "cu lapte",
+          "ru": "с молоком"
+        },
+        {
+          "ro": "pahar",
+          "ru": "стакан"
+        },
+        {
+          "ro": "sticlă",
+          "ru": "бутылка"
+        },
+        {
+          "ro": "felie de pâine",
+          "ru": "ломтик хлеба"
+        },
+        {
+          "ro": "pentru mine",
+          "ru": "для меня"
+        },
+        {
+          "ro": "pentru Ana",
+          "ru": "для Аны"
+        },
+        {
+          "ro": "un",
+          "ru": "один для мужского/среднего рода"
+        },
+        {
+          "ro": "o",
+          "ru": "одна для женского рода"
+        },
+        {
+          "ro": "cafenea imaginară",
+          "ru": "вымышленное кафе"
+        },
+        {
+          "ro": "Dima",
+          "ru": "Дима, учебный герой"
+        },
+        {
+          "ro": "masă",
+          "ru": "стол"
+        },
+        {
+          "ro": "băuturi",
+          "ru": "напитки"
+        },
+        {
+          "ro": "corect",
+          "ru": "правильно"
+        },
+        {
+          "ro": "apoi",
+          "ru": "затем"
+        },
+        {
+          "ro": "separat",
+          "ru": "отдельно"
+        },
+        {
+          "ro": "întreabă",
+          "ru": "спрашивает"
+        },
+        {
+          "ro": "spune",
+          "ru": "говорит"
+        },
+        {
+          "ro": "dacă",
+          "ru": "ли в косвенном вопросе"
+        },
+        {
+          "ro": "poate",
+          "ru": "может"
+        },
+        {
+          "ro": "chelnerul",
+          "ru": "официант"
+        },
+        {
+          "ro": "se așază",
+          "ru": "садятся"
+        },
+        {
+          "ro": "cere",
+          "ru": "просит"
+        },
+        {
+          "ro": "alege",
+          "ru": "выбирает"
+        },
+        {
+          "ro": "repetă",
+          "ru": "повторяет"
+        },
+        {
+          "ro": "după ce termină",
+          "ru": "после того как заканчивают"
+        }
+      ],
+      "phrases": [
+        {
+          "ro": "Pot vedea meniul?",
+          "ru": "Можно посмотреть меню?"
+        },
+        {
+          "ro": "Aș dori un ceai, vă rog.",
+          "ru": "Я хотел бы чай, пожалуйста."
+        },
+        {
+          "ro": "Un pahar de apă fără gaz, vă rog.",
+          "ru": "Стакан воды без газа, пожалуйста."
+        },
+        {
+          "ro": "Un ceai fără lapte, vă rog.",
+          "ru": "Чай без молока, пожалуйста."
+        },
+        {
+          "ro": "Pentru mine, un sendviș.",
+          "ru": "Для меня сэндвич."
+        },
+        {
+          "ro": "Pentru Ana, o cafea.",
+          "ru": "Для Аны кофе."
+        },
+        {
+          "ro": "Puteți repeta, vă rog?",
+          "ru": "Можете повторить, пожалуйста?"
+        },
+        {
+          "ro": "Nota de plată, vă rog.",
+          "ru": "Счёт, пожалуйста."
+        },
+        {
+          "ro": "Pot plăti cu cardul?",
+          "ru": "Можно оплатить картой?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "A1.21.e501",
+          "type": "choice",
+          "prompt": "Официант повторил чай с молоком для Димы. Какая реплика уточняет заказ?",
+          "answers": [
+            "Un ceai fără lapte, vă rog."
+          ],
+          "explanation": "Существенная поправка — fără lapte.",
+          "hint": "Сравните уточнение официанта с исходным ограничением в заказе.",
+          "tag": "life-a1-21-1",
+          "skill": "grammar",
+          "choices": [
+            "Un ceai cu lapte, vă rog.",
+            "Nota de plată, vă rog.",
+            "Un ceai fără lapte, vă rog."
+          ]
+        },
+        {
+          "id": "A1.21.e502",
+          "type": "choice",
+          "prompt": "Вы ещё выбираете напиток. Что просить?",
+          "answers": [
+            "Meniul, vă rog."
+          ],
+          "explanation": "Меню нужно до выбора; счёт после.",
+          "hint": "Меню нужно, когда выбор ещё впереди.",
+          "tag": "life-a1-21-2",
+          "skill": "grammar",
+          "choices": [
+            "Meniul, vă rog.",
+            "Nota de plată, vă rog.",
+            "Un ceai, vă rog."
+          ]
+        },
+        {
+          "id": "A1.21.e503",
+          "type": "choice",
+          "prompt": "Какая группа обозначает бутылку воды?",
+          "answers": [
+            "o sticlă de apă"
+          ],
+          "explanation": "Sticlă — бутылка; pahar — стакан.",
+          "hint": "Различите меру sticlă и pahar.",
+          "tag": "life-a1-21-3",
+          "skill": "grammar",
+          "choices": [
+            "un pahar de apă",
+            "o sticlă de apă",
+            "o felie de pâine"
+          ]
+        },
+        {
+          "id": "A1.21.e504",
+          "type": "choice",
+          "prompt": "Если речь об одном кофе, какая форма перед cafeaua?",
+          "answers": [
+            "Îmi place"
+          ],
+          "explanation": "Единственное cafeaua согласуется с place.",
+          "hint": "Форма place/plac зависит от числа того, что нравится.",
+          "tag": "life-a1-21-4",
+          "skill": "grammar",
+          "choices": [
+            "Îmi plac",
+            "Nu plac",
+            "Îmi place"
+          ]
+        },
+        {
+          "id": "A1.21.e505",
+          "type": "gap",
+          "prompt": "Стакан воды: un pahar ___ apă.",
+          "answers": [
+            "de"
+          ],
+          "explanation": "Предлог de соединяет меру и продукт.",
+          "hint": "Между названием меры и содержимым стоит короткий предлог.",
+          "tag": "life-a1-21-5",
+          "skill": "grammar"
+        },
+        {
+          "id": "A1.21.e506",
+          "type": "gap",
+          "prompt": "Чай без молока: un ceai ___ lapte.",
+          "answers": [
+            "fără"
+          ],
+          "explanation": "Fără означает без.",
+          "hint": "Слово для отсутствия противопоставлено cu.",
+          "tag": "life-a1-21-6",
+          "skill": "grammar"
+        },
+        {
+          "id": "A1.21.e507",
+          "type": "gap",
+          "prompt": "Завершение заказа: Nota de ___, vă rog.",
+          "answers": [
+            "plată"
+          ],
+          "explanation": "Nota de plată — счёт.",
+          "hint": "Полное название счёта состоит из двух существительных и предлога.",
+          "tag": "life-a1-21-7",
+          "skill": "grammar"
+        },
+        {
+          "id": "A1.21.e508",
+          "type": "gap",
+          "prompt": "Несколько яблок нравятся: Îmi ___ merele.",
+          "answers": [
+            "plac"
+          ],
+          "explanation": "Merele — множественное, поэтому plac.",
+          "hint": "Merele обозначает несколько яблок.",
+          "tag": "life-a1-21-8",
+          "skill": "grammar"
+        },
+        {
+          "id": "A1.21.e509",
+          "type": "order",
+          "prompt": "Соберите вежливую просьбу о чае без молока.",
+          "answers": [
+            "Aș dori un ceai fără lapte"
+          ],
+          "explanation": "Aș dori + продукт + fără lapte.",
+          "hint": "Вежливое начало просьбы — Aș dori.",
+          "tag": "life-a1-21-9",
+          "skill": "grammar",
+          "tokens": [
+            "lapte",
+            "ceai",
+            "Aș",
+            "fără",
+            "un",
+            "dori"
+          ]
+        },
+        {
+          "id": "A1.21.e510",
+          "type": "order",
+          "prompt": "Соберите заказ бутылки негазированной воды.",
+          "answers": [
+            "O sticlă de apă fără gaz"
+          ],
+          "explanation": "Мера sticlă соединяется с apă через de.",
+          "hint": "После меры нужно связать её с названием воды.",
+          "tag": "life-a1-21-10",
+          "skill": "grammar",
+          "tokens": [
+            "gaz",
+            "apă",
+            "sticlă",
+            "O",
+            "fără",
+            "de"
+          ]
+        },
+        {
+          "id": "A1.21.e511",
+          "type": "order",
+          "prompt": "Соберите просьбу показать меню.",
+          "answers": [
+            "Pot vedea meniul"
+          ],
+          "explanation": "Pot + инфинитив vedea + meniul.",
+          "hint": "Это вопрос о просмотре меню.",
+          "tag": "life-a1-21-11",
+          "skill": "grammar",
+          "tokens": [
+            "meniul",
+            "Pot",
+            "vedea"
+          ]
+        },
+        {
+          "id": "A1.21.e512",
+          "type": "order",
+          "prompt": "Соберите просьбу о счёте.",
+          "answers": [
+            "Nota de plată vă rog",
+            "Vă rog nota de plată"
+          ],
+          "explanation": "Nota de plată — счёт, vă rog — просьба.",
+          "hint": "Не смешивайте счёт с меню.",
+          "tag": "life-a1-21-12",
+          "skill": "grammar",
+          "tokens": [
+            "vă",
+            "plată",
+            "Nota",
+            "rog",
+            "de"
+          ]
+        },
+        {
+          "id": "A1.21.e513",
+          "type": "read",
+          "prompt": "Что Дима заказывает из еды?",
+          "answers": [
+            "Сэндвич"
+          ],
+          "explanation": "Он выбирает un sendviș.",
+          "hint": "Найдите заказ Димы и отделите еду от напитка.",
+          "tag": "life-a1-21-13",
+          "skill": "reading",
+          "choices": [
+            "Сэндвич",
+            "Ломтик хлеба",
+            "Два яблока"
+          ],
+          "text": "În această cafenea imaginară, Dima și Ana se așază la o masă. Dima cere meniul. El alege un ceai fără lapte și un sendviș. Ana alege o cafea cu lapte și o sticlă de apă fără gaz. Chelnerul spune: „Un ceai cu lapte pentru Dima?” Dima răspunde: „Nu, un ceai fără lapte, vă rog.” Chelnerul repetă apoi corect cele două băuturi. După ce termină, Dima cere nota de plată. El întreabă separat dacă poate plăti cu cardul."
+        },
+        {
+          "id": "A1.21.e514",
+          "type": "read",
+          "prompt": "Что Ана заказывает из воды?",
+          "answers": [
+            "Бутылку без газа"
+          ],
+          "explanation": "У Аны o sticlă de apă fără gaz.",
+          "hint": "Сопоставьте Ana с названной мерой воды.",
+          "tag": "life-a1-21-14",
+          "skill": "reading",
+          "choices": [
+            "Стакан с газом",
+            "Бутылку без газа",
+            "Бутылку с газом"
+          ],
+          "text": "În această cafenea imaginară, Dima și Ana se așază la o masă. Dima cere meniul. El alege un ceai fără lapte și un sendviș. Ana alege o cafea cu lapte și o sticlă de apă fără gaz. Chelnerul spune: „Un ceai cu lapte pentru Dima?” Dima răspunde: „Nu, un ceai fără lapte, vă rog.” Chelnerul repetă apoi corect cele două băuturi. După ce termină, Dima cere nota de plată. El întreabă separat dacă poate plăti cu cardul."
+        },
+        {
+          "id": "A1.21.e515",
+          "type": "read",
+          "prompt": "Какую ошибку исправляет Дима?",
+          "answers": [
+            "Чай должен быть без молока"
+          ],
+          "explanation": "Официант повторил cu lapte вместо fără lapte для Димы.",
+          "hint": "Сравните первое повторение официанта и поправку Димы.",
+          "tag": "life-a1-21-15",
+          "skill": "reading",
+          "choices": [
+            "Кофе должен быть без молока",
+            "Вода должна быть с газом",
+            "Чай должен быть без молока"
+          ],
+          "text": "În această cafenea imaginară, Dima și Ana se așază la o masă. Dima cere meniul. El alege un ceai fără lapte și un sendviș. Ana alege o cafea cu lapte și o sticlă de apă fără gaz. Chelnerul spune: „Un ceai cu lapte pentru Dima?” Dima răspunde: „Nu, un ceai fără lapte, vă rog.” Chelnerul repetă apoi corect cele două băuturi. După ce termină, Dima cere nota de plată. El întreabă separat dacă poate plăti cu cardul."
+        },
+        {
+          "id": "A1.21.e516",
+          "type": "read",
+          "prompt": "Кто первым просит меню в этом рассказе?",
+          "answers": [
+            "Дима"
+          ],
+          "explanation": "В начале рассказа Dima cere meniul.",
+          "hint": "Посмотрите на самое первое действие Димы за столом.",
+          "tag": "life-a1-21-16",
+          "skill": "reading",
+          "choices": [
+            "Ана",
+            "Официант",
+            "Дима"
+          ],
+          "text": "În această cafenea imaginară, Dima și Ana se așază la o masă. Dima cere meniul. El alege un ceai fără lapte și un sendviș. Ana alege o cafea cu lapte și o sticlă de apă fără gaz. Chelnerul spune: „Un ceai cu lapte pentru Dima?” Dima răspunde: „Nu, un ceai fără lapte, vă rog.” Chelnerul repetă apoi corect cele două băuturi. După ce termină, Dima cere nota de plată. El întreabă separat dacă poate plăti cu cardul."
+        }
+      ],
+      "transfer": {
+        "prompt": "В другом вымышленном кафе закажите стакан воды с газом и чай без молока. Сначала попросите меню, после заказа — счёт.",
+        "checklist": [
+          "Скажите un pahar de apă cu gaz.",
+          "Уточните fără lapte для чая.",
+          "Различите meniul и nota de plată."
+        ],
+        "model": "Pot vedea meniul? Aș dori un pahar de apă cu gaz și un ceai fără lapte, vă rog. Nota de plată, vă rog."
+      }
+    },
+    {
+      "id": "LIFE.A1.STREET",
+      "level": "A1",
+      "domain": "Улица",
+      "title": "Условный маршрут и переспрос",
+      "anchorLessonId": "A1.20",
+      "prerequisites": [
+        "A1.12",
+        "A1.17",
+        "A1.19",
+        "A1.20"
+      ],
+      "goal": "Спросить прохожего о пути, удержать порядок шагов и уточнить непонятный поворот.",
+      "fictionNote": "Вымышленный учебный эпизод; сведения о товарах, местах, доступности и оплате не описывают действительные условия.",
+      "theory": {
+        "core": "В вымышленном квартале Дима спрашивает прохожую Cum ajung la intrare? Слова cum ajung la... называют цель пути. Ответ может содержать два шага: Mergeți înainte, apoi luați-o la stânga. Сначала «идите прямо», затем «поверните налево». Оборот luați-o la stânga учите целиком; пока не выводите из -o правило о местоимениях. Если услышали только направление, уточните ориентир: Unde este intrarea? — где вход?",
+        "detail": [
+          "В нашей схеме поворот выражен luați-o la stânga / la dreapta; положение удобно назвать în stânga / în dreapta. Само la stânga также может описывать положение, например в ответе о месте входа. «Вход слева» и «поверните налево» дают разные действия. Для остановки prima stație означает первую, a doua stație — вторую по порядку. Это не номер маршрута два. После указания Coborâți la a doua stație нужно считать остановки в условном сценарии, а не выбирать автобус номер два.",
+          "Merg cu metroul и Merg cu autobuzul описывают транспорт; Merg pe jos значит «иду пешком». Глагол merg сам не сообщает, иду ли я ногами или еду. Простое Este aproape? спрашивает, близко ли цель. Даже если ответ «близко», точное направление ещё может требовать уточнения. Mai spuneți o dată, vă rog просит повторить непонятную инструкцию, а не выбрать другой путь.",
+          "Проверяйте последовательность: сначала исходное место, затем înainte, затем поворот, затем конкретный ориентир или остановка. Вопрос «направо или налево?» должен сохранить оба варианта: La stânga sau la dreapta? Если ответа нет или он неясен, переспросите. В этом тексте названия домов и остановок придуманы; реальный маршрут в Бухаресте надо проверять отдельно. Цель упражнения — передать услышанное без выдуманных шагов и не смешать положение входа с направлением движения.",
+          "В рассказе trecătoare — прохожая, până la — до, răspunde — отвечает, repetă — повторяет, după aceea — после этого, nu are nevoie de — не нуждается в. Эти выражения помогают удержать порядок. Например, фраза «сначала налево, вход справа» содержит левый поворот и правое положение; если услышать только слово dreapta, легко выполнить не тот шаг. Поэтому отделяйте глагол действия от описания ориентира. В вымышленном маршруте не выводите автобус из слова stație без прямого указания на транспорт. Если ответ содержит две части с apoi, не меняйте их местами: сначала запишите первый глагол и направление, затем второй ориентир. При переспросе повторите ровно ту деталь, которая осталась неясной."
+        ],
+        "comparison": "Русское «слева» описывает положение, «налево» — движение. Румынское la stânga встречается и при расположении; различайте смысл по глаголу и ситуации. A doua stație не означает маршрут номер два.",
+        "examples": [
+          {
+            "ro": "Cum ajung la intrare?",
+            "ru": "Как добраться до входа?"
+          },
+          {
+            "ro": "Mergeți înainte, apoi luați-o la stânga.",
+            "ru": "Идите прямо, затем поверните налево."
+          },
+          {
+            "ro": "Magazinul este în dreapta.",
+            "ru": "Магазин справа."
+          },
+          {
+            "ro": "Coborâți la prima stație.",
+            "ru": "Выйдите на первой остановке."
+          },
+          {
+            "ro": "Merg cu autobuzul.",
+            "ru": "Я еду автобусом."
+          },
+          {
+            "ro": "Mai spuneți o dată, vă rog.",
+            "ru": "Скажите ещё раз, пожалуйста."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "Intrarea este stânga.",
+            "right": "Intrarea este în stânga.",
+            "why": "Нужен предлог: în stânga и la stânga оба могут обозначать положение слева; здесь используем în stânga."
+          },
+          {
+            "wrong": "a doua stație = autobuzul doi",
+            "right": "a doua stație = вторая по порядку остановка",
+            "why": "Порядковое числительное не является номером маршрута."
+          },
+          {
+            "wrong": "Mergeți înainte = езжайте автобусом",
+            "right": "Mergeți înainte = двигайтесь прямо",
+            "why": "Сам глагол не задаёт способ передвижения."
+          }
+        ],
+        "sheet": {
+          "title": "Маршрут: шаг и ориентир",
+          "formula": "Cum ajung la...? → înainte → la stânga/dreapta → ориентир",
+          "rows": [
+            [
+              "Вопрос",
+              "Cum ajung la intrare?"
+            ],
+            [
+              "Шаг",
+              "Mergeți înainte; apoi luați-o la stânga."
+            ],
+            [
+              "Положение",
+              "Intrarea este în dreapta."
+            ],
+            [
+              "Переспрос",
+              "Mai spuneți o dată, vă rog."
+            ]
+          ],
+          "notes": [
+            "В этой схеме luați-o la stânga — поверните налево; intrarea este în stânga — вход слева. Для положения также возможно la stânga.",
+            "A doua stație — вторая остановка, не маршрут № 2.",
+            "Условную схему не используйте как реальную карту Бухареста."
+          ]
+        }
+      },
+      "words": [
+        {
+          "ro": "cum ajung la",
+          "ru": "как мне добраться до"
+        },
+        {
+          "ro": "intrare",
+          "ru": "вход"
+        },
+        {
+          "ro": "bloc",
+          "ru": "многоквартирный дом"
+        },
+        {
+          "ro": "stație",
+          "ru": "остановка"
+        },
+        {
+          "ro": "metrou",
+          "ru": "метро"
+        },
+        {
+          "ro": "autobuz",
+          "ru": "автобус"
+        },
+        {
+          "ro": "înainte",
+          "ru": "прямо, вперёд"
+        },
+        {
+          "ro": "apoi",
+          "ru": "затем"
+        },
+        {
+          "ro": "la stânga",
+          "ru": "налево"
+        },
+        {
+          "ro": "la dreapta",
+          "ru": "направо"
+        },
+        {
+          "ro": "în stânga",
+          "ru": "слева"
+        },
+        {
+          "ro": "în dreapta",
+          "ru": "справа"
+        },
+        {
+          "ro": "prima stație",
+          "ru": "первая остановка"
+        },
+        {
+          "ro": "a doua stație",
+          "ru": "вторая остановка"
+        },
+        {
+          "ro": "aproape",
+          "ru": "близко"
+        },
+        {
+          "ro": "departe",
+          "ru": "далеко"
+        },
+        {
+          "ro": "pe jos",
+          "ru": "пешком"
+        },
+        {
+          "ro": "mai spuneți o dată",
+          "ru": "скажите ещё раз"
+        },
+        {
+          "ro": "cartier imaginar",
+          "ru": "вымышленный район"
+        },
+        {
+          "ro": "Dima",
+          "ru": "Дима, учебный герой"
+        },
+        {
+          "ro": "caută",
+          "ru": "ищет"
+        },
+        {
+          "ro": "întreabă",
+          "ru": "спрашивает"
+        },
+        {
+          "ro": "spune",
+          "ru": "говорит"
+        },
+        {
+          "ro": "trecătoarea",
+          "ru": "прохожая в рассказе"
+        },
+        {
+          "ro": "direcția",
+          "ru": "направление"
+        },
+        {
+          "ro": "auzit bine",
+          "ru": "хорошо услышал"
+        },
+        {
+          "ro": "unui bloc",
+          "ru": "одного дома"
+        },
+        {
+          "ro": "poveste",
+          "ru": "история"
+        },
+        {
+          "ro": "trecătoare",
+          "ru": "прохожая"
+        },
+        {
+          "ro": "până la",
+          "ru": "до"
+        },
+        {
+          "ro": "răspunde",
+          "ru": "отвечает"
+        },
+        {
+          "ro": "repetă",
+          "ru": "повторяет"
+        },
+        {
+          "ro": "după aceea",
+          "ru": "после этого"
+        },
+        {
+          "ro": "nu are nevoie de",
+          "ru": "не нуждается в"
+        },
+        {
+          "ro": "mai întâi",
+          "ru": "сначала"
+        }
+      ],
+      "phrases": [
+        {
+          "ro": "Cum ajung la intrare?",
+          "ru": "Как добраться до входа?"
+        },
+        {
+          "ro": "Unde este stația?",
+          "ru": "Где остановка?"
+        },
+        {
+          "ro": "Mergeți înainte.",
+          "ru": "Идите прямо."
+        },
+        {
+          "ro": "Apoi luați-o la stânga.",
+          "ru": "Затем поверните налево."
+        },
+        {
+          "ro": "Intrarea este în dreapta.",
+          "ru": "Вход справа."
+        },
+        {
+          "ro": "Coborâți la a doua stație.",
+          "ru": "Выйдите на второй остановке."
+        },
+        {
+          "ro": "Merg pe jos.",
+          "ru": "Я иду пешком."
+        },
+        {
+          "ro": "Este aproape?",
+          "ru": "Это близко?"
+        },
+        {
+          "ro": "Mai spuneți o dată, vă rog.",
+          "ru": "Скажите ещё раз, пожалуйста."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "A1.20.e501",
+          "type": "choice",
+          "prompt": "Вы не расслышали направление поворота. Что попросить?",
+          "answers": [
+            "Mai spuneți o dată, vă rog."
+          ],
+          "explanation": "Просьба повторить подходит к непонятной инструкции.",
+          "hint": "Ищите просьбу повторить, а не новый вопрос о месте.",
+          "tag": "life-a1-20-1",
+          "skill": "grammar",
+          "choices": [
+            "Unde este intrarea?",
+            "Mai spuneți o dată, vă rog.",
+            "Merg cu autobuzul."
+          ]
+        },
+        {
+          "id": "A1.20.e502",
+          "type": "choice",
+          "prompt": "Какая фраза означает «вход справа», то есть положение?",
+          "answers": [
+            "Intrarea este în dreapta."
+          ],
+          "explanation": "În dreapta описывает положение входа.",
+          "hint": "В этой опоре este + în dreapta описывает положение.",
+          "tag": "life-a1-20-2",
+          "skill": "grammar",
+          "choices": [
+            "Luați-o la dreapta.",
+            "Mergeți înainte.",
+            "Intrarea este în dreapta."
+          ]
+        },
+        {
+          "id": "A1.20.e503",
+          "type": "choice",
+          "prompt": "Что означает a doua stație в условном маршруте?",
+          "answers": [
+            "Вторая остановка по порядку"
+          ],
+          "explanation": "A doua — порядковая форма для stație.",
+          "hint": "Порядковое a doua относится к stație.",
+          "tag": "life-a1-20-3",
+          "skill": "grammar",
+          "choices": [
+            "Вторая остановка по порядку",
+            "Автобус номер два",
+            "Две остановки одновременно"
+          ]
+        },
+        {
+          "id": "A1.20.e504",
+          "type": "choice",
+          "prompt": "Как сказать «иду пешком»?",
+          "answers": [
+            "Merg pe jos."
+          ],
+          "explanation": "Pe jos указывает способ передвижения.",
+          "hint": "Транспорт противопоставлен способу pe jos.",
+          "tag": "life-a1-20-4",
+          "skill": "grammar",
+          "choices": [
+            "Merg cu autobuzul.",
+            "Merg pe jos.",
+            "Coborâți la stație."
+          ]
+        },
+        {
+          "id": "A1.20.e505",
+          "type": "gap",
+          "prompt": "Направление после движения прямо: Apoi luați-o la ___. [налево]",
+          "answers": [
+            "stânga"
+          ],
+          "explanation": "La stânga — налево.",
+          "hint": "В формуле поворота после la нужна сторона.",
+          "tag": "life-a1-20-5",
+          "skill": "grammar"
+        },
+        {
+          "id": "A1.20.e506",
+          "type": "gap",
+          "prompt": "Положение входа: Intrarea este ___ dreapta. [справа]",
+          "answers": [
+            "în"
+          ],
+          "explanation": "În dreapta — справа.",
+          "hint": "Для выбранной модели положения есть отдельный предлог.",
+          "tag": "life-a1-20-6",
+          "skill": "grammar"
+        },
+        {
+          "id": "A1.20.e507",
+          "type": "gap",
+          "prompt": "Я спрашиваю путь: Cum ajung ___ intrare?",
+          "answers": [
+            "la"
+          ],
+          "explanation": "La вводит цель.",
+          "hint": "Цель пути вводится после ajung.",
+          "tag": "life-a1-20-7",
+          "skill": "grammar"
+        },
+        {
+          "id": "A1.20.e508",
+          "type": "gap",
+          "prompt": "После первого шага: Mergeți înainte, ___ luați-o la stânga.",
+          "answers": [
+            "apoi"
+          ],
+          "explanation": "Apoi означает затем.",
+          "hint": "Маркер последовательности стоит между двумя шагами.",
+          "tag": "life-a1-20-8",
+          "skill": "grammar"
+        },
+        {
+          "id": "A1.20.e509",
+          "type": "order",
+          "prompt": "Соберите вопрос о пути ко входу.",
+          "answers": [
+            "Cum ajung la intrare"
+          ],
+          "explanation": "Cum ajung la + цель.",
+          "hint": "Вопрос начинается Cum и заканчивается названием цели.",
+          "tag": "life-a1-20-9",
+          "skill": "grammar",
+          "tokens": [
+            "intrare",
+            "Cum",
+            "la",
+            "ajung"
+          ]
+        },
+        {
+          "id": "A1.20.e510",
+          "type": "order",
+          "prompt": "Соберите первый шаг инструкции.",
+          "answers": [
+            "Mergeți înainte"
+          ],
+          "explanation": "Mergeți înainte — идите прямо.",
+          "hint": "Первый шаг не содержит поворота.",
+          "tag": "life-a1-20-10",
+          "skill": "grammar",
+          "tokens": [
+            "înainte",
+            "Mergeți"
+          ]
+        },
+        {
+          "id": "A1.20.e511",
+          "type": "order",
+          "prompt": "Соберите повторное уточнение с двумя вариантами.",
+          "answers": [
+            "La stânga sau la dreapta",
+            "La dreapta sau la stânga"
+          ],
+          "explanation": "Său здесь отсутствует: sau — или.",
+          "hint": "Оба направления соединены словом sau.",
+          "tag": "life-a1-20-11",
+          "skill": "grammar",
+          "tokens": [
+            "dreapta",
+            "sau",
+            "La",
+            "stânga",
+            "la"
+          ]
+        },
+        {
+          "id": "A1.20.e512",
+          "type": "order",
+          "prompt": "Соберите утверждение о положении входа.",
+          "answers": [
+            "Intrarea este în stânga"
+          ],
+          "explanation": "În stânga обозначает положение.",
+          "hint": "Начните с названия известного входа.",
+          "tag": "life-a1-20-12",
+          "skill": "grammar",
+          "tokens": [
+            "stânga",
+            "este",
+            "Intrarea",
+            "în"
+          ]
+        },
+        {
+          "id": "A1.20.e513",
+          "type": "read",
+          "prompt": "Куда Дима сначала должен идти?",
+          "answers": [
+            "Прямо к магазину"
+          ],
+          "explanation": "Первый шаг — mergeți înainte până la un magazin.",
+          "hint": "Найдите первое указание прохожей до слова apoi.",
+          "tag": "life-a1-20-13",
+          "skill": "reading",
+          "choices": [
+            "Сразу налево",
+            "Сесть на автобус",
+            "Прямо к магазину"
+          ],
+          "text": "Într-un cartier imaginar, Dima caută intrarea unui bloc. El întreabă o trecătoare: „Cum ajung la intrare?” Ea răspunde: „Mergeți înainte până la un magazin, apoi luați-o la dreapta. Intrarea este în stânga, lângă magazin.” Dima nu a auzit bine direcția și spune: „Mai spuneți o dată, vă rog. La stânga sau la dreapta?” Trecătoarea repetă: „Mai întâi la dreapta. După aceea, intrarea este în stânga.” Dima merge pe jos. În această poveste nu are nevoie de autobuz."
+        },
+        {
+          "id": "A1.20.e514",
+          "type": "read",
+          "prompt": "Куда нужно повернуть после магазина?",
+          "answers": [
+            "Направо"
+          ],
+          "explanation": "Прохожая повторяет mai întâi la dreapta.",
+          "hint": "Внимательно прочитайте шаг после apoi и его повторение.",
+          "tag": "life-a1-20-14",
+          "skill": "reading",
+          "choices": [
+            "Направо",
+            "Налево",
+            "Никуда"
+          ],
+          "text": "Într-un cartier imaginar, Dima caută intrarea unui bloc. El întreabă o trecătoare: „Cum ajung la intrare?” Ea răspunde: „Mergeți înainte până la un magazin, apoi luați-o la dreapta. Intrarea este în stânga, lângă magazin.” Dima nu a auzit bine direcția și spune: „Mai spuneți o dată, vă rog. La stânga sau la dreapta?” Trecătoarea repetă: „Mai întâi la dreapta. După aceea, intrarea este în stânga.” Dima merge pe jos. În această poveste nu are nevoie de autobuz."
+        },
+        {
+          "id": "A1.20.e515",
+          "type": "read",
+          "prompt": "Где вход после поворота?",
+          "answers": [
+            "Слева рядом с магазином"
+          ],
+          "explanation": "Intrarea este în stânga, lângă magazin.",
+          "hint": "После поворота ищите фразу о положении входа.",
+          "tag": "life-a1-20-15",
+          "skill": "reading",
+          "choices": [
+            "Справа за остановкой",
+            "Слева рядом с магазином",
+            "В автобусе"
+          ],
+          "text": "Într-un cartier imaginar, Dima caută intrarea unui bloc. El întreabă o trecătoare: „Cum ajung la intrare?” Ea răspunde: „Mergeți înainte până la un magazin, apoi luați-o la dreapta. Intrarea este în stânga, lângă magazin.” Dima nu a auzit bine direcția și spune: „Mai spuneți o dată, vă rog. La stânga sau la dreapta?” Trecătoarea repetă: „Mai întâi la dreapta. După aceea, intrarea este în stânga.” Dima merge pe jos. În această poveste nu are nevoie de autobuz."
+        },
+        {
+          "id": "A1.20.e516",
+          "type": "read",
+          "prompt": "Зачем Дима повторяет «La stânga sau la dreapta?»",
+          "answers": [
+            "Он не расслышал поворот"
+          ],
+          "explanation": "В тексте сказано, что он не расслышал направление.",
+          "hint": "Текст прямо сообщает, чего Дима не расслышал.",
+          "tag": "life-a1-20-16",
+          "skill": "reading",
+          "choices": [
+            "Он выбирает напиток",
+            "Он спрашивает номер автобуса",
+            "Он не расслышал поворот"
+          ],
+          "text": "Într-un cartier imaginar, Dima caută intrarea unui bloc. El întreabă o trecătoare: „Cum ajung la intrare?” Ea răspunde: „Mergeți înainte până la un magazin, apoi luați-o la dreapta. Intrarea este în stânga, lângă magazin.” Dima nu a auzit bine direcția și spune: „Mai spuneți o dată, vă rog. La stânga sau la dreapta?” Trecătoarea repetă: „Mai întâi la dreapta. După aceea, intrarea este în stânga.” Dima merge pe jos. În această poveste nu are nevoie de autobuz."
+        }
+      ],
+      "transfer": {
+        "prompt": "В другой условной схеме письменно спросите о входе. Прочитайте ответ «Mergeți drept, apoi la stânga; intrarea este în dreapta» и запишите два шага своими словами.",
+        "checklist": [
+          "Сохраните порядок înainte → la stânga.",
+          "Отличите направление la stânga от положения în dreapta.",
+          "Если потеряли шаг, попросите повторить."
+        ],
+        "model": "Cum ajung la intrare? Mergeți înainte, apoi luați-o la stânga. Intrarea este în dreapta. Mai spuneți o dată, vă rog."
+      }
+    },
+    {
+      "id": "LIFE.A1.NEIGHBOR",
+      "level": "A1",
+      "domain": "Соседи",
+      "title": "Первое знакомство в доме",
+      "anchorLessonId": "A1.04",
+      "prerequisites": [
+        "A1.01",
+        "A1.03",
+        "A1.04"
+      ],
+      "goal": "Поздороваться с новой соседкой, представиться, различить происхождение и нынешнее место жительства.",
+      "fictionNote": "Вымышленный учебный эпизод; сведения о товарах, местах, доступности и оплате не описывают действительные условия.",
+      "theory": {
+        "core": "Дима впервые встречает взрослую соседку в вымышленном доме в Милитари. Начните с Bună ziua! и назовите имя: Mă numesc Dima. Вопрос Cum vă numiți? вежливо узнаёт имя другого человека. При первом знакомстве dumneavoastră и формы sunteți / vă numiți составляют согласованную пару, хотя соседка одна. Tu ești / te numești относятся к обращению на «ты» и здесь без взаимного перехода не нужны.",
+        "detail": [
+          "О происхождении спрашивайте De unde sunteți? Ответ Sunt din Ucraina сообщает, откуда Дима; он не сообщает, где тот живёт сейчас. Для места проживания спросите Unde locuiți? и ответьте Locuiesc în București. Можно уточнить район: Locuiesc în cartierul Militari. Здесь адрес и конкретный дом не требуются. Если соседка отвечает, что она из другого города, не делайте вывод, где она сейчас живёт, пока не услышите отдельную фразу.",
+          "Îmi pare bine — готовое выражение «очень приятно». Его удобно сказать после имени, но оно не заменяет вопрос или ответ. Если разговор идёт слишком быстро, Nu înțeleg. Repetați, vă rog означает «не понимаю; повторите, пожалуйста». Форму repetați здесь учим как вежливую просьбу целиком. После повтора можно ответить на понятный вопрос, например о городе, не угадывая незнакомые сведения.",
+          "Вопрос Vorbiți română? выясняет язык, а не гражданство. Ответ Vorbesc puțin română даёт ограниченное владение языком; название языка обычно стоит без предлога în. Встретив человека впервые, держите короткий порядок: приветствие, имена, происхождение при желании, место проживания, доброжелательное завершение. Соседка не обязана сообщать личные подробности; достаточно простого обмена. Имена и встреча вымышлены, а Дима — учебный герой, живущий в Бухаресте.",
+          "В рассказе întâlnește — встречает, vecină — соседка, răspunde — отвечает, tot — тоже, repetă — повторяет. Это формы для понимания чтения, не для активного спряжения. При знакомстве два человека могут быть из разных городов, но жить в одном нынешнем городе. Например: Ana este din Iași; Dima este din Ucraina; amândoi locuiesc în București — оба живут в Бухаресте. В упражнении отдельно отмечайте имя, происхождение и проживание каждого человека; слово tot обычно связывает общую названную деталь, а не все их биографии. Короткий ответ Da подтверждает только заданный вопрос; он сам по себе не сообщает нового места проживания или происхождения. При неясном имени попросите повторить именно имя."
+        ],
+        "comparison": "Русские «из Украины» и «в Бухаресте» отвечают на разные вопросы. Румынское dumneavoastră может относиться к одному человеку, но глагол остаётся в форме sunteți. Voi — знакомое множественное «вы», здесь не обращение к одной соседке.",
+        "examples": [
+          {
+            "ro": "Mă numesc Dima.",
+            "ru": "Меня зовут Дима."
+          },
+          {
+            "ro": "Cum vă numiți?",
+            "ru": "Как вас зовут?"
+          },
+          {
+            "ro": "Sunt din Ucraina.",
+            "ru": "Я из Украины."
+          },
+          {
+            "ro": "Locuiesc în București.",
+            "ru": "Я живу в Бухаресте."
+          },
+          {
+            "ro": "Dumneavoastră sunteți vecina?",
+            "ru": "Вы соседка?"
+          },
+          {
+            "ro": "Vorbesc puțin română.",
+            "ru": "Я немного говорю по-румынски."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "Dumneavoastră ești aici?",
+            "right": "Dumneavoastră sunteți aici?",
+            "why": "Вежливое dumneavoastră требует формы sunteți."
+          },
+          {
+            "wrong": "Cum vă numești?",
+            "right": "Cum vă numiți?",
+            "why": "Не смешивайте vă с формой на tu."
+          },
+          {
+            "wrong": "Sunt în Ucraina. [происхождение]",
+            "right": "Sunt din Ucraina.",
+            "why": "Din указывает происхождение; în — место нахождения."
+          }
+        ],
+        "sheet": {
+          "title": "Сосед: три разных вопроса",
+          "formula": "имя → происхождение → место проживания",
+          "rows": [
+            [
+              "Имя",
+              "Cum vă numiți? — Mă numesc Dima."
+            ],
+            [
+              "Откуда",
+              "De unde sunteți? — Sunt din Ucraina."
+            ],
+            [
+              "Где сейчас",
+              "Unde locuiți? — Locuiesc în București."
+            ],
+            [
+              "Если не поняли",
+              "Nu înțeleg. Repetați, vă rog."
+            ]
+          ],
+          "notes": [
+            "Dumneavoastră сочетается с sunteți, vă numiți, locuiți.",
+            "Din + происхождение, în + текущее место проживания.",
+            "Не выводите гражданство из ответа о языке."
+          ]
+        }
+      },
+      "words": [
+        {
+          "ro": "Bună ziua",
+          "ru": "здравствуйте"
+        },
+        {
+          "ro": "Mă numesc",
+          "ru": "меня зовут"
+        },
+        {
+          "ro": "nume",
+          "ru": "имя"
+        },
+        {
+          "ro": "dumneavoastră",
+          "ru": "вежливое вы"
+        },
+        {
+          "ro": "sunteți",
+          "ru": "вы есть / находитесь"
+        },
+        {
+          "ro": "vă numiți",
+          "ru": "вас зовут"
+        },
+        {
+          "ro": "tu",
+          "ru": "ты"
+        },
+        {
+          "ro": "te numești",
+          "ru": "тебя зовут"
+        },
+        {
+          "ro": "de unde",
+          "ru": "откуда"
+        },
+        {
+          "ro": "din Ucraina",
+          "ru": "из Украины"
+        },
+        {
+          "ro": "locuiesc",
+          "ru": "я живу"
+        },
+        {
+          "ro": "în București",
+          "ru": "в Бухаресте"
+        },
+        {
+          "ro": "cartierul Militari",
+          "ru": "район Милитари"
+        },
+        {
+          "ro": "limbă",
+          "ru": "язык"
+        },
+        {
+          "ro": "vorbesc română",
+          "ru": "я говорю по-румынски"
+        },
+        {
+          "ro": "puțin",
+          "ru": "немного"
+        },
+        {
+          "ro": "Îmi pare bine",
+          "ru": "очень приятно"
+        },
+        {
+          "ro": "Repetați, vă rog",
+          "ru": "повторите, пожалуйста"
+        },
+        {
+          "ro": "bloc imaginar",
+          "ru": "вымышленный дом"
+        },
+        {
+          "ro": "Elena",
+          "ru": "Елена"
+        },
+        {
+          "ro": "numele ei",
+          "ru": "её имя"
+        },
+        {
+          "ro": "nouă",
+          "ru": "новая"
+        },
+        {
+          "ro": "întreabă",
+          "ru": "спрашивает"
+        },
+        {
+          "ro": "spune",
+          "ru": "говорит"
+        },
+        {
+          "ro": "locuiește",
+          "ru": "он или она живёт"
+        },
+        {
+          "ro": "vorbește",
+          "ru": "он или она говорит"
+        },
+        {
+          "ro": "înțelege",
+          "ru": "понимает"
+        },
+        {
+          "ro": "dacă",
+          "ru": "ли в косвенном вопросе"
+        },
+        {
+          "ro": "vecină",
+          "ru": "соседка"
+        },
+        {
+          "ro": "întâlnește",
+          "ru": "встречает"
+        },
+        {
+          "ro": "răspunde",
+          "ru": "отвечает"
+        },
+        {
+          "ro": "tot",
+          "ru": "тоже"
+        },
+        {
+          "ro": "repetă",
+          "ru": "повторяет"
+        },
+        {
+          "ro": "Brașov",
+          "ru": "Брашов, город"
+        }
+      ],
+      "phrases": [
+        {
+          "ro": "Bună ziua! Mă numesc Dima.",
+          "ru": "Здравствуйте! Меня зовут Дима."
+        },
+        {
+          "ro": "Cum vă numiți?",
+          "ru": "Как вас зовут?"
+        },
+        {
+          "ro": "Îmi pare bine.",
+          "ru": "Очень приятно."
+        },
+        {
+          "ro": "De unde sunteți?",
+          "ru": "Откуда вы?"
+        },
+        {
+          "ro": "Sunt din Ucraina.",
+          "ru": "Я из Украины."
+        },
+        {
+          "ro": "Unde locuiți?",
+          "ru": "Где вы живёте?"
+        },
+        {
+          "ro": "Locuiesc în București.",
+          "ru": "Я живу в Бухаресте."
+        },
+        {
+          "ro": "Vorbiți română?",
+          "ru": "Вы говорите по-румынски?"
+        },
+        {
+          "ro": "Nu înțeleg. Repetați, vă rog.",
+          "ru": "Я не понимаю. Повторите, пожалуйста."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "A1.04.e501",
+          "type": "choice",
+          "prompt": "Незнакомая взрослая соседка: какой вопрос об имени согласован с вежливым обращением?",
+          "answers": [
+            "Cum vă numiți?"
+          ],
+          "explanation": "Vă numiți — целая вежливая модель.",
+          "hint": "Сохраните одну вежливую пару vă + форма глагола.",
+          "tag": "life-a1-04-1",
+          "skill": "grammar",
+          "choices": [
+            "Cum vă numiți?",
+            "Cum te numiți?",
+            "Cum vă numești?"
+          ]
+        },
+        {
+          "id": "A1.04.e502",
+          "type": "choice",
+          "prompt": "Какое выражение отвечает на вопрос о происхождении?",
+          "answers": [
+            "Sunt din Ucraina."
+          ],
+          "explanation": "Din указывает происхождение.",
+          "hint": "Ищите ответ на de unde, а не на unde locuiți.",
+          "tag": "life-a1-04-2",
+          "skill": "grammar",
+          "choices": [
+            "Locuiesc în București.",
+            "Sunt din Ucraina.",
+            "Vorbesc română."
+          ]
+        },
+        {
+          "id": "A1.04.e503",
+          "type": "choice",
+          "prompt": "Что сказать после того, как не расслышали имя?",
+          "answers": [
+            "Repetați, vă rog."
+          ],
+          "explanation": "Repetați просит повторить.",
+          "hint": "Нужна просьба повторить сказанное.",
+          "tag": "life-a1-04-3",
+          "skill": "grammar",
+          "choices": [
+            "Unde locuiți?",
+            "Sunt din Ucraina.",
+            "Repetați, vă rog."
+          ]
+        },
+        {
+          "id": "A1.04.e504",
+          "type": "choice",
+          "prompt": "Какую форму a fi выбрать после dumneavoastră?",
+          "answers": [
+            "sunteți"
+          ],
+          "explanation": "Вежливое обращение требует sunteți.",
+          "hint": "Dumneavoastră требует форму, употребляемую и для voi.",
+          "tag": "life-a1-04-4",
+          "skill": "grammar",
+          "choices": [
+            "sunteți",
+            "ești",
+            "sunt"
+          ]
+        },
+        {
+          "id": "A1.04.e505",
+          "type": "gap",
+          "prompt": "Происхождение: Sunt ___ Ucraina.",
+          "answers": [
+            "din"
+          ],
+          "explanation": "Din выражает откуда.",
+          "hint": "Происхождение выражается предлогом из пары din/în.",
+          "tag": "life-a1-04-5",
+          "skill": "grammar"
+        },
+        {
+          "id": "A1.04.e506",
+          "type": "gap",
+          "prompt": "Нынешний город: Locuiesc ___ București.",
+          "answers": [
+            "în"
+          ],
+          "explanation": "În вводит место проживания.",
+          "hint": "Нынешнее место после locuiesc выражается другой частью пары.",
+          "tag": "life-a1-04-6",
+          "skill": "grammar"
+        },
+        {
+          "id": "A1.04.e507",
+          "type": "gap",
+          "prompt": "Вежливое имя: Cum ___ numiți?",
+          "answers": [
+            "vă"
+          ],
+          "explanation": "Vă numiți — готовая пара.",
+          "hint": "Форма vă стоит перед numiți.",
+          "tag": "life-a1-04-7",
+          "skill": "grammar"
+        },
+        {
+          "id": "A1.04.e508",
+          "type": "gap",
+          "prompt": "Вежливая просьба: Repetați, ___ rog.",
+          "answers": [
+            "vă"
+          ],
+          "explanation": "Vă rog — пожалуйста.",
+          "hint": "Устойчивое «пожалуйста» состоит из двух слов.",
+          "tag": "life-a1-04-8",
+          "skill": "grammar"
+        },
+        {
+          "id": "A1.04.e509",
+          "type": "order",
+          "prompt": "Соберите представление Димы.",
+          "answers": [
+            "Mă numesc Dima"
+          ],
+          "explanation": "Mă numesc + имя.",
+          "hint": "Представление начинается с Mă.",
+          "tag": "life-a1-04-9",
+          "skill": "grammar",
+          "tokens": [
+            "Dima",
+            "Mă",
+            "numesc"
+          ]
+        },
+        {
+          "id": "A1.04.e510",
+          "type": "order",
+          "prompt": "Соберите вежливый вопрос о происхождении.",
+          "answers": [
+            "De unde sunteți"
+          ],
+          "explanation": "De unde — откуда; sunteți — вежливо.",
+          "hint": "Вопрос о происхождении содержит de unde.",
+          "tag": "life-a1-04-10",
+          "skill": "grammar",
+          "tokens": [
+            "sunteți",
+            "De",
+            "unde"
+          ]
+        },
+        {
+          "id": "A1.04.e511",
+          "type": "order",
+          "prompt": "Соберите ответ о нынешнем городе.",
+          "answers": [
+            "Locuiesc în București"
+          ],
+          "explanation": "Locuiesc în + город.",
+          "hint": "После Locuiesc укажите место проживания.",
+          "tag": "life-a1-04-11",
+          "skill": "grammar",
+          "tokens": [
+            "București",
+            "în",
+            "Locuiesc"
+          ]
+        },
+        {
+          "id": "A1.04.e512",
+          "type": "order",
+          "prompt": "Соберите вежливый вопрос о месте проживания.",
+          "answers": [
+            "Unde locuiți"
+          ],
+          "explanation": "Unde — где; locuiți — вы живёте.",
+          "hint": "Сначала вопросительное слово, затем вежливая форма глагола.",
+          "tag": "life-a1-04-12",
+          "skill": "grammar",
+          "tokens": [
+            "locuiți",
+            "Unde"
+          ]
+        },
+        {
+          "id": "A1.04.e513",
+          "type": "read",
+          "prompt": "Как зовут новую соседку?",
+          "answers": [
+            "Елена"
+          ],
+          "explanation": "Она представляется Elena.",
+          "hint": "Имя соседки находится в её прямом ответе.",
+          "tag": "life-a1-04-13",
+          "skill": "reading",
+          "choices": [
+            "Ана",
+            "Елена",
+            "Дима"
+          ],
+          "text": "În acest bloc imaginar din cartierul Militari, Dima întâlnește o vecină nouă. El spune: „Bună ziua! Mă numesc Dima. Cum vă numiți?” Vecina răspunde: „Mă numesc Elena. Îmi pare bine.” Dima spune că este din Ucraina, dar locuiește în București. Elena spune că este din Brașov și locuiește tot în București. Dima întreabă dacă ea vorbește română. Elena răspunde că da. Dima spune: „Vorbesc puțin română. Repetați, vă rog.” Elena repetă numele ei, iar Dima o înțelege."
+        },
+        {
+          "id": "A1.04.e514",
+          "type": "read",
+          "prompt": "Откуда Дима?",
+          "answers": [
+            "Из Украины"
+          ],
+          "explanation": "Он говорит că este din Ucraina.",
+          "hint": "Для Димы найдите сочетание din + страна.",
+          "tag": "life-a1-04-14",
+          "skill": "reading",
+          "choices": [
+            "Из Брашова",
+            "Из Бухареста",
+            "Из Украины"
+          ],
+          "text": "În acest bloc imaginar din cartierul Militari, Dima întâlnește o vecină nouă. El spune: „Bună ziua! Mă numesc Dima. Cum vă numiți?” Vecina răspunde: „Mă numesc Elena. Îmi pare bine.” Dima spune că este din Ucraina, dar locuiește în București. Elena spune că este din Brașov și locuiește tot în București. Dima întreabă dacă ea vorbește română. Elena răspunde că da. Dima spune: „Vorbesc puțin română. Repetați, vă rog.” Elena repetă numele ei, iar Dima o înțelege."
+        },
+        {
+          "id": "A1.04.e515",
+          "type": "read",
+          "prompt": "Где сейчас живёт Елена?",
+          "answers": [
+            "В Бухаресте"
+          ],
+          "explanation": "Она из Брашова, но живёт в Бухаресте.",
+          "hint": "Сравните фразы Elena este din... и locuiește...",
+          "tag": "life-a1-04-15",
+          "skill": "reading",
+          "choices": [
+            "В Бухаресте",
+            "В Брашове",
+            "На остановке"
+          ],
+          "text": "În acest bloc imaginar din cartierul Militari, Dima întâlnește o vecină nouă. El spune: „Bună ziua! Mă numesc Dima. Cum vă numiți?” Vecina răspunde: „Mă numesc Elena. Îmi pare bine.” Dima spune că este din Ucraina, dar locuiește în București. Elena spune că este din Brașov și locuiește tot în București. Dima întreabă dacă ea vorbește română. Elena răspunde că da. Dima spune: „Vorbesc puțin română. Repetați, vă rog.” Elena repetă numele ei, iar Dima o înțelege."
+        },
+        {
+          "id": "A1.04.e516",
+          "type": "read",
+          "prompt": "Почему Елена повторяет имя?",
+          "answers": [
+            "Дима попросил повторить"
+          ],
+          "explanation": "Дима говорит Repetați, vă rog.",
+          "hint": "После просьбы повторить найдите следующее действие Елены.",
+          "tag": "life-a1-04-16",
+          "skill": "reading",
+          "choices": [
+            "Она спрашивает цену",
+            "Дима попросил повторить",
+            "Она ищет магазин"
+          ],
+          "text": "În acest bloc imaginar din cartierul Militari, Dima întâlnește o vecină nouă. El spune: „Bună ziua! Mă numesc Dima. Cum vă numiți?” Vecina răspunde: „Mă numesc Elena. Îmi pare bine.” Dima spune că este din Ucraina, dar locuiește în București. Elena spune că este din Brașov și locuiește tot în București. Dima întreabă dacă ea vorbește română. Elena răspunde că da. Dima spune: „Vorbesc puțin română. Repetați, vă rog.” Elena repetă numele ei, iar Dima o înțelege."
+        }
+      ],
+      "transfer": {
+        "prompt": "Встретьте другую вымышленную соседку впервые. Представьтесь, спросите имя, скажите, откуда вы и где сейчас живёте.",
+        "checklist": [
+          "Сохраните вежливые формы vă numiți / sunteți.",
+          "Разделите din Ucraina и în București.",
+          "При непонимании попросите повторить."
+        ],
+        "model": "Bună ziua! Mă numesc Dima. Cum vă numiți? Îmi pare bine. Sunt din Ucraina, dar locuiesc în București. Repetați, vă rog."
+      }
+    }
+  ],
+  "theory": [
+    {
+      "lessonId": "A1.04",
+      "title": "Первый разговор: обращение, имя, происхождение",
+      "sections": [
+        {
+          "title": "Обращение к одному незнакомому",
+          "body": [
+            "С одним взрослым собеседником при первом знакомстве выбирайте dumneavoastră. Глагол при этом ставится в форме sunteți или locuiți, хотя собеседник один. В вопросе об имени готовая модель Cum vă numiți?; ответ Mă numesc Dima. Пара tu ești / te numești подходит человеку на «ты». Не соединяйте vă с numești или te с numiți: это смешение двух способов обращения. В румынском личное местоимение иногда опускается, поэтому Cum vă numiți? остаётся вежливым и без явно произнесённого dumneavoastră."
+          ],
+          "examples": [
+            {
+              "ro": "Cum vă numiți? — Mă numesc Dima.",
+              "ru": "Как вас зовут? — Меня зовут Дима."
+            },
+            {
+              "ro": "De unde sunteți? — Sunt din Ucraina.",
+              "ru": "Откуда вы? — Я из Украины."
+            }
+          ]
+        },
+        {
+          "title": "Три вопроса — три разных ответа",
+          "body": [
+            "Cum vă numiți? спрашивает имя. De unde sunteți? спрашивает происхождение, ответ Sunt din Ucraina. Unde locuiți? спрашивает нынешнее место проживания, ответ Locuiesc în București. Жизнь в Бухаресте не делает ответ «из Бухареста» верным для происхождения. В учебной сцене Дима может назвать район Militari, но не обязан делиться адресом. Перед ответом найдите ключевое слово в вопросе: cum, de unde или unde. Название языка Vorbesc română сообщает умение говорить, а не страну происхождения или нынешний город."
+          ],
+          "examples": [
+            {
+              "ro": "Unde locuiți? — Locuiesc în București.",
+              "ru": "Где вы живёте? — В Бухаресте."
+            },
+            {
+              "ro": "Dumneavoastră sunteți vecina?",
+              "ru": "Вы соседка?"
+            }
+          ]
+        },
+        {
+          "title": "Завершение и восстановление разговора",
+          "body": [
+            "Îmi pare bine — готовая формула после знакомства. Если услышали имя неясно, Repetați, vă rog просит повторить вежливо, а Nu înțeleg прямо сообщает о непонимании. Сначала уточните непонятное, затем отвечайте на нужный вопрос. Не угадывайте сведения о соседке по тому, как она говорит. Вопрос Vorbiți română? и ответ Vorbesc puțin română полезны для короткого контакта. Сохраняйте одну форму обращения на протяжении беседы: сначала вежливое sunteți, затем locuiți и repetați. Перейти на tu можно позднее по взаимной договорённости, но это не автоматическое следствие представления.",
+            "На вопрос Cum vă numiți? не отвечайте названием языка: спрашивают имя. На De unde sunteți? не отвечайте только текущим адресом. Например, Ana spune „Sunt din Iași, dar locuiesc în Cluj”: выясните, какое место стоит после din, а какое после locuiesc în. Разные предлоги позволяют хранить два факта без противоречия. При затруднении повторите один короткий вопрос, не меняя обращение на tu. Это полезнее, чем молча принимать непонятное имя."
+          ],
+          "examples": [
+            {
+              "ro": "Vorbesc puțin română.",
+              "ru": "Я немного говорю по-румынски."
+            },
+            {
+              "ro": "Nu înțeleg. Repetați, vă rog.",
+              "ru": "Не понимаю. Повторите, пожалуйста."
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "Cum vă numești?",
+          "right": "Cum vă numiți?",
+          "why": "Вежливый показатель vă требует формы numiți."
+        },
+        {
+          "wrong": "Dumneavoastră ești aici?",
+          "right": "Dumneavoastră sunteți aici?",
+          "why": "Вежливая форма глагола sunteți."
+        },
+        {
+          "wrong": "Sunt în Ucraina. [откуда]",
+          "right": "Sunt din Ucraina.",
+          "why": "Для происхождения din, не în."
+        }
+      ],
+      "decisionGuide": [
+        "Нужно имя: Cum vă numiți? → Mă numesc...",
+        "Нужно происхождение: De unde sunteți? → Sunt din...",
+        "Нужен нынешний город: Unde locuiți? → Locuiesc în..."
+      ],
+      "sheetRows": [
+        [
+          "Имя",
+          "Cum vă numiți?",
+          "Mă numesc Dima."
+        ],
+        [
+          "Происхождение",
+          "De unde sunteți?",
+          "Sunt din Ucraina."
+        ],
+        [
+          "Жительство",
+          "Unde locuiți?",
+          "Locuiesc în București."
+        ],
+        [
+          "Переспрос",
+          "Nu înțeleg.",
+          "Repetați, vă rog."
+        ]
+      ],
+      "sources": [
+        {
+          "title": "UBB — Descrierea minimală a limbii române",
+          "url": "https://video.elearning.ubbcluj.ro/wp-content/uploads/2016/09/Descrierea-minimala-a-limbii-romane-12-IULIE-2016.pdf"
+        },
+        {
+          "title": "Consiliul Europei — CEFR Companion Volume",
+          "url": "https://rm.coe.int/cefr-companion-volume-with-new-descriptors-2020/16809ea0d4"
+        }
+      ]
+    },
+    {
+      "lessonId": "A1.12",
+      "title": "Какой ответ нужен: вопрос, отрицание и связь",
+      "sections": [
+        {
+          "title": "Сначала определите пробел в информации",
+          "body": [
+            "Cine спрашивает о человеке, ce — о предмете или действии, unde — о месте, când — о времени, cum — о способе и de ce — о причине. Если вы ищете магазин, вопрос Unde este magazinul?; если нужно узнать причину отсутствия, De ce nu mergeți? Разница не в одной вежливости, а в том, какую информацию даст ответ. В простой модели вопросительное слово ставится впереди, а отдельный английский вспомогательный do не нужен. Вопрос без вопросительного слова также возможен с интонацией: Aveți timp?"
+          ],
+          "examples": [
+            {
+              "ro": "Unde este magazinul?",
+              "ru": "Где магазин?"
+            },
+            {
+              "ro": "Când mergeți?",
+              "ru": "Когда вы идёте?"
+            }
+          ]
+        },
+        {
+          "title": "Отрицание и его область",
+          "body": [
+            "Nu обычно стоит перед личной формой глагола: Nu am timp; Nu merg; Nu vreau să merg. В последней фразе говорящий не хочет идти. Для A1 это ясная модель отрицания желания. Если нужно уточнить наличие товара, Nu avem mărimea M отрицает наличие именно M. Сохраняйте названный предмет или размер после отрицания; ответ «нет» без них может быть недостаточным в магазине. Ответ Nu, nu am timp естественен: первое nu отвечает на вопрос, второе отрицает глагол."
+          ],
+          "examples": [
+            {
+              "ro": "De ce nu mergeți?",
+              "ru": "Почему вы не идёте?"
+            },
+            {
+              "ro": "Nu am timp.",
+              "ru": "У меня нет времени."
+            }
+          ]
+        },
+        {
+          "title": "Добавить, противопоставить, объяснить",
+          "body": [
+            "Și соединяет совместимые факты: Lucrez și citesc. Dar вводит контраст: Vreau să merg, dar nu am timp. Pentru că объясняет причину: Nu merg pentru că sunt obosit. На De ce? отвечайте причиной, а не повторяйте место или время. Для женщины форма прилагательного obosită. Эти короткие связи могут быть в одном разговоре: хочу пойти, но не могу, потому что занят. Не превращайте для этого каждое предложение в длинный текст; сначала проверьте связь двух конкретных мыслей. Перед dar в письменной фразе обычно ставится запятая.",
+            "В практическом разговоре De ce nu aveți mărimea M? запрашивает объяснение отсутствия, а Aveți mărimea M? лишь проверяет наличие. Ответ pentru că вводит причину, но продавец может просто сказать Nu avem; нельзя выдумывать объяснение. Для выбора верной связи сначала перескажите две части по-русски: это добавление, противопоставление или причина? Затем выбирайте союз. Слова însă и dar могут оба выражать противопоставление, но в короткой опоре достаточно dar."
+          ],
+          "examples": [
+            {
+              "ro": "Vreau un ceai și un sendviș.",
+              "ru": "Я хочу чай и сэндвич."
+            },
+            {
+              "ro": "Vreau să merg, dar nu pot.",
+              "ru": "Я хочу пойти, но не могу."
+            },
+            {
+              "ro": "Nu merg pentru că sunt obosit.",
+              "ru": "Я не иду, потому что устал."
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "Nu mergi de ce? [нейтральный вопрос]",
+          "right": "De ce nu mergi?",
+          "why": "Вопросительное сочетание обычно стоит в начале."
+        },
+        {
+          "wrong": "Eu am nu timp.",
+          "right": "Eu nu am timp.",
+          "why": "Nu ставится перед личным глаголом."
+        },
+        {
+          "wrong": "Nu merg, dar sunt obosit. [причина]",
+          "right": "Nu merg pentru că sunt obosit.",
+          "why": "Причину связывают pentru că; dar вводит контраст."
+        }
+      ],
+      "decisionGuide": [
+        "Ищете место → unde; причину → de ce; способ → cum.",
+        "Нужно отрицание → nu перед личным глаголом.",
+        "Связь между мыслями: добавить și, противопоставить dar, объяснить pentru că."
+      ],
+      "sheetRows": [
+        [
+          "Место",
+          "Unde?",
+          "Unde este magazinul?"
+        ],
+        [
+          "Причина",
+          "De ce? / Pentru că...",
+          "De ce nu mergi?"
+        ],
+        [
+          "Отрицание",
+          "nu + глагол",
+          "Nu am timp."
+        ],
+        [
+          "Связь",
+          "și / dar / pentru că",
+          "Vreau, dar nu pot."
+        ]
+      ],
+      "sources": [
+        {
+          "title": "UBB — Descrierea minimală a limbii române",
+          "url": "https://video.elearning.ubbcluj.ro/wp-content/uploads/2016/09/Descrierea-minimala-a-limbii-romane-12-IULIE-2016.pdf"
+        },
+        {
+          "title": "Consiliul Europei — CEFR Companion Volume",
+          "url": "https://rm.coe.int/cefr-companion-volume-with-new-descriptors-2020/16809ea0d4"
+        }
+      ]
+    },
+    {
+      "lessonId": "A1.13",
+      "title": "Целые учебные цены и количество",
+      "sections": [
+        {
+          "title": "Число зависит от существительного",
+          "body": [
+            "Un leu, doi lei — мужская пара; o carte, două cărți — женская. У среднего рода в этих простых моделях un в единственном и două во множественном: un tricou, două tricouri. Это не перевод русского «два» одной неизменной формой. Сравните doisprezece lei и douăsprezece cărți: у двенадцати различаются формы по роду. При ответе на Câte cărți? называется число книг, при Câți lei? число леев. Стоимость спрашивают Cât costă?, а количество товара — сколько вещей, это разные сведения."
+          ],
+          "examples": [
+            {
+              "ro": "Cât costă cartea?",
+              "ru": "Сколько стоит книга?"
+            },
+            {
+              "ro": "Cartea costă cincisprezece lei.",
+              "ru": "Книга стоит пятнадцать леев."
+            }
+          ]
+        },
+        {
+          "title": "Где появляется de",
+          "body": [
+            "Для 2–19 в простых целых суммах говорят doi lei, cincisprezece lei без de. Для учебных сумм 20–99 перед существительным используют de: douăzeci de lei; treizeci de lei. Число 25 строится douăzeci și cinci, поэтому перед lei получается douăzeci și cinci de lei. Союз și здесь часть числительного, а не соединение двух разных цен. Не переносите de из un pahar de apă: там оно связывает меру с продуктом по другому правилу. Если нужно проверить сумму на слух, повторите её целиком."
+          ],
+          "examples": [
+            {
+              "ro": "Un leu, doi lei.",
+              "ru": "Один лей, два лея."
+            },
+            {
+              "ro": "Douăsprezece cărți.",
+              "ru": "Двенадцать книг."
+            }
+          ]
+        },
+        {
+          "title": "Ценник внутри упражнения",
+          "body": [
+            "Все суммы и наличие вещей в этих заданиях вымышлены. Фраза Cartea costă cincisprezece lei учит прочитать целую цену, а не обещает такую цену в городе. Сначала установите, какой предмет указан, затем число и валюту. Un leu отличается от doi lei; в числе 31 сохраните и соединительное și, и de перед lei: treizeci și unu de lei. При выборе ответа проверяйте, не перепутаны ли двенадцать и двадцать, а также количество книг и сумму денег. Для реальной покупки узнавайте актуальную цену отдельно.",
+            "При числе 21, 25 или 31 соединение zeci și единица сохраняется: douăzeci și unu, douăzeci și cinci, treizeci și unu. В целых учебных ценах перед lei остаётся de. Не смешивайте Cât costă? с Câți lei aveți?: первый вопрос о цене вещи, второй о количестве денег у человека. Если учебный ценник не называет товар, из него нельзя вывести цену футболки. Это чтение данных, а не задача на догадку."
+          ],
+          "examples": [
+            {
+              "ro": "Douăzeci și cinci de lei.",
+              "ru": "Двадцать пять леев."
+            },
+            {
+              "ro": "Treizeci și unu de lei.",
+              "ru": "Тридцать один лей."
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "doi cărți",
+          "right": "două cărți",
+          "why": "Carte женского рода."
+        },
+        {
+          "wrong": "douăzeci lei",
+          "right": "douăzeci de lei",
+          "why": "В этой целой сумме после 20 нужно de."
+        },
+        {
+          "wrong": "cincisprezece de lei",
+          "right": "cincisprezece lei",
+          "why": "В простой сумме 15 de нет."
+        }
+      ],
+      "decisionGuide": [
+        "Назовите предмет и его румынский род: leu/lei или carte/cărți.",
+        "Проверьте диапазон: 2–19 без de; 20–99 с de в данных сочетаниях.",
+        "Спросите цену через Cât costă? и не принимайте учебный ценник за реальный."
+      ],
+      "sheetRows": [
+        [
+          "1 / 2",
+          "un leu / doi lei",
+          "o carte / două cărți"
+        ],
+        [
+          "12",
+          "doisprezece lei",
+          "douăsprezece cărți"
+        ],
+        [
+          "15",
+          "cincisprezece lei",
+          "без de"
+        ],
+        [
+          "25",
+          "douăzeci și cinci de lei",
+          "с și и de"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "UBB — Descrierea minimală a limbii române",
+          "url": "https://video.elearning.ubbcluj.ro/wp-content/uploads/2016/09/Descrierea-minimala-a-limbii-romane-12-IULIE-2016.pdf"
+        },
+        {
+          "title": "Consiliul Europei — CEFR Companion Volume",
+          "url": "https://rm.coe.int/cefr-companion-volume-with-new-descriptors-2020/16809ea0d4"
+        }
+      ]
+    },
+    {
+      "lessonId": "A1.19",
+      "title": "Где находится и куда движется",
+      "sections": [
+        {
+          "title": "Положение в пространстве",
+          "body": [
+            "În cameră указывает нахождение внутри комнаты; pe masă — на поверхности стола; sub masă — под столом. Lângă parc означает рядом с парком; între magazin și parc — между двумя ориентирами. Для ответа на Unde este...? сначала представьте положение предмета, затем выберите предлог. Не выбирайте его только по русскому «в» или «на». La magazin сообщает пункт или цель деятельности, а не то же самое пространственное отношение, что pe. В простых группах после таких предлогов часто нет присоединённого артикля: pe masă."
+          ],
+          "examples": [
+            {
+              "ro": "Cartea este pe masă.",
+              "ru": "Книга на столе."
+            },
+            {
+              "ro": "Telefonul este sub masă.",
+              "ru": "Телефон под столом."
+            }
+          ]
+        },
+        {
+          "title": "Исходный пункт, цель и направление",
+          "body": [
+            "Ies din cameră означает выход изнутри комнаты. Vin de la birou обозначает исходный пункт поездки или ходьбы. Merg la magazin называет цель; Merg spre parc только направление в сторону парка и не утверждает прибытие. Merg acasă — привычная форма без la перед acasă. Если человек спрашивает путь к входу, la intrare указывает цель. Смысл действия определяется вместе глаголом и предлогом: нахождение, выход и движение к цели не сводятся к одному русскому «из/в»."
+          ],
+          "examples": [
+            {
+              "ro": "Magazinul este între bloc și parc.",
+              "ru": "Магазин между домом и парком."
+            },
+            {
+              "ro": "Ies din cameră.",
+              "ru": "Я выхожу из комнаты."
+            }
+          ]
+        },
+        {
+          "title": "Транспорт и оформление существительного",
+          "body": [
+            "Cu metroul / cu autobuzul — на метро / автобусе, pe jos — пешком. Merg без дополнения само не уточняет способ передвижения. После простого предлога с уточняющим определением возможна другая форма группы: pe masă, но pe masa albă — на белом столе; în cameră, но în camera mea. Это рабочие примеры, не универсальный запрет определённого артикля после каждого предлога. Для маршрута достаточно простых опор: магазин рядом с парком; я иду к магазину пешком. Затем отдельно проверяйте, где находится вход.",
+            "В маршруте фраза Magazinul este lângă parc описывает положение магазина, а Merg la magazin сообщает направление к нему. Книга может лежать pe masă, а телефон sub masă; если поменять предлог, меняется факт. В выражении între bloc și parc требуются два ориентира: одно слово между без второй опоры оставит местоположение неясным. Для новых сцен сперва нарисуйте мысленно точку, поверхность и направление движения."
+          ],
+          "examples": [
+            {
+              "ro": "Merg spre parc pe jos.",
+              "ru": "Я иду пешком в сторону парка."
+            },
+            {
+              "ro": "Vin de la birou cu metroul.",
+              "ru": "Я еду из офиса на метро."
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "Merg la acasă.",
+          "right": "Merg acasă.",
+          "why": "В базовой модели acasă употребляется без la."
+        },
+        {
+          "wrong": "Merg spre parc = am ajuns în parc",
+          "right": "Merg spre parc = двигаюсь в сторону парка",
+          "why": "Spre не гарантирует достижения цели."
+        },
+        {
+          "wrong": "Cartea este sub masă. [на поверхности]",
+          "right": "Cartea este pe masă.",
+          "why": "Pe обозначает поверхность, sub — положение под ней."
+        }
+      ],
+      "decisionGuide": [
+        "Нужна позиция → în, pe, sub, lângă или între по отношению к ориентиру.",
+        "Нужен исходный пункт → din при выходе изнутри, de la при пункте.",
+        "Нужны цель/способ → la или spre; cu metroul либо pe jos."
+      ],
+      "sheetRows": [
+        [
+          "Внутри / поверхность",
+          "în cameră",
+          "pe masă"
+        ],
+        [
+          "Под / рядом",
+          "sub masă",
+          "lângă parc"
+        ],
+        [
+          "Откуда",
+          "din cameră",
+          "de la birou"
+        ],
+        [
+          "Куда / как",
+          "la magazin / spre parc",
+          "cu metroul / pe jos"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "UBB — Descrierea minimală a limbii române",
+          "url": "https://video.elearning.ubbcluj.ro/wp-content/uploads/2016/09/Descrierea-minimala-a-limbii-romane-12-IULIE-2016.pdf"
+        },
+        {
+          "title": "Consiliul Europei — CEFR Companion Volume",
+          "url": "https://rm.coe.int/cefr-companion-volume-with-new-descriptors-2020/16809ea0d4"
+        }
+      ]
+    },
+    {
+      "lessonId": "A1.20",
+      "title": "Поворот, положение и остановка",
+      "sections": [
+        {
+          "title": "Начальный вопрос и порядок",
+          "body": [
+            "Cum ajung la intrare? задаёт цель маршрута. Ответ Mergeți înainte, apoi luați-o la stânga включает два последовательных шага: сначала движение прямо, затем поворот. Apoi нельзя заменить произвольным новым направлением без изменения смысла. Luați-o la stânga запоминается как целый оборот: -o не означает в этом упражнении названный товар. Назовите цель вопроса, чтобы прохожий отвечал о входе, а не о другом здании. Все маршруты здесь вымышлены и не являются инструкцией по действительным улицам."
+          ],
+          "examples": [
+            {
+              "ro": "Cum ajung la intrare?",
+              "ru": "Как добраться до входа?"
+            },
+            {
+              "ro": "Mergeți înainte.",
+              "ru": "Идите прямо."
+            }
+          ]
+        },
+        {
+          "title": "Поворот и расположение",
+          "body": [
+            "В обороте luați-o la stânga / la dreapta речь о повороте. În stânga / în dreapta ясно описывают положение входа или магазина; la stânga / la dreapta также допустимы для положения. В другом условном примере сначала поверните налево, затем ищите вход справа: глагол и этап маршрута раскрывают смысл. Если пропустили одно слово, спросите La stânga sau la dreapta? и повторите услышанную последовательность. Почти одинаковые слова могут дать разные действия, поэтому угадывать опаснее, чем переспросить. Mai spuneți o dată, vă rog просит повторить реплику."
+          ],
+          "examples": [
+            {
+              "ro": "Apoi luați-o la stânga.",
+              "ru": "Затем поверните налево."
+            },
+            {
+              "ro": "Intrarea este în dreapta.",
+              "ru": "Вход справа."
+            }
+          ]
+        },
+        {
+          "title": "Способ пути и счёт остановок",
+          "body": [
+            "Merg pe jos означает пешком, cu metroul или cu autobuzul — транспорт. Luați autobuzul просит сесть в автобус, Coborâți la prima stație или la a doua stație — выйти на первой либо второй остановке. A doua обозначает порядок остановки, не номер маршрута. Este aproape? спрашивает, близко ли цель, но ответ «да» не сообщает поворот. Сначала отделите путь пешком от транспорта, потом проверьте направление и ориентир. В реальной ситуации после учебной фразы нужен актуальный план улиц.",
+            "Когда в одном ответе встречаются la stânga и în dreapta, выпишите два отдельных пункта: поворот и место входа. Это предотвращает типичное смешение. Dacă — «если» может встретиться позднее, но для A1 достаточно короткого переспроса La stânga sau la dreapta? Порядок остановок также нужно подтвердить целой формулой: la prima stație или la a doua stație. Прохожий может не знать путь; учебное задание не предполагает, что любой реальный прохожий даст правильный маршрут."
+          ],
+          "examples": [
+            {
+              "ro": "Coborâți la a doua stație.",
+              "ru": "Выйдите на второй остановке."
+            },
+            {
+              "ro": "Mai spuneți o dată, vă rog.",
+              "ru": "Повторите, пожалуйста."
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "Intrarea este stânga.",
+          "right": "Intrarea este în stânga.",
+          "why": "Нужен предлог: în stânga и la stânga оба могут обозначать положение слева; здесь используем în stânga."
+        },
+        {
+          "wrong": "a doua stație = автобус 2",
+          "right": "a doua stație = вторая остановка",
+          "why": "Порядковая форма описывает остановку."
+        },
+        {
+          "wrong": "Luați-o în dreapta. [поворот]",
+          "right": "Luați-o la dreapta.",
+          "why": "В формуле поворота la dreapta."
+        }
+      ],
+      "decisionGuide": [
+        "Назовите цель вопросом Cum ajung la...?",
+        "Разделите шаги: înainte, затем la stânga или la dreapta.",
+        "Отдельно проверьте положение în stânga/dreapta или номер остановки prima/a doua."
+      ],
+      "sheetRows": [
+        [
+          "Вопрос",
+          "Cum ajung la intrare?",
+          "цель"
+        ],
+        [
+          "Поворот",
+          "luați-o la stânga",
+          "движение"
+        ],
+        [
+          "Положение",
+          "intrarea este în stânga",
+          "где вход"
+        ],
+        [
+          "Остановка",
+          "a doua stație",
+          "вторая по порядку"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "UBB — Descrierea minimală a limbii române",
+          "url": "https://video.elearning.ubbcluj.ro/wp-content/uploads/2016/09/Descrierea-minimala-a-limbii-romane-12-IULIE-2016.pdf"
+        },
+        {
+          "title": "Consiliul Europei — CEFR Companion Volume",
+          "url": "https://rm.coe.int/cefr-companion-volume-with-new-descriptors-2020/16809ea0d4"
+        }
+      ]
+    },
+    {
+      "lessonId": "A1.21",
+      "title": "Порция, ограничение, предпочтение и счёт",
+      "sections": [
+        {
+          "title": "Готовая просьба и единица",
+          "body": [
+            "Aș dori un ceai, vă rog — вежливая просьба, которую на A1 учат целиком. Можно назвать товар короче: Un ceai, vă rog. Для порции используйте un pahar de apă, o sticlă de apă или o felie de pâine. De связывает меру и содержимое. В un pahar de apă речь о стакане воды, не о воде «из стакана». Назовите меру, если она важна: стакан и бутылка не совпадают. Перед выбором попросите Meniul, vă rog; счёт попросите позже."
+          ],
+          "examples": [
+            {
+              "ro": "Pot vedea meniul?",
+              "ru": "Можно посмотреть меню?"
+            },
+            {
+              "ro": "Aș dori un ceai fără lapte.",
+              "ru": "Я хотел бы чай без молока."
+            }
+          ]
+        },
+        {
+          "title": "Как уточнить заказ",
+          "body": [
+            "В простом заказе ограничение ставьте рядом с продуктом: un ceai fără lapte, apă fără gaz или apă cu gaz. Fără и cu меняют смысл. Если официант предлагает воду с газом, а вы хотите без газа, можно вежливо поправить: Nu, apă fără gaz, vă rog. Для двух людей назовите получателя: Pentru mine, un ceai; pentru Ana, o cafea. Не выводите заказ Аны из заказа Димы. Если не расслышали подтверждение, Puteți repeta, vă rog? просит повторить его, не требуя угадать."
+          ],
+          "examples": [
+            {
+              "ro": "Un pahar de apă fără gaz, vă rog.",
+              "ru": "Стакан воды без газа, пожалуйста."
+            },
+            {
+              "ro": "Pentru Ana, o cafea cu lapte.",
+              "ru": "Для Аны кофе с молоком."
+            }
+          ]
+        },
+        {
+          "title": "Вкус, счёт и оплата",
+          "body": [
+            "Îmi place cafeaua — мне нравится кофе; Îmi plac merele — нравятся яблоки. Форма place/plac зависит от числа того, что нравится, не от говорящего. Это конструкция предпочтения, а не сама просьба принести блюдо. В конце Nota de plată, vă rog просит счёт. Meniul, vă rog просит меню и на этом этапе не подходит. Pot plăti cu cardul? отдельно проверяет способ оплаты и не предполагает, что карта принимается. В вымышленной сцене возможен любой ответ, поэтому сведения о действительном кафе нужно узнавать на месте.",
+            "В заказе pentru mine и pentru Ana не являются названиями блюд, а отмечают получателя. Если официант произносит numai ceai, проверьте, сохранились ли fără lapte и нужная порция. Отдельная просьба Nota de plată не добавляет напиток к заказу. Для одного sendviș нужна форма un, для одной sticlă — o; род слова и название меры следует хранить вместе. После получения счёта можно задать вопрос о карте, однако учебный текст не устанавливает правило оплаты конкретного кафе."
+          ],
+          "examples": [
+            {
+              "ro": "Îmi place cafeaua. Îmi plac merele.",
+              "ru": "Мне нравится кофе. Мне нравятся яблоки."
+            },
+            {
+              "ro": "Nota de plată, vă rog.",
+              "ru": "Счёт, пожалуйста."
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "un pahar apă",
+          "right": "un pahar de apă",
+          "why": "После названия меры требуется de."
+        },
+        {
+          "wrong": "Îmi plac cafeaua.",
+          "right": "Îmi place cafeaua.",
+          "why": "Один продукт согласуется с place."
+        },
+        {
+          "wrong": "Meniul, vă rog. [нужен счёт]",
+          "right": "Nota de plată, vă rog.",
+          "why": "Meniul — меню, nota — счёт."
+        }
+      ],
+      "decisionGuide": [
+        "До заказа: спросите меню; затем выберите меру + de + продукт.",
+        "Назовите ограничение fără/ cu и получателя, если заказ общий.",
+        "После заказа просите nota; оплату уточняйте отдельным вопросом."
+      ],
+      "sheetRows": [
+        [
+          "До заказа",
+          "Meniul, vă rog.",
+          "меню"
+        ],
+        [
+          "Порция",
+          "un pahar de apă",
+          "мера + de"
+        ],
+        [
+          "Предпочтение",
+          "îmi place / îmi plac",
+          "один / несколько"
+        ],
+        [
+          "После",
+          "Nota de plată, vă rog.",
+          "счёт"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "UBB — Descrierea minimală a limbii române",
+          "url": "https://video.elearning.ubbcluj.ro/wp-content/uploads/2016/09/Descrierea-minimala-a-limbii-romane-12-IULIE-2016.pdf"
+        },
+        {
+          "title": "Consiliul Europei — CEFR Companion Volume",
+          "url": "https://rm.coe.int/cefr-companion-volume-with-new-descriptors-2020/16809ea0d4"
+        }
+      ]
+    },
+    {
+      "lessonId": "A1.22",
+      "title": "Предмет, вариант и способ оплаты",
+      "sections": [
+        {
+          "title": "Какая вещь имеется в виду",
+          "body": [
+            "Aveți acest tricou în mărimea M? связывает один предмет с одним размером. Если спросить только Aveți M?, возможен ответ о другом товаре. Например, наличие синей юбки размера L ничего не говорит о наличии синей футболки размера M: предмет и размер проверяют вместе. Ce culoare doriți? спрашивает цвет, Cât costă? цену. Начните с товара, размера и цвета, а затем проверяйте каждый ответ. Наличие и учебная цена не описывают реальные магазины Милитари."
+          ],
+          "examples": [
+            {
+              "ro": "Aveți acest tricou în mărimea M?",
+              "ru": "Есть эта футболка размера M?"
+            },
+            {
+              "ro": "Ce culoare doriți?",
+              "ru": "Какой цвет вы хотите?"
+            }
+          ]
+        },
+        {
+          "title": "Цвет и согласование",
+          "body": [
+            "Un tricou albastru: tricou среднего рода в единственном согласуется как мужской. O fustă albastră: fustă женского рода. Pantaloni albaștri: форма обычно множественная, даже если покупается одна пара брюк. Русский род слов «футболка» и «брюки» не заменяет румынскую форму. Aveți ceva mai mare? — готовый запрос о более крупном варианте; ceva mai mic — о меньшем. Если цвет принципиален, повторите его вместе с запросом: Aveți ceva mai mic, albastru?"
+          ],
+          "examples": [
+            {
+              "ro": "Un tricou albastru.",
+              "ru": "Синяя футболка."
+            },
+            {
+              "ro": "O fustă albastră.",
+              "ru": "Синяя юбка."
+            }
+          ]
+        },
+        {
+          "title": "Когда спрашивать об оплате",
+          "body": [
+            "После выбора можно спросить Pot plăti cu cardul? Это вопрос о возможности, а не утверждение. Plătesc în numerar сообщает решение платить наличными. Устойчивые сочетания используют разные предлоги: cu cardul и în numerar. Если ответ об оплате неясен, переспросите перед расчётом. Вежливое Aș dori используется как целая просьба: Aș dori o fustă albastră. Не требуется разбирать условное наклонение для этой формулы. Сначала выясните наличие именно нужного варианта; цена и оплата идут затем.",
+            "В таблице albastru и albastră нельзя выбрать по полу покупателя: согласуется название вещи. Даже когда Дима спрашивает о юбке, fustă остаётся женским словом, а tricou остаётся средним. Это проверяется до вопроса об оплате. При ответе Avem mărimea L, dar numai pentru fustă сначала установите, к какому предмету относится размер. Наличие юбки не даёт ответа о брюках или футболке. Если предложенный размер велик, уточнение Aveți ceva mai mic? логично; если он мал, спросите Aveți ceva mai mare? В вопросе Pot plăti cu cardul? речь о допустимости оплаты, поэтому до ответа продавца нельзя писать Plătesc cu cardul как установленный факт. Реальную стоимость и наличие нужно проверять заново."
+          ],
+          "examples": [
+            {
+              "ro": "Pantaloni albaștri.",
+              "ru": "Синие брюки."
+            },
+            {
+              "ro": "Pot plăti cu cardul?",
+              "ru": "Можно оплатить картой?"
+            },
+            {
+              "ro": "Plătesc în numerar.",
+              "ru": "Я плачу наличными."
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "o tricou albastră",
+          "right": "un tricou albastru",
+          "why": "Tricou среднего рода в единственном."
+        },
+        {
+          "wrong": "pantaloni albastru",
+          "right": "pantaloni albaștri",
+          "why": "Pantaloni требует мужского множественного согласования."
+        },
+        {
+          "wrong": "Plătesc cu numerar.",
+          "right": "Plătesc în numerar.",
+          "why": "Устойчивое сочетание для наличных — în numerar."
+        }
+      ],
+      "decisionGuide": [
+        "Укажите вещь, цвет и размер вместе.",
+        "Ответ об отсутствии? Уточните другой вариант, не считайте его выбранным автоматически.",
+        "После выбора спросите цену и возможность оплаты."
+      ],
+      "sheetRows": [
+        [
+          "Товар",
+          "acest tricou în mărimea M",
+          "вещь + размер"
+        ],
+        [
+          "Цвет",
+          "tricou albastru / fustă albastră",
+          "согласование"
+        ],
+        [
+          "Альтернатива",
+          "ceva mai mare / mai mic",
+          "другой размер"
+        ],
+        [
+          "Оплата",
+          "cu cardul / în numerar",
+          "разные предлоги"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "UBB — Descrierea minimală a limbii române",
+          "url": "https://video.elearning.ubbcluj.ro/wp-content/uploads/2016/09/Descrierea-minimala-a-limbii-romane-12-IULIE-2016.pdf"
+        },
+        {
+          "title": "Consiliul Europei — CEFR Companion Volume",
+          "url": "https://rm.coe.int/cefr-companion-volume-with-new-descriptors-2020/16809ea0d4"
+        }
+      ]
+    }
+  ],
+  "audit": [
+    {
+      "lessonId": "A1.01",
+      "status": "reviewed",
+      "findings": "Звуки ă, â/î, ș, ț и готовые приветствия подкреплены двумя заданиями на диакритику; аудио нет.",
+      "coverage": [
+        "Существующая таблица чтения и восемь письменных заданий остаются исходной опорой."
+      ]
+    },
+    {
+      "lessonId": "A1.02",
+      "status": "reviewed",
+      "findings": "Есть контрасты ce/ci и che/chi, gh и ударение cafea; оценка произношения ограничена текстом.",
+      "coverage": [
+        "Сочетания проверяются отдельно от новых бытовых сцен."
+      ]
+    },
+    {
+      "lessonId": "A1.03",
+      "status": "reviewed",
+      "findings": "Таблица a fi различает eu/tu/noi/voi и два значения sunt.",
+      "coverage": [
+        "В соседской сцене повторяется вежливое sunteți после этой опоры."
+      ]
+    },
+    {
+      "lessonId": "A1.04",
+      "status": "expanded",
+      "findings": "Знакомство различает имя, происхождение, город и язык, но исходные чтения очень коротки.",
+      "coverage": [
+        "Добавлены разбор вежливого обращения и длинный вымышленный диалог с четырьмя вопросами."
+      ]
+    },
+    {
+      "lessonId": "A1.05",
+      "status": "reviewed",
+      "findings": "Род дан вместе с un/o и doi/două, включая средний род.",
+      "coverage": [
+        "Формы товара и порций повторяются только после знакомства с родом."
+      ]
+    },
+    {
+      "lessonId": "A1.06",
+      "status": "reviewed",
+      "findings": "Niște, числа и множественное показываются на конкретных предметах.",
+      "coverage": [
+        "Порции кафе используют уже известные формы единственного/множественного."
+      ]
+    },
+    {
+      "lessonId": "A1.07",
+      "status": "reviewed",
+      "findings": "Определённый артикль мотивирован повторным упоминанием книги и телефона.",
+      "coverage": [
+        "В сценах используются известные предметы tricoul, meniul и nota."
+      ]
+    },
+    {
+      "lessonId": "A1.08",
+      "status": "reviewed",
+      "findings": "Согласование охватывает цвет и число; базовые упражнения предметные.",
+      "coverage": [
+        "Цвета футболки, юбки и брюк переносят правило в выбор товара."
+      ]
+    },
+    {
+      "lessonId": "A1.09",
+      "status": "reviewed",
+      "findings": "A avea отделяет наличие, возраст и потребность.",
+      "coverage": [
+        "Aveți?/Nu avem в магазине переносит наличие на конкретный размер."
+      ]
+    },
+    {
+      "lessonId": "A1.10",
+      "status": "reviewed",
+      "findings": "Настоящее время строится на работе, проживании, чтении и еде.",
+      "coverage": [
+        "Locuiesc в соседском обмене имеет явную текущую локацию."
+      ]
+    },
+    {
+      "lessonId": "A1.11",
+      "status": "reviewed",
+      "findings": "Модальные формы и să представлены с несколькими лицами; поздние формы не требуются.",
+      "coverage": [
+        "Готовые Pot plăti? и Pot vedea? используются без новых парадигм."
+      ]
+    },
+    {
+      "lessonId": "A1.12",
+      "status": "expanded",
+      "findings": "Вопросы, nu и связи уже введены, но исходные чтения проверяют короткую причину.",
+      "coverage": [
+        "Добавлен выбор нужного вопроса, область отрицания и контраст și/dar/pentru că."
+      ]
+    },
+    {
+      "lessonId": "A1.13",
+      "status": "expanded",
+      "findings": "Целые учебные суммы, doi/două и de при 20–99 есть в уроке.",
+      "coverage": [
+        "Добавлено сравнение цены и количества; все ценники явно вымышленные."
+      ]
+    },
+    {
+      "lessonId": "A1.14",
+      "status": "reviewed",
+      "findings": "Часы, дни и погода представлены в отдельных коротких задачах.",
+      "coverage": [
+        "Новые сцены не требуют действительных расписаний или прогноза."
+      ]
+    },
+    {
+      "lessonId": "A1.15",
+      "status": "reviewed",
+      "findings": "Perfect compus учит вчерашний завершённый эпизод.",
+      "coverage": [
+        "Новые A1-сцены намеренно держатся в настоящем и готовых формулах."
+      ]
+    },
+    {
+      "lessonId": "A1.16",
+      "status": "reviewed",
+      "findings": "Будущие voi и o să представлены для планов, не для покупательской просьбы.",
+      "coverage": [
+        "Aș dori в кафе помечено как готовая просьба, не новое правило будущего."
+      ]
+    },
+    {
+      "lessonId": "A1.17",
+      "status": "reviewed",
+      "findings": "Există и este различают наличие и положение предмета.",
+      "coverage": [
+        "В маршруте уточняется положение входа после шага."
+      ]
+    },
+    {
+      "lessonId": "A1.18",
+      "status": "reviewed",
+      "findings": "Мой/твой и этот/тот согласованы с предметом в исходных заданиях.",
+      "coverage": [
+        "Acest tricou повторяется в магазине с указанным размером."
+      ]
+    },
+    {
+      "lessonId": "A1.19",
+      "status": "expanded",
+      "findings": "Pe/sub/lângă/între и din/de la/spre представлены, но нужна ясная цель передвижения.",
+      "coverage": [
+        "Добавлена таблица позиции, исходного пункта, цели и способа пути."
+      ]
+    },
+    {
+      "lessonId": "A1.20",
+      "status": "expanded",
+      "findings": "Исходная инструкция о дороге краткая и двусмысленность поворота не развёрнута.",
+      "coverage": [
+        "Добавлены разделение la/în stânga, повторный вопрос и чтение полного условного пути."
+      ]
+    },
+    {
+      "lessonId": "A1.21",
+      "status": "expanded",
+      "findings": "Заказ и place/plac уже есть, но меню и счёт легко спутать в коротком чтении.",
+      "coverage": [
+        "Добавлены мера + de, явное ограничение без молока и поправка официанту."
+      ]
+    },
+    {
+      "lessonId": "A1.22",
+      "status": "expanded",
+      "findings": "Размер, цвет и оплата представлены, но исходные задачи не связывают все три решения.",
+      "coverage": [
+        "Добавлен разбор наличия конкретной версии и вымышленный выбор между белой M и синей L."
+      ]
+    },
+    {
+      "lessonId": "A1.23",
+      "status": "reviewed",
+      "findings": "Повтор, медленная речь, написание и различение чисел доступны как стратегии.",
+      "coverage": [
+        "Новые сцены используют знакомый переспрос, без проверки произношения как балла."
+      ]
+    },
+    {
+      "lessonId": "A1.24",
+      "status": "reviewed",
+      "findings": "Короткое сообщение соединяет прошлое и план с вежливой просьбой.",
+      "coverage": [
+        "Перенос после каждого нового блока остаётся самостоятельной неподсчитываемой практикой."
+      ]
+    }
+  ]
+}

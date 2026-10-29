@@ -1,0 +1,1349 @@
+[
+  {
+    "id": "EX.B2.P1",
+    "version": "1.0.0",
+    "kind": "guided",
+    "title": "Обучающий пробник · Город и совместные решения",
+    "listening": [
+      {
+        "id": "EX.B2.P1.L.A",
+        "title": "O bibliotecă în cartier",
+        "instructions": "Ascultă relatarea și stabilește dacă afirmațiile sunt adevărate sau false.",
+        "items": [
+          {
+            "id": "EX.B2.P1.L.A.01",
+            "familyId": "exam.EX.B2.P1.L.A.01",
+            "kind": "choice",
+            "prompt": "Proiectul urmărea și crearea unui spațiu de studiu pentru adolescenți.",
+            "answers": [
+              "A — adevărat"
+            ],
+            "explanation": "В начале прямо названа потребность в месте для совместной работы после школы.",
+            "choices": [
+              "A — adevărat",
+              "F — fals"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.L.A.02",
+            "familyId": "exam.EX.B2.P1.L.A.02",
+            "kind": "choice",
+            "prompt": "Toți adolescenții din cartier erau lipsiți de acces la internet.",
+            "answers": [
+              "F — fals"
+            ],
+            "explanation": "У части подростков интернет был; проблема касалась также рабочего места.",
+            "choices": [
+              "A — adevărat",
+              "F — fals"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.L.A.03",
+            "familyId": "exam.EX.B2.P1.L.A.03",
+            "kind": "choice",
+            "prompt": "Deschiderea a fost amânată din cauza instalației electrice.",
+            "answers": [
+              "A — adevărat"
+            ],
+            "explanation": "Отсрочку связывают с ремонтом электропроводки, а не со сбором книг.",
+            "choices": [
+              "A — adevărat",
+              "F — fals"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.L.A.04",
+            "familyId": "exam.EX.B2.P1.L.A.04",
+            "kind": "choice",
+            "prompt": "Proprietara plătește toate cheltuielile de întreținere.",
+            "answers": [
+              "F — fals"
+            ],
+            "explanation": "Владелица отказалась от аренды на год, но текущие расходы несёт команда.",
+            "choices": [
+              "A — adevărat",
+              "F — fals"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.L.A.05",
+            "familyId": "exam.EX.B2.P1.L.A.05",
+            "kind": "choice",
+            "prompt": "Programul zilnic a fost menținut după perioada de probă.",
+            "answers": [
+              "F — fals"
+            ],
+            "explanation": "После пробного месяца оставили три дня: взрослых добровольцев не хватало.",
+            "choices": [
+              "A — adevărat",
+              "F — fals"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.L.A.06",
+            "familyId": "exam.EX.B2.P1.L.A.06",
+            "kind": "choice",
+            "prompt": "Prelungirea programului în sesiune depinde de numărul de elevi înscriși.",
+            "answers": [
+              "A — adevărat"
+            ],
+            "explanation": "Требуется запись минимум десяти учеников.",
+            "choices": [
+              "A — adevărat",
+              "F — fals"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.L.A.07",
+            "familyId": "exam.EX.B2.P1.L.A.07",
+            "kind": "choice",
+            "prompt": "Pensionarii participă și ca organizatori ai unor activități.",
+            "answers": [
+              "A — adevărat"
+            ],
+            "explanation": "Бывшие учительницы помогают с уроками, инженер ведёт мастерскую.",
+            "choices": [
+              "A — adevărat",
+              "F — fals"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.L.A.08",
+            "familyId": "exam.EX.B2.P1.L.A.08",
+            "kind": "choice",
+            "prompt": "Data deschiderii sălii accesibile a fost deja anunțată.",
+            "answers": [
+              "F — fals"
+            ],
+            "explanation": "Команда отказывается обещать срок без бюджета и оценки стоимости.",
+            "choices": [
+              "A — adevărat",
+              "F — fals"
+            ]
+          }
+        ],
+        "script": "Când am anunțat că vom transforma fostul magazin de mobilă într-o bibliotecă de cartier, mulți vecini au crezut că vom strânge pur și simplu niște cărți. De fapt, problema principală era lipsa unui loc în care adolescenții să poată lucra împreună după școală. O parte dintre ei aveau internet acasă, dar nu și o masă pe care să o folosească în liniște.\nAm deschis abia în noiembrie, cu două luni mai târziu decât plănuiserăm. Nu colectarea cărților ne-a întârziat, ci repararea instalației electrice. Proprietara spațiului a acceptat să nu ceară chirie în primul an. În schimb, noi trebuia să acoperim toate cheltuielile de întreținere și să organizăm o activitate gratuită în fiecare lună.\nInițial, voluntarii propuneau un program zilnic. După o lună de probă, am păstrat doar trei după-amiezi pe săptămână, pentru că nu puteam garanta prezența unui adult în celelalte zile. În timpul examenelor prelungim programul, dacă se înscriu cel puțin zece elevi.\nSurpriza a fost interesul pensionarilor. Ei nu au venit doar să împrumute romane: două foste profesoare oferă ajutor la teme, iar un inginer coordonează un atelier de reparații. Pentru anul viitor ne gândim la o sală de lectură accesibilă persoanelor cu mobilitate redusă. Nu avem încă banii necesari și nu vrem să promitem o dată înainte de a primi o estimare serioasă a costurilor."
+      },
+      {
+        "id": "EX.B2.P1.L.B",
+        "title": "Un atelier pentru noii locuitori",
+        "instructions": "Completează răspunsurile cu 1–4 cuvinte auzite. Păstrează forma din înregistrare.",
+        "items": [
+          {
+            "id": "EX.B2.P1.L.B.01",
+            "familyId": "exam.EX.B2.P1.L.B.01",
+            "kind": "gap",
+            "prompt": "Locul întâlnirii este ___.",
+            "answers": [
+              "centrul comunitar"
+            ],
+            "explanation": "Место названо в первой части объявления."
+          },
+          {
+            "id": "EX.B2.P1.L.B.02",
+            "familyId": "exam.EX.B2.P1.L.B.02",
+            "kind": "gap",
+            "prompt": "Cum se face rezervarea? Completează: Rezervarea se face ___.",
+            "answers": [
+              "prin e-mail"
+            ],
+            "explanation": "Способ записи — электронная почта."
+          },
+          {
+            "id": "EX.B2.P1.L.B.03",
+            "familyId": "exam.EX.B2.P1.L.B.03",
+            "kind": "gap",
+            "prompt": "Termenul pentru rezervare este până ___.",
+            "answers": [
+              "marți"
+            ],
+            "explanation": "Последний день записи — вторник."
+          },
+          {
+            "id": "EX.B2.P1.L.B.04",
+            "familyId": "exam.EX.B2.P1.L.B.04",
+            "kind": "gap",
+            "prompt": "Materialele vor fi trimise în format ___.",
+            "answers": [
+              "electronic"
+            ],
+            "explanation": "Материалы пришлют после встречи в электронном виде."
+          },
+          {
+            "id": "EX.B2.P1.L.B.05",
+            "familyId": "exam.EX.B2.P1.L.B.05",
+            "kind": "gap",
+            "prompt": "Colțul de lectură este supravegheat de ___.",
+            "answers": [
+              "doi voluntari"
+            ],
+            "explanation": "В тексте названы два добровольца."
+          },
+          {
+            "id": "EX.B2.P1.L.B.06",
+            "familyId": "exam.EX.B2.P1.L.B.06",
+            "kind": "gap",
+            "prompt": "Chestionarul de la final este ___.",
+            "answers": [
+              "anonim"
+            ],
+            "explanation": "Анкета анонимна; она помогает выбрать следующую тему."
+          }
+        ],
+        "script": "Bună seara! Vă prezint programul atelierului destinat persoanelor care s-au mutat recent în cartier. Prima întâlnire va avea loc joi, la centrul comunitar, nu la sediul asociației, deoarece acolo se renovează. Începem la ora șase, însă îi rugăm pe participanți să sosească cu cincisprezece minute mai devreme, pentru înscriere.\nÎn prima parte vom discuta despre transport și despre locurile în care pot fi găsite informații verificate. În a doua parte, fiecare grup va primi o hartă și va propune un traseu de plimbare pentru o familie nou-venită. Nu trebuie să cunoașteți deja cartierul; tocmai întrebările celor care îl descoperă ne sunt utile.\nParticiparea este gratuită, dar rezervarea se face prin e-mail, până marți. Vă rugăm să precizați dacă aveți nevoie de traducere. Vom trimite materialele în format electronic după întâlnire, așa că nu este necesar să aduceți un caiet. Dacă doriți totuși să notați ceva, vom avea hârtie și pixuri.\nPentru părinții care vin cu copii am pregătit un colț de lectură, supravegheat de doi voluntari. Nu este un serviciu permanent: funcționează numai pe durata atelierului. La final, vă vom cere să completați un chestionar anonim. Răspunsurile ne vor ajuta să alegem tema următoarei întâlniri, nu să evaluăm participanții. Numărul de locuri este limitat la douăzeci, astfel încât fiecare persoană să poată pune întrebări."
+      },
+      {
+        "id": "EX.B2.P1.L.C",
+        "title": "Munca de acasă: o negociere",
+        "instructions": "Alege varianta susținută de interviu.",
+        "items": [
+          {
+            "id": "EX.B2.P1.L.C.01",
+            "familyId": "exam.EX.B2.P1.L.C.01",
+            "kind": "choice",
+            "prompt": "De ce preferă coordonatoarea un program mixt?",
+            "answers": [
+              "Sarcinile diferite cer condiții de lucru diferite."
+            ],
+            "explanation": "Она связывает выбор рабочего места с типом задачи.",
+            "choices": [
+              "Sarcinile diferite cer condiții de lucru diferite.",
+              "Biroul nu mai are suficiente locuri.",
+              "Toți angajații lucrează mai repede acasă."
+            ]
+          },
+          {
+            "id": "EX.B2.P1.L.C.02",
+            "familyId": "exam.EX.B2.P1.L.C.02",
+            "kind": "choice",
+            "prompt": "Ce temere aveau unii angajați?",
+            "answers": [
+              "Că prezența online ar putea conta mai mult decât rezultatele."
+            ],
+            "explanation": "В разговоре противопоставлены часы в сети и конкретные результаты.",
+            "choices": [
+              "Că salariile depind de distanța până la birou.",
+              "Că nu vor mai primi niciodată rapoarte.",
+              "Că prezența online ar putea conta mai mult decât rezultatele."
+            ]
+          },
+          {
+            "id": "EX.B2.P1.L.C.03",
+            "familyId": "exam.EX.B2.P1.L.C.03",
+            "kind": "choice",
+            "prompt": "Ce obligație comună a rămas?",
+            "answers": [
+              "Disponibilitatea într-un anumit interval."
+            ],
+            "explanation": "Постоянную доступность отменили, общий рабочий интервал сохранили.",
+            "choices": [
+              "Prezența zilnică în aceeași sală.",
+              "Disponibilitatea într-un anumit interval.",
+              "Răspunsul imediat la orice oră."
+            ]
+          },
+          {
+            "id": "EX.B2.P1.L.C.04",
+            "familyId": "exam.EX.B2.P1.L.C.04",
+            "kind": "choice",
+            "prompt": "De ce aveau nevoie noii colegi?",
+            "answers": [
+              "De contacte clare și sprijin pentru întrebările lor."
+            ],
+            "explanation": "Новички не знали, кого спросить, и боялись мешать.",
+            "choices": [
+              "De contacte clare și sprijin pentru întrebările lor.",
+              "De eliminarea tuturor întâlnirilor.",
+              "De mai multe rapoarte individuale."
+            ]
+          },
+          {
+            "id": "EX.B2.P1.L.C.05",
+            "familyId": "exam.EX.B2.P1.L.C.05",
+            "kind": "choice",
+            "prompt": "Cum interpretează coordonatoarea reducerea întârzierilor?",
+            "answers": [
+              "Cu prudență, deoarece s-a schimbat și altceva."
+            ],
+            "explanation": "Изменили также программу планирования; причинный вывод ограничен.",
+            "choices": [
+              "Ca efect exclusiv al mentorilor.",
+              "Ca dovadă sigură că biroul nu mai este necesar.",
+              "Cu prudență, deoarece s-a schimbat și altceva."
+            ]
+          },
+          {
+            "id": "EX.B2.P1.L.C.06",
+            "familyId": "exam.EX.B2.P1.L.C.06",
+            "kind": "choice",
+            "prompt": "Ce intenționează compania dacă apar dificultăți?",
+            "answers": [
+              "Să negocieze adaptarea regulilor."
+            ],
+            "explanation": "Завершение интервью говорит о совместной корректировке правил.",
+            "choices": [
+              "Să anuleze imediat munca de acasă.",
+              "Să negocieze adaptarea regulilor.",
+              "Să renunțe la evaluarea rezultatelor."
+            ]
+          }
+        ],
+        "script": "Intervievator: Compania dumneavoastră a păstrat două zile de lucru de acasă. De ce nu ați ales fie prezența zilnică, fie munca la distanță integrală?\nCoordonatoare: Pentru că activitățile nu sunt identice. Când redactez un raport, liniștea de acasă mă ajută. Dar când încercăm să rezolvăm o neînțelegere între echipe, o discuție față în față economisește multe mesaje. Nu cred că există un singur model potrivit pentru orice sarcină.\nIntervievator: Angajații au fost de acord de la început?\nCoordonatoare: Nu chiar. Unii se temeau că vor fi evaluați după numărul de ore petrecute online. Am stabilit de aceea rezultate concrete pentru fiecare săptămână. Disponibilitatea permanentă nu mai este considerată dovadă de implicare. Totuși, există un interval comun în care trebuie să putem răspunde colegilor.\nIntervievator: Care a fost dificultatea cea mai mare?\nCoordonatoare: Integrarea colegilor noi. Cei cu experiență se cunoșteau deja și știau pe cine să întrebe. Noii angajați ezitau să întrerupă pe cineva. Acum au un mentor și o întâlnire scurtă în fiecare dimineață, în primele trei săptămâni.\nIntervievator: A crescut productivitatea?\nCoordonatoare: Datele arată mai puține întârzieri, dar ar fi exagerat să atribuim totul programului hibrid. Am schimbat și aplicația de planificare. Vom compara din nou rezultatele peste șase luni. Dacă apar probleme, vom ajusta regulile împreună, nu vom reveni automat la vechiul program."
+      }
+    ],
+    "reading": [
+      {
+        "id": "EX.B2.P1.R.A",
+        "title": "Când o aplicație nu rezolvă problema",
+        "instructions": "Citește articolul și alege un răspuns pentru fiecare întrebare.",
+        "items": [
+          {
+            "id": "EX.B2.P1.R.A.01",
+            "familyId": "exam.EX.B2.P1.R.A.01",
+            "kind": "choice",
+            "prompt": "Cum explică autorul creșterea inițială a sesizărilor?",
+            "answers": [
+              "Problemele existente au devenit mai ușor de raportat."
+            ],
+            "explanation": "Первый абзац объясняет изменение видимостью старых проблем.",
+            "choices": [
+              "Problemele existente au devenit mai ușor de raportat.",
+              "Cetățenii au trimis în principal fotografii false.",
+              "Problemele au apărut doar după lansarea aplicației."
+            ]
+          },
+          {
+            "id": "EX.B2.P1.R.A.02",
+            "familyId": "exam.EX.B2.P1.R.A.02",
+            "kind": "choice",
+            "prompt": "Ce limită avea aplicația la început?",
+            "answers": [
+              "Nu clarifica responsabilitatea pentru cazurile comune."
+            ],
+            "explanation": "Второй абзац описывает передачу случаев между учреждениями.",
+            "choices": [
+              "Nu înregistra solicitările primite.",
+              "Nu permitea trimiterea unei adrese.",
+              "Nu clarifica responsabilitatea pentru cazurile comune."
+            ]
+          },
+          {
+            "id": "EX.B2.P1.R.A.03",
+            "familyId": "exam.EX.B2.P1.R.A.03",
+            "kind": "choice",
+            "prompt": "Ce schimbare a îmbunătățit procesul?",
+            "answers": [
+              "Desemnarea unui responsabil pentru fiecare caz."
+            ],
+            "explanation": "Персональная ответственность и ясные этапы сократили пересылку обращений.",
+            "choices": [
+              "Numărarea zilnică a descărcărilor.",
+              "Desemnarea unui responsabil pentru fiecare caz.",
+              "Eliminarea explicațiilor pentru cetățeni."
+            ]
+          },
+          {
+            "id": "EX.B2.P1.R.A.04",
+            "familyId": "exam.EX.B2.P1.R.A.04",
+            "kind": "choice",
+            "prompt": "De ce sunt menționate bibliotecile?",
+            "answers": [
+              "Oferă acces celor care au dificultăți cu serviciile digitale."
+            ],
+            "explanation": "Библиотеки приводятся как канал помощи людям вне цифровой среды.",
+            "choices": [
+              "Oferă acces celor care au dificultăți cu serviciile digitale.",
+              "Verifică singure lucrările la rețeaua de apă.",
+              "Înlocuiesc toate instituțiile orașului."
+            ]
+          },
+          {
+            "id": "EX.B2.P1.R.A.05",
+            "familyId": "exam.EX.B2.P1.R.A.05",
+            "kind": "choice",
+            "prompt": "Ce risc apare dacă se folosesc exclusiv sesizările din aplicație?",
+            "answers": [
+              "Unele cartiere pot primi mai puțină atenție."
+            ],
+            "explanation": "В последнем абзаце обсуждается неравное участие районов.",
+            "choices": [
+              "Nicio problemă nu va putea fi localizată.",
+              "Toate reparațiile vor fi făcute inutil.",
+              "Unele cartiere pot primi mai puțină atenție."
+            ]
+          },
+          {
+            "id": "EX.B2.P1.R.A.06",
+            "familyId": "exam.EX.B2.P1.R.A.06",
+            "kind": "choice",
+            "prompt": "Care este poziția generală a autorului?",
+            "answers": [
+              "Tehnologia trebuie însoțită de proceduri responsabile și accesibile."
+            ],
+            "explanation": "Автор поддерживает полезность технологии при организационных условиях.",
+            "choices": [
+              "Orice aplicație publică produce mai multe probleme decât rezolvă.",
+              "Tehnologia trebuie însoțită de proceduri responsabile și accesibile.",
+              "Numărul utilizatorilor este singurul indicator relevant."
+            ]
+          }
+        ],
+        "text": "O administrație locală a lansat o aplicație prin care locuitorii pot semnala problemele din spațiul public. În primele săptămâni, numărul sesizărilor a crescut spectaculos. Unii comentatori au interpretat imediat creșterea drept dovadă că serviciile orașului se deterioraseră. În realitate, noul instrument făcea vizibile probleme pe care oamenii le observau deja, dar pentru care nu găseau ușor un destinatar.\nAplicația a simplificat trimiterea unei fotografii și a unei adrese. Nu a stabilit însă cine răspunde când aceeași problemă privește două instituții. O groapă aflată lângă o lucrare la rețeaua de apă putea fi transmisă de la un serviciu la altul, în timp ce locuitorul primea doar mesajul automat „cerere înregistrată”. Pentru el, diferența dintre o solicitare primită și una rezolvată rămânea esențială.\nDupă câteva luni, echipa proiectului a introdus un responsabil unic pentru fiecare caz și o explicație publică a etapelor de lucru. Această schimbare, mai puțin vizibilă decât lansarea aplicației, a redus timpul petrecut cu transferarea sesizărilor. Instituțiile au început să discute despre proceduri, nu doar despre numărul de descărcări.\nTotuși, participarea nu poate fi redusă la utilizarea unui telefon. Persoanele care nu folosesc servicii digitale au nevoie de canale alternative. La bibliotecile de cartier au fost organizate puncte de sprijin, unde un angajat ajută la formularea solicitării. Unele informații sunt preluate și prin telefon, în aceeași evidență, pentru a nu crea două categorii de cetățeni.\nSuccesul proiectului nu ar trebui măsurat doar prin rapiditate. Dacă se repară întâi problemele din zonele unde locuiesc cei mai activi utilizatori, cartierele mai puțin conectate pot rămâne în urmă. De aceea, datele trimise de cetățeni trebuie completate prin verificări pe teren. Tehnologia poate îmbunătăți o relație instituțională, dar nu înlocuiește responsabilitatea pentru acea relație. O interfață prietenoasă este utilă numai dacă în spatele ei există un mod de lucru inteligibil și echitabil."
+      },
+      {
+        "id": "EX.B2.P1.R.B",
+        "title": "Trei proiecte pentru timp liber",
+        "instructions": "Pentru fiecare afirmație, alege A, B sau C. Literele pot fi folosite de mai multe ori.",
+        "items": [
+          {
+            "id": "EX.B2.P1.R.B.01",
+            "familyId": "exam.EX.B2.P1.R.B.01",
+            "kind": "choice",
+            "prompt": "Participanții plătesc separat materialele folosite pentru propriul obiect.",
+            "answers": [
+              "A"
+            ],
+            "explanation": "Только ремонтная мастерская отдельно оплачивает детали.",
+            "choices": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.R.B.02",
+            "familyId": "exam.EX.B2.P1.R.B.02",
+            "kind": "choice",
+            "prompt": "Continuitatea depinde de prelungirea unui acord pentru spațiu.",
+            "answers": [
+              "C"
+            ],
+            "explanation": "Сад находится на временно предоставленном участке.",
+            "choices": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.R.B.03",
+            "familyId": "exam.EX.B2.P1.R.B.03",
+            "kind": "choice",
+            "prompt": "Alegerea activității concrete se face prin vot.",
+            "answers": [
+              "B"
+            ],
+            "explanation": "Участники голосуют за один из трёх фильмов.",
+            "choices": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.R.B.04",
+            "familyId": "exam.EX.B2.P1.R.B.04",
+            "kind": "choice",
+            "prompt": "O parte din rezultat este oferită unor persoane din afara grupului.",
+            "answers": [
+              "C"
+            ],
+            "explanation": "Урожай общей части сада передают социальной столовой.",
+            "choices": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.R.B.05",
+            "familyId": "exam.EX.B2.P1.R.B.05",
+            "kind": "choice",
+            "prompt": "Înscrierea include informații necesare pregătirii uneltelor.",
+            "answers": [
+              "A"
+            ],
+            "explanation": "При записи нужно описать поломку.",
+            "choices": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.R.B.06",
+            "familyId": "exam.EX.B2.P1.R.B.06",
+            "kind": "choice",
+            "prompt": "Există o regulă care distribuie timpul de exprimare.",
+            "answers": [
+              "B"
+            ],
+            "explanation": "Первая реплика каждого участника ограничена двумя минутами.",
+            "choices": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.R.B.07",
+            "familyId": "exam.EX.B2.P1.R.B.07",
+            "kind": "choice",
+            "prompt": "Unele intervenții sunt refuzate din motive de siguranță.",
+            "answers": [
+              "A"
+            ],
+            "explanation": "При необходимости авторизованного специалиста предмет не разбирают.",
+            "choices": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.R.B.08",
+            "familyId": "exam.EX.B2.P1.R.B.08",
+            "kind": "choice",
+            "prompt": "Membrii au o obligație periodică de muncă în beneficiul grupului.",
+            "answers": [
+              "C"
+            ],
+            "explanation": "Каждая семья участвует в общем рабочем утре раз в месяц.",
+            "choices": [
+              "A",
+              "B",
+              "C"
+            ]
+          }
+        ],
+        "text": "A. Atelierul de reparat\nÎn fiecare sâmbătă, voluntari cu experiență ajută participanții să repare obiecte mici: veioze, jucării și aparate simple. Scopul nu este să ofere un serviciu gratuit de reparații, ci să explice pașii pe care proprietarul îi poate face în siguranță. Dacă este necesară intervenția unui specialist autorizat, obiectul nu se desface. Participanții se înscriu în avans și descriu defecțiunea; astfel, echipa știe ce unelte să pregătească. Nu se percepe taxă de participare, dar piesele cumpărate pentru un anumit obiect sunt plătite de proprietar. La sfârșit, fiecare persoană notează ce a învățat și ce ar verifica data viitoare înainte să cumpere un produs nou.\n\nB. Clubul de film\nClubul se întâlnește o dată la două săptămâni într-o sală de liceu. Filmele sunt alese prin vot dintre trei propuneri anunțate de organizatori. După proiecție, discuția este moderată de un membru diferit. Nu este necesară o pregătire în cinematografie: contează să poți lega o opinie de o scenă concretă, nu să cunoști termeni specializați. Pentru a evita monopolizarea conversației, prima intervenție a fiecărui participant este limitată la două minute. Accesul elevilor este gratuit, iar adulții contribuie la costul licenței de proiecție. Organizatorii trimit înaintea întâlnirii câteva informații despre regizor, fără să dezvăluie finalul filmului.\n\nC. Grădina comună\nPe un teren pus la dispoziție temporar de proprietar, douăzeci de familii îngrijesc o grădină. Loturile individuale sunt mici; cea mai mare suprafață este cultivată împreună, iar recolta de acolo este donată unei cantine sociale. Fiecare familie trebuie să participe lunar la o dimineață de lucru comun. Un vecin a instalat un sistem de colectare a apei de ploaie, dar în perioadele secetoase este nevoie de udare suplimentară. Proiectul poate continua numai dacă acordul pentru teren este reînnoit anul viitor. Din acest motiv, echipa evită construcțiile permanente și folosește materiale ușor de mutat. Copiii pot participa, însoțiți de un adult."
+      },
+      {
+        "id": "EX.B2.P1.R.C",
+        "title": "Un traseu sigur până la școală",
+        "instructions": "Introdu segmentele A–H în spațiile 1–6. Două segmente rămân nefolosite.\nA. Tocmai aceste observații au schimbat ordinea priorităților.\nB. Totuși, o linie desenată pe hartă nu arată toate obstacolele întâlnite de un copil.\nC. Din acest motiv, rezultatul trebuie verificat în momente diferite ale zilei.\nD. Ei au decis să păstreze o variantă alternativă pentru zilele ploioase.\nE. Această soluție a făcut mai ușor de înțeles cine trebuia să intervină.\nF. Prin urmare, proiectul a devenit un exercițiu de colaborare, nu doar o modificare a străzii.\nG. În schimb, școala a eliminat toate activitățile din afara clasei.\nH. De aceea, numărul de mașini vândute a devenit principalul indicator.",
+        "items": [
+          {
+            "id": "EX.B2.P1.R.C.01",
+            "familyId": "exam.EX.B2.P1.R.C.01",
+            "kind": "choice",
+            "prompt": "Spațiul 1.",
+            "answers": [
+              "B"
+            ],
+            "explanation": "Связка противопоставляет линию на карте реальным препятствиям.",
+            "choices": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.R.C.02",
+            "familyId": "exam.EX.B2.P1.R.C.02",
+            "kind": "choice",
+            "prompt": "Spațiul 2.",
+            "answers": [
+              "A"
+            ],
+            "explanation": "Указательное aceste observations отсылает к замечаниям детей; далее меняются приоритеты.",
+            "choices": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.R.C.03",
+            "familyId": "exam.EX.B2.P1.R.C.03",
+            "kind": "choice",
+            "prompt": "Spațiul 3.",
+            "answers": [
+              "E"
+            ],
+            "explanation": "Эта мера — список проблем и ответственных учреждений — проясняет ответственность.",
+            "choices": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.R.C.04",
+            "familyId": "exam.EX.B2.P1.R.C.04",
+            "kind": "choice",
+            "prompt": "Spațiul 4.",
+            "answers": [
+              "D"
+            ],
+            "explanation": "Альтернативный маршрут прямо связан с дождём и следующим предложением.",
+            "choices": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.R.C.05",
+            "familyId": "exam.EX.B2.P1.R.C.05",
+            "kind": "choice",
+            "prompt": "Spațiul 5.",
+            "answers": [
+              "C"
+            ],
+            "explanation": "Вывод о регулярных проверках следует из изменения условий.",
+            "choices": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.R.C.06",
+            "familyId": "exam.EX.B2.P1.R.C.06",
+            "kind": "choice",
+            "prompt": "Spațiul 6.",
+            "answers": [
+              "F"
+            ],
+            "explanation": "Заключение обобщает приобретённое сотрудничество.",
+            "choices": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          }
+        ],
+        "text": "Un grup de părinți a propus marcarea unui traseu pietonal între stația de autobuz și școală. La prima întâlnire, participanții au calculat distanța și au ales strada cea mai scurtă. [1] Pentru a afla cum arată drumul în realitate, au parcurs traseul alături de elevi, la ora la care începeau cursurile.\nCopiii au remarcat o mașină parcată mereu lângă trecere, un trotuar îngust și un semafor al cărui timp nu le permitea să traverseze fără grabă. Părinții discutaseră mai ales despre lungimea drumului, însă dificultățile importante erau altele. [2] Înainte de a instala indicatoare noi, au cerut eliberarea vizibilității la trecere și o evaluare a semaforului.\nMai multe instituții aveau atribuții diferite, iar primele mesaje au circulat fără un răspuns clar. Grupul a trimis apoi o listă cu fiecare problemă, locul ei și instituția căreia îi solicita un răspuns. [3] Un reprezentant al școlii a urmărit stadiul solicitărilor și a anunțat familiile când primea noutăți.\nLa prima probă, traseul părea potrivit. După o ploaie puternică, participanții au descoperit însă că o porțiune a trotuarului se umplea cu apă. [4] Alternativa era puțin mai lungă, dar permitea traversarea pe o suprafață uscată. Cele două posibilități au fost explicate elevilor, fără a le cere să respecte mecanic o singură rută.\nNici numărul mare de participanți din prima săptămână nu dovedea că proiectul va funcționa permanent. Traficul se schimbă, iar lucrările temporare pot bloca accesul. [5] Elevii și părinții au stabilit o verificare lunară și un mod simplu de a transmite problemele observate.\nLa finalul semestrului, cea mai importantă schimbare nu a fost doar existența unor semne pe asfalt. Familiile învățaseră să formuleze solicitări precise, școala avea contacte directe cu instituțiile, iar elevii își puteau explica alegerile. [6] Drumul rămânea o responsabilitate comună, care cerea atenție și după inaugurare."
+      }
+    ],
+    "language": [
+      {
+        "id": "EX.B2.P1.U.A",
+        "title": "Un centru cultural nou",
+        "instructions": "Alege forma potrivită pentru fiecare spațiu numerotat.",
+        "items": [
+          {
+            "id": "EX.B2.P1.U.A.01",
+            "familyId": "exam.EX.B2.P1.U.A.01",
+            "kind": "choice",
+            "prompt": "[1]",
+            "answers": [
+              "acestui"
+            ],
+            "explanation": "После locuitorii нужен родительный определителя этого района.",
+            "choices": [
+              "acestui",
+              "acești",
+              "acest"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.U.A.02",
+            "familyId": "exam.EX.B2.P1.U.A.02",
+            "kind": "choice",
+            "prompt": "[2]",
+            "answers": [
+              "pe care l-"
+            ],
+            "explanation": "Прямое дополнение: proiectul pe care l-au discutat; относительный оборот с повтором клитикой.",
+            "choices": [
+              "cărui",
+              "care",
+              "pe care l-"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.U.A.03",
+            "familyId": "exam.EX.B2.P1.U.A.03",
+            "kind": "choice",
+            "prompt": "[3]",
+            "answers": [
+              "primăriei"
+            ],
+            "explanation": "A aparține требует дательного.",
+            "choices": [
+              "primăria",
+              "primăriei",
+              "primărie"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.U.A.04",
+            "familyId": "exam.EX.B2.P1.U.A.04",
+            "kind": "choice",
+            "prompt": "[4]",
+            "answers": [
+              "vor fi"
+            ],
+            "explanation": "Пассив будущего: vor fi rezervate.",
+            "choices": [
+              "vor fi",
+              "va",
+              "va fi"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.U.A.05",
+            "familyId": "exam.EX.B2.P1.U.A.05",
+            "kind": "choice",
+            "prompt": "[5]",
+            "answers": [
+              "ar"
+            ],
+            "explanation": "Нереальное условие с ar exista согласуется с условным ar rămâne.",
+            "choices": [
+              "să",
+              "va",
+              "ar"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.U.A.06",
+            "familyId": "exam.EX.B2.P1.U.A.06",
+            "kind": "choice",
+            "prompt": "[6]",
+            "answers": [
+              "să"
+            ],
+            "explanation": "A cere cuiva să facă ceva.",
+            "choices": [
+              "că",
+              "să",
+              "de"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.U.A.07",
+            "familyId": "exam.EX.B2.P1.U.A.07",
+            "kind": "choice",
+            "prompt": "[7]",
+            "answers": [
+              "nu este"
+            ],
+            "explanation": "Отрицательное местоименное прилагательное требует отрицания сказуемого.",
+            "choices": [
+              "nu este",
+              "nu sunt",
+              "este"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.U.A.08",
+            "familyId": "exam.EX.B2.P1.U.A.08",
+            "kind": "choice",
+            "prompt": "[8]",
+            "answers": [
+              "ale"
+            ],
+            "explanation": "Материалы — множественное число, согласование posesiv-genitival ale.",
+            "choices": [
+              "a",
+              "al",
+              "ale"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.U.A.09",
+            "familyId": "exam.EX.B2.P1.U.A.09",
+            "kind": "choice",
+            "prompt": "[9]",
+            "answers": [
+              "de ce"
+            ],
+            "explanation": "Здесь вводится косвенный вопрос о причине.",
+            "choices": [
+              "pentru",
+              "de ce",
+              "care"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.U.A.10",
+            "familyId": "exam.EX.B2.P1.U.A.10",
+            "kind": "choice",
+            "prompt": "[10]",
+            "answers": [
+              "de"
+            ],
+            "explanation": "A se bucura de un rezultat.",
+            "choices": [
+              "de",
+              "pe",
+              "la"
+            ]
+          }
+        ],
+        "text": "Locuitorii [1] cartier au propus transformarea unei hale. Proiectul [2] au discutat timp de un an a primit sprijinul consiliului. Clădirea îi aparține [3], dar activitățile vor fi coordonate de o asociație. Două săli [4] rezervate pentru cursuri. Dacă ar exista mai mulți voluntari, centrul [5] rămâne deschis și duminica. Coordonatoarea le-a cerut vecinilor [6] trimită propuneri. Niciun participant [7] obligat să plătească pentru întâlnirea de prezentare. Materialele de pe mese sunt [8] echipei. Unul dintre arhitecți a explicat [9] trebuie păstrată intrarea veche. Ne bucurăm [10] rezultatul primei etape."
+      },
+      {
+        "id": "EX.B2.P1.U.B",
+        "title": "O întâlnire amânată",
+        "instructions": "Completează cu forma cerută de context a cuvântului dintre paranteze.",
+        "items": [
+          {
+            "id": "EX.B2.P1.U.B.01",
+            "familyId": "exam.EX.B2.P1.U.B.01",
+            "kind": "gap",
+            "prompt": "[1] a începe",
+            "answers": [
+              "înceapă"
+            ],
+            "explanation": "Conjunctiv prezent, третье лицо: să înceapă."
+          },
+          {
+            "id": "EX.B2.P1.U.B.02",
+            "familyId": "exam.EX.B2.P1.U.B.02",
+            "kind": "gap",
+            "prompt": "[2] a pregăti, mai-mult-ca-perfect",
+            "answers": [
+              "pregătiseră"
+            ],
+            "explanation": "Действие предшествует приходу; они уже подготовили."
+          },
+          {
+            "id": "EX.B2.P1.U.B.03",
+            "familyId": "exam.EX.B2.P1.U.B.03",
+            "kind": "gap",
+            "prompt": "[3] a verifica, imperfect, eu",
+            "answers": [
+              "verificam"
+            ],
+            "explanation": "Фоновое действие в прошлом, первое лицо."
+          },
+          {
+            "id": "EX.B2.P1.U.B.04",
+            "familyId": "exam.EX.B2.P1.U.B.04",
+            "kind": "gap",
+            "prompt": "[4] directoare, dativ articulat",
+            "answers": [
+              "directoarei"
+            ],
+            "explanation": "Получатель сообщения: дательный определённой формы."
+          },
+          {
+            "id": "EX.B2.P1.U.B.05",
+            "familyId": "exam.EX.B2.P1.U.B.05",
+            "kind": "gap",
+            "prompt": "[5] întâlnire, genitiv articulat",
+            "answers": [
+              "întâlnirii"
+            ],
+            "explanation": "Подтверждение чего? Родительный формы întâlnire."
+          },
+          {
+            "id": "EX.B2.P1.U.B.06",
+            "familyId": "exam.EX.B2.P1.U.B.06",
+            "kind": "gap",
+            "prompt": "[6] nou, plural masculin",
+            "answers": [
+              "noi"
+            ],
+            "explanation": "Участники новые: participanții noi."
+          },
+          {
+            "id": "EX.B2.P1.U.B.07",
+            "familyId": "exam.EX.B2.P1.U.B.07",
+            "kind": "gap",
+            "prompt": "[7] a anunța, condițional perfect, eu",
+            "answers": [
+              "aș fi anunțat"
+            ],
+            "explanation": "Нереализованное действие в прошлом."
+          },
+          {
+            "id": "EX.B2.P1.U.B.08",
+            "familyId": "exam.EX.B2.P1.U.B.08",
+            "kind": "gap",
+            "prompt": "[8] a semna, participiu acordat",
+            "answers": [
+              "semnate"
+            ],
+            "explanation": "Documentele — neutru plural; пассивное причастие согласуется как женское множественное."
+          },
+          {
+            "id": "EX.B2.P1.U.B.09",
+            "familyId": "exam.EX.B2.P1.U.B.09",
+            "kind": "gap",
+            "prompt": "[9] unu, feminin",
+            "answers": [
+              "o"
+            ],
+            "explanation": "Câte o copie — по одному экземпляру."
+          },
+          {
+            "id": "EX.B2.P1.U.B.10",
+            "familyId": "exam.EX.B2.P1.U.B.10",
+            "kind": "gap",
+            "prompt": "[10] a fi, prezent, singular",
+            "answers": [
+              "este"
+            ],
+            "explanation": "Niciuna — единственное число; отрицание уже есть в тексте."
+          }
+        ],
+        "text": "Ieri am ajuns la sediu înainte ca ședința să [1] (a începe). Colegii deja [2] (a pregăti, mai-mult-ca-perfect) documentele. În timp ce eu [3] (a verifica, imperfect) lista, secretara a anunțat că directoarea nu putea veni. Am trimis un mesaj [4] (directoare, dativ articulat) și am cerut confirmarea [5] (întâlnire, genitiv articulat). Participanții [6] (nou, plural masculin) nu cunoșteau procedura, așa că le-am explicat-o. Dacă aș fi știut mai devreme, [7] (a anunța, condițional perfect, eu) echipa. Până la urmă, documentele au fost [8] (a semna, participiu acordat), iar fiecare persoană a primit câte [9] (unu, feminin) copie. Niciuna dintre propuneri nu [10] (a fi, prezent) definitivă."
+      },
+      {
+        "id": "EX.B2.P1.U.C",
+        "title": "O decizie comună",
+        "instructions": "Completează fiecare spațiu cu un cuvânt sau cu o locuțiune potrivită contextului. Păstrează sensul și structura textului.",
+        "items": [
+          {
+            "id": "EX.B2.P1.U.C.01",
+            "familyId": "exam.EX.B2.P1.U.C.01",
+            "kind": "gap",
+            "prompt": "[1]",
+            "answers": [
+              "pentru",
+              "spre"
+            ],
+            "explanation": "Pentru a discuta — цель действия."
+          },
+          {
+            "id": "EX.B2.P1.U.C.02",
+            "familyId": "exam.EX.B2.P1.U.C.02",
+            "kind": "gap",
+            "prompt": "[2]",
+            "answers": [
+              "că"
+            ],
+            "explanation": "Eram de acord că... — содержание согласия."
+          },
+          {
+            "id": "EX.B2.P1.U.C.03",
+            "familyId": "exam.EX.B2.P1.U.C.03",
+            "kind": "gap",
+            "prompt": "[3]",
+            "answers": [
+              "dar",
+              "însă"
+            ],
+            "explanation": "Противопоставление возможности и недостатка средств."
+          },
+          {
+            "id": "EX.B2.P1.U.C.04",
+            "familyId": "exam.EX.B2.P1.U.C.04",
+            "kind": "gap",
+            "prompt": "[4]",
+            "answers": [
+              "la"
+            ],
+            "explanation": "Renunțăm la ceva."
+          },
+          {
+            "id": "EX.B2.P1.U.C.05",
+            "familyId": "exam.EX.B2.P1.U.C.05",
+            "kind": "gap",
+            "prompt": "[5]",
+            "answers": [
+              "căreia"
+            ],
+            "explanation": "Colega căreia i-am cerut — получатель просьбы."
+          },
+          {
+            "id": "EX.B2.P1.U.C.06",
+            "familyId": "exam.EX.B2.P1.U.C.06",
+            "kind": "gap",
+            "prompt": "[6]",
+            "answers": [
+              "la"
+            ],
+            "explanation": "Устойчивое сочетание a pune la dispoziție."
+          },
+          {
+            "id": "EX.B2.P1.U.C.07",
+            "familyId": "exam.EX.B2.P1.U.C.07",
+            "kind": "gap",
+            "prompt": "[7]",
+            "answers": [
+              "În ciuda",
+              "În pofida"
+            ],
+            "explanation": "În ciuda + родительный; здесь требуется вся группа."
+          },
+          {
+            "id": "EX.B2.P1.U.C.08",
+            "familyId": "exam.EX.B2.P1.U.C.08",
+            "kind": "gap",
+            "prompt": "[8]",
+            "answers": [
+              "pe"
+            ],
+            "explanation": "Oameni pe care nu îi cunoșteam."
+          },
+          {
+            "id": "EX.B2.P1.U.C.09",
+            "familyId": "exam.EX.B2.P1.U.C.09",
+            "kind": "gap",
+            "prompt": "[9]",
+            "answers": [
+              "pe"
+            ],
+            "explanation": "Locuțiunea pe scurt indică o prezentare concisă. Pe nu se poate înlocui aici cu pronumele lor: acesta ar lăsa secvența scurt neintegrată în construcție."
+          },
+          {
+            "id": "EX.B2.P1.U.C.10",
+            "familyId": "exam.EX.B2.P1.U.C.10",
+            "kind": "gap",
+            "prompt": "[10]",
+            "answers": [
+              "să"
+            ],
+            "explanation": "A invita pe cineva să participe."
+          }
+        ],
+        "text": "Ne-am întâlnit [1] a discuta bugetul. Toți eram de acord [2] ideea era utilă, [3] nu aveam suficienți bani. Am renunțat [4] afișele scumpe și am ales mesaje online. Colega [5] i-am cerut ajutorul a găsit o soluție. Ne-a pus [6] dispoziție o sală. [7] ploii, întâlnirea de prezentare a avut loc. Au venit oameni [8] care nu îi cunoșteam. Le-am explicat [9] scurt ce urma să facem și i-am invitat [10] participe."
+      },
+      {
+        "id": "EX.B2.P1.U.D",
+        "title": "Cum discutăm o problemă",
+        "instructions": "Alege cuvântul potrivit sensului și combinației lexicale.",
+        "items": [
+          {
+            "id": "EX.B2.P1.U.D.01",
+            "familyId": "exam.EX.B2.P1.U.D.01",
+            "kind": "choice",
+            "prompt": "[1]",
+            "answers": [
+              "estimare"
+            ],
+            "explanation": "Estimarea costurilor — оценка расходов.",
+            "choices": [
+              "estimare",
+              "încăpere",
+              "întâmplare"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.U.D.02",
+            "familyId": "exam.EX.B2.P1.U.D.02",
+            "kind": "choice",
+            "prompt": "[2]",
+            "answers": [
+              "termen"
+            ],
+            "explanation": "Termen pentru finalizare — срок завершения.",
+            "choices": [
+              "tărâm",
+              "țărm",
+              "termen"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.U.D.03",
+            "familyId": "exam.EX.B2.P1.U.D.03",
+            "kind": "choice",
+            "prompt": "[3]",
+            "answers": [
+              "luat"
+            ],
+            "explanation": "A lua în considerare — принимать во внимание.",
+            "choices": [
+              "dat",
+              "luat",
+              "făcut"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.U.D.04",
+            "familyId": "exam.EX.B2.P1.U.D.04",
+            "kind": "choice",
+            "prompt": "[4]",
+            "answers": [
+              "combinație"
+            ],
+            "explanation": "Сочетание двух вариантов — combinație.",
+            "choices": [
+              "combinație",
+              "comandă",
+              "combustie"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.U.D.05",
+            "familyId": "exam.EX.B2.P1.U.D.05",
+            "kind": "choice",
+            "prompt": "[5]",
+            "answers": [
+              "stabilite"
+            ],
+            "explanation": "Stabilirea responsabilităților — распределение обязанностей.",
+            "choices": [
+              "stricate",
+              "stinse",
+              "stabilite"
+            ]
+          },
+          {
+            "id": "EX.B2.P1.U.D.06",
+            "familyId": "exam.EX.B2.P1.U.D.06",
+            "kind": "choice",
+            "prompt": "[6]",
+            "answers": [
+              "compromis"
+            ],
+            "explanation": "Compromis — согласованное промежуточное решение.",
+            "choices": [
+              "comprimat",
+              "compromis",
+              "complet"
+            ]
+          }
+        ],
+        "text": "Înainte de a începe lucrările, echipa a făcut o [1] a costurilor. Locuitorii au cerut un [2] clar pentru finalizare. Coordonatorul a [3] în considerare obiecțiile și a propus o [4] între cele două variante. Pentru a evita neînțelegerile, responsabilitățile au fost [5] în scris. Discuția a dus la un [6] acceptabil pentru toți."
+      },
+      {
+        "id": "EX.B2.P1.U.E",
+        "title": "Cuvinte în context",
+        "instructions": "Folosește o singură dată fiecare cuvânt: acces, avantaj, dovadă, îndoială, sprijin, termen.",
+        "items": [
+          {
+            "id": "EX.B2.P1.U.E.01",
+            "familyId": "exam.EX.B2.P1.U.E.01",
+            "kind": "gap",
+            "prompt": "[1]",
+            "answers": [
+              "acces"
+            ],
+            "explanation": "A oferi acces la ceva."
+          },
+          {
+            "id": "EX.B2.P1.U.E.02",
+            "familyId": "exam.EX.B2.P1.U.E.02",
+            "kind": "gap",
+            "prompt": "[2]",
+            "answers": [
+              "avantaj"
+            ],
+            "explanation": "Un avantaj important — полезное свойство."
+          },
+          {
+            "id": "EX.B2.P1.U.E.03",
+            "familyId": "exam.EX.B2.P1.U.E.03",
+            "kind": "gap",
+            "prompt": "[3]",
+            "answers": [
+              "sprijin"
+            ],
+            "explanation": "A primi sprijin din partea cuiva."
+          },
+          {
+            "id": "EX.B2.P1.U.E.04",
+            "familyId": "exam.EX.B2.P1.U.E.04",
+            "kind": "gap",
+            "prompt": "[4]",
+            "answers": [
+              "dovadă"
+            ],
+            "explanation": "Dovadă a succesului — доказательство успеха."
+          },
+          {
+            "id": "EX.B2.P1.U.E.05",
+            "familyId": "exam.EX.B2.P1.U.E.05",
+            "kind": "gap",
+            "prompt": "[5]",
+            "answers": [
+              "îndoială"
+            ],
+            "explanation": "A pune la îndoială — подвергать сомнению."
+          },
+          {
+            "id": "EX.B2.P1.U.E.06",
+            "familyId": "exam.EX.B2.P1.U.E.06",
+            "kind": "gap",
+            "prompt": "[6]",
+            "answers": [
+              "termen"
+            ],
+            "explanation": "A stabili un termen — установить срок."
+          }
+        ],
+        "text": "Noul centru oferă [1] la resurse educaționale. Un [2] important este apropierea de stația de metrou. Proiectul a primit [3] din partea vecinilor. Cu toate acestea, rezultatele inițiale nu sunt încă o [4] a succesului pe termen lung. Organizatorii nu pun la [5] utilitatea centrului, ci încearcă să stabilească un [6] realist pentru extindere."
+      },
+      {
+        "id": "EX.B2.P1.U.F",
+        "title": "Formarea cuvintelor",
+        "instructions": "Formează un cuvânt din familia celui indicat, potrivit contextului.",
+        "items": [
+          {
+            "id": "EX.B2.P1.U.F.01",
+            "familyId": "exam.EX.B2.P1.U.F.01",
+            "kind": "gap",
+            "prompt": "[1] a colabora",
+            "answers": [
+              "colaborarea"
+            ],
+            "explanation": "После depinde de используется существительное сотрудничество; здесь определённая форма с уточнением."
+          },
+          {
+            "id": "EX.B2.P1.U.F.02",
+            "familyId": "exam.EX.B2.P1.U.F.02",
+            "kind": "gap",
+            "prompt": "[2] a explica",
+            "answers": [
+              "explicație"
+            ],
+            "explanation": "O explicație clară — отглагольное существительное."
+          },
+          {
+            "id": "EX.B2.P1.U.F.03",
+            "familyId": "exam.EX.B2.P1.U.F.03",
+            "kind": "gap",
+            "prompt": "[3] egalitate",
+            "answers": [
+              "egal"
+            ],
+            "explanation": "Предикативное прилагательное согласуется с accesul."
+          },
+          {
+            "id": "EX.B2.P1.U.F.04",
+            "familyId": "exam.EX.B2.P1.U.F.04",
+            "kind": "gap",
+            "prompt": "[4] a încrede",
+            "answers": [
+              "încredere"
+            ],
+            "explanation": "Lipsa de încredere — недостаток доверия."
+          },
+          {
+            "id": "EX.B2.P1.U.F.05",
+            "familyId": "exam.EX.B2.P1.U.F.05",
+            "kind": "gap",
+            "prompt": "[5] obiectivitate",
+            "answers": [
+              "obiectivă"
+            ],
+            "explanation": "Evaluare — женское единственное число."
+          },
+          {
+            "id": "EX.B2.P1.U.F.06",
+            "familyId": "exam.EX.B2.P1.U.F.06",
+            "kind": "gap",
+            "prompt": "[6] posibil",
+            "answers": [
+              "posibilitatea"
+            ],
+            "explanation": "Posibilitatea de a... — возможность действия."
+          },
+          {
+            "id": "EX.B2.P1.U.F.07",
+            "familyId": "exam.EX.B2.P1.U.F.07",
+            "kind": "gap",
+            "prompt": "[7] flexibilitate",
+            "answers": [
+              "flexibil"
+            ],
+            "explanation": "Program — нейтральное существительное единственного числа; форма flexibil."
+          },
+          {
+            "id": "EX.B2.P1.U.F.08",
+            "familyId": "exam.EX.B2.P1.U.F.08",
+            "kind": "gap",
+            "prompt": "[8] responsabil",
+            "answers": [
+              "responsabilitatea"
+            ],
+            "explanation": "Существительное ответственность, подлежащее перед rămâne."
+          }
+        ],
+        "text": "Proiectul depinde de [1] (a colabora) dintre instituții. O [2] (a explica) clară îi ajută pe participanți. Accesul trebuie să fie [3] (egalitate) pentru toți. Lipsa de [4] (a încrede) poate încetini lucrul. Este necesară o evaluare [5] (obiectivitate), nu o impresie grăbită. Înainte de alegere, trebuie analizată [6] (posibil) de a folosi sala seara. Un program [7] (flexibilitate) permite adaptarea, iar [8] (responsabil) pentru siguranță rămâne esențială."
+      }
+    ],
+    "writing": [
+      {
+        "id": "EX.B2.P1.W.1",
+        "title": "O solicitare argumentată",
+        "prompt": "Ai participat la un atelier al unui centru cultural. Sala a fost prea mică, iar informațiile despre acces au fost incomplete. Scrie un e-mail coordonatoarei: prezintă pe scurt situația, explică efectul asupra participanților, propune două îmbunătățiri și solicită un răspuns. Folosește un registru politicos, semiformal.",
+        "targetWords": [
+          120,
+          140
+        ],
+        "model": "Stimată doamnă coordonatoare,\nVă scriu în legătură cu atelierul de fotografie la care am participat sâmbătă. Mi-au fost utile explicațiile profesorului, însă organizarea spațiului a creat câteva dificultăți.\nÎn sală au fost mai mulți participanți decât locuri la mese, astfel încât unii dintre noi nu am putut face toate exercițiile. În plus, mesajul de confirmare nu preciza că intrarea principală era închisă. Două persoane au ajuns târziu după ce au căutat accesul lateral.\nPentru întâlnirile următoare, vă propun să limitați înscrierile în funcție de capacitatea sălii sau să organizați două grupe. Ar fi util și un mesaj cu o schiță a intrării și cu un număr de contact.\nVă rog să-mi spuneți dacă aceste schimbări pot fi aplicate înaintea următorului atelier. Aș dori să continui cursul în condiții mai bune.\nVă mulțumesc pentru atenție,\nAlex Ionescu",
+        "annotations": [
+          "Письмо признаёт полезную часть занятия, затем конкретно описывает проблему.",
+          "Причина и последствие связаны astfel încât; просьба вежлива и выполнима.",
+          "Указаны два улучшения и явный запрос ответа. Образец — материал для разбора после попытки."
+        ]
+      },
+      {
+        "id": "EX.B2.P1.W.2",
+        "title": "Spațiile publice și participarea",
+        "prompt": "Un oraș dispune de bani pentru un singur proiect: o piață nouă sau modernizarea bibliotecilor de cartier. Prezintă opțiunea pe care o susții, dezvoltă două argumente, discută o obiecție și formulează o concluzie. Nu este necesară folosirea unor date reale.",
+        "targetWords": [
+          160,
+          180
+        ],
+        "model": "Consider că modernizarea bibliotecilor de cartier ar trebui să aibă prioritate. O piață nouă poate schimba aspectul unei zone, însă bibliotecile oferă servicii folosite în mod repetat de persoane cu nevoi diferite.\nÎn primul rând, ele pot reduce diferențele de acces la educație. Un elev care nu are acasă un loc liniștit ar putea învăța într-o sală bine echipată. Același spațiu ar ajuta și adulții care au nevoie de informații sau de sprijin pentru utilizarea serviciilor digitale.\nÎn al doilea rând, biblioteca poate deveni un loc de întâlnire. Atelierele și discuțiile organizate acolo i-ar aduce împreună pe vecini care altfel nu s-ar cunoaște.\nDesigur, susținătorii pieței pot afirma că spațiile în aer liber sunt accesibile fără program. Obiecția este justificată. Totuși, o bibliotecă modernizată ar putea avea un program mai lung și activități în curtea clădirii, atunci când vremea permite.\nPrin urmare, aș investi mai întâi în biblioteci, cu condiția ca proiectul să includă personal, întreținere și activități, nu doar mobilier. Valoarea unui spațiu public depinde de felul în care este folosit pe termen lung.",
+        "annotations": [
+          "Тезис, два аргумента, признанная оговорка, условный вывод.",
+          "Условные формы показывают предполагаемые результаты, а не установленные факты.",
+          "Связки организуют смысл; качество работы не определяется одним количеством коннекторов."
+        ]
+      }
+    ],
+    "speaking": [
+      {
+        "id": "EX.B2.P1.S.1",
+        "title": "Interviu: o schimbare în viața cotidiană",
+        "prompt": "Răspunde unui interlocutor despre o schimbare importantă în rutina ta. Explică de ce ai făcut-o și ce ai ajusta acum.",
+        "followUps": [
+          "Ce ți-a fost mai greu decât te așteptai?",
+          "Cum ai explica alegerea unei persoane care nu este de acord?",
+          "Ce ai face diferit dacă ai începe din nou?"
+        ]
+      },
+      {
+        "id": "EX.B2.P1.S.2",
+        "title": "Negociere: activități pentru cartier",
+        "prompt": "Tu și partenerul aveți un buget limitat pentru două activități lunare. Tu preferi ateliere educaționale; partenerul preferă evenimente sportive. Discutați costul, accesul, vremea și nevoile participanților. Ajungeți la o soluție comună și precizați ce cedați fiecare.",
+        "followUps": [
+          "Partenerul spune că voluntarii nu pot veni în weekend. Cum adaptați planul?",
+          "Cere un argument concret înainte să accepți o propunere.",
+          "Rezumă acordul și verifică dacă partenerul l-a înțeles la fel."
+        ]
+      },
+      {
+        "id": "EX.B2.P1.S.3",
+        "title": "Compară două moduri de lucru",
+        "prompt": "Privește cele două scene. Compară avantajele și dificultățile muncii individuale de acasă și ale colaborării într-un spațiu comun. Spune pentru ce activități ai alege fiecare variantă și justifică.",
+        "visual": "work",
+        "followUps": [
+          "Cum s-ar schimba alegerea pentru un coleg nou?",
+          "Ce problemă nu poate fi rezolvată doar prin alegerea spațiului?"
+        ]
+      }
+    ]
+  }
+]

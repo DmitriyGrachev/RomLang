@@ -1,0 +1,9 @@
+# A2 depth author report
+
+- Deliverable: `/workspace/sites/romana-militari/content/depth-A2.json` only. Existing A2.01–A2.24 and their IDs were not edited.
+- Added modules A2.7–A2.12, 24 lessons A2.25–A2.48, 288 lesson items (120 choice, 48 gap, 48 order, 72 reading), six checkpoints with 48 new items, six missions with two variants each, 108 dictionary entries, 24 lesson teaching supports and six mission supports.
+- Each lesson has six authored Russian detail paragraphs plus core and comparison; measured 227–313 Cyrillic words across those fields. Reading passages measure 72–89 whitespace-separated Romanian words. Sheet has four bilingual rows and three notes. Each mission variant has a three-turn success route and a repair branch; all node and option utterances are translated in missionTeaching.
+- Checkpoints use six newly authored module-wide reading scenarios and independent choice, gap, and order cases. Models were authored as connected lesson and checkpoint narratives; free production remains checklist based.
+- `node scripts/validate-depth.mjs --level A2` passed after the final write. The script checks structural counts, unique items including quiz substance, answer buildability, owner and teaching coverage, and reading/text floors.
+- Language audit fixed all 48 order pair orientations; inspected all lesson gaps for constraints, all lesson reading answer keys, dictionary owner examples, and mission branch meanings. One dictionary headword may appear in an inflected form in its second example (e.g. *rezervare/rezervarea*); forms explicitly list the relationship.
+- Limit: 19 of 24 explanations are under the aspirational 260-word target but all exceed the enforced 220-word floor; they are distinct focused scenarios rather than added filler. The lesson task choices draw on prepared expressions, while new context is supplied by each lesson's two form tasks, two ordering tasks, three reading questions and transfer choice.

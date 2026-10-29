@@ -1,0 +1,11 @@
+# Adaptive A1.1 content report
+
+Added `content/practice-a1.1.json` with four topic preparations for A1.01–A1.04. Each has a Russian rule explanation, translated Romanian examples, translated words and chunks, and eight new exercises: two each of choice, gap, order and read. The 32 IDs use `.e101`–`.e108` within their original lesson owner and reuse that lesson's review tags. Reading items show text; none requires audio. Contexts cover greetings and diacritics, ch/gh and who/what, `a fi` with negation and professions, and Dima's Ukrainian origin and Bucharest residence.
+
+The bank includes 18 RU→RO recall prompts for A1.d001–d018. Nouns specify singular without article, profession nouns specify masculine where relevant, languages specify the bare form after `Vorbesc`, and `a fi` specifies the infinitive. Formula prompts distinguish greeting time, thanks and a polite request. Every entry has an explicit accepted answer and explanatory note.
+
+`node scripts/validate-practice.mjs` passes. It checks exact topic and exercise counts, sequential unique IDs, type distribution, relevant original tags, complete Russian translations, canonical choice answers, grader equivalent distractors, buildable order tiles, Romanian lexical preparation, all 18 dictionary IDs, and no audio fields or listening skill. `node scripts/validate-content.mjs` also passes for the unchanged core content. A separate human language review remains useful for naturalness and any valid alternative interpretations beyond the mechanical checks.
+
+## Language review revision
+
+The independent review found two A1.01 tasks that repeated the core decision. A1.01.e106 now orders an evening greeting followed by thanks; e107 reads both clauses to identify the sequence of actions. A1.01.e102 now tests the `ș` word in a two-noun phrase; e104 explicitly compares `î` in `în` with `â` in `România`; e105 orders a daytime greeting and location message. A1.02.e102/e108 now test stress in `cafea` against `cheie` and `carte`, with preparation for those stress patterns. A1.03.e101 uses `Tu → ești` for its `a-fi-tu` tag. A1.04.e103/e105 now test origin with `din`, while e106 targets `și` and accepts either order of the two languages. The A1.02 word glosses now describe article forms without implying a demonstrative. The validator also rejects a practice order task copied from a core task.

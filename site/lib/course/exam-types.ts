@@ -1,0 +1,10 @@
+export type ExamPart='listening'|'reading'|'language'|'writing'|'speaking';
+export type ExamItem={id:string;familyId:string;kind:'choice'|'gap';prompt:string;choices?:string[];answers:string[];explanation:string};
+export type ExamBlock={id:string;title:string;instructions:string;text?:string;script?:string;items:ExamItem[]};
+export type ExamWritingTask={id:string;title:string;prompt:string;targetWords:[number,number];model:string;annotations:string[]};
+export type ExamSpeakingTask={id:string;title:string;prompt:string;followUps:string[];visual?:'work'|'mobility'|'learning'};
+export type ExamPaper={id:string;version:string;kind:'guided'|'reserve';title:string;listening:ExamBlock[];reading:ExamBlock[];language:ExamBlock[];writing:ExamWritingTask[];speaking:ExamSpeakingTask[]};
+export type ExamProfile={id:string;version:string;checkedAt:string;provider:string;parts:{id:ExamPart;title:string;minutes:number;points:number}[];sources:{title:string;url:string}[];officialPass:null;internalTarget:{total:number;component:number;papers:number};audioNote:string};
+export type ExamPartResult={submittedAt:string;score:number|null;correct:number|null;total:number|null;secondsUsed:number;answers:Record<string,string>};
+export type ExamReview={id:string;at:string;part:'writing'|'speaking';source:'self'|'teacher-reported';scores:Record<string,number>;total:number;comment:string};
+export type ExamSession={id:string;paper:ExamPaper;profile:ExamProfile;mode:'learning'|'timed';startedAt:string;partIndex:number;partStartedAt:string;novel:boolean;assisted:boolean;answers:Record<string,string>;listens:Record<string,number>;recordingIds:string[];results:Partial<Record<ExamPart,ExamPartResult>>;submittedAt?:string;reviews:ExamReview[]};

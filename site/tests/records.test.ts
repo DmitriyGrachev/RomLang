@@ -1,0 +1,13 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {reduceEvents,validateEvent,emptySnapshot} from '../lib/course/records.ts';
+import type {LearningEvent,ExerciseItem} from '../lib/course/types.ts';
+const item:ExerciseItem={id:'A1.03.e1',type:'gap',prompt:'Eu ___ Dima',answers:['sunt'],explanation:'fi',hint:'fi',tag:'a-fi',skill:'grammar'};
+const catalog={exercises:new Map([[item.id,item]]),lessonIds:new Set(['A1.03','A1.04']),wordIds:new Set(['A1.d001']),missions:new Map(),lessonExercises:new Map([['A1.03',[item.id]]])};
+const event=(id:string,type:LearningEvent['type'],payload:Record<string,unknown>):LearningEvent=>({id,type,payload,at:'2026-10-25T12:00:00.000Z'});
+test('same event and repeated correct answers award XP once',()=>{const a=event('one','attempt',{exerciseId:item.id,answer:'sunt',assisted:false});const b=event('two','attempt',{exerciseId:item.id,answer:'sunt',assisted:true});const s=reduceEvents([a,a,b],catalog);assert.equal(s.xp,5);assert.equal(s.attempts[item.id].length,2)});
+test('draft in another lesson cannot erase an earlier attempt',()=>{const s=reduceEvents([event('a','attempt',{exerciseId:item.id,answer:'este',assisted:false}),event('b','draft',{key:'A1.04.e1',text:'noi'})],catalog);assert.equal(s.attempts[item.id][0].correct,false);assert.equal(s.drafts['A1.04.e1'],'noi')});
+test('wrong answers enter the review queue and subsequent correct schedules tomorrow',()=>{const s=reduceEvents([event('a','attempt',{exerciseId:item.id,answer:'este',assisted:false}),event('b','attempt',{exerciseId:item.id,answer:'sunt',assisted:false})],catalog);assert.equal(s.reviews[item.id].due,'2026-10-26T12:00:00.000Z')});
+test('completion cannot be forged before exercises and productive criteria',()=>{assert.throws(()=>validateEvent(event('f','finish',{lessonId:'A1.03'}),catalog,emptySnapshot()),/задания|практику/)});
+test('untrusted restore rejects unknown exercises and client-provided correctness',()=>{assert.throws(()=>validateEvent(event('x','attempt',{exerciseId:'bad',answer:'x'}),catalog,emptySnapshot()),/задание/);const e=validateEvent(event('y','attempt',{exerciseId:item.id,answer:'este',correct:true}),catalog,emptySnapshot());assert.equal(e.payload.correct,undefined);assert.equal(reduceEvents([e],catalog).xp,0)});
+test('notes and saved word edits do not replace other records',()=>{const s=reduceEvents([event('a','word',{wordId:'A1.d001',saved:true}),event('b','note',{wordId:'A1.d001',text:'my note'})],catalog);assert.equal(s.notes['A1.d001'],'my note');assert.deepEqual(s.savedWords,['A1.d001'])});
