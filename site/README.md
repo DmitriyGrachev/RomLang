@@ -122,10 +122,17 @@ Replace the filename with the pending migration and `DB` with your D1 binding na
 - `npm run build`: build the deployable Sites artifact
 - `npm run start`: preview the built Worker locally with D1/R2 support
 - `npm run db:generate`: generate Drizzle migrations after schema changes
+- `npm run check:visuals`: validate all 120 chapter diagrams, frame/node links, timelines and source IDs
 
 When using the Sites plugin, follow its skill instructions for installation, builds, and publishing. These npm commands remain available for standalone use.
 
 The portable build runs Vinext directly without a host `timeout` command. The managed-linux build uses `scripts/build-verified.sh` and its existing `SITES_BUILD_TIMEOUT` setting.
+
+## Visual theory explanations
+
+Every chapter in the A0–B2 deep course includes a contextual diagram under “Правило на схеме”. The 120 figures contain 224 example frames across sentence, relationship, comparison, decision, flow and timeline layouts. Select an example or a labelled part to read its explanation; “Прочитать всю схему текстом” contains the complete text equivalent. Print styles include every frame. Diagram exploration does not change learning scores.
+
+Authored data lives in `content/visuals/`; `app/components/TheoryVisual.tsx` renders it inside the chapter's matching theory section and the depth view. See `docs/releases/2026-10-29-theory-visuals.md` for verification and remaining browser/deployment limits.
 
 ## Learn More
 

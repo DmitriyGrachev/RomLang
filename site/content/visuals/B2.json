@@ -1,0 +1,3164 @@
+[
+  {
+    "id": "V.B2.01",
+    "chapterId": "G.B2.01",
+    "kind": "timeline",
+    "section": "meaning",
+    "title": "Раньше ориентира или в процессе?",
+    "intro": "Сначала найдите прошлый момент наблюдения. Затем расположите относительно него другое действие.",
+    "frames": [
+      {
+        "id": "earlier",
+        "label": "Более раннее событие",
+        "caption": "Când am ajuns, trenul plecase.",
+        "nodes": [
+          {
+            "id": "departure",
+            "label": "Раньше ориентира",
+            "text": "trenul plecase",
+            "lang": "ro",
+            "note": "Поезд ушёл до моего прибытия. Mai-mult-ca-perfect связывает два прошлых момента.",
+            "tone": "action",
+            "at": 20
+          },
+          {
+            "id": "arrival",
+            "label": "Прошлый ориентир",
+            "text": "am ajuns",
+            "lang": "ro",
+            "note": "Моё прибытие задаёт точку, к которой отправление уже произошло.",
+            "tone": "time",
+            "at": 65
+          },
+          {
+            "id": "now",
+            "label": "Момент рассказа",
+            "text": "Сейчас",
+            "lang": "ru",
+            "note": "Оба события рассказаны из более позднего момента.",
+            "tone": "neutral",
+            "at": 95
+          }
+        ],
+        "links": [
+          {
+            "from": "departure",
+            "to": "arrival",
+            "label": "раньше прибытия"
+          }
+        ],
+        "explanation": "Порядок слов начинается с прибытия, а порядок событий — с отправления. Предпрошедшее делает возврат назад явным.",
+        "axis": {
+          "start": "Раньше",
+          "end": "Позже"
+        }
+      },
+      {
+        "id": "background",
+        "label": "Процесс в момент события",
+        "caption": "Când am intrat, Ana citea.",
+        "nodes": [
+          {
+            "id": "reading",
+            "label": "Фон в процессе",
+            "text": "Ana citea",
+            "lang": "ro",
+            "note": "Чтение уже идёт в момент входа. Края полосы условны: фраза не сообщает точное начало и конец чтения.",
+            "tone": "action",
+            "at": 15,
+            "end": 80
+          },
+          {
+            "id": "entry",
+            "label": "Прошлый ориентир",
+            "text": "am intrat",
+            "lang": "ro",
+            "note": "Вход происходит внутри показанного процесса чтения.",
+            "tone": "time",
+            "at": 55
+          },
+          {
+            "id": "now",
+            "label": "Момент рассказа",
+            "text": "Сейчас",
+            "lang": "ru",
+            "note": "Говорящий описывает прошлую сцену.",
+            "tone": "neutral",
+            "at": 95
+          }
+        ],
+        "links": [
+          {
+            "from": "reading",
+            "to": "entry",
+            "label": "чтение идёт при входе"
+          }
+        ],
+        "explanation": "Imperfect открывает процесс в прошлом; mai-mult-ca-perfect в предыдущем примере помещал событие раньше ориентира.",
+        "axis": {
+          "start": "Раньше",
+          "end": "Позже"
+        }
+      }
+    ],
+    "takeaway": "Для предпрошедшего нужны две точки: прошлый ориентир и предшествующее ему событие.",
+    "caution": "Расстояния на линии условны. Când и deja сами по себе не требуют предпрошедшего; отрицание Nu terminasem не доказывает, когда отчёт всё-таки закончили.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.02",
+    "chapterId": "G.B2.02",
+    "kind": "relations",
+    "section": "meaning",
+    "title": "Альтернативная ветка прошлого",
+    "intro": "Условие и следствие могут относиться к прошлому, но оставаться воображаемыми. Отдельно проверьте время каждой части и статус всего сообщения.",
+    "frames": [
+      {
+        "id": "past",
+        "label": "Прошлое → прошлое",
+        "caption": "Dacă aș fi știut, aș fi venit.",
+        "nodes": [
+          {
+            "id": "condition",
+            "label": "Нереализованное условие",
+            "text": "Dacă aș fi știut",
+            "lang": "ro",
+            "note": "Рассматриваем знание в альтернативном прошлом: «если бы я знал тогда».",
+            "tone": "link"
+          },
+          {
+            "id": "result",
+            "label": "Условное следствие",
+            "text": "aș fi venit",
+            "lang": "ro",
+            "note": "Приход относится к той же воображаемой ветке: «я бы пришёл».",
+            "tone": "action"
+          },
+          {
+            "id": "status",
+            "label": "Что утверждается?",
+            "text": "Приход не сообщён как факт",
+            "lang": "ru",
+            "note": "Связь «при таком условии был бы такой результат» не превращается в утверждение «я пришёл».",
+            "tone": "neutral"
+          }
+        ],
+        "links": [
+          {
+            "from": "condition",
+            "to": "result",
+            "label": "если бы → то бы"
+          },
+          {
+            "from": "result",
+            "to": "status",
+            "label": "сохраняем условный статус"
+          }
+        ],
+        "explanation": "Обе формы содержат aș fi + причастие. Это схема нереализованной альтернативы, а не хронология состоявшегося визита."
+      },
+      {
+        "id": "mixed",
+        "label": "Прошлое → настоящее",
+        "caption": "Dacă aș fi dormit, acum aș fi mai atent.",
+        "nodes": [
+          {
+            "id": "condition",
+            "label": "Условие: прошлая ночь",
+            "text": "Dacă aș fi dormit",
+            "lang": "ro",
+            "note": "Предполагаем иной прошлый сон; condițional perfect содержит причастие dormit.",
+            "tone": "time"
+          },
+          {
+            "id": "result",
+            "label": "Следствие: сейчас",
+            "text": "acum aș fi mai atent",
+            "lang": "ro",
+            "note": "Воображаемое состояние сейчас. Aș fi здесь — condițional prezent глагола a fi; mai atent не причастие.",
+            "tone": "action"
+          },
+          {
+            "id": "status",
+            "label": "Статус результата",
+            "text": "Внимательность тоже условна",
+            "lang": "ru",
+            "note": "Acum меняет время следствия, но не делает его утверждённым фактом.",
+            "tone": "neutral"
+          }
+        ],
+        "links": [
+          {
+            "from": "condition",
+            "to": "result",
+            "label": "прошлое условие влияет на сейчас"
+          },
+          {
+            "from": "result",
+            "to": "status",
+            "label": "не фактическое состояние"
+          }
+        ],
+        "explanation": "Смешанное условие соединяет два временных плана. Одинаковые слова aș fi не означают одинаковый разбор всей конструкции."
+      }
+    ],
+    "takeaway": "В условном периоде определяйте отдельно время условия, время следствия и то, что действительно утверждается.",
+    "caution": "Dacă не означает нереальность во всех предложениях: открытое условие о будущем может быть вполне реальным. Контекст уточняет фактическую историю.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.03",
+    "chapterId": "G.B2.03",
+    "kind": "relations",
+    "section": "formation",
+    "title": "Рамка оценки и прошлое содержание",
+    "intro": "Прошедшая форма внутри вероятности или чужого сообщения не равна подтверждённому событию.",
+    "frames": [
+      {
+        "id": "possible",
+        "label": "Оценка возможности",
+        "caption": "E posibil să fi plecat deja.",
+        "nodes": [
+          {
+            "id": "frame",
+            "label": "Рамка оценки",
+            "text": "E posibil",
+            "lang": "ro",
+            "note": "Говорящий допускает событие, но не подтверждает его.",
+            "tone": "link"
+          },
+          {
+            "id": "content",
+            "label": "Более раннее содержание",
+            "text": "să fi plecat deja",
+            "lang": "ro",
+            "note": "Să + fi + причастие помещает возможный отъезд раньше точки оценки.",
+            "tone": "action"
+          },
+          {
+            "id": "status",
+            "label": "Сила утверждения",
+            "text": "Возможный отъезд",
+            "lang": "ru",
+            "note": "На схеме нет точки «отъезд точно состоялся». Вероятность остаётся частью смысла.",
+            "tone": "neutral"
+          }
+        ],
+        "links": [
+          {
+            "from": "frame",
+            "to": "content",
+            "label": "оценивает возможность"
+          },
+          {
+            "from": "content",
+            "to": "status",
+            "label": "прошлое не равно доказанному"
+          }
+        ],
+        "explanation": "Conjunctiv perfect отвечает за временное отношение; E posibil — за статус сообщения."
+      },
+      {
+        "id": "reported",
+        "label": "Чужая версия",
+        "caption": "Se spune că ar fi plecat.",
+        "nodes": [
+          {
+            "id": "source",
+            "label": "Источник сообщения",
+            "text": "Se spune că",
+            "lang": "ro",
+            "note": "Содержание передаётся как то, что говорят другие.",
+            "tone": "actor"
+          },
+          {
+            "id": "content",
+            "label": "Дистанцированное содержание",
+            "text": "ar fi plecat",
+            "lang": "ro",
+            "note": "Репортативное употребление условного наклонения сохраняет дистанцию автора.",
+            "tone": "action"
+          },
+          {
+            "id": "status",
+            "label": "Авторская позиция",
+            "text": "Переданная версия",
+            "lang": "ru",
+            "note": "Пересказ чужих слов не является независимой проверкой отъезда.",
+            "tone": "neutral"
+          }
+        ],
+        "links": [
+          {
+            "from": "source",
+            "to": "content",
+            "label": "сообщают"
+          },
+          {
+            "from": "content",
+            "to": "status",
+            "label": "сохраняем дистанцию"
+          }
+        ],
+        "explanation": "Ar fi plecat и să fi plecat относятся к разным наклонениям. Здесь оба примера требуют сохранить неутвердительный статус содержания."
+      }
+    ],
+    "takeaway": "Читайте рамку вместе с глагольной группой: она показывает, факт ли это, возможность или чужая версия.",
+    "caution": "Să fi + причастие не меняется по лицам, но исполнитель должен быть ясен из контекста. Не заменяйте все рамки сомнения одной универсальной конструкцией.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.04",
+    "chapterId": "G.B2.04",
+    "kind": "timeline",
+    "section": "usage",
+    "title": "Три слоя одной прошлой сцены",
+    "intro": "Фон, событие основной линии и более раннее объяснение занимают разные места в рассказе.",
+    "frames": [
+      {
+        "id": "scene",
+        "label": "Заказ → появление на фоне дождя",
+        "caption": "Ploua. A apărut un taxi. Comandasem o mașină.",
+        "nodes": [
+          {
+            "id": "order",
+            "label": "Ранее сделанный заказ",
+            "text": "Comandasem o mașină",
+            "lang": "ro",
+            "note": "Заказ предшествует появлению машины, хотя в рассказе объяснение дано после него.",
+            "tone": "action",
+            "at": 18
+          },
+          {
+            "id": "rain",
+            "label": "Фон сцены",
+            "text": "Ploua",
+            "lang": "ro",
+            "note": "Дождь составляет фон появления такси. Края полосы условны: начало, конец и отношение дождя ко времени заказа не указаны.",
+            "tone": "neutral",
+            "at": 8,
+            "end": 88
+          },
+          {
+            "id": "taxi",
+            "label": "Событие основной линии",
+            "text": "A apărut un taxi",
+            "lang": "ro",
+            "note": "Perfect compus вводит новое событие в сцену.",
+            "tone": "time",
+            "at": 65
+          }
+        ],
+        "links": [
+          {
+            "from": "order",
+            "to": "taxi",
+            "label": "заказ был раньше"
+          },
+          {
+            "from": "rain",
+            "to": "taxi",
+            "label": "фон в момент появления"
+          }
+        ],
+        "explanation": "Порядок подачи: фон → событие → объяснение. Временной порядок: заказ раньше появления; дождь показан как продолжающийся фон.",
+        "axis": {
+          "start": "Раньше в прошлом",
+          "end": "Позже в прошлом"
+        }
+      }
+    ],
+    "takeaway": "Выбирайте время по функции в рассказе: фон, целостный эпизод или возврат к более раннему.",
+    "caution": "Русский вид не задаёт румынское время автоматически. Perfect simplu вроде spuse встречается в повествовании; эта линия показывает отношения событий, а не все регистровые варианты.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.05",
+    "chapterId": "G.B2.05",
+    "kind": "sentence",
+    "section": "formation",
+    "title": "Два вопроса внутри группы клитик",
+    "intro": "Восстановите получателя и предмет. В показанных группах настоящего дательный компонент предшествует винительному.",
+    "frames": [
+      {
+        "id": "singular",
+        "label": "Кому? Что?",
+        "caption": "Ana mi-l arată: mie, contractul.",
+        "nodes": [
+          {
+            "id": "actor",
+            "label": "Кто показывает?",
+            "text": "Ana",
+            "lang": "ro",
+            "note": "Подлежащее: действие выполняет Ана.",
+            "tone": "actor"
+          },
+          {
+            "id": "receiver",
+            "label": "Кому?",
+            "text": "mi-",
+            "lang": "ro",
+            "note": "Получатель — mie, «мне».",
+            "tone": "receiver"
+          },
+          {
+            "id": "object",
+            "label": "Что?",
+            "text": "-l",
+            "lang": "ro",
+            "note": "Известный предмет contractul, мужское/среднее единственное число.",
+            "tone": "object"
+          },
+          {
+            "id": "verb",
+            "label": "Действие",
+            "text": "arată",
+            "lang": "ro",
+            "note": "Обе клитики относятся к глаголу arată; написание группы — mi-l.",
+            "tone": "action"
+          }
+        ],
+        "links": [
+          {
+            "from": "actor",
+            "to": "verb",
+            "label": "кто действует"
+          },
+          {
+            "from": "receiver",
+            "to": "verb",
+            "label": "получатель: кому"
+          },
+          {
+            "from": "object",
+            "to": "verb",
+            "label": "предмет: что"
+          }
+        ],
+        "explanation": "Mi- и -l не два названия одного участника: они обозначают разные роли. Полная группа пишется mi-l arată."
+      },
+      {
+        "id": "plural",
+        "label": "Та же логика, другая модель",
+        "caption": "Ei ni le explică: nouă, regulile.",
+        "nodes": [
+          {
+            "id": "actor",
+            "label": "Кто объясняет?",
+            "text": "Ei",
+            "lang": "ro",
+            "note": "Глагол относится к подлежащему ei.",
+            "tone": "actor"
+          },
+          {
+            "id": "receiver",
+            "label": "Кому?",
+            "text": "ni",
+            "lang": "ro",
+            "note": "Nouă принимает форму ni перед le в этой комбинации.",
+            "tone": "receiver"
+          },
+          {
+            "id": "object",
+            "label": "Что?",
+            "text": "le",
+            "lang": "ro",
+            "note": "Regulile — женское множественное; предмет обозначается le.",
+            "tone": "object"
+          },
+          {
+            "id": "verb",
+            "label": "Действие",
+            "text": "explică",
+            "lang": "ro",
+            "note": "Здесь ni le пишется раздельно перед глаголом.",
+            "tone": "action"
+          }
+        ],
+        "links": [
+          {
+            "from": "actor",
+            "to": "verb",
+            "label": "кто действует"
+          },
+          {
+            "from": "receiver",
+            "to": "verb",
+            "label": "получатель: нам"
+          },
+          {
+            "from": "object",
+            "to": "verb",
+            "label": "предмет: правила"
+          }
+        ],
+        "explanation": "Сохраняются роли и их порядок, но меняется форма и графика: ni le, тогда как перед o в примере главы — ne-o."
+      }
+    ],
+    "takeaway": "Сначала определите cui? и ce?, затем выберите целую модель сочетания клитик.",
+    "caution": "Порядок и написание здесь относятся к показанным конструкциям. В императиве и perfect compus позиция относительно глагола меняется; ni нельзя механически переносить перед o.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.06",
+    "chapterId": "G.B2.06",
+    "kind": "sentence",
+    "section": "formation",
+    "title": "Почему mi l-a dat, но mi-a dat-o",
+    "intro": "В perfect compus предмет мужского/среднего единственного и женское o занимают разные позиции. Пробелы и дефисы входят в модель.",
+    "frames": [
+      {
+        "id": "masculine",
+        "label": "Мужское/среднее единственное",
+        "caption": "El mi l-a dat: mie, contractul.",
+        "nodes": [
+          {
+            "id": "receiver",
+            "label": "Получатель",
+            "text": "mi",
+            "lang": "ro",
+            "note": "Mie: кому дали. После mi здесь пробел.",
+            "tone": "receiver"
+          },
+          {
+            "id": "objectaux",
+            "label": "Предмет + вспомогательный",
+            "text": "l-a",
+            "lang": "ro",
+            "note": "L- заменяет contractul и соединяется дефисом с a. A относится к el.",
+            "tone": "object"
+          },
+          {
+            "id": "participle",
+            "label": "Причастие",
+            "text": "dat",
+            "lang": "ro",
+            "note": "В perfect compus причастие dat сохраняет свою форму.",
+            "tone": "action"
+          }
+        ],
+        "links": [
+          {
+            "from": "receiver",
+            "to": "objectaux",
+            "label": "mi + пробел + l-a"
+          },
+          {
+            "from": "objectaux",
+            "to": "participle",
+            "label": "l-a + пробел + dat"
+          }
+        ],
+        "explanation": "Получатель → предмет со вспомогательным → причастие: mi l-a dat. Предмет находится перед причастием."
+      },
+      {
+        "id": "feminine",
+        "label": "Женское единственное: o после",
+        "caption": "El mi-a dat-o: mie, cartea.",
+        "nodes": [
+          {
+            "id": "receiveraux",
+            "label": "Получатель + вспомогательный",
+            "text": "mi-a",
+            "lang": "ro",
+            "note": "Mie остаётся получателем, но mi соединяется с a.",
+            "tone": "receiver"
+          },
+          {
+            "id": "participle",
+            "label": "Причастие",
+            "text": "dat",
+            "lang": "ro",
+            "note": "Причастие не получает женского окончания от cartea.",
+            "tone": "action"
+          },
+          {
+            "id": "object",
+            "label": "Предмет после причастия",
+            "text": "-o",
+            "lang": "ro",
+            "note": "Женское единственное o заменяет cartea и присоединяется после dat.",
+            "tone": "object"
+          }
+        ],
+        "links": [
+          {
+            "from": "receiveraux",
+            "to": "participle",
+            "label": "mi-a + пробел + dat"
+          },
+          {
+            "from": "participle",
+            "to": "object",
+            "label": "dat + дефис + o"
+          }
+        ],
+        "explanation": "Получатель со вспомогательным → причастие → женское o: mi-a dat-o. Это специальная позиция o в данной составной форме."
+      },
+      {
+        "id": "plural",
+        "label": "Множественное le остаётся перед",
+        "caption": "Ea ni le-a trimis: nouă, actele.",
+        "nodes": [
+          {
+            "id": "receiver",
+            "label": "Получатель",
+            "text": "ni",
+            "lang": "ro",
+            "note": "Nouă имеет форму ni перед le в этой группе.",
+            "tone": "receiver"
+          },
+          {
+            "id": "objectaux",
+            "label": "Предмет + вспомогательный",
+            "text": "le-a",
+            "lang": "ro",
+            "note": "Actele — среднее множественное; le предшествует вспомогательному a.",
+            "tone": "object"
+          },
+          {
+            "id": "participle",
+            "label": "Причастие",
+            "text": "trimis",
+            "lang": "ro",
+            "note": "После le-a следует неизменяемое причастие.",
+            "tone": "action"
+          }
+        ],
+        "links": [
+          {
+            "from": "receiver",
+            "to": "objectaux",
+            "label": "ni + пробел + le-a"
+          },
+          {
+            "from": "objectaux",
+            "to": "participle",
+            "label": "le-a + пробел + trimis"
+          }
+        ],
+        "explanation": "Позицию женского единственного o нельзя распространить на le: ni le-a trimis, но ne-a trimis-o."
+      }
+    ],
+    "takeaway": "При выборе модели проверьте роль получателя, род и число предмета, а затем позицию относительно вспомогательного и причастия.",
+    "caution": "Схема относится к perfect compus. Не переносите её механически на настоящее или приказ; формы mi l-ai и mi l-au также требуют согласовать вспомогательный с действующим лицом.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.07",
+    "chapterId": "G.B2.07",
+    "kind": "sentence",
+    "section": "formation",
+    "title": "Приказ и запрет переставляют группу",
+    "intro": "Роли «кому» и «что» сохраняются, а место группы относительно глагола зависит от типа побуждения.",
+    "frames": [
+      {
+        "id": "command",
+        "label": "Утвердительный приказ",
+        "caption": "Dă-mi-l acum!",
+        "nodes": [
+          {
+            "id": "verb",
+            "label": "Глагол",
+            "text": "Dă",
+            "lang": "ro",
+            "note": "Утвердительная форма императива a da.",
+            "tone": "action"
+          },
+          {
+            "id": "receiver",
+            "label": "Кому?",
+            "text": "-mi",
+            "lang": "ro",
+            "note": "Получатель стоит после глагола и присоединяется дефисом.",
+            "tone": "receiver"
+          },
+          {
+            "id": "object",
+            "label": "Что?",
+            "text": "-l",
+            "lang": "ro",
+            "note": "Предмет следует за дательным mi: dă-mi-l.",
+            "tone": "object"
+          }
+        ],
+        "links": [
+          {
+            "from": "verb",
+            "to": "receiver",
+            "label": "после глагола; дефис"
+          },
+          {
+            "from": "receiver",
+            "to": "object",
+            "label": "дательный → винительный"
+          }
+        ],
+        "explanation": "В утвердительном приказе обе клитики находятся после глагола: Dă-mi-l!"
+      },
+      {
+        "id": "prohibition",
+        "label": "Запрет",
+        "caption": "Nu mi-l da acum!",
+        "nodes": [
+          {
+            "id": "negative",
+            "label": "Отрицание",
+            "text": "Nu",
+            "lang": "ro",
+            "note": "Запрет начинается с nu.",
+            "tone": "link"
+          },
+          {
+            "id": "clitics",
+            "label": "Кому + что",
+            "text": "mi-l",
+            "lang": "ro",
+            "note": "Группа переносится перед глаголом, сохраняя порядок ролей.",
+            "tone": "receiver"
+          },
+          {
+            "id": "verb",
+            "label": "Глагол запрета",
+            "text": "da",
+            "lang": "ro",
+            "note": "В отрицательном императиве единственного числа здесь используется da, а не dă.",
+            "tone": "action"
+          }
+        ],
+        "links": [
+          {
+            "from": "negative",
+            "to": "clitics",
+            "label": "nu перед группой"
+          },
+          {
+            "from": "clitics",
+            "to": "verb",
+            "label": "клитики перед глаголом"
+          }
+        ],
+        "explanation": "Изменились и позиция группы, и форма глагола: Nu mi-l da! При рамке să mi-l trimiteți клитики также стоят до личного глагола."
+      }
+    ],
+    "takeaway": "В приказе сначала определите утвердительную или отрицательную конструкцию, затем размещайте клитики.",
+    "caution": "Не все утвердительные и отрицательные формы глагола совпадают. Вежливое или множественное обращение требует своей формы: Trimiteți-mi-l; Nu mi-l trimiteți.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.08",
+    "chapterId": "G.B2.08",
+    "kind": "relations",
+    "section": "formation",
+    "title": "Падежная группа: форма следует за связью",
+    "intro": "Похожие окончания могут обозначать владельца при существительном или адресата при глаголе.",
+    "frames": [
+      {
+        "id": "genitive",
+        "label": "Чей отчёт?",
+        "caption": "Raportul acestei studente este clar.",
+        "nodes": [
+          {
+            "id": "head",
+            "label": "Главное существительное",
+            "text": "Raportul",
+            "lang": "ro",
+            "note": "Отчёт — предмет, к которому относится зависимая группа.",
+            "tone": "object"
+          },
+          {
+            "id": "determiner",
+            "label": "Определитель владельца",
+            "text": "acestei",
+            "lang": "ro",
+            "note": "Форма женского единственного генитива-датива согласована со studente.",
+            "tone": "link"
+          },
+          {
+            "id": "owner",
+            "label": "Владелец",
+            "text": "studente",
+            "lang": "ro",
+            "note": "В этой связи группа отвечает на вопрос «чей отчёт?» и имеет генитивное значение.",
+            "tone": "actor"
+          }
+        ],
+        "links": [
+          {
+            "from": "head",
+            "to": "owner",
+            "label": "чей отчёт: генитив"
+          },
+          {
+            "from": "owner",
+            "to": "determiner",
+            "label": "одна женская падежная группа"
+          }
+        ],
+        "explanation": "Acestei относится к студентке, а не к ближайшему слову raportul. Сначала восстановите связь существительных."
+      },
+      {
+        "id": "dative",
+        "label": "Кому написали?",
+        "caption": "I-am scris unei colege noi.",
+        "nodes": [
+          {
+            "id": "verb",
+            "label": "Действие",
+            "text": "I-am scris",
+            "lang": "ro",
+            "note": "Глагол задаёт адресата сообщения.",
+            "tone": "action"
+          },
+          {
+            "id": "determiner",
+            "label": "Определитель адресата",
+            "text": "unei",
+            "lang": "ro",
+            "note": "Неопределённая женская форма датива.",
+            "tone": "link"
+          },
+          {
+            "id": "receiver",
+            "label": "Адресат",
+            "text": "colege",
+            "lang": "ro",
+            "note": "Здесь та же падежная зона обозначает получателя: кому написали.",
+            "tone": "receiver"
+          },
+          {
+            "id": "adjective",
+            "label": "Признак адресата",
+            "text": "noi",
+            "lang": "ro",
+            "note": "Женское единственное в этой косвенной группе имеет форму noi.",
+            "tone": "neutral"
+          }
+        ],
+        "links": [
+          {
+            "from": "verb",
+            "to": "receiver",
+            "label": "кому: датив"
+          },
+          {
+            "from": "receiver",
+            "to": "determiner",
+            "label": "форма unei colege"
+          },
+          {
+            "from": "receiver",
+            "to": "adjective",
+            "label": "согласование внутри группы"
+          }
+        ],
+        "explanation": "Сначала устанавливается адресат, затем вся группа оформляется как unei colege noi. Совпадение форм не делает генитив и датив одной ролью."
+      }
+    ],
+    "takeaway": "Найдите главное слово и отношение к нему; после этого согласуйте элементы зависимой группы.",
+    "caution": "Порядок определителей и прилагательных влияет на оформление: noii directoare и directoarei noi — разные допустимые модели. Имена с lui проверяются отдельно.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.09",
+    "chapterId": "G.B2.09",
+    "kind": "relations",
+    "section": "formation",
+    "title": "Al cărui: две независимые стрелки",
+    "intro": "Владелец управляет cărui / cărei / căror; принадлежащий предмет — al / a / ai / ale. Проверяйте каждую ось отдельно.",
+    "frames": [
+      {
+        "id": "books",
+        "label": "Владелец-мужчина, книги",
+        "caption": "Autorul ale cărui cărți le citesc vine mâine.",
+        "nodes": [
+          {
+            "id": "owner",
+            "label": "Владелец",
+            "text": "Autorul",
+            "lang": "ro",
+            "note": "Мужской род, единственное число: этот участник определяет cărui.",
+            "tone": "actor"
+          },
+          {
+            "id": "article",
+            "label": "По предмету",
+            "text": "ale",
+            "lang": "ro",
+            "note": "Выбрано по cărți: женское множественное. Род autorul здесь не определяет форму.",
+            "tone": "object"
+          },
+          {
+            "id": "relative",
+            "label": "По владельцу",
+            "text": "cărui",
+            "lang": "ro",
+            "note": "Выбрано по autorul: мужское единственное.",
+            "tone": "actor"
+          },
+          {
+            "id": "possession",
+            "label": "Предмет",
+            "text": "cărți",
+            "lang": "ro",
+            "note": "Книги — то, что принадлежит автору; эта группа определяет ale.",
+            "tone": "object"
+          }
+        ],
+        "links": [
+          {
+            "from": "owner",
+            "to": "relative",
+            "label": "ось 1: владелец → cărui"
+          },
+          {
+            "from": "possession",
+            "to": "article",
+            "label": "ось 2: предмет → ale"
+          }
+        ],
+        "explanation": "Стрелки пересекают линейный порядок слов: autorul выбирает cărui, а cărți выбирает ale. Нельзя согласовать оба элемента с автором."
+      },
+      {
+        "id": "novel",
+        "label": "Владелец-женщина, роман",
+        "caption": "Autoarea al cărei roman a câștigat este aici.",
+        "nodes": [
+          {
+            "id": "owner",
+            "label": "Владелец",
+            "text": "Autoarea",
+            "lang": "ro",
+            "note": "Женское единственное определяет cărei.",
+            "tone": "actor"
+          },
+          {
+            "id": "article",
+            "label": "По предмету",
+            "text": "al",
+            "lang": "ro",
+            "note": "Roman — существительное среднего рода; в единственном числе оно выбирает al.",
+            "tone": "object"
+          },
+          {
+            "id": "relative",
+            "label": "По владельцу",
+            "text": "cărei",
+            "lang": "ro",
+            "note": "Форма связана с autoarea, а не с roman.",
+            "tone": "actor"
+          },
+          {
+            "id": "possession",
+            "label": "Предмет",
+            "text": "roman",
+            "lang": "ro",
+            "note": "Принадлежащий роман определяет al, хотя владелец — женщина.",
+            "tone": "object"
+          }
+        ],
+        "links": [
+          {
+            "from": "owner",
+            "to": "relative",
+            "label": "ось 1: владелец → cărei"
+          },
+          {
+            "from": "possession",
+            "to": "article",
+            "label": "ось 2: предмет → al"
+          }
+        ],
+        "explanation": "Смена рода владельца не требует сменить al на a: al продолжает согласоваться с roman."
+      },
+      {
+        "id": "recipient",
+        "label": "Дательный без принадлежащего предмета",
+        "caption": "Colegul căruia i-am scris răspunde.",
+        "nodes": [
+          {
+            "id": "person",
+            "label": "Названный участник",
+            "text": "Colegul",
+            "lang": "ro",
+            "note": "Коллега — тот человек, которому написали.",
+            "tone": "actor"
+          },
+          {
+            "id": "relative",
+            "label": "Самостоятельный адресат",
+            "text": "căruia",
+            "lang": "ro",
+            "note": "Полная дательная форма отвечает на cui? Следующего существительного-предмета здесь нет.",
+            "tone": "receiver"
+          },
+          {
+            "id": "verb",
+            "label": "Действие с адресатом",
+            "text": "i-am scris",
+            "lang": "ro",
+            "note": "Дательная клитика i- поддерживает адресата внутри относительного предложения.",
+            "tone": "action"
+          }
+        ],
+        "links": [
+          {
+            "from": "person",
+            "to": "relative",
+            "label": "тот же человек"
+          },
+          {
+            "from": "verb",
+            "to": "relative",
+            "label": "написали кому?"
+          }
+        ],
+        "explanation": "Здесь не две оси принадлежности, а адресат глагола: colegul căruia i-am scris. Добавлять al в эту модель не нужно."
+      }
+    ],
+    "takeaway": "В конструкции принадлежности проведите две связи: владелец → cărui/cărei/căror и предмет → al/a/ai/ale.",
+    "caution": "Схема al cărui относится к позиции перед существительным-предметом. Omul în casa căruia am stat также допустимо: после casa используется другая модель.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.10",
+    "chapterId": "G.B2.10",
+    "kind": "relations",
+    "section": "formation",
+    "title": "Зависимая группа получает форму от опорного слова",
+    "intro": "Управление связывает глагол или предлог с определённой формой дополнения.",
+    "frames": [
+      {
+        "id": "verb",
+        "label": "Глагол требует предлога",
+        "caption": "Rezultatul depinde de echipă.",
+        "nodes": [
+          {
+            "id": "verb",
+            "label": "Опорный глагол",
+            "text": "depinde",
+            "lang": "ro",
+            "note": "Для a depinde учим управление de вместе с глаголом.",
+            "tone": "action"
+          },
+          {
+            "id": "preposition",
+            "label": "Требуемый предлог",
+            "text": "de",
+            "lang": "ro",
+            "note": "Румынскую связь задаёт модель a depinde de.",
+            "tone": "link"
+          },
+          {
+            "id": "dependent",
+            "label": "Зависимая группа",
+            "text": "echipă",
+            "lang": "ro",
+            "note": "То, от чего зависит результат; русское «от» не заменяет de.",
+            "tone": "object"
+          }
+        ],
+        "links": [
+          {
+            "from": "verb",
+            "to": "preposition",
+            "label": "требует de"
+          },
+          {
+            "from": "preposition",
+            "to": "dependent",
+            "label": "вводит зависимую группу"
+          }
+        ],
+        "explanation": "Запоминайте рамку depinde de + группа, а не отдельный перевод глагола."
+      },
+      {
+        "id": "dative",
+        "label": "Предлог требует датива",
+        "caption": "Conform regulilor, accesul este liber.",
+        "nodes": [
+          {
+            "id": "governor",
+            "label": "Опорное слово",
+            "text": "Conform",
+            "lang": "ro",
+            "note": "Conform задаёт дательный падеж.",
+            "tone": "link"
+          },
+          {
+            "id": "dependent",
+            "label": "Дательная группа",
+            "text": "regulilor",
+            "lang": "ro",
+            "note": "Окончание выражает требуемую падежную форму «согласно правилам».",
+            "tone": "object"
+          }
+        ],
+        "links": [
+          {
+            "from": "governor",
+            "to": "dependent",
+            "label": "conform + датив"
+          }
+        ],
+        "explanation": "Здесь нужная связь выражена падежной группой после conform; дополнительный de не вставляется."
+      },
+      {
+        "id": "genitive",
+        "label": "Предлог требует генитива",
+        "caption": "În ciuda ploii, am plecat.",
+        "nodes": [
+          {
+            "id": "governor",
+            "label": "Предложная модель",
+            "text": "În ciuda",
+            "lang": "ro",
+            "note": "Эта уступительная конструкция требует генитива.",
+            "tone": "link"
+          },
+          {
+            "id": "dependent",
+            "label": "Генитивная группа",
+            "text": "ploii",
+            "lang": "ro",
+            "note": "Форма ploii обозначает препятствующее обстоятельство.",
+            "tone": "object"
+          }
+        ],
+        "links": [
+          {
+            "from": "governor",
+            "to": "dependent",
+            "label": "în ciuda + генитив"
+          }
+        ],
+        "explanation": "Сравнивайте опорное слово и его управление. Похожий русский смысл не означает одинаковой румынской рамки."
+      }
+    ],
+    "takeaway": "Учите связку «опорное слово → предлог или падеж → пример».",
+    "caution": "Эти три модели не распространяются на все глаголы и предлоги. Отрицание nu depinde de noi сохраняет управление, а выбор артикля требует отдельного контекста.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.11",
+    "chapterId": "G.B2.11",
+    "kind": "relations",
+    "section": "usage",
+    "title": "Кто выполняет каждое действие?",
+    "intro": "Перед сжатием фразы в gerunziu восстановите исполнителей. В этих примерах форма должна сохранять ясную связь действий с участниками.",
+    "frames": [
+      {
+        "id": "same",
+        "label": "Один исполнитель",
+        "caption": "Citind mesajul, am observat data.",
+        "nodes": [
+          {
+            "id": "actor",
+            "label": "Общий исполнитель",
+            "text": "eu",
+            "lang": "ro",
+            "note": "Я восстанавливается по форме am observat.",
+            "tone": "actor"
+          },
+          {
+            "id": "reading",
+            "label": "Сопутствующий процесс",
+            "text": "Citind mesajul",
+            "lang": "ro",
+            "note": "Сообщение читает тот же человек, который замечает дату.",
+            "tone": "action"
+          },
+          {
+            "id": "noticed",
+            "label": "Основное действие",
+            "text": "am observat data",
+            "lang": "ro",
+            "note": "Дату заметил я во время чтения.",
+            "tone": "action"
+          }
+        ],
+        "links": [
+          {
+            "from": "actor",
+            "to": "reading",
+            "label": "я читаю"
+          },
+          {
+            "from": "actor",
+            "to": "noticed",
+            "label": "я замечаю"
+          }
+        ],
+        "explanation": "Две стрелки выходят от одного исполнителя. Gerunziu сжимает обстоятельство без смены участника."
+      },
+      {
+        "id": "different",
+        "label": "Разные исполнители",
+        "caption": "Când eu citeam, telefonul a sunat.",
+        "nodes": [
+          {
+            "id": "person",
+            "label": "Исполнитель чтения",
+            "text": "eu",
+            "lang": "ro",
+            "note": "Личное придаточное явно называет читателя.",
+            "tone": "actor"
+          },
+          {
+            "id": "reading",
+            "label": "Процесс",
+            "text": "citeam",
+            "lang": "ro",
+            "note": "Форма первого лица относится к eu.",
+            "tone": "action"
+          },
+          {
+            "id": "phone",
+            "label": "Источник звонка",
+            "text": "telefonul",
+            "lang": "ro",
+            "note": "Телефон — отдельное подлежащее главной части.",
+            "tone": "object"
+          },
+          {
+            "id": "ring",
+            "label": "Событие",
+            "text": "a sunat",
+            "lang": "ro",
+            "note": "Звонит телефон; чтение ему не приписывается.",
+            "tone": "action"
+          }
+        ],
+        "links": [
+          {
+            "from": "person",
+            "to": "reading",
+            "label": "я читаю"
+          },
+          {
+            "from": "phone",
+            "to": "ring",
+            "label": "телефон звонит"
+          }
+        ],
+        "explanation": "Два действия получают разные явные подлежащие. Личное придаточное с când снимает риск ложного общего исполнителя."
+      }
+    ],
+    "takeaway": "При сокращении сохраняйте ответ на вопрос «кто делает что?».",
+    "caution": "Схема разбирает эти конструкции, а не все возможные употребления gerunziu. Infinitiv и supin выполняют другие функции: для Am venit pentru a discuta и ceva de făcut нужен свой разбор.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.12",
+    "chapterId": "G.B2.12",
+    "kind": "decision",
+    "section": "meaning",
+    "title": "Выбор связки начинается с отношения",
+    "intro": "Сначала назовите связь между частями, затем выберите союз и форму глагола.",
+    "frames": [
+      {
+        "id": "relation",
+        "label": "Четыре разных вопроса",
+        "caption": "Причина, цель, следствие и условие не взаимозаменяемы.",
+        "nodes": [
+          {
+            "id": "question",
+            "label": "Вопрос перед выбором",
+            "text": "Как связаны две части?",
+            "lang": "ru",
+            "note": "Определяем смысл связи до выбора красивой или знакомой формулы.",
+            "tone": "link"
+          },
+          {
+            "id": "cause",
+            "label": "Причина",
+            "text": "Am rămas pentru că ploua.",
+            "lang": "ro",
+            "note": "Дождь объясняет, почему я остался. Для причины используется личное предложение.",
+            "tone": "neutral"
+          },
+          {
+            "id": "purpose",
+            "label": "Цель",
+            "text": "Am venit ca să discutăm.",
+            "lang": "ro",
+            "note": "Обсуждение — цель прихода. Ca să не утверждает само по себе, что цель достигнута.",
+            "tone": "action"
+          },
+          {
+            "id": "result",
+            "label": "Следствие",
+            "text": "Era atât de frig, încât am intrat.",
+            "lang": "ro",
+            "note": "Вход представлен как следствие сильного холода.",
+            "tone": "object"
+          },
+          {
+            "id": "condition",
+            "label": "Условие",
+            "text": "Plecăm dacă primim confirmarea.",
+            "lang": "ro",
+            "note": "Получение подтверждения — условие отъезда; фраза не утверждает, что оно уже получено.",
+            "tone": "time"
+          }
+        ],
+        "links": [
+          {
+            "from": "question",
+            "to": "cause",
+            "label": "почему?"
+          },
+          {
+            "from": "question",
+            "to": "purpose",
+            "label": "ради чего?"
+          },
+          {
+            "from": "question",
+            "to": "result",
+            "label": "к чему привело?"
+          },
+          {
+            "from": "question",
+            "to": "condition",
+            "label": "при каком условии?"
+          }
+        ],
+        "explanation": "Стрелки обозначают четыре варианта анализа. Из них выбирают тот, который соответствует ситуации, а не меняют союзы ради разнообразия."
+      }
+    ],
+    "takeaway": "Причина объясняет действие, цель направляет его, следствие возникает из него, условие ограничивает его возможность.",
+    "caution": "Одна схема не определяет все времена и наклонения. После să требуется личная форма; цель не равна фактическому результату, а dacă не всегда означает нереальность.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.13",
+    "chapterId": "G.B2.13",
+    "kind": "comparison",
+    "section": "usage",
+    "title": "Признанный факт и допущенная ситуация",
+    "intro": "Уступка может опираться на факт или рассматривать препятствие как возможность. Эти статусы нужно сохранить.",
+    "frames": [
+      {
+        "id": "status",
+        "label": "Факт или гипотеза?",
+        "caption": "Сравните deși plouă и chiar dacă va ploua.",
+        "nodes": [
+          {
+            "id": "fact",
+            "label": "Дождь утверждается",
+            "text": "Deși plouă",
+            "lang": "ro",
+            "note": "Говорящий признаёт дождь как действующее обстоятельство: «хотя идёт дождь».",
+            "tone": "time"
+          },
+          {
+            "id": "possible",
+            "label": "Дождь допускается",
+            "text": "Chiar dacă va ploua, plecăm.",
+            "lang": "ro",
+            "note": "В этом примере будущий дождь — допустимое препятствие. Его наступление не утверждается.",
+            "tone": "link"
+          }
+        ],
+        "links": [],
+        "explanation": "Deși plouă вводит фактическую уступку. Chiar dacă va ploua показывает, что решение сохраняется даже при возможном будущем препятствии."
+      },
+      {
+        "id": "scope",
+        "label": "Замена критерия или добавление?",
+        "caption": "Nu… ci и nu numai… ci și меняют разные части смысла.",
+        "nodes": [
+          {
+            "id": "correction",
+            "label": "Исправление выбора",
+            "text": "Nu prețul, ci durata contează.",
+            "lang": "ro",
+            "note": "Цена отвергается как нужный критерий и заменяется длительностью.",
+            "tone": "object"
+          },
+          {
+            "id": "addition",
+            "label": "Расширение набора",
+            "text": "Nu numai prețul, ci și calitatea contează.",
+            "lang": "ro",
+            "note": "Цена сохраняет значение; к ней добавляется качество.",
+            "tone": "link"
+          }
+        ],
+        "links": [],
+        "explanation": "В первой конструкции один критерий заменяется другим. Во второй исходный критерий остаётся, а набор расширяется."
+      }
+    ],
+    "takeaway": "Проверяйте, что вы признаёте фактом, что лишь допускаете и какой объём утверждения меняете.",
+    "caution": "Chiar dacă может вводить и реальную ситуацию; гипотетичность здесь задаёт весь пример с va ploua. Dar, totuși и în schimb не выполняют автоматически одну и ту же функцию.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.14",
+    "chapterId": "G.B2.14",
+    "kind": "decision",
+    "section": "formation",
+    "title": "Тип реплики задаёт связь при пересказе",
+    "intro": "Сохраните действие исходной реплики: сообщение, вопрос или просьбу.",
+    "frames": [
+      {
+        "id": "report",
+        "label": "Что передаём?",
+        "caption": "Выберите связь по типу содержания, которое пересказываете.",
+        "nodes": [
+          {
+            "id": "question",
+            "label": "Вопрос к исходной реплике",
+            "text": "Что сделал говорящий?",
+            "lang": "ru",
+            "note": "Определите функцию реплики, а не только её тему.",
+            "tone": "link"
+          },
+          {
+            "id": "statement",
+            "label": "Сообщил",
+            "text": "Mi-a spus că vine.",
+            "lang": "ro",
+            "note": "Утверждение вводится că; пересказ сам по себе не подтверждает будущий приход.",
+            "tone": "neutral"
+          },
+          {
+            "id": "yesno",
+            "label": "Спросил: да или нет?",
+            "text": "M-a întrebat dacă vin.",
+            "lang": "ro",
+            "note": "Общий косвенный вопрос требует dacă.",
+            "tone": "object"
+          },
+          {
+            "id": "wh",
+            "label": "Спросил: где?",
+            "text": "M-a întrebat unde locuiesc.",
+            "lang": "ro",
+            "note": "Содержательное вопросительное unde сохраняется.",
+            "tone": "time"
+          },
+          {
+            "id": "request",
+            "label": "Попросил",
+            "text": "Mi-a cerut să vin.",
+            "lang": "ro",
+            "note": "Побуждение передаётся через să и личную форму.",
+            "tone": "action"
+          }
+        ],
+        "links": [
+          {
+            "from": "question",
+            "to": "statement",
+            "label": "утверждение → că"
+          },
+          {
+            "from": "question",
+            "to": "yesno",
+            "label": "общий вопрос → dacă"
+          },
+          {
+            "from": "question",
+            "to": "wh",
+            "label": "специальный вопрос → unde"
+          },
+          {
+            "from": "question",
+            "to": "request",
+            "label": "побуждение → să"
+          }
+        ],
+        "explanation": "У одного содержания о приходе могут быть разные рамки. Замена dacă на că превращает вопрос в сообщение."
+      },
+      {
+        "id": "negation",
+        "label": "Где находится отрицание?",
+        "caption": "Положение nu показывает непосредственную область отрицания.",
+        "nodes": [
+          {
+            "id": "question",
+            "label": "Вопрос к nu",
+            "text": "Какая часть отрицается?",
+            "lang": "ru",
+            "note": "Отделите отношение говорящего от содержания придаточного.",
+            "tone": "link"
+          },
+          {
+            "id": "belief",
+            "label": "Отношение говорящего",
+            "text": "Nu cred că va veni.",
+            "lang": "ro",
+            "note": "Nu относится к cred. В данном учебном контексте говорящий не уверен в приходе.",
+            "tone": "actor"
+          },
+          {
+            "id": "content",
+            "label": "Содержание прогноза",
+            "text": "Cred că nu va veni.",
+            "lang": "ro",
+            "note": "Говорящий выражает мнение, что приход не состоится; nu стоит при va veni.",
+            "tone": "action"
+          }
+        ],
+        "links": [
+          {
+            "from": "question",
+            "to": "belief",
+            "label": "nu перед cred"
+          },
+          {
+            "from": "question",
+            "to": "content",
+            "label": "nu внутри содержания"
+          }
+        ],
+        "explanation": "Синтаксическая область отрицания различна. Практическая сила фразы дополнительно зависит от контекста и интонации."
+      }
+    ],
+    "takeaway": "Сохраните тип реплики и область отрицания; затем проверьте лицо, место и временные ориентиры.",
+    "caution": "Румынский не требует механически сдвигать все времена при пересказе. Mâine или aici меняются, если изменился соответствующий ориентир, а не просто появился прошедший глагол речи.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.15",
+    "chapterId": "G.B2.15",
+    "kind": "comparison",
+    "section": "usage",
+    "title": "Близкая уверенность, разная грамматика",
+    "intro": "Сравнивайте отдельно форму конструкции и силу сообщения: вероятность, необходимость и запрет — разные параметры.",
+    "frames": [
+      {
+        "id": "possibility",
+        "label": "Две рамки вероятности",
+        "caption": "Обе фразы допускают закрытие, но строятся по-разному.",
+        "nodes": [
+          {
+            "id": "subjunctive",
+            "label": "E posibil + să",
+            "text": "Este posibil să fie închis.",
+            "lang": "ro",
+            "note": "Рамка требует conjunctiv: să fie.",
+            "tone": "link"
+          },
+          {
+            "id": "indicative",
+            "label": "Probabil + личная форма",
+            "text": "Probabil este închis.",
+            "lang": "ro",
+            "note": "Probabil допускает изъявительное este.",
+            "tone": "action"
+          }
+        ],
+        "links": [],
+        "explanation": "Не назначайте этим рамкам точные проценты уверенности. Важное формальное различие здесь — să fie и este."
+      },
+      {
+        "id": "permission",
+        "label": "Нет обязанности или есть запрет?",
+        "caption": "Отсутствие необходимости и запрет дают разные возможности действия.",
+        "nodes": [
+          {
+            "id": "optional",
+            "label": "Необязательно",
+            "text": "Nu este necesar să pleci.",
+            "lang": "ro",
+            "note": "Уход не требуется. Это не запрет уходить.",
+            "tone": "neutral"
+          },
+          {
+            "id": "forbidden",
+            "label": "Нельзя",
+            "text": "Nu ai voie să intri.",
+            "lang": "ro",
+            "note": "Вход запрещён. Фраза не означает просто отсутствие обязанности.",
+            "tone": "link"
+          }
+        ],
+        "links": [],
+        "explanation": "Смотрите, отрицается ли необходимость действия или разрешение на него."
+      },
+      {
+        "id": "forecast",
+        "label": "Возможный эффект или уверенный прогноз?",
+        "caption": "Смена модальной рамки меняет обязательства автора.",
+        "nodes": [
+          {
+            "id": "possible",
+            "label": "Возможный эффект",
+            "text": "ar putea reduce",
+            "lang": "ro",
+            "note": "В Măsura ar putea reduce costul снижение представлено как возможность.",
+            "tone": "neutral"
+          },
+          {
+            "id": "stronger",
+            "label": "Более сильный прогноз",
+            "text": "va reduce",
+            "lang": "ro",
+            "note": "Будущее утверждается увереннее. Такое усиление требует достаточного основания.",
+            "tone": "action"
+          }
+        ],
+        "links": [],
+        "explanation": "Перефразируя вывод, сохраняйте его модальную силу. Возможность снижения не превращается автоматически в обещание снижения."
+      }
+    ],
+    "takeaway": "Выбирайте форму по рамке, а силу утверждения — по имеющимся основаниям.",
+    "caution": "Trebuie и poate имеют несколько значений. Контекст отличает обязанность, способность и логический вывод; нельзя назначить каждому слову единственную степень вероятности.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.16",
+    "chapterId": "G.B2.16",
+    "kind": "comparison",
+    "section": "formation",
+    "title": "Что выдвинуто вперёд и назван ли исполнитель?",
+    "intro": "Актив, пассив и безличная конструкция распределяют внимание и информацию об ответственности.",
+    "frames": [
+      {
+        "id": "voice",
+        "label": "Проверка документов",
+        "caption": "Сравните, какие участники явно названы.",
+        "nodes": [
+          {
+            "id": "active",
+            "label": "Исполнитель — подлежащее",
+            "text": "Comisia a verificat documentele.",
+            "lang": "ro",
+            "note": "Комиссия названа исполнителем. Причастие активного perfect compus verificat не согласуется с documentele.",
+            "tone": "actor"
+          },
+          {
+            "id": "passive",
+            "label": "Документы — подлежащее",
+            "text": "Documentele au fost verificate.",
+            "lang": "ro",
+            "note": "Пассив выделяет документы. Verificate согласуется с ними; исполнитель в этой фразе не назван.",
+            "tone": "object"
+          }
+        ],
+        "links": [],
+        "explanation": "Фокус смещается с комиссии на статус документов. Во второй фразе нельзя восстановить исполнителя только по грамматической форме."
+      },
+      {
+        "id": "se",
+        "label": "Процедура или безличное действие?",
+        "caption": "Se не обозначает одну-единственную конструкцию.",
+        "nodes": [
+          {
+            "id": "procedure",
+            "label": "Есть подлежащее-предмет",
+            "text": "Cererile se depun online.",
+            "lang": "ro",
+            "note": "Cererile во множественном числе связано с depun. Описывается процедура подачи заявлений.",
+            "tone": "object"
+          },
+          {
+            "id": "impersonal",
+            "label": "Безличное действие",
+            "text": "Aici se lucrează în echipă.",
+            "lang": "ro",
+            "note": "Не названо подлежащее-предмет, которое подвергается действию. Описывается способ работы.",
+            "tone": "action"
+          }
+        ],
+        "links": [],
+        "explanation": "Наличие se само по себе не определяет пассивность. Проверяйте смысл глагола и наличие подлежащего."
+      }
+    ],
+    "takeaway": "В пассиве согласуйте причастие с новым подлежащим и решите, нужно ли явно назвать исполнителя.",
+    "caution": "Не каждое se — пассив, и Ușa este închisă может описывать состояние. Если ответственность существенна, пассив без агента не заменяет её явного указания.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.17",
+    "chapterId": "G.B2.17",
+    "kind": "flow",
+    "section": "usage",
+    "title": "Сжать действие и сохранить исполнителя",
+    "intro": "При номинализации действие становится предметом обсуждения. Проверьте, какие сведения исчезли при сжатии.",
+    "frames": [
+      {
+        "id": "compression",
+        "label": "От предложения к именной группе",
+        "caption": "Echipa verifică datele → verificarea datelor de către echipă.",
+        "nodes": [
+          {
+            "id": "clause",
+            "label": "Действие с исполнителем",
+            "text": "Echipa verifică datele",
+            "lang": "ro",
+            "note": "Личная форма показывает, кто действует и что проверяет.",
+            "tone": "action"
+          },
+          {
+            "id": "nominal",
+            "label": "Название действия",
+            "text": "verificarea datelor",
+            "lang": "ro",
+            "note": "Verificarea называет процесс; прежнее прямое дополнение datele оформляется как datelor. Исполнитель здесь не назван.",
+            "tone": "object"
+          },
+          {
+            "id": "agent",
+            "label": "Исполнитель сохранён",
+            "text": "verificarea datelor de către echipă",
+            "lang": "ro",
+            "note": "De către echipă возвращает команду в именную группу, если её ответственность важна.",
+            "tone": "actor"
+          }
+        ],
+        "links": [
+          {
+            "from": "clause",
+            "to": "nominal",
+            "label": "глагол → существительное; объект → генитив"
+          },
+          {
+            "from": "nominal",
+            "to": "agent",
+            "label": "явно вернуть исполнителя"
+          }
+        ],
+        "explanation": "Последний шаг восстанавливает исполнителя, но именная группа всё ещё не равна полному обещанию с конкретным временем и сроком."
+      }
+    ],
+    "takeaway": "После сжатия проверьте исполнителя, время и условия; верните сведения, необходимые читателю.",
+    "caution": "Не каждое отглагольное существительное образуется одним суффиксом. Для обязательства Echipa va verifica datele până joi личный глагол и срок часто яснее одной номинализации.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.18",
+    "chapterId": "G.B2.18",
+    "kind": "relations",
+    "section": "formation",
+    "title": "Тема остаётся связана со своей клитикой",
+    "intro": "Вынесенный участник и короткое местоимение могут обозначать один объект. Покажите эту связь, прежде чем менять порядок слов.",
+    "frames": [
+      {
+        "id": "book",
+        "label": "Книга как тема",
+        "caption": "Cartea am citit-o ieri.",
+        "nodes": [
+          {
+            "id": "topic",
+            "label": "Тема: что обсуждаем",
+            "text": "Cartea",
+            "lang": "ro",
+            "note": "Книга вынесена в начало как тема высказывания.",
+            "tone": "object"
+          },
+          {
+            "id": "verb",
+            "label": "Новое действие",
+            "text": "am citit",
+            "lang": "ro",
+            "note": "Сообщается чтение книги.",
+            "tone": "action"
+          },
+          {
+            "id": "clitic",
+            "label": "Тот же объект",
+            "text": "-o",
+            "lang": "ro",
+            "note": "O отсылает к cartea, а не к новому предмету.",
+            "tone": "object"
+          },
+          {
+            "id": "time",
+            "label": "Время",
+            "text": "ieri",
+            "lang": "ro",
+            "note": "Уточняется время чтения.",
+            "tone": "time"
+          }
+        ],
+        "links": [
+          {
+            "from": "topic",
+            "to": "clitic",
+            "label": "одна и та же книга"
+          },
+          {
+            "from": "verb",
+            "to": "clitic",
+            "label": "прочёл что?"
+          },
+          {
+            "from": "time",
+            "to": "verb",
+            "label": "когда прочёл"
+          }
+        ],
+        "explanation": "В конструкции Cartea am citit-o тема и объектная клитика работают вместе. Перестановка меняет акцент, но не создаёт второго объекта."
+      },
+      {
+        "id": "recipient",
+        "label": "Адресат под акцентом",
+        "caption": "Mie mi-a răspuns.",
+        "nodes": [
+          {
+            "id": "topic",
+            "label": "Подчёркнутый адресат",
+            "text": "Mie",
+            "lang": "ro",
+            "note": "Ударная форма выделяет, кому ответили.",
+            "tone": "receiver"
+          },
+          {
+            "id": "clitic",
+            "label": "Тот же адресат",
+            "text": "mi-",
+            "lang": "ro",
+            "note": "Дательная клитика сохраняется при подчёркнутом mie в этой модели.",
+            "tone": "receiver"
+          },
+          {
+            "id": "verb",
+            "label": "Действие",
+            "text": "a răspuns",
+            "lang": "ro",
+            "note": "Оба местоименных компонента относятся к адресату ответа.",
+            "tone": "action"
+          }
+        ],
+        "links": [
+          {
+            "from": "topic",
+            "to": "clitic",
+            "label": "один адресат"
+          },
+          {
+            "from": "verb",
+            "to": "clitic",
+            "label": "ответил кому?"
+          }
+        ],
+        "explanation": "Mie усиливает или противопоставляет адресата, а mi- участвует в глагольной конструкции."
+      },
+      {
+        "id": "wholefact",
+        "label": "Отсылка к целому факту",
+        "caption": "A întârziat, ceea ce ne-a surprins.",
+        "nodes": [
+          {
+            "id": "event",
+            "label": "Предшествующий факт",
+            "text": "A întârziat",
+            "lang": "ro",
+            "note": "Предыдущее сообщение целиком — опоздание.",
+            "tone": "action"
+          },
+          {
+            "id": "reference",
+            "label": "Связь с фактом",
+            "text": "ceea ce",
+            "lang": "ro",
+            "note": "Отсылка идёт ко всему содержанию A întârziat, а не к отдельному человеку.",
+            "tone": "link"
+          },
+          {
+            "id": "reaction",
+            "label": "Реакция",
+            "text": "ne-a surprins",
+            "lang": "ro",
+            "note": "Удивление вызвал факт опоздания.",
+            "tone": "receiver"
+          }
+        ],
+        "links": [
+          {
+            "from": "event",
+            "to": "reference",
+            "label": "ссылается на всю ситуацию"
+          },
+          {
+            "from": "reference",
+            "to": "reaction",
+            "label": "что нас удивило"
+          }
+        ],
+        "explanation": "У местоименной отсылки бывает разный объём: конкретный участник или целая предыдущая ситуация."
+      }
+    ],
+    "takeaway": "У каждой отсылки должен быть ясный адрес: предмет, получатель или целое предыдущее содержание.",
+    "caution": "Показаны конкретные конструкции, а не правило обязательного дублирования любого вынесенного слова. Нейтральное Am citit cartea также допустимо и задаёт другой акцент.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.19",
+    "chapterId": "G.B2.19",
+    "kind": "flow",
+    "section": "usage",
+    "title": "Основание должно вести именно к этому выводу",
+    "intro": "Аргумент связывает критерий, наблюдение и решение. Одна связка prin urmare не создаёт отсутствующего основания.",
+    "frames": [
+      {
+        "id": "budget",
+        "label": "Проверка аргумента о бюджете",
+        "caption": "Costul depășește bugetul; prin urmare, revizuim planul.",
+        "nodes": [
+          {
+            "id": "criterion",
+            "label": "Критерий решения",
+            "text": "Уложиться в бюджет",
+            "lang": "ru",
+            "note": "В этой аргументации бюджет принят как ограничение выбора.",
+            "tone": "link"
+          },
+          {
+            "id": "premise",
+            "label": "Основание",
+            "text": "Costul depășește bugetul",
+            "lang": "ro",
+            "note": "Наблюдение связано именно с выбранным критерием: стоимость выше бюджета.",
+            "tone": "object"
+          },
+          {
+            "id": "inference",
+            "label": "Связь вывода",
+            "text": "prin urmare",
+            "lang": "ro",
+            "note": "Маркер показывает переход от основания к решению.",
+            "tone": "link"
+          },
+          {
+            "id": "decision",
+            "label": "Соразмерное решение",
+            "text": "revizuim planul",
+            "lang": "ro",
+            "note": "Вывод — пересмотреть план. Он не утверждает, что любая дорогая идея плоха.",
+            "tone": "action"
+          }
+        ],
+        "links": [
+          {
+            "from": "criterion",
+            "to": "premise",
+            "label": "проверяем стоимость по критерию"
+          },
+          {
+            "from": "premise",
+            "to": "inference",
+            "label": "основание для вывода"
+          },
+          {
+            "from": "inference",
+            "to": "decision",
+            "label": "какое решение следует"
+          }
+        ],
+        "explanation": "Читатель может проверить всю цепь: нужный критерий → относящийся к нему факт → ограниченный вывод."
+      },
+      {
+        "id": "experience",
+        "label": "Личный пример ограничивает вывод",
+        "caption": "Din experiența mea, exercițiul ajută.",
+        "nodes": [
+          {
+            "id": "source",
+            "label": "Область основания",
+            "text": "Din experiența mea",
+            "lang": "ro",
+            "note": "Автор прямо ограничивает источник личным опытом.",
+            "tone": "actor"
+          },
+          {
+            "id": "claim",
+            "label": "Поддержанный вывод",
+            "text": "exercițiul ajută",
+            "lang": "ro",
+            "note": "Эта оценка читается внутри названной области опыта.",
+            "tone": "action"
+          },
+          {
+            "id": "transfer",
+            "label": "Что ещё проверить",
+            "text": "Другие люди и задачи",
+            "lang": "ru",
+            "note": "Чтобы расширить вывод, нужны основания за пределами личного примера.",
+            "tone": "neutral"
+          }
+        ],
+        "links": [
+          {
+            "from": "source",
+            "to": "claim",
+            "label": "рамка ограничивает оценку"
+          },
+          {
+            "from": "claim",
+            "to": "transfer",
+            "label": "обобщение требует проверки"
+          }
+        ],
+        "explanation": "Нельзя убрать Din experiența mea при сокращении и получить доказанное правило для всех учащихся."
+      }
+    ],
+    "takeaway": "Свяжите вывод с критерием и основанием; сохраняйте границы примера и источника.",
+    "caution": "Пример иллюстрирует аргумент, но сам по себе не доказывает универсальный тезис. Consider că обозначает позицию автора, а не дополнительное доказательство.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.20",
+    "chapterId": "G.B2.20",
+    "kind": "flow",
+    "section": "usage",
+    "title": "Ответ должен работать с тем же возражением",
+    "intro": "Сначала признайте содержательную проблему, затем покажите, как ответ влияет именно на её критерий.",
+    "frames": [
+      {
+        "id": "cost",
+        "label": "Возражение о цене",
+        "caption": "От признания высокой цены к проверяемому изменению предложения.",
+        "nodes": [
+          {
+            "id": "objection",
+            "label": "Признать проблему",
+            "text": "Este adevărat că prețul este mare.",
+            "lang": "ro",
+            "note": "Ответ сохраняет сильную версию возражения: высокая цена признаётся, а не замалчивается.",
+            "tone": "object"
+          },
+          {
+            "id": "criterion",
+            "label": "Удержать критерий",
+            "text": "Обсуждаем затраты",
+            "lang": "ru",
+            "note": "Ответ о красоте проекта не устранил бы возражение о стоимости.",
+            "tone": "link"
+          },
+          {
+            "id": "response",
+            "label": "Предложить изменение",
+            "text": "Totuși, putem limita testul.",
+            "lang": "ro",
+            "note": "Ограничение теста — предложенный способ изменить объём затрат; оно ещё не доказывает их приемлемость.",
+            "tone": "action"
+          },
+          {
+            "id": "check",
+            "label": "Проверить новый вывод",
+            "text": "Достаточно ли снизились затраты?",
+            "lang": "ru",
+            "note": "После пересмотра объёма нужно снова проверить критерий; при необходимости меняется решение.",
+            "tone": "neutral"
+          }
+        ],
+        "links": [
+          {
+            "from": "objection",
+            "to": "criterion",
+            "label": "что именно оспаривается"
+          },
+          {
+            "from": "criterion",
+            "to": "response",
+            "label": "ответ по тому же критерию"
+          },
+          {
+            "from": "response",
+            "to": "check",
+            "label": "проверка эффекта ответа"
+          }
+        ],
+        "explanation": "Слово totuși связывает ответ с признанным препятствием. Сохранение тезиса зависит от проверки, а не от уверенного тона."
+      }
+    ],
+    "takeaway": "Признайте реальное возражение, ответьте на его критерий и ограничьте вывод результатом проверки.",
+    "caution": "Уступка не означает полного согласия, но ответ не обязан спасать исходный тезис. Если условие приемлемости не выполнено, естественен пересмотр: În acest caz, schimbăm soluția.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.21",
+    "chapterId": "G.B2.21",
+    "kind": "comparison",
+    "section": "formation",
+    "title": "Одна просьба, два отношения с адресатом",
+    "intro": "Вежливость меняет обращение и согласованные формы, сохраняя понятное действие.",
+    "frames": [
+      {
+        "id": "confirm",
+        "label": "Подтверждение",
+        "caption": "В обоих случаях спрашивают о подтверждении.",
+        "nodes": [
+          {
+            "id": "informal",
+            "label": "Неформальное обращение",
+            "text": "Tu poți confirma?",
+            "lang": "ro",
+            "note": "Tu согласуется со вторым лицом единственного: poți.",
+            "tone": "actor"
+          },
+          {
+            "id": "polite",
+            "label": "Вежливое обращение",
+            "text": "Dumneavoastră puteți confirma?",
+            "lang": "ro",
+            "note": "Dumneavoastră требует формы второго лица множественного: puteți, в том числе при обращении к одному человеку.",
+            "tone": "receiver"
+          }
+        ],
+        "links": [],
+        "explanation": "Смысл действия остаётся общим, а отношение к адресату выражается парой местоимение + глагольная форма."
+      },
+      {
+        "id": "request",
+        "label": "Подтвердить время",
+        "caption": "Адресат и форма после să согласованы внутри каждой просьбы.",
+        "nodes": [
+          {
+            "id": "informal",
+            "label": "Просьба на tu",
+            "text": "Te rog să confirmi ora.",
+            "lang": "ro",
+            "note": "Te и confirmi соответствуют неформальному единственному обращению.",
+            "tone": "actor"
+          },
+          {
+            "id": "polite",
+            "label": "Просьба на dumneavoastră",
+            "text": "Vă rog să confirmați ora.",
+            "lang": "ro",
+            "note": "Vă и confirmați выражают вежливое или множественное обращение.",
+            "tone": "receiver"
+          }
+        ],
+        "links": [],
+        "explanation": "Проверяйте всю цепь обращения. Простая замена te на vă без проверки confirmi / confirmați оставила бы несогласованную модель."
+      }
+    ],
+    "takeaway": "Выберите отношение с адресатом и последовательно согласуйте местоимения и глаголы.",
+    "caution": "Регистр определяется ситуацией и отношениями, а не только возрастом или длиной слов. Официальная формула не должна скрывать предмет просьбы и нужный срок.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.22",
+    "chapterId": "G.B2.22",
+    "kind": "flow",
+    "section": "usage",
+    "title": "От слов к гипотезе о намерении",
+    "intro": "Буквальные слова, контекст и интерпретация — разные уровни. Важное намерение лучше проверить.",
+    "frames": [
+      {
+        "id": "irony",
+        "label": "Проверка возможной иронии",
+        "caption": "Само слово minunat ещё не доказывает иронию.",
+        "nodes": [
+          {
+            "id": "words",
+            "label": "Наблюдаемые слова",
+            "text": "minunat",
+            "lang": "ro",
+            "note": "Положительное слово можно услышать буквально; оно само не содержит доказательства скрытой критики.",
+            "tone": "object"
+          },
+          {
+            "id": "context",
+            "label": "Контекст",
+            "text": "Слова о тишине на фоне шума",
+            "lang": "ru",
+            "note": "Несоответствие описания ситуации даёт основание рассмотреть ироническое чтение; важны также интонация и отношения.",
+            "tone": "time"
+          },
+          {
+            "id": "interpretation",
+            "label": "Интерпретация автора",
+            "text": "Mi s-a părut că era ironic.",
+            "lang": "ro",
+            "note": "Фраза помечает впечатление: «мне показалось». Это не установленное знание чужого намерения.",
+            "tone": "actor"
+          },
+          {
+            "id": "clarification",
+            "label": "Проверка понимания",
+            "text": "Уточнить ожидаемое действие",
+            "lang": "ru",
+            "note": "При важной договорённости выясните, что нужно сделать, с помощью рамки Am înțeles corect că…?",
+            "tone": "action"
+          }
+        ],
+        "links": [
+          {
+            "from": "words",
+            "to": "context",
+            "label": "сопоставить с ситуацией"
+          },
+          {
+            "from": "context",
+            "to": "interpretation",
+            "label": "сформировать осторожную гипотезу"
+          },
+          {
+            "from": "interpretation",
+            "to": "clarification",
+            "label": "проверить смысл у собеседника"
+          }
+        ],
+        "explanation": "Карта не доказывает иронию. Она показывает переход от наблюдения через контекст к ограниченной интерпретации и уточнению."
+      }
+    ],
+    "takeaway": "Отделяйте сказанные слова от контекста и собственной версии намерения.",
+    "caution": "Ирония и намёк не определяются одним словом или грамматической формой. Несоответствие контексту — повод проверить смысл, а не основание уверенно приписать мотив.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.23",
+    "chapterId": "G.B2.23",
+    "kind": "flow",
+    "section": "usage",
+    "title": "Как предложение становится договорённостью",
+    "intro": "Согласование требует определить результат, критерий, обязательство и срок. Каждый переход добавляет новую информацию.",
+    "frames": [
+      {
+        "id": "agreement",
+        "label": "Пять шагов уточнения",
+        "caption": "Предложение, уточнение и обязательство имеют разную силу.",
+        "nodes": [
+          {
+            "id": "proposal",
+            "label": "Предложение",
+            "text": "Vă propun să reducem volumul.",
+            "lang": "ro",
+            "note": "Это предложение изменить объём; оно ещё не фиксирует согласие другой стороны.",
+            "tone": "link"
+          },
+          {
+            "id": "scope",
+            "label": "Ожидаемый результат",
+            "text": "Ce înțelegeți prin versiune finală?",
+            "lang": "ro",
+            "note": "Стороны уточняют, что именно должно быть готово.",
+            "tone": "object"
+          },
+          {
+            "id": "criterion",
+            "label": "Критерий приёмки",
+            "text": "Как проверим готовность?",
+            "lang": "ru",
+            "note": "Нужно согласовать наблюдаемый критерий, а не довольствоваться словом «финальный».",
+            "tone": "neutral"
+          },
+          {
+            "id": "commitment",
+            "label": "Явное обязательство",
+            "text": "Ne angajăm să trimitem versiunea finală.",
+            "lang": "ro",
+            "note": "После согласования условий эта формула выражает обязательство отправить результат.",
+            "tone": "actor"
+          },
+          {
+            "id": "deadline",
+            "label": "Крайний срок",
+            "text": "Trimitem până vineri, la ora 16.",
+            "lang": "ro",
+            "note": "Până задаёт крайний срок; точное время делает договорённость проверяемой.",
+            "tone": "time"
+          }
+        ],
+        "links": [
+          {
+            "from": "proposal",
+            "to": "scope",
+            "label": "уточнить предмет предложения"
+          },
+          {
+            "from": "scope",
+            "to": "criterion",
+            "label": "определить проверку"
+          },
+          {
+            "from": "criterion",
+            "to": "commitment",
+            "label": "согласовать обязательство"
+          },
+          {
+            "from": "commitment",
+            "to": "deadline",
+            "label": "зафиксировать срок"
+          }
+        ],
+        "explanation": "Стрелки — рабочие шаги переговоров. Они не означают, что предложение автоматически принято: каждый переход требует реального согласования сторон."
+      }
+    ],
+    "takeaway": "Проверьте четыре поля договорённости: результат, ответственный, критерий и срок.",
+    "caution": "Suntem de acord în principiu оставляет детали открытыми. Până vineri означает крайний срок, а de vineri — начало периода; эти рамки нельзя подменять друг другом.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.24",
+    "chapterId": "G.B2.24",
+    "kind": "flow",
+    "section": "usage",
+    "title": "Претензия: обещание → наблюдение → просьба",
+    "intro": "Сопоставьте ожидаемую услугу с проверяемым эпизодом и назовите действие, которого ждёте от адресата.",
+    "frames": [
+      {
+        "id": "letter",
+        "label": "Карта обращения о доставке",
+        "caption": "Пример структуры: ожидалась доставка во вторник, фактически пришла в четверг.",
+        "nodes": [
+          {
+            "id": "subject",
+            "label": "Предмет обращения",
+            "text": "Vă scriu în legătură cu comanda.",
+            "lang": "ro",
+            "note": "Адресат сразу видит, о каком вопросе идёт речь.",
+            "tone": "link"
+          },
+          {
+            "id": "expected",
+            "label": "Обещанный ориентир",
+            "text": "Livrarea era prevăzută pentru marți.",
+            "lang": "ro",
+            "note": "Сообщается плановая дата. Это не утверждение, что доставка состоялась во вторник.",
+            "tone": "time"
+          },
+          {
+            "id": "observed",
+            "label": "Наблюдаемое расхождение",
+            "text": "Фактическая доставка: в четверг",
+            "lang": "ru",
+            "note": "В учебной ситуации главы это проверяемый эпизод, который сопоставляется с обещанной датой.",
+            "tone": "object"
+          },
+          {
+            "id": "evidence",
+            "label": "Подтверждение",
+            "text": "Anexez copia confirmării.",
+            "lang": "ro",
+            "note": "Приложение поддерживает описание договорённости; его содержание должно соответствовать утверждению.",
+            "tone": "neutral"
+          },
+          {
+            "id": "request",
+            "label": "Нужное действие",
+            "text": "Vă rog să verificați situația.",
+            "lang": "ro",
+            "note": "Просьба сообщает адресату следующий шаг. При необходимости отдельно уточняют формат ответа.",
+            "tone": "action"
+          }
+        ],
+        "links": [
+          {
+            "from": "subject",
+            "to": "expected",
+            "label": "какое ожидание обсуждаем"
+          },
+          {
+            "from": "expected",
+            "to": "observed",
+            "label": "сравнить план и наблюдение"
+          },
+          {
+            "from": "observed",
+            "to": "evidence",
+            "label": "подкрепить описание"
+          },
+          {
+            "from": "evidence",
+            "to": "request",
+            "label": "сформулировать действие"
+          }
+        ],
+        "explanation": "Структура даёт адресату предмет, основание и ожидаемое действие. Причина задержки не выдумывается из самого факта расхождения."
+      }
+    ],
+    "takeaway": "Убедительная претензия связывает обещанный результат, наблюдаемый факт, подтверждение и конкретную просьбу.",
+    "caution": "Плановая дата, фактическая дата и предположение о причине — разные сведения. Указывайте только нужные адресату идентификаторы и подтверждаемые детали.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.25",
+    "chapterId": "G.B2.25",
+    "kind": "flow",
+    "section": "limits",
+    "title": "Три прохода редактуры",
+    "intro": "Редактируйте от смысла к форме: так исправление языка сохраняет исходный тезис и его ограничения.",
+    "frames": [
+      {
+        "id": "revision",
+        "label": "Содержание → структура → язык",
+        "caption": "Каждый проход отвечает на свой вопрос.",
+        "nodes": [
+          {
+            "id": "meaning",
+            "label": "Содержание",
+            "text": "Что утверждаем и чем поддерживаем?",
+            "lang": "ru",
+            "note": "Проверьте ответ на вопрос задания, основания и границы вывода. Unele не должно незаметно превращаться в toate.",
+            "tone": "object"
+          },
+          {
+            "id": "structure",
+            "label": "Структура",
+            "text": "Как один абзац ведёт к следующему?",
+            "lang": "ru",
+            "note": "Проверьте порядок доводов и функцию каждого абзаца. После de exemplu нужна конкретизация, после prin urmare — обоснованный вывод.",
+            "tone": "link"
+          },
+          {
+            "id": "language",
+            "label": "Язык",
+            "text": "Точны ли формы, связи и написание?",
+            "lang": "ru",
+            "note": "Проверьте согласование, местоименные отсылки, связки и графику уже понятного по смыслу текста.",
+            "tone": "action"
+          }
+        ],
+        "links": [
+          {
+            "from": "meaning",
+            "to": "structure",
+            "label": "организовать проверенное содержание"
+          },
+          {
+            "from": "structure",
+            "to": "language",
+            "label": "уточнить языковое оформление"
+          }
+        ],
+        "explanation": "Сначала убедитесь, что тезис и заключение отвечают на один вопрос. Затем проверяйте связи между частями и только после этого окончательно шлифуйте формы."
+      }
+    ],
+    "takeaway": "Исправляйте содержание, затем порядок аргументов, затем язык.",
+    "caution": "Проходы помогают распределить внимание, но правка формы может потребовать снова проверить смысл. Красивые связки и исправленные запятые не доказывают тезис.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.26",
+    "chapterId": "G.B2.26",
+    "kind": "comparison",
+    "section": "usage",
+    "title": "Синтез сохраняет критерий и статус источника",
+    "intro": "Сопоставляйте тексты по общему вопросу, сохраняя различие между сообщённым фактом, оценкой и отсутствующей информацией.",
+    "frames": [
+      {
+        "id": "criteria",
+        "label": "Различие ещё не означает спор",
+        "caption": "Primul discută prețul, în timp ce al doilea discută accesul.",
+        "nodes": [
+          {
+            "id": "first",
+            "label": "Критерий первого текста",
+            "text": "Primul discută prețul",
+            "lang": "ro",
+            "note": "Первый текст рассматривает цену.",
+            "tone": "object"
+          },
+          {
+            "id": "second",
+            "label": "Критерий второго текста",
+            "text": "al doilea discută accesul",
+            "lang": "ro",
+            "note": "Второй текст рассматривает доступ; это другая сторона общего вопроса.",
+            "tone": "receiver"
+          },
+          {
+            "id": "relation",
+            "label": "Вывод о соотношении",
+            "text": "Разные критерии",
+            "lang": "ru",
+            "note": "Без несовместимых утверждений об одном предмете нельзя объявлять авторов оппонентами.",
+            "tone": "link"
+          }
+        ],
+        "links": [],
+        "explanation": "Синтез сначала устанавливает сопоставимые критерии. În timp ce здесь показывает разные перспективы, а не доказанное противоречие."
+      },
+      {
+        "id": "status",
+        "label": "Три статуса содержания",
+        "caption": "При сокращении текста сохраняйте источник и силу каждой фразы.",
+        "nodes": [
+          {
+            "id": "report",
+            "label": "Факт по сообщению источника",
+            "text": "Potrivit raportului, costul a crescut.",
+            "lang": "ro",
+            "note": "Рост приписан отчёту. Ссылка на источник сохраняется; пересказ не является собственной проверкой данных.",
+            "tone": "object"
+          },
+          {
+            "id": "opinion",
+            "label": "Оценка автора",
+            "text": "În opinia autoarei, testul este util.",
+            "lang": "ro",
+            "note": "Полезность представлена как мнение автора-женщины. Нельзя убрать эту рамку без изменения статуса.",
+            "tone": "actor"
+          },
+          {
+            "id": "unknown",
+            "label": "Пробел в сведениях",
+            "text": "Nu se precizează dacă datele sunt complete.",
+            "lang": "ro",
+            "note": "Полнота данных не уточнена. Отсутствие сведений нельзя заменить ни подтверждением, ни отрицанием.",
+            "tone": "neutral"
+          }
+        ],
+        "links": [],
+        "explanation": "Это три категории для чтения источников. Сравнивая тексты, не превращайте мнение в факт, неизвестное в отрицание, а указание источника — в личную проверку."
+      }
+    ],
+    "takeaway": "Сохраняйте предмет сравнения, источник, модальность и важные ограничения каждого текста.",
+    "caution": "Авторское sugerează нельзя без основания заменить на demonstrează. Собственный вывод нужно обозначить отдельно; разные критерии не обязательно образуют спор.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.27",
+    "chapterId": "G.B2.27",
+    "kind": "comparison",
+    "section": "meaning",
+    "title": "Значение проверяется действием в контексте",
+    "intro": "Сопоставляйте похожие слова в ситуациях, где различие значения становится видимым.",
+    "frames": [
+      {
+        "id": "books",
+        "label": "Книгу покупают или берут на время?",
+        "caption": "Действие помогает различить librărie и bibliotecă.",
+        "nodes": [
+          {
+            "id": "shop",
+            "label": "Покупка",
+            "text": "Am cumpărat romanul dintr-o librărie.",
+            "lang": "ro",
+            "note": "Librărie — книжный магазин; в примере роман покупают.",
+            "tone": "action"
+          },
+          {
+            "id": "library",
+            "label": "Заимствование книги",
+            "text": "Am împrumutat romanul de la bibliotecă.",
+            "lang": "ro",
+            "note": "Bibliotecă — библиотека; в примере книгу берут на время.",
+            "tone": "object"
+          }
+        ],
+        "links": [],
+        "explanation": "Опорные действия cumpărat и împrumutat показывают разные ситуации. Внешнее сходство librărie с английским library не определяет перевод."
+      },
+      {
+        "id": "complaint",
+        "label": "Жалоба или реклама?",
+        "caption": "Близкое написание не делает предметы одним понятием.",
+        "nodes": [
+          {
+            "id": "complaint",
+            "label": "Обращение с жалобой",
+            "text": "Am depus o reclamație.",
+            "lang": "ro",
+            "note": "Reclamație — жалоба или претензия; здесь её подают.",
+            "tone": "action"
+          },
+          {
+            "id": "advert",
+            "label": "Рекламное сообщение",
+            "text": "Am văzut o reclamă pentru un curs.",
+            "lang": "ro",
+            "note": "Reclamă — реклама; здесь её увидели.",
+            "tone": "object"
+          }
+        ],
+        "links": [],
+        "explanation": "Формы reclamație и reclamă различаются не только суффиксом, но и ситуацией употребления. Сохраняйте целые контекстные фразы."
+      }
+    ],
+    "takeaway": "Проверяйте слово по действию, участникам и устойчивому окружению, а не по внешнему сходству.",
+    "caution": "Эти контрасты не заменяют проверку конкретного значения многозначных слов. Actual, eventual, a realiza и a pretinde требуют контекста; перенос из другого языка может менять смысл.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.28",
+    "chapterId": "G.B2.28",
+    "kind": "relations",
+    "section": "formation",
+    "title": "Один корень, разные роли в предложении",
+    "intro": "Семья слова помогает распознать действие, процесс и исполнителя. Каждая форма получает собственную синтаксическую роль.",
+    "frames": [
+      {
+        "id": "family",
+        "label": "Семья a organiza",
+        "caption": "A organiza, organizare и organizator обозначают связанные, но разные понятия.",
+        "nodes": [
+          {
+            "id": "verb",
+            "label": "Действие",
+            "text": "a organiza",
+            "lang": "ro",
+            "note": "Глагол называет действие и требует своей рамки участников.",
+            "tone": "action"
+          },
+          {
+            "id": "process",
+            "label": "Название процесса",
+            "text": "organizare",
+            "lang": "ro",
+            "note": "Существительное позволяет говорить об организации как о процессе: Organizarea cere timp.",
+            "tone": "object"
+          },
+          {
+            "id": "agent",
+            "label": "Исполнитель",
+            "text": "organizator",
+            "lang": "ro",
+            "note": "Существительное называет того, кто организует: Organizatorul coordonează evenimentul.",
+            "tone": "actor"
+          }
+        ],
+        "links": [
+          {
+            "from": "verb",
+            "to": "process",
+            "label": "назвать действие как процесс"
+          },
+          {
+            "from": "verb",
+            "to": "agent",
+            "label": "назвать исполнителя действия"
+          }
+        ],
+        "explanation": "Корень связывает значения, а суффиксы и часть речи помогают различить процесс и его участника. В предложении формы затем получают нужное падежное и артиклевое оформление."
+      },
+      {
+        "id": "quality",
+        "label": "Качество и действие по уточнению",
+        "caption": "Claritatea mesajului и clarificarea termenului отвечают на разные вопросы.",
+        "nodes": [
+          {
+            "id": "quality",
+            "label": "Свойство",
+            "text": "Claritatea mesajului contează.",
+            "lang": "ro",
+            "note": "Claritatea обозначает ясность сообщения как качество.",
+            "tone": "neutral"
+          },
+          {
+            "id": "process",
+            "label": "Процесс",
+            "text": "Clarificarea termenului a durat o oră.",
+            "lang": "ro",
+            "note": "Clarificarea обозначает уточнение, которое может занимать время.",
+            "tone": "action"
+          }
+        ],
+        "links": [
+          {
+            "from": "quality",
+            "to": "process",
+            "label": "различайте свойство и процесс"
+          }
+        ],
+        "explanation": "Сходная основа не разрешает заменять слова друг другом: важность ясности и длительность уточнения — разные утверждения."
+      }
+    ],
+    "takeaway": "Определяйте, что нужно назвать: действие, процесс, исполнителя или качество; затем проверяйте реальную форму.",
+    "caution": "Суффиксы дают ориентир, но не гарантируют существование любого придуманного слова. При смене части речи проверяйте управление и согласование всей конструкции.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.29",
+    "chapterId": "G.B2.29",
+    "kind": "relations",
+    "section": "formation",
+    "title": "Устойчивое сочетание включает все нужные части",
+    "intro": "Опорный глагол, существительное, предлог и клитика могут вместе образовывать одну лексическую модель.",
+    "frames": [
+      {
+        "id": "decision",
+        "label": "Глагол и предмет",
+        "caption": "Trebuie să luăm o decizie.",
+        "nodes": [
+          {
+            "id": "verb",
+            "label": "Опорный глагол",
+            "text": "luăm",
+            "lang": "ro",
+            "note": "В этом сочетании выбирается a lua; форма luăm относится к noi.",
+            "tone": "action"
+          },
+          {
+            "id": "object",
+            "label": "Устойчивый объект",
+            "text": "o decizie",
+            "lang": "ro",
+            "note": "С глаголом a lua получается значение «принять решение».",
+            "tone": "object"
+          }
+        ],
+        "links": [
+          {
+            "from": "verb",
+            "to": "object",
+            "label": "a lua o decizie"
+          }
+        ],
+        "explanation": "Запоминается сочетание целиком. Смена времени меняет форму глагола, сохраняя модель a lua o decizie."
+      },
+      {
+        "id": "regard",
+        "label": "Сочетание с предлогом",
+        "caption": "Ținem cont de observații.",
+        "nodes": [
+          {
+            "id": "base",
+            "label": "Основа сочетания",
+            "text": "Ținem cont",
+            "lang": "ro",
+            "note": "Глагол и существительное образуют рамку a ține cont.",
+            "tone": "action"
+          },
+          {
+            "id": "preposition",
+            "label": "Нужная связь",
+            "text": "de",
+            "lang": "ro",
+            "note": "Предлог входит в модель: a ține cont de.",
+            "tone": "link"
+          },
+          {
+            "id": "dependent",
+            "label": "Что учитываем",
+            "text": "observații",
+            "lang": "ro",
+            "note": "Замечания — зависимая группа после de.",
+            "tone": "object"
+          }
+        ],
+        "links": [
+          {
+            "from": "base",
+            "to": "preposition",
+            "label": "модель требует de"
+          },
+          {
+            "from": "preposition",
+            "to": "dependent",
+            "label": "вводит учитываемое"
+          }
+        ],
+        "explanation": "Если запомнить только ține cont и потерять de, рамка останется неполной."
+      },
+      {
+        "id": "responsibility",
+        "label": "Сочетание с возвратным дательным",
+        "caption": "Îmi asum responsabilitatea.",
+        "nodes": [
+          {
+            "id": "clitic",
+            "label": "Возвратный дательный",
+            "text": "Îmi",
+            "lang": "ro",
+            "note": "Клитика относится к говорящему: он берёт ответственность на себя.",
+            "tone": "receiver"
+          },
+          {
+            "id": "verb",
+            "label": "Действие",
+            "text": "asum",
+            "lang": "ro",
+            "note": "Вместе с возвратным компонентом образует модель a-și asuma.",
+            "tone": "action"
+          },
+          {
+            "id": "object",
+            "label": "Прямое дополнение",
+            "text": "responsabilitatea",
+            "lang": "ro",
+            "note": "То, что принимают на себя.",
+            "tone": "object"
+          }
+        ],
+        "links": [
+          {
+            "from": "clitic",
+            "to": "verb",
+            "label": "возвратная связь с субъектом"
+          },
+          {
+            "from": "verb",
+            "to": "object",
+            "label": "устойчивое дополнение"
+          }
+        ],
+        "explanation": "Сохранение одного глагола недостаточно: клитика и дополнение поддерживают значение всей модели."
+      }
+    ],
+    "takeaway": "Учите сочетание с его обязательными связями, затем изменяйте личную форму и время внутри этой модели.",
+    "caution": "Коллокация не означает, что её слова никогда не употребляются иначе. Проверяйте конкретный смысл и рамку, а не заменяйте опорный глагол ближайшим русским эквивалентом.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.30",
+    "chapterId": "G.B2.30",
+    "kind": "comparison",
+    "section": "usage",
+    "title": "Число, база и сила вывода",
+    "intro": "Сначала отделите исходную величину от изменения, затем проверьте единицы и то, что данные позволяют утверждать.",
+    "frames": [
+      {
+        "id": "absolute",
+        "label": "Две записи одного изменения",
+        "caption": "Numărul a crescut de la zece la cincisprezece. Numărul a crescut cu cinci.",
+        "nodes": [
+          {
+            "id": "endpoints",
+            "label": "Начало и конец",
+            "text": "de la zece la cincisprezece",
+            "lang": "ro",
+            "note": "Начальная величина 10, конечная 15. De la и la задают две точки сравнения.",
+            "tone": "time"
+          },
+          {
+            "id": "difference",
+            "label": "Величина изменения",
+            "text": "cu cinci",
+            "lang": "ro",
+            "note": "15 − 10 = 5. Cu сообщает прибавку, а не конечное число.",
+            "tone": "object"
+          }
+        ],
+        "links": [],
+        "explanation": "Обе формулировки совместимы для одного изменения 10 → 15, если речь об одной и той же величине и периоде."
+      },
+      {
+        "id": "percentages",
+        "label": "Доля выросла с 20% до 30%",
+        "caption": "Абсолютная разница долей и относительный рост имеют разные базы.",
+        "nodes": [
+          {
+            "id": "points",
+            "label": "Разница долей",
+            "text": "10 процентных пунктов",
+            "lang": "ru",
+            "note": "30% − 20% = 10 процентных пунктов. Румынская формулировка: cu zece puncte procentuale.",
+            "tone": "object"
+          },
+          {
+            "id": "relative",
+            "label": "Относительный рост",
+            "text": "50% от исходной доли",
+            "lang": "ru",
+            "note": "(30 − 20) / 20 = 0,5. Исходная доля 20% служит базой сравнения.",
+            "tone": "action"
+          }
+        ],
+        "links": [],
+        "explanation": "Изменение одной доли допускает две точные характеристики. Называть его ростом на 10% без уточнения было бы другой величиной."
+      },
+      {
+        "id": "causality",
+        "label": "Связь, причина и версия объяснения",
+        "caption": "Это типы утверждений, а не результаты отдельного исследования.",
+        "nodes": [
+          {
+            "id": "association",
+            "label": "Наблюдаемая связь",
+            "text": "Datele arată o asociere",
+            "lang": "ro",
+            "note": "Ассоциация показывает связь наблюдений. Она сама по себе не устанавливает, что один фактор вызывает другой.",
+            "tone": "object"
+          },
+          {
+            "id": "cause",
+            "label": "Причинное утверждение",
+            "text": "demonstrează cauza",
+            "lang": "ro",
+            "note": "Формулировка претендует на доказанную причину и требует более сильного основания, чем совместное изменение.",
+            "tone": "action"
+          },
+          {
+            "id": "hypothesis",
+            "label": "Возможное объяснение",
+            "text": "Explicația posibilă",
+            "lang": "ro",
+            "note": "Предложенное объяснение остаётся гипотезой; его нельзя выдавать за непосредственно измеренный факт.",
+            "tone": "neutral"
+          }
+        ],
+        "links": [],
+        "explanation": "Сила глагола должна соответствовать доказательствам. Совместное изменение, причинный эффект и возможная интерпретация данных — разные уровни вывода."
+      }
+    ],
+    "takeaway": "Сообщите единицы, период и базу сравнения; затем отделите наблюдаемую связь от причинного объяснения.",
+    "caution": "Изменение после события не доказывает изменение из-за события. Приблизительные данные не дают основания для лишней точности; малые выборки и несопоставимые условия ограничивают вывод.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.31",
+    "chapterId": "G.B2.31",
+    "kind": "comparison",
+    "section": "meaning",
+    "title": "Описание, интерпретация и оценка произведения",
+    "intro": "Хорошая рецензия показывает, какой статус имеет каждая фраза и на чём основано суждение.",
+    "frames": [
+      {
+        "id": "review",
+        "label": "Три слоя рецензии",
+        "caption": "Сопоставьте наблюдаемое устройство произведения, возможный смысл и личную оценку.",
+        "nodes": [
+          {
+            "id": "description",
+            "label": "Описание",
+            "text": "Povestea se desfășoară într-un sat.",
+            "lang": "ro",
+            "note": "Место действия относится к содержанию произведения и допускает проверку по нему.",
+            "tone": "object"
+          },
+          {
+            "id": "interpretation",
+            "label": "Интерпретация",
+            "text": "Scena sugerează izolarea personajului.",
+            "lang": "ro",
+            "note": "A sugera обозначает предложенное прочтение сцены. Это не доказанное заявление об авторском замысле.",
+            "tone": "link"
+          },
+          {
+            "id": "evaluation",
+            "label": "Оценка с позицией автора",
+            "text": "Din punctul meu de vedere, ritmul este lent.",
+            "lang": "ro",
+            "note": "Говорящий обозначает собственную точку зрения на темп; оценку стоит связать с конкретным художественным решением.",
+            "tone": "actor"
+          }
+        ],
+        "links": [],
+        "explanation": "Слои могут поддерживать друг друга: конкретное наблюдение помогает объяснить интерпретацию и оценку. Однако один слой не превращается автоматически в другой."
+      }
+    ],
+    "takeaway": "Покажите наблюдение, объясните своё прочтение и назовите критерий оценки.",
+    "caution": "Личный вкус не универсален, а возможная интерпретация не равна доказанному намерению автора. Рекомендация зависит от интересов и ожиданий конкретной аудитории.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  },
+  {
+    "id": "V.B2.32",
+    "chapterId": "G.B2.32",
+    "kind": "flow",
+    "section": "usage",
+    "title": "Перенос проверяется новой задачей",
+    "intro": "Интегрированный проект связывает самостоятельную попытку, проверку критериев, точечную правку и повторный перенос.",
+    "frames": [
+      {
+        "id": "transfer",
+        "label": "Цикл самостоятельной работы",
+        "caption": "Новая задача проверяет применение механизма в другом материале.",
+        "nodes": [
+          {
+            "id": "attempt",
+            "label": "Самостоятельная попытка",
+            "text": "Новый материал без подсказки",
+            "lang": "ru",
+            "note": "Прочитайте источники, подготовьте синтез и обсудите решение. Формы выбираются по смыслу задачи.",
+            "tone": "actor"
+          },
+          {
+            "id": "criteria",
+            "label": "Проверка результата",
+            "text": "Факты, ограничения, связи",
+            "lang": "ru",
+            "note": "Сравните работу с критериями: сохранены ли источники, различены ли факт и условная альтернатива, ясны ли адресаты и отсылки.",
+            "tone": "object"
+          },
+          {
+            "id": "repair",
+            "label": "Точная правка",
+            "text": "Исправить конкретный механизм",
+            "lang": "ru",
+            "note": "Выберите обнаруженную трудность: например, позицию o в Harta mi-a trimis-o ieri или две оси в al cărei raport.",
+            "tone": "action"
+          },
+          {
+            "id": "newtask",
+            "label": "Проверка спустя время",
+            "text": "Другой жанр или адресат",
+            "lang": "ru",
+            "note": "Выполните новую задачу на тот же механизм. Новый материал помогает отделить перенос от памяти готовой фразы.",
+            "tone": "time"
+          }
+        ],
+        "links": [
+          {
+            "from": "attempt",
+            "to": "criteria",
+            "label": "сопоставить с критериями"
+          },
+          {
+            "from": "criteria",
+            "to": "repair",
+            "label": "найти конкретную слабую связь"
+          },
+          {
+            "from": "repair",
+            "to": "newtask",
+            "label": "проверить перенос без образца"
+          }
+        ],
+        "explanation": "Цикл проверяет самостоятельное применение. Повтор уже исправленной строки полезен для закрепления, но не заменяет новую ситуацию."
+      }
+    ],
+    "takeaway": "Уровень проявляется в выборе формы и стратегии для новой задачи, а не в количестве сложных конструкций.",
+    "caution": "Не нужно вставлять все средства B2 в один текст. Знакомый ответ и новый жанр проверяют разные вещи; оценка переноса требует нового материала и ясных критериев.",
+    "sourceIds": [
+      "ubb-b2",
+      "cefr",
+      "doom",
+      "roexam"
+    ]
+  }
+]
