@@ -1,0 +1,1937 @@
+{
+  "level": "B2",
+  "units": [
+    {
+      "id": "LIFE.B2.CONSUMER",
+      "level": "B2",
+      "domain": "shop-cafe",
+      "title": "Спор о заказе: факты, регистр и решение",
+      "anchorLessonId": "B2.14",
+      "prerequisites": [
+        "B1.18",
+        "B2.05",
+        "B2.10"
+      ],
+      "goal": "Разобраться с вымышленным заказом в кафе или магазине: отделить подтверждённое от догадки, вежливо оспорить ответ и письменно зафиксировать согласованное действие.",
+      "fictionNote": "Все люди, организации, маршруты, условия и события в этой учебной ситуации вымышлены; проверяйте реальные условия отдельно.",
+      "theory": {
+        "core": "При споре о заказе сначала назовите проверяемый факт, затем расхождение и конкретную просьбу. В разговоре с другом можно сказать Nu mi-au adus produsul comandat; в письме заведению лучше Vă scriu în legătură cu comanda... Оба сообщения сохраняют один факт. Вежливый регистр не равен уступке: можно спокойно и настойчиво спросить, что произошло и какой вариант доступен. Не утверждайте, что вам положен возврат, если условие вымышленного сценария этого не подтверждает.",
+        "detail": [
+          "Опирайтесь на чек или письменное подтверждение, а не на впечатление. Вначале: Am comandat..., pe bon apare... Затем: totuși, am primit... Если вам пока неизвестна причина, скажите Nu știu de ce s-a produs eroarea. Формула Vă rog să verificați... просит проверить, а не обвиняет человека. В разговоре можно уточнить, что именно сотрудник имеет в виду под «заменой»: новый товар, другой размер или новый счёт. Уточняющий вопрос предотвращает ложное согласие.",
+          "Сохраняйте участников и предмет при передаче слов: Mi s-a spus că produsul poate fi pregătit mâine — это сообщение о сказанном, а не ваша гарантия. Если говорящий не обещал возврат денег, не превращайте posibil într-o promisiune. При обращении на dumneavoastră глагол во множественном числе: Ați putea verifica? Когда письмо адресовано организации, уместны дата, номер заказа, подтверждённое расхождение и запрос с разумным способом ответа. Личные оценки вроде «вы всегда ошибаетесь» мешают делу и не следуют из одного случая. При вежливом вопросе можно сказать Ați putea confirma...?; это просьба о подтверждении, а не сообщение об уже полученном согласии.",
+          "Сравните отказ и уточнение: Nu accept! может звучать резко и не объясняет цели. Aș prefera să clarificăm mai întâi ce variantă este posibilă сохраняет право спорить и приглашает к решению. Если частичная замена устраивает вас только при выполнении условия, назовите условие: Aș accepta varianta aceasta cu condiția să confirmați prețul înainte. Различайте фактическое следствие (Prin urmare, nu am putut folosi produsul) и желаемое действие (Vă rog să-mi spuneți ce soluție propuneți). После разговора кратко письменно зафиксируйте только согласованное. Перед ответом полезно сделать две версии одного сообщения. Для приятеля скажите, что произошло и почему это неудобно. Для заведения добавьте идентификатор заказа, расхождение между документом и полученным предметом и ожидаемый способ связи. Если сотрудник предлагает альтернативу, проверьте её свойства: размер, состав, цену, время. Согласие на одну альтернативу не означает согласия на любую. В конце разговора повторите своими словами, кто проверяет наличие и когда сообщит результат. Если срок назвал только клиент, не приписывайте его сотруднику. Такой пересказ особенно важен, когда устная беседа затем становится письмом."
+        ],
+        "comparison": "Разговорный Salut, poți să verifici? подходит знакомому; нейтральное Îmi puteți confirma...? — незнакомому сотруднику; официальное Vă scriu în legătură cu... — письму. Регистр меняется, данные заказа и степень уверенности остаются теми же.",
+        "examples": [
+          {
+            "ro": "Am comandat o cafea fără lapte, dar pe bon apare o altă variantă.",
+            "ru": "Я заказал кофе без молока, но в чеке указан другой вариант."
+          },
+          {
+            "ro": "Vă rog să verificați ce produs a fost înregistrat.",
+            "ru": "Прошу проверить, какой товар был внесён в заказ."
+          },
+          {
+            "ro": "Nu susțin că ați promis un schimb; vreau să clarific ce opțiuni există.",
+            "ru": "Я не утверждаю, что вы обещали замену; хочу выяснить доступные варианты."
+          },
+          {
+            "ro": "Aș accepta altă mărime cu condiția să confirmați diferența de preț.",
+            "ru": "Я согласился бы на другой размер при условии подтверждения разницы в цене."
+          },
+          {
+            "ro": "Mi s-a spus că răspunsul va veni după verificare.",
+            "ru": "Мне сказали, что ответ поступит после проверки."
+          },
+          {
+            "ro": "Vă mulțumesc pentru clarificare și aștept confirmarea în scris.",
+            "ru": "Благодарю за разъяснение и жду письменного подтверждения."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "Mi-ați promis cu siguranță banii înapoi.",
+            "right": "Mi-ați spus că veți verifica posibilitatea unei soluții.",
+            "why": "Первое приписывает обещание, если сотрудник обещал только проверку."
+          },
+          {
+            "wrong": "Pe bon scrie alt produs, deci m-ați înșelat.",
+            "right": "Pe bon apare alt produs; vă rog să verificăm înregistrarea.",
+            "why": "Факт расхождения не доказывает намерение обмануть."
+          },
+          {
+            "wrong": "Dumneavoastră ai verificat comanda?",
+            "right": "Dumneavoastră ați verificat comanda?",
+            "why": "При вежливом обращении нужна форма глагола второго лица множественного числа."
+          }
+        ],
+        "sheet": {
+          "title": "Письмо после спора",
+          "formula": "факт → расхождение → неизвестное → просьба → условие/следующий шаг",
+          "rows": [
+            [
+              "Факт",
+              "Pe confirmare apare produsul A."
+            ],
+            [
+              "Расхождение",
+              "Totuși, am primit produsul B."
+            ],
+            [
+              "Проверка",
+              "Vă rog să verificați numărul comenzii."
+            ],
+            [
+              "Условие",
+              "Aș accepta schimbul cu condiția să confirmați prețul."
+            ],
+            [
+              "Сводка",
+              "Din câte am înțeles, veți răspunde după verificare."
+            ]
+          ],
+          "notes": [
+            "Не превращайте предположение о причине в установленный факт.",
+            "Сохраняйте точный предмет при переходе от беседы к письму.",
+            "Вежливость и ясное требование совместимы."
+          ]
+        }
+      },
+      "words": [
+        {
+          "ro": "comandă",
+          "ru": "заказ"
+        },
+        {
+          "ro": "bon",
+          "ru": "чек"
+        },
+        {
+          "ro": "confirmare",
+          "ru": "подтверждение"
+        },
+        {
+          "ro": "produs",
+          "ru": "товар"
+        },
+        {
+          "ro": "mărime",
+          "ru": "размер"
+        },
+        {
+          "ro": "preț",
+          "ru": "цена"
+        },
+        {
+          "ro": "schimb",
+          "ru": "замена"
+        },
+        {
+          "ro": "răspuns",
+          "ru": "ответ"
+        },
+        {
+          "ro": "soluție",
+          "ru": "решение"
+        },
+        {
+          "ro": "verificare",
+          "ru": "проверка"
+        },
+        {
+          "ro": "înregistrare",
+          "ru": "регистрация заказа"
+        },
+        {
+          "ro": "neconcordanță",
+          "ru": "расхождение"
+        },
+        {
+          "ro": "variantă",
+          "ru": "вариант"
+        },
+        {
+          "ro": "condiție",
+          "ru": "условие"
+        },
+        {
+          "ro": "termen",
+          "ru": "срок"
+        },
+        {
+          "ro": "în scris",
+          "ru": "письменно"
+        },
+        {
+          "ro": "ambalare",
+          "ru": "упаковка"
+        }
+      ],
+      "phrases": [
+        {
+          "ro": "Vă scriu în legătură cu...",
+          "ru": "Пишу вам по поводу..."
+        },
+        {
+          "ro": "Pe bon apare...",
+          "ru": "В чеке указано..."
+        },
+        {
+          "ro": "Totuși, am primit...",
+          "ru": "Однако я получил..."
+        },
+        {
+          "ro": "Vă rog să verificați...",
+          "ru": "Прошу проверить..."
+        },
+        {
+          "ro": "Din câte am înțeles...",
+          "ru": "Насколько я понял..."
+        },
+        {
+          "ro": "Aș prefera să clarificăm...",
+          "ru": "Я предпочёл бы уточнить..."
+        },
+        {
+          "ro": "Cu condiția să confirmați...",
+          "ru": "При условии, что вы подтвердите..."
+        },
+        {
+          "ro": "Aștept confirmarea în scris.",
+          "ru": "Жду письменного подтверждения."
+        },
+        {
+          "ro": "Ați putea confirma...?",
+          "ru": "Не могли бы вы подтвердить...?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "B2.14.e501",
+          "type": "choice",
+          "prompt": "Какой ответ организации сохраняет факт и вежливый регистр, если причина ошибки неизвестна?",
+          "answers": [
+            "Pe bon apare alt produs; vă rog să verificați comanda."
+          ],
+          "explanation": "Названо расхождение и запрос на проверку без приписывания намерения.",
+          "hint": "Ищите доказуемое расхождение.",
+          "tag": "consumer-register-fact",
+          "skill": "grammar",
+          "choices": [
+            "Pe bon apare alt produs; vă rog să verificați comanda.",
+            "Pe bon apare alt produs; deci eroarea s-a produs sigur la casă.",
+            "Pe bon apare alt produs; vă rog să confirmați direct schimbul deja promis."
+          ]
+        },
+        {
+          "id": "B2.14.e502",
+          "type": "choice",
+          "prompt": "Сотрудник сказал только «проверим». Как точно пересказать?",
+          "answers": [
+            "Mi s-a spus că situația va fi verificată."
+          ],
+          "explanation": "Первая формула не усиливает сказанное до гарантии.",
+          "hint": "Отделите обещание проверки от исхода.",
+          "tag": "consumer-reported-speech",
+          "skill": "grammar",
+          "choices": [
+            "Mi s-a spus că situația a fost deja rezolvată.",
+            "Mi s-a spus că situația va fi verificată.",
+            "Mi s-a spus că voi primi sigur un alt produs."
+          ]
+        },
+        {
+          "id": "B2.14.e503",
+          "type": "choice",
+          "prompt": "Как обозначить условное согласие на другой размер?",
+          "answers": [
+            "Aș accepta altă mărime cu condiția să confirmați prețul."
+          ],
+          "explanation": "Условие относится к подтверждению цены до согласия.",
+          "hint": "Ищите условие, не готовый факт.",
+          "tag": "consumer-condition",
+          "skill": "grammar",
+          "choices": [
+            "Aș accepta altă mărime, deși prețul nu a fost comunicat.",
+            "Am acceptat altă mărime după confirmarea prețului.",
+            "Aș accepta altă mărime cu condiția să confirmați prețul."
+          ]
+        },
+        {
+          "id": "B2.14.e504",
+          "type": "choice",
+          "prompt": "Письмо направлено одному неизвестному сотруднику. Какая форма вопроса уместна?",
+          "answers": [
+            "Ați putea verifica numărul comenzii?"
+          ],
+          "explanation": "Ați соответствует dumneavoastră, условное могли бы смягчает запрос.",
+          "hint": "Вежливое обращение требует plural.",
+          "tag": "consumer-politeness",
+          "skill": "grammar",
+          "choices": [
+            "Ați putea verifica numărul comenzii?",
+            "Ai putea verifica numărul comenzii?",
+            "Ați verificat numărul comenzii, deci accept soluția?"
+          ]
+        },
+        {
+          "id": "B2.14.e505",
+          "type": "gap",
+          "prompt": "Вставьте одно слово из пары bon / preț: Pe ... apare un alt produs.",
+          "answers": [
+            "bon"
+          ],
+          "explanation": "На чеке назван товар, цена в данной фразе не является носителем записи.",
+          "hint": "Назовите документ оплаты.",
+          "tag": "consumer-receipt",
+          "skill": "grammar"
+        },
+        {
+          "id": "B2.14.e506",
+          "type": "gap",
+          "prompt": "Вставьте связку из пары totuși / deoarece: Am comandat mărimea M; ..., am primit mărimea L.",
+          "answers": [
+            "totuși"
+          ],
+          "explanation": "Totuși вводит противопоставление заказа и полученного размера.",
+          "hint": "Факты расходятся.",
+          "tag": "consumer-contrast",
+          "skill": "grammar"
+        },
+        {
+          "id": "B2.14.e507",
+          "type": "gap",
+          "prompt": "Вставьте вежливую форму a putea (два слова) при обращении на dumneavoastră: ... să confirmați numărul comenzii?",
+          "answers": [
+            "Ați putea"
+          ],
+          "explanation": "Ați putea — вежливая условная форма обращения на dumneavoastră.",
+          "hint": "Используйте условное прошение во втором лице множественного числа.",
+          "tag": "consumer-polite-modal",
+          "skill": "grammar"
+        },
+        {
+          "id": "B2.14.e508",
+          "type": "gap",
+          "prompt": "Вставьте одно слово из пары scris / schimb: Aștept confirmarea în ... .",
+          "answers": [
+            "scris"
+          ],
+          "explanation": "În scris значит письменно; schimb означало бы замену.",
+          "hint": "Это способ подтверждения.",
+          "tag": "consumer-written-confirmation",
+          "skill": "grammar"
+        },
+        {
+          "id": "B2.14.e509",
+          "type": "order",
+          "prompt": "Соберите официальную просьбу, начните с Vă: «Прошу проверить номер заказа».",
+          "answers": [
+            "Vă rog să verificați numărul comenzii"
+          ],
+          "explanation": "Rog să вводит просьбу, а comenzii — принадлежность номера.",
+          "hint": "Начните с адресата и просьбы.",
+          "tag": "consumer-request-order",
+          "skill": "grammar",
+          "tokens": [
+            "Vă",
+            "rog",
+            "să",
+            "verificați",
+            "numărul",
+            "comenzii"
+          ]
+        },
+        {
+          "id": "B2.14.e510",
+          "type": "order",
+          "prompt": "Соберите фразу, начните с Pe: «В чеке указан другой товар».",
+          "answers": [
+            "Pe bon apare un alt produs"
+          ],
+          "explanation": "Pe bon сообщает документ, apare — отмеченную в нём информацию.",
+          "hint": "Документ до расхождения.",
+          "tag": "consumer-evidence-order",
+          "skill": "grammar",
+          "tokens": [
+            "Pe",
+            "bon",
+            "apare",
+            "un",
+            "alt",
+            "produs"
+          ]
+        },
+        {
+          "id": "B2.14.e511",
+          "type": "order",
+          "prompt": "Соберите условие, начните с Aș: «Я бы согласился на замену при условии подтверждения цены».",
+          "answers": [
+            "Aș accepta schimbul cu condiția confirmării prețului",
+            "Aș accepta cu condiția confirmării prețului schimbul"
+          ],
+          "explanation": "Существительное confirmării после condiția и genitiv prețului образуют ясное условие.",
+          "hint": "Найдите целое выражение cu condiția.",
+          "tag": "consumer-conditional-order",
+          "skill": "grammar",
+          "tokens": [
+            "Aș",
+            "accepta",
+            "schimbul",
+            "cu",
+            "condiția",
+            "confirmării",
+            "prețului"
+          ]
+        },
+        {
+          "id": "B2.14.e512",
+          "type": "order",
+          "prompt": "Соберите ограниченный пересказ, начните с Mi: «Мне сказали, что ответ придёт после проверки».",
+          "answers": [
+            "Mi s-a spus că răspunsul va veni după verificare",
+            "Mi s-a spus că după verificare va veni răspunsul",
+            "Mi s-a spus că va veni răspunsul după verificare",
+            "Mi s-a spus că după verificare răspunsul va veni"
+          ],
+          "explanation": "Безличное Mi s-a spus сообщает источник, va veni — последующий ответ.",
+          "hint": "Не добавляйте обещанный исход.",
+          "tag": "consumer-relay-order",
+          "skill": "grammar",
+          "tokens": [
+            "Mi",
+            "s-a",
+            "spus",
+            "că",
+            "răspunsul",
+            "va",
+            "veni",
+            "după",
+            "verificare"
+          ]
+        },
+        {
+          "id": "B2.14.e513",
+          "type": "read",
+          "prompt": "Ce poziție ia Mara față de cauza neconcordanței?",
+          "answers": [
+            "Nu știe dacă problema a apărut la ambalare sau în sistem."
+          ],
+          "explanation": "Textul distinge între dovada diferenței și explicația încă necunoscută.",
+          "hint": "Citiți motivul pentru care nu acuză pe nimeni.",
+          "tag": "consumer-read-evidence",
+          "skill": "reading",
+          "choices": [
+            "Nu știe dacă problema a apărut la ambalare sau în sistem.",
+            "Știe că problema a apărut la ambalare.",
+            "Știe că în confirmare era trecută mărimea L."
+          ],
+          "text": "Într-un magazin imaginar, Mara a comandat o cămașă albastră, mărimea M, pentru un eveniment de vineri. Confirmarea trimisă pe e-mail menționează culoarea și mărimea corecte. Când a ridicat pachetul, eticheta produsului arăta mărimea L. Pe bon era trecut același cod ca în confirmare, astfel că Mara nu știa dacă greșeala apăruse la ambalare ori în sistem. Ea nu a presupus că vânzătorul încercase să o înșele. A întrebat ce se poate verifica înainte de a decide.\n\nAngajatul a verificat registrul, însă înregistrarea nu lămurea dacă eroarea apăruse la ambalare sau la introducerea comenzii. El nu putea spune imediat nici dacă exista încă mărimea M. I-a propus să revină după o verificare a stocului. Mara a explicat că ziua evenimentului contează: dacă răspunsul vine abia sâmbătă, o eventuală înlocuire nu o mai ajută. Ea ar accepta o altă cămașă potrivită, însă numai după ce i se confirmă mărimea și prețul. Angajatul a promis un răspuns joi, nu a promis o anumită soluție.\n\nAcasă, Mara a redactat un mesaj scurt și neutru. A menționat numărul comenzii, diferența dintre confirmare și etichetă, precum și faptul că un răspuns joi ar permite încă alegerea unei alternative. A cerut confirmarea în scris a variantei disponibile. Prietenei i-a povestit mai liber că situația era enervantă, dar în mesajul către magazin nu a atribuit nimănui intenții. Pentru ea, un răspuns util ar clarifica mai întâi ce este posibil, apoi ar permite o alegere informată."
+        },
+        {
+          "id": "B2.14.e514",
+          "type": "read",
+          "prompt": "De ce contează un răspuns joi, în argumentul Marei?",
+          "answers": [
+            "Ar lăsa timp pentru alegerea unei alternative înainte de eveniment."
+          ],
+          "explanation": "Condiția temporală motivează solicitarea, fără a garanta un anumit produs.",
+          "hint": "Comparați ziua evenimentului cu ziua răspunsului.",
+          "tag": "consumer-read-condition",
+          "skill": "reading",
+          "choices": [
+            "Ar garanta că mărimea M va fi disponibilă.",
+            "Ar lăsa timp pentru alegerea unei alternative înainte de eveniment.",
+            "Ar permite înlocuirea indiferent de mărime și preț."
+          ],
+          "text": "Într-un magazin imaginar, Mara a comandat o cămașă albastră, mărimea M, pentru un eveniment de vineri. Confirmarea trimisă pe e-mail menționează culoarea și mărimea corecte. Când a ridicat pachetul, eticheta produsului arăta mărimea L. Pe bon era trecut același cod ca în confirmare, astfel că Mara nu știa dacă greșeala apăruse la ambalare ori în sistem. Ea nu a presupus că vânzătorul încercase să o înșele. A întrebat ce se poate verifica înainte de a decide.\n\nAngajatul a verificat registrul, însă înregistrarea nu lămurea dacă eroarea apăruse la ambalare sau la introducerea comenzii. El nu putea spune imediat nici dacă exista încă mărimea M. I-a propus să revină după o verificare a stocului. Mara a explicat că ziua evenimentului contează: dacă răspunsul vine abia sâmbătă, o eventuală înlocuire nu o mai ajută. Ea ar accepta o altă cămașă potrivită, însă numai după ce i se confirmă mărimea și prețul. Angajatul a promis un răspuns joi, nu a promis o anumită soluție.\n\nAcasă, Mara a redactat un mesaj scurt și neutru. A menționat numărul comenzii, diferența dintre confirmare și etichetă, precum și faptul că un răspuns joi ar permite încă alegerea unei alternative. A cerut confirmarea în scris a variantei disponibile. Prietenei i-a povestit mai liber că situația era enervantă, dar în mesajul către magazin nu a atribuit nimănui intenții. Pentru ea, un răspuns util ar clarifica mai întâi ce este posibil, apoi ar permite o alegere informată."
+        },
+        {
+          "id": "B2.14.e515",
+          "type": "read",
+          "prompt": "Care afirmație păstrează exact promisiunea angajatului?",
+          "answers": [
+            "Va comunica un răspuns după verificare, fără a garanta soluția."
+          ],
+          "explanation": "Promisiunea privește răspunsul, nu înlocuirea sau banii.",
+          "hint": "Observați diferența dintre răspuns și rezultat.",
+          "tag": "consumer-read-scope",
+          "skill": "reading",
+          "choices": [
+            "Va comunica joi că mărimea M există sigur.",
+            "Va confirma joi schimbul fără verificarea stocului.",
+            "Va comunica un răspuns după verificare, fără a garanta soluția."
+          ],
+          "text": "Într-un magazin imaginar, Mara a comandat o cămașă albastră, mărimea M, pentru un eveniment de vineri. Confirmarea trimisă pe e-mail menționează culoarea și mărimea corecte. Când a ridicat pachetul, eticheta produsului arăta mărimea L. Pe bon era trecut același cod ca în confirmare, astfel că Mara nu știa dacă greșeala apăruse la ambalare ori în sistem. Ea nu a presupus că vânzătorul încercase să o înșele. A întrebat ce se poate verifica înainte de a decide.\n\nAngajatul a verificat registrul, însă înregistrarea nu lămurea dacă eroarea apăruse la ambalare sau la introducerea comenzii. El nu putea spune imediat nici dacă exista încă mărimea M. I-a propus să revină după o verificare a stocului. Mara a explicat că ziua evenimentului contează: dacă răspunsul vine abia sâmbătă, o eventuală înlocuire nu o mai ajută. Ea ar accepta o altă cămașă potrivită, însă numai după ce i se confirmă mărimea și prețul. Angajatul a promis un răspuns joi, nu a promis o anumită soluție.\n\nAcasă, Mara a redactat un mesaj scurt și neutru. A menționat numărul comenzii, diferența dintre confirmare și etichetă, precum și faptul că un răspuns joi ar permite încă alegerea unei alternative. A cerut confirmarea în scris a variantei disponibile. Prietenei i-a povestit mai liber că situația era enervantă, dar în mesajul către magazin nu a atribuit nimănui intenții. Pentru ea, un răspuns util ar clarifica mai întâi ce este posibil, apoi ar permite o alegere informată."
+        },
+        {
+          "id": "B2.14.e516",
+          "type": "read",
+          "prompt": "Ce se schimbă între mesajul către prietenă și cel către magazin?",
+          "answers": [
+            "Registrul și includerea detaliilor verificabile, nu faptele comenzii."
+          ],
+          "explanation": "Mara exprimă iritarea în conversația personală și formulează factual cererea formală.",
+          "hint": "Comparați destinatarii.",
+          "tag": "consumer-read-register",
+          "skill": "reading",
+          "choices": [
+            "Registrul și includerea detaliilor verificabile, nu faptele comenzii.",
+            "Registrul se schimbă, iar mesajul oficial afirmă o intenție de înșelare.",
+            "Faptele se schimbă, fiindcă în scris nu mai menționează mărimea comandată."
+          ],
+          "text": "Într-un magazin imaginar, Mara a comandat o cămașă albastră, mărimea M, pentru un eveniment de vineri. Confirmarea trimisă pe e-mail menționează culoarea și mărimea corecte. Când a ridicat pachetul, eticheta produsului arăta mărimea L. Pe bon era trecut același cod ca în confirmare, astfel că Mara nu știa dacă greșeala apăruse la ambalare ori în sistem. Ea nu a presupus că vânzătorul încercase să o înșele. A întrebat ce se poate verifica înainte de a decide.\n\nAngajatul a verificat registrul, însă înregistrarea nu lămurea dacă eroarea apăruse la ambalare sau la introducerea comenzii. El nu putea spune imediat nici dacă exista încă mărimea M. I-a propus să revină după o verificare a stocului. Mara a explicat că ziua evenimentului contează: dacă răspunsul vine abia sâmbătă, o eventuală înlocuire nu o mai ajută. Ea ar accepta o altă cămașă potrivită, însă numai după ce i se confirmă mărimea și prețul. Angajatul a promis un răspuns joi, nu a promis o anumită soluție.\n\nAcasă, Mara a redactat un mesaj scurt și neutru. A menționat numărul comenzii, diferența dintre confirmare și etichetă, precum și faptul că un răspuns joi ar permite încă alegerea unei alternative. A cerut confirmarea în scris a variantei disponibile. Prietenei i-a povestit mai liber că situația era enervantă, dar în mesajul către magazin nu a atribuit nimănui intenții. Pentru ea, un răspuns util ar clarifica mai întâi ce este posibil, apoi ar permite o alegere informată."
+        }
+      ],
+      "transfer": {
+        "prompt": "Răspundeți în scris unui magazin imaginar în 150–190 de cuvinte despre un alt produs sau o comandă de cafenea; folosiți o confirmare și un bon fictive. Apoi scrieți același lucru unui prieten în 2–3 propoziții. Acesta este un exercițiu de autoevaluare, nu o notă automată.",
+        "checklist": [
+          "Faptele din documente sunt separate de presupuneri.",
+          "Cererea conține un pas verificabil și o condiție relevantă.",
+          "Registrele diferă, dar datele nu se modifică."
+        ],
+        "model": "Bună ziua. Vă scriu în legătură cu o comandă fictivă de îmbrăcăminte, identificată prin numărul 284. În confirmarea primită marți apare o cămașă albastră, mărimea M, însă produsul ridicat astăzi are pe etichetă mărimea L. Pe bon figurează același cod ca în confirmare. Nu pot stabili din aceste documente unde a apărut neconcordanța și nu presupun că a fost intenționată. Vă rog să verificați înregistrarea și să-mi spuneți dacă mărimea comandată mai este disponibilă. Am nevoie de un răspuns înainte de evenimentul de vineri; o confirmare joi mi-ar permite să aleg o alternativă. Dacă mărimea M nu poate fi oferită, aș dori să știu ce alt produs propuneți, în ce mărime și la ce preț. Nu voi considera o variantă acceptată înainte de a primi aceste detalii. Din conversația de azi am înțeles că veți verifica disponibilitatea și veți reveni cu un răspuns, nu că un schimb a fost deja aprobat. Vă mulțumesc și aștept confirmarea în scris.\n\nUnui prieten i-aș spune: am primit altă mărime, iar magazinul verifică opțiunile; încă nu știu soluția."
+      }
+    },
+    {
+      "id": "LIFE.B2.NEIGHBOR",
+      "level": "B2",
+      "domain": "neighbors",
+      "title": "Spațiul comun: propunere și obiecție",
+      "anchorLessonId": "B2.17",
+      "prerequisites": [
+        "B1.15",
+        "B2.09",
+        "B2.10",
+        "B1.16"
+      ],
+      "goal": "Предложить соседям изменение общего пространства, принять содержательное возражение и обозначить способ проверки компромисса.",
+      "fictionNote": "Все люди, организации, маршруты, условия и события в этой учебной ситуации вымышлены; проверяйте реальные условия отдельно.",
+      "theory": {
+        "core": "В разговоре о дворе или лестнице не начинайте с единственного «правильного» решения. Сначала назовите наблюдаемую проблему и группы, которых она касается. Затем сформулируйте критерии: проход, тишина, доступность, обслуживание. Решение может улучшить одно и одновременно усложнить другое. Фраза Ar fi util să... выражает предложение, а не принятый всеми план. После возражения назовите его предмет своими словами, прежде чем отвечать.",
+        "detail": [
+          "Сравните позицию, основание и пример: Aș propune o bancă mobilă; astfel rămâne loc pentru trecere; de pildă, o putem muta în ziua livrărilor. Пример показывает возможность, но не доказывает безопасность каждого случая. Не придумывайте число жильцов или ширину прохода. Если точной схемы нет, попросите её: Înainte de a decide, ar trebui să vedem o schiță. В тексте отмечайте, что мнение отсутствующих соседей пока неизвестно.",
+          "Уступка не означает отказ: Aveți dreptate că accesul trebuie păstrat; totuși, am putea testa o soluție mobilă. Такой ответ признаёт конкретный риск и предлагает способ проверки. Формула dacă + indicativ описывает открытое условие: Dacă trecerea rămâne liberă, putem continua proba. Вариант с condițional Ar funcționa doar dacă... показывает гипотезу. Подменять условие уверенным «будет» нельзя, пока измерения не проведены.",
+          "Объясняйте последствия по группам: для человека с коляской важен чистый проход, для доставки — возможность подъезда, для отдыхающих — место для сидения. Проверка может включать временную расстановку и сбор замечаний. Назовите дату обсуждения как часть вымышленного сценария, а не как живое объявление. В итоговой записке отделите согласованное от открытых вопросов: S-a convenit să cerem o schiță; nu s-a decis instalarea. Такая точность предотвращает конфликт, когда читатель принимает предложение за принятое решение. В обсуждении общего пространства каждый участник может использовать слово «доступ» в разном смысле: проход пешком, проезд доставки, удобство для коляски или доступ к двери. Попросите уточнить значение до ответа. Отдельно перечислите, что известно из наблюдений и что требует измерения. Если один сосед привёл единичный неудобный случай, он показывает возможную проблему, но не частоту проблемы за месяц. В протоколе встречи не объединяйте голоса присутствовавших с мнениями отсутствующих. Предложение испытать мебель в течение недели остаётся предложением до согласия группы; полученная схема тоже не предрешает итог. В форме Instalarea nu a fost decisă причастие согласуется с instalarea в женском роде; discutată лишь говорит об обсуждении."
+        ],
+        "comparison": "Наблюдение: Uneori trecerea este blocată; предпочтение: Aș prefera un loc de odihnă; проверяемый прогноз: O bancă mobilă ar putea ajuta dacă rămâne culoar liber. Каждая формула имеет другую силу утверждения.",
+        "examples": [
+          {
+            "ro": "Aș propune un mobilier mobil, nu o instalare permanentă.",
+            "ru": "Я предложил бы передвижную мебель, а не постоянную установку."
+          },
+          {
+            "ro": "Aveți dreptate că accesul pentru livrări contează.",
+            "ru": "Вы правы, что доступ для доставок важен."
+          },
+          {
+            "ro": "Totuși, am putea verifica lățimea culoarului înainte de decizie.",
+            "ru": "Однако мы могли бы проверить ширину прохода до решения."
+          },
+          {
+            "ro": "Nu știm încă părerea locatarilor absenți.",
+            "ru": "Мы пока не знаем мнения отсутствующих жильцов."
+          },
+          {
+            "ro": "Dacă trecerea rămâne liberă, putem continua proba.",
+            "ru": "Если проход останется свободным, мы можем продолжить пробу."
+          },
+          {
+            "ro": "S-a convenit să cerem o schiță; instalarea nu a fost aprobată.",
+            "ru": "Было решено запросить схему; установку не одобрили."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "Toți vecinii sunt de acord.",
+            "right": "Cei prezenți au acceptat să discutăm; nu știm încă părerea celorlalți.",
+            "why": "Не приписывайте отсутствующим согласие."
+          },
+          {
+            "wrong": "Aveți dreptate, deci renunțăm la orice discuție.",
+            "right": "Aveți dreptate că accesul contează; să verificăm o variantă mobilă.",
+            "why": "Признание обоснованного возражения не обязывает отвергать предложение."
+          },
+          {
+            "wrong": "S-a decis instalarea băncii.",
+            "right": "S-a decis să cerem o schiță înainte de instalare.",
+            "why": "Предварительный шаг не равен окончательному решению."
+          }
+        ],
+        "sheet": {
+          "title": "Общее пространство",
+          "formula": "наблюдение → группы → вариант → возражение → проверка → точный итог",
+          "rows": [
+            [
+              "Потребность",
+              "Locatarii vor un loc de odihnă."
+            ],
+            [
+              "Возражение",
+              "Accesul pentru livrări ar putea fi îngustat."
+            ],
+            [
+              "Уступка",
+              "Aveți dreptate că accesul contează."
+            ],
+            [
+              "Проверка",
+              "Să măsurăm culoarul și să cerem o schiță."
+            ],
+            [
+              "Итог",
+              "S-a convenit doar asupra unei probe."
+            ]
+          ],
+          "notes": [
+            "Называйте, какая группа выигрывает или теряет.",
+            "Не превращайте пример в доказательство для всех случаев.",
+            "В протоколе отличайте предложение от решения."
+          ]
+        }
+      },
+      "words": [
+        {
+          "ro": "locatar",
+          "ru": "жилец"
+        },
+        {
+          "ro": "curte",
+          "ru": "двор"
+        },
+        {
+          "ro": "spațiu comun",
+          "ru": "общее пространство"
+        },
+        {
+          "ro": "culoar",
+          "ru": "проход"
+        },
+        {
+          "ro": "acces",
+          "ru": "доступ"
+        },
+        {
+          "ro": "livrare",
+          "ru": "доставка"
+        },
+        {
+          "ro": "mobil",
+          "ru": "передвижной"
+        },
+        {
+          "ro": "permanent",
+          "ru": "постоянный"
+        },
+        {
+          "ro": "schiță",
+          "ru": "схема"
+        },
+        {
+          "ro": "măsurare",
+          "ru": "измерение"
+        },
+        {
+          "ro": "obiecție",
+          "ru": "возражение"
+        },
+        {
+          "ro": "compromis",
+          "ru": "компромисс"
+        },
+        {
+          "ro": "probă",
+          "ru": "пробный период"
+        },
+        {
+          "ro": "întreținere",
+          "ru": "обслуживание"
+        },
+        {
+          "ro": "absent",
+          "ru": "отсутствующий"
+        },
+        {
+          "ro": "observație",
+          "ru": "замечание"
+        }
+      ],
+      "phrases": [
+        {
+          "ro": "Aș propune să...",
+          "ru": "Я предложил бы..."
+        },
+        {
+          "ro": "Aveți dreptate că...",
+          "ru": "Вы правы, что..."
+        },
+        {
+          "ro": "Totuși, am putea...",
+          "ru": "Однако мы могли бы..."
+        },
+        {
+          "ro": "Înainte de a decide...",
+          "ru": "Прежде чем решать..."
+        },
+        {
+          "ro": "Dacă trecerea rămâne liberă...",
+          "ru": "Если проход останется свободным..."
+        },
+        {
+          "ro": "Nu știm încă părerea...",
+          "ru": "Мы ещё не знаем мнение..."
+        },
+        {
+          "ro": "S-a convenit să...",
+          "ru": "Было согласовано..."
+        },
+        {
+          "ro": "Nu s-a decis instalarea.",
+          "ru": "Установка не была решена."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "B2.17.e501",
+          "type": "choice",
+          "prompt": "Какой ответ затрагивает возражение о проходе?",
+          "answers": [
+            "Aveți dreptate că accesul contează; să măsurăm culoarul."
+          ],
+          "explanation": "Он признаёт конкретный риск и предлагает проверку.",
+          "hint": "Возражение касается доступа.",
+          "tag": "neighbor-objection",
+          "skill": "grammar",
+          "choices": [
+            "Aveți dreptate că accesul contează; să măsurăm culoarul.",
+            "Aveți dreptate că accesul contează; să alegem imediat banca fixă.",
+            "Aveți dreptate că accesul contează; livrările se pot opri fără verificare."
+          ]
+        },
+        {
+          "id": "B2.17.e502",
+          "type": "choice",
+          "prompt": "Как точно описать исход, если договорились лишь о схеме?",
+          "answers": [
+            "S-a convenit să cerem o schiță; instalarea nu a fost aprobată."
+          ],
+          "explanation": "Решение относится к получению схемы, а не установке.",
+          "hint": "Разделите процесс и результат.",
+          "tag": "neighbor-decision-scope",
+          "skill": "grammar",
+          "choices": [
+            "S-a convenit să cerem schița și să instalăm băncile în aceeași zi.",
+            "S-a convenit să cerem o schiță; instalarea nu a fost aprobată.",
+            "S-a convenit doar să alegem banca fixă fără schiță."
+          ]
+        },
+        {
+          "id": "B2.17.e503",
+          "type": "choice",
+          "prompt": "Какое утверждение корректно при отсутствии ответов от части жильцов?",
+          "answers": [
+            "Nu știm încă părerea locatarilor absenți."
+          ],
+          "explanation": "Позиция отсутствующих остаётся неизвестной.",
+          "hint": "Не придумывайте их мнение.",
+          "tag": "neighbor-evidence-limit",
+          "skill": "grammar",
+          "choices": [
+            "Absenții au fost deja de acord cu proba.",
+            "Absenții au respins deja mobilierul mobil.",
+            "Nu știm încă părerea locatarilor absenți."
+          ]
+        },
+        {
+          "id": "B2.17.e504",
+          "type": "choice",
+          "prompt": "Как выразить гипотетическую пользу, сохраняя условие свободного прохода?",
+          "answers": [
+            "Soluția ar putea ajuta dacă trecerea rămâne liberă."
+          ],
+          "explanation": "Ar putea и dacă ограничивают вывод.",
+          "hint": "Ищите условие.",
+          "tag": "neighbor-conditional-benefit",
+          "skill": "grammar",
+          "choices": [
+            "Soluția ar putea ajuta dacă trecerea rămâne liberă.",
+            "Soluția ajută sigur, chiar dacă traseul nu a fost măsurat.",
+            "Soluția a ajutat deja, fiindcă schița a fost primită."
+          ]
+        },
+        {
+          "id": "B2.17.e505",
+          "type": "gap",
+          "prompt": "Вставьте одно слово из пары schiță / obiecție: Înainte de instalare, să cerem o ... a curții.",
+          "answers": [
+            "schiță"
+          ],
+          "explanation": "Schiță позволяет увидеть расположение, obiecție — возражение.",
+          "hint": "Нужен рисунок расположения.",
+          "tag": "neighbor-plan",
+          "skill": "grammar"
+        },
+        {
+          "id": "B2.17.e506",
+          "type": "gap",
+          "prompt": "Вставьте маркер уступки из пары totuși / deoarece: Aveți dreptate că livrările au nevoie de acces; ..., am putea încerca o bancă mobilă.",
+          "answers": [
+            "totuși"
+          ],
+          "explanation": "Totuși сохраняет предложение после признания возражения.",
+          "hint": "Признайте риск и предложите альтернативу.",
+          "tag": "neighbor-concession",
+          "skill": "grammar"
+        },
+        {
+          "id": "B2.17.e507",
+          "type": "gap",
+          "prompt": "Проба ещё не решена: задайте именно открытое УСЛОВИЕ её продолжения. Вставьте союз из пары dacă / fiindcă: ... culoarul rămâne liber, putem continua proba.",
+          "answers": [
+            "Dacă"
+          ],
+          "explanation": "Dacă задаёт открытое условие; fiindcă означало бы причину.",
+          "hint": "Условие ещё проверяется.",
+          "tag": "neighbor-open-condition",
+          "skill": "grammar"
+        },
+        {
+          "id": "B2.17.e508",
+          "type": "gap",
+          "prompt": "Вставьте форму женского рода от decis: Instalarea nu a fost ..., doar discutată.",
+          "answers": [
+            "decisă"
+          ],
+          "explanation": "Decisă согласуется с instalarea и отличает решение от обсуждения.",
+          "hint": "Нужна женская форма результата решения.",
+          "tag": "neighbor-agreement",
+          "skill": "grammar"
+        },
+        {
+          "id": "B2.17.e509",
+          "type": "order",
+          "prompt": "Соберите уступку, начните с Aveți: «Вы правы, что доступ важен».",
+          "answers": [
+            "Aveți dreptate că accesul contează"
+          ],
+          "explanation": "Aveți dreptate că вводит точное признание возражения.",
+          "hint": "Сначала адресуйте возражение.",
+          "tag": "neighbor-acknowledge",
+          "skill": "grammar",
+          "tokens": [
+            "Aveți",
+            "dreptate",
+            "că",
+            "accesul",
+            "contează"
+          ]
+        },
+        {
+          "id": "B2.17.e510",
+          "type": "order",
+          "prompt": "Соберите запрос проверки, начните с Să: «Измерим проход до решения».",
+          "answers": [
+            "Să măsurăm culoarul înainte de decizie",
+            "Să măsurăm înainte de decizie culoarul"
+          ],
+          "explanation": "Сначала действие проверки, затем момент по отношению к решению.",
+          "hint": "Проверка до решения.",
+          "tag": "neighbor-measure",
+          "skill": "grammar",
+          "tokens": [
+            "Să",
+            "măsurăm",
+            "culoarul",
+            "înainte",
+            "de",
+            "decizie"
+          ]
+        },
+        {
+          "id": "B2.17.e511",
+          "type": "order",
+          "prompt": "Соберите итог, начните с Nu: «Мы ещё не знаем мнения отсутствующих жильцов».",
+          "answers": [
+            "Nu știm încă părerea locatarilor absenți",
+            "Nu știm părerea locatarilor absenți încă"
+          ],
+          "explanation": "Încă ограничивает знание, locatarilor absenți обозначает группу.",
+          "hint": "Не приписывайте отсутствующим взгляд.",
+          "tag": "neighbor-unknown",
+          "skill": "grammar",
+          "tokens": [
+            "Nu",
+            "știm",
+            "încă",
+            "părerea",
+            "locatarilor",
+            "absenți"
+          ]
+        },
+        {
+          "id": "B2.17.e512",
+          "type": "order",
+          "prompt": "Соберите условие, начните с Dacă: «Если проход останется свободным, можем продолжить пробу».",
+          "answers": [
+            "Dacă trecerea rămâne liberă putem continua proba"
+          ],
+          "explanation": "Dacă + indicativ вводит открытое условие.",
+          "hint": "Условие перед возможным действием.",
+          "tag": "neighbor-test-condition",
+          "skill": "grammar",
+          "tokens": [
+            "Dacă",
+            "trecerea",
+            "rămâne",
+            "liberă",
+            "putem",
+            "continua",
+            "proba"
+          ]
+        },
+        {
+          "id": "B2.17.e513",
+          "type": "read",
+          "prompt": "Cum interpretează Ana obiecția lui Radu?",
+          "answers": [
+            "Ca întrebare despre compatibilitatea locului de odihnă cu accesul."
+          ],
+          "explanation": "Ea reformulează riscul ca problemă ce poate fi examinată.",
+          "hint": "Urmăriți reformularea Anei.",
+          "tag": "neighbor-read-counterargument",
+          "skill": "reading",
+          "choices": [
+            "Ca întrebare despre compatibilitatea locului de odihnă cu accesul.",
+            "Ca respingere definitivă a oricărui loc de odihnă.",
+            "Ca cerere de a păstra accesul numai pentru livrări, nu pentru cărucior."
+          ],
+          "text": "Într-un bloc imaginar, un grup de locatari a propus să folosească o parte a curții ca loc de odihnă. În prezent, acolo se află câteva cutii depozitate temporar, iar trecerea spre intrarea secundară este uneori incomodă. Ana a sugerat două bănci fixe. Ea crede că vecinii ar folosi mai des curtea, însă nu are date despre numărul persoanelor interesate. Radu a ridicat o obiecție: pe acel culoar se fac uneori livrări, iar o vecină care împinge un cărucior are nevoie de un traseu suficient de liber.\n\nAna nu a interpretat întrebarea lui Radu ca pe o respingere a oricărui loc de odihnă. A reformulat-o: cum se poate crea un spațiu plăcut fără a îngusta accesul? O vecină a propus mobilier mobil și o perioadă de probă. Radu a acceptat ideea de a o examina, dar a spus că dimensiunile trebuie verificate. Grupul a decis să ceară o schiță a curții și să marcheze pe ea traseul de trecere. Nu a votat instalarea băncilor.\n\nMai multe persoane nu fuseseră prezente la întâlnire. Ana a propus să le fie trimisă aceeași schiță, împreună cu două întrebări: ce folosire ar dori pentru curte și ce obstacole văd în fiecare variantă? În nota către locatari, ea a scris că mobilierul mobil este o posibilitate, nu o hotărâre. A inclus atât beneficiul potențial al unui loc de odihnă, cât și nevoia de acces. Astfel, discuția următoare poate porni de la criterii verificabile, nu de la presupuneri despre cine ar avea dreptate."
+        },
+        {
+          "id": "B2.17.e514",
+          "type": "read",
+          "prompt": "Ce anume a decis grupul la întâlnire?",
+          "answers": [
+            "Să ceară o schiță și să marcheze traseul de trecere."
+          ],
+          "explanation": "Textul separă pasul de verificare de votul asupra instalării.",
+          "hint": "Distingeți hotărârea de propunere.",
+          "tag": "neighbor-read-decision",
+          "skill": "reading",
+          "choices": [
+            "Să instaleze două bănci fixe după ce marchează traseul.",
+            "Să ceară o schiță și să marcheze traseul de trecere.",
+            "Să înceapă proba cu mobilier mobil fără schiță."
+          ],
+          "text": "Într-un bloc imaginar, un grup de locatari a propus să folosească o parte a curții ca loc de odihnă. În prezent, acolo se află câteva cutii depozitate temporar, iar trecerea spre intrarea secundară este uneori incomodă. Ana a sugerat două bănci fixe. Ea crede că vecinii ar folosi mai des curtea, însă nu are date despre numărul persoanelor interesate. Radu a ridicat o obiecție: pe acel culoar se fac uneori livrări, iar o vecină care împinge un cărucior are nevoie de un traseu suficient de liber.\n\nAna nu a interpretat întrebarea lui Radu ca pe o respingere a oricărui loc de odihnă. A reformulat-o: cum se poate crea un spațiu plăcut fără a îngusta accesul? O vecină a propus mobilier mobil și o perioadă de probă. Radu a acceptat ideea de a o examina, dar a spus că dimensiunile trebuie verificate. Grupul a decis să ceară o schiță a curții și să marcheze pe ea traseul de trecere. Nu a votat instalarea băncilor.\n\nMai multe persoane nu fuseseră prezente la întâlnire. Ana a propus să le fie trimisă aceeași schiță, împreună cu două întrebări: ce folosire ar dori pentru curte și ce obstacole văd în fiecare variantă? În nota către locatari, ea a scris că mobilierul mobil este o posibilitate, nu o hotărâre. A inclus atât beneficiul potențial al unui loc de odihnă, cât și nevoia de acces. Astfel, discuția următoare poate porni de la criterii verificabile, nu de la presupuneri despre cine ar avea dreptate."
+        },
+        {
+          "id": "B2.17.e515",
+          "type": "read",
+          "prompt": "De ce trimite Ana schița celor absenți?",
+          "answers": [
+            "Pentru a afla preferințele și obstacolele pe care le observă înainte de alegere."
+          ],
+          "explanation": "Opinia lor nu era cunoscută, iar întrebările cer atât beneficii, cât și obstacole.",
+          "hint": "Citiți cele două întrebări propuse.",
+          "tag": "neighbor-read-inclusion",
+          "skill": "reading",
+          "choices": [
+            "Pentru a anunța că băncile fixe au fost votate.",
+            "Pentru a cere numai votul asupra unei bănci, fără întrebări despre obstacole.",
+            "Pentru a afla preferințele și obstacolele pe care le observă înainte de alegere."
+          ],
+          "text": "Într-un bloc imaginar, un grup de locatari a propus să folosească o parte a curții ca loc de odihnă. În prezent, acolo se află câteva cutii depozitate temporar, iar trecerea spre intrarea secundară este uneori incomodă. Ana a sugerat două bănci fixe. Ea crede că vecinii ar folosi mai des curtea, însă nu are date despre numărul persoanelor interesate. Radu a ridicat o obiecție: pe acel culoar se fac uneori livrări, iar o vecină care împinge un cărucior are nevoie de un traseu suficient de liber.\n\nAna nu a interpretat întrebarea lui Radu ca pe o respingere a oricărui loc de odihnă. A reformulat-o: cum se poate crea un spațiu plăcut fără a îngusta accesul? O vecină a propus mobilier mobil și o perioadă de probă. Radu a acceptat ideea de a o examina, dar a spus că dimensiunile trebuie verificate. Grupul a decis să ceară o schiță a curții și să marcheze pe ea traseul de trecere. Nu a votat instalarea băncilor.\n\nMai multe persoane nu fuseseră prezente la întâlnire. Ana a propus să le fie trimisă aceeași schiță, împreună cu două întrebări: ce folosire ar dori pentru curte și ce obstacole văd în fiecare variantă? În nota către locatari, ea a scris că mobilierul mobil este o posibilitate, nu o hotărâre. A inclus atât beneficiul potențial al unui loc de odihnă, cât și nevoia de acces. Astfel, discuția următoare poate porni de la criterii verificabile, nu de la presupuneri despre cine ar avea dreptate."
+        },
+        {
+          "id": "B2.17.e516",
+          "type": "read",
+          "prompt": "Ce limită are afirmația Anei că vecinii ar folosi mai des curtea?",
+          "answers": [
+            "Este o anticipare pentru care nu are încă date despre interes."
+          ],
+          "explanation": "Textul precizează explicit absența datelor.",
+          "hint": "Separați prognoza de observație.",
+          "tag": "neighbor-read-evidence",
+          "skill": "reading",
+          "choices": [
+            "Este o anticipare pentru care nu are încă date despre interes.",
+            "Se bazează pe numărul locatarilor interesați, deja măsurat.",
+            "Este concluzia probei cu mobilier mobil, deja încheiată."
+          ],
+          "text": "Într-un bloc imaginar, un grup de locatari a propus să folosească o parte a curții ca loc de odihnă. În prezent, acolo se află câteva cutii depozitate temporar, iar trecerea spre intrarea secundară este uneori incomodă. Ana a sugerat două bănci fixe. Ea crede că vecinii ar folosi mai des curtea, însă nu are date despre numărul persoanelor interesate. Radu a ridicat o obiecție: pe acel culoar se fac uneori livrări, iar o vecină care împinge un cărucior are nevoie de un traseu suficient de liber.\n\nAna nu a interpretat întrebarea lui Radu ca pe o respingere a oricărui loc de odihnă. A reformulat-o: cum se poate crea un spațiu plăcut fără a îngusta accesul? O vecină a propus mobilier mobil și o perioadă de probă. Radu a acceptat ideea de a o examina, dar a spus că dimensiunile trebuie verificate. Grupul a decis să ceară o schiță a curții și să marcheze pe ea traseul de trecere. Nu a votat instalarea băncilor.\n\nMai multe persoane nu fuseseră prezente la întâlnire. Ana a propus să le fie trimisă aceeași schiță, împreună cu două întrebări: ce folosire ar dori pentru curte și ce obstacole văd în fiecare variantă? În nota către locatari, ea a scris că mobilierul mobil este o posibilitate, nu o hotărâre. A inclus atât beneficiul potențial al unui loc de odihnă, cât și nevoia de acces. Astfel, discuția următoare poate porni de la criterii verificabile, nu de la presupuneri despre cine ar avea dreptate."
+        }
+      ],
+      "transfer": {
+        "prompt": "Напишите вымышленное сообщение соседям на 160–200 слов: два варианта общего пространства, веское возражение и шаг проверки. Затем письменно перескажите возражение соседа до собственного ответа. Это самостоятельная практика без автоматического балла CEFR.",
+        "checklist": [
+          "Observația și prognoza sunt distincte.",
+          "Obiecția primește un răspuns relevant, nu o formulă goală.",
+          "Mesajul spune precis ce s-a convenit și ce rămâne de decis."
+        ],
+        "model": "Bună ziua, vecini. Aș propune să discutăm două variante pentru curtea noastră imaginară. Una ar fi instalarea unei bănci fixe lângă perete. Cealaltă ar fi folosirea temporară a unor scaune mobile, care pot fi mutate atunci când este nevoie de mai mult spațiu. Un loc de odihnă ar putea fi util celor care așteaptă afară sau vor să petreacă puțin timp în curte, însă încă nu știm câți locatari l-ar folosi.\n\nÎnțeleg obiecția privind livrările și trecerea persoanelor cu un cărucior. Un avantaj pentru un grup nu ar trebui să blocheze traseul altuia. De aceea aș cere mai întâi o schiță cu dimensiunile culoarului și aș marca pe ea locul fiecărei variante. Dacă spațiul rămâne suficient de liber, am putea încerca scaunele mobile pentru o perioadă scurtă. În timpul probei am nota atât folosirea lor, cât și eventualele dificultăți de acces.\n\nVă propun să trimitem schița și locatarilor care nu au participat la discuție. Opiniile lor nu sunt încă cunoscute. În prezent avem doar o idee de verificat; instalarea permanentă nu a fost decisă."
+      }
+    },
+    {
+      "id": "LIFE.B2.TRAVEL",
+      "level": "B2",
+      "domain": "travel",
+      "title": "Ruta schimbată: condiții, consecințe și mediere",
+      "anchorLessonId": "B2.09",
+      "prerequisites": [
+        "A2.21",
+        "B1.17",
+        "B2.01"
+      ],
+      "goal": "Сравнить два вымышленных маршрута с неполной информацией, запросить уточнение и передать спутнику подтверждённые условия.",
+      "fictionNote": "Все люди, организации, маршруты, условия и события в этой учебной ситуации вымышлены; проверяйте реальные условия отдельно.",
+      "theory": {
+        "core": "При изменении маршрута важно отличать причину задержки, условие пересадки, цель выбора и реальное следствие. Deoarece trenul a întârziat сообщает причину; dacă legătura este confirmată — условие; ca să ajungem mai devreme — цель; astfel că am ales alt drum — результат решения. Цель может не осуществиться. Если информации о следующем рейсе нет, не утверждайте, что он будет. Постройте таблицу по времени, стоимости и степени подтверждения, затем объясните выбор другому пассажиру.",
+        "detail": [
+          "Служебное объявление может говорить о возможности, а не о гарантии: ar putea exista locuri не равно există locuri. При передаче сообщения партнёру укажите источник и степень уверенности: Angajata a spus că verifică locurile; nu le-a confirmat încă. Если табло и письменное сообщение расходятся, спросите, какое обновлено позже, но не придумывайте внешних расписаний. В вымышленном упражнении все время и станции относятся только к сценарию.",
+          "Сравнение должно учитывать последствия условий. Маршрут A быстрее только если пересадка состоится; маршрут B медленнее, но имеет подтверждённое место. Формулировка Pe de o parte..., pe de altă parte... помогает показать разные критерии. Dacă pierdem legătura, vom ajunge după închiderea recepției — открытое условие и возможное будущее. Când am pierdut legătura, am ajuns târziu — уже случившийся факт. Нельзя подменять одно другим при пересказе.",
+          "Медиация означает сделать сведения пригодными для решения другого человека. Выберите необходимые детали: что изменилось, что подтверждено, что ожидает проверки и до какого момента нужно решить. Не переводите всё слово в слово, если собеседнику нужно выбрать между вариантами. Например: Pentru Ana contează accesul fără trepte; operatorul a confirmat acest lucru doar pentru ruta B. Такое сообщение оставляет условие видимым и объясняет, почему одинаковая цена не делает два варианта равноценными. Для каждого варианта запишите статус сведений: объявлено, подтверждено сотрудником, показано предварительно либо пока неизвестно. Передавая информацию спутнику, не стирайте этот статус. Вопрос о пересадке должен касаться конкретного звена: подтверждены ли места на следующем отрезке, сколько времени нужно для перехода и как узнать об изменении. Даже если одна цифра прибытия выглядит привлекательнее, другой маршрут может лучше отвечать нуждам спутника. Выбирайте и объясняйте критерии, а не только называйте самый быстрый путь. При изменении информации обновите вывод и сообщите, что именно изменилось после предыдущего сообщения."
+        ],
+        "comparison": "Причина отвечает «почему изменилось»; цель — «ради чего выбираем»; условие — «при каком обстоятельстве вариант действует»; следствие — «что случилось или случится». Порядок фактов во времени проверяйте отдельно от связки.",
+        "examples": [
+          {
+            "ro": "Deoarece legătura nu este confirmată, nu putem promite ora sosirii.",
+            "ru": "Поскольку пересадка не подтверждена, мы не можем обещать время прибытия."
+          },
+          {
+            "ro": "Ruta A este mai rapidă doar dacă prindem legătura.",
+            "ru": "Маршрут А быстрее только если мы успеем на пересадку."
+          },
+          {
+            "ro": "Am ales ruta B ca să evităm o schimbare nesigură.",
+            "ru": "Мы выбрали маршрут Б, чтобы избежать ненадёжной пересадки."
+          },
+          {
+            "ro": "Angajata verifică locurile, dar nu le-a confirmat încă.",
+            "ru": "Сотрудница проверяет места, но пока их не подтвердила."
+          },
+          {
+            "ro": "Dacă pierdem legătura, vom ajunge după ora stabilită.",
+            "ru": "Если пропустим пересадку, прибудем позже назначенного времени."
+          },
+          {
+            "ro": "I-am transmis Anei ce era sigur și ce rămânea de verificat.",
+            "ru": "Я передал Ане, что было надёжно известно и что требовало проверки."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "Ruta A ajunge sigur la ora opt, dacă prindem legătura.",
+            "right": "Ruta A ar ajunge la ora opt numai dacă prindem legătura.",
+            "why": "Время зависит от ещё не подтверждённой пересадки."
+          },
+          {
+            "wrong": "Angajata verifică locurile, deci avem deja bilete.",
+            "right": "Angajata verifică locurile; disponibilitatea nu este încă confirmată.",
+            "why": "Проверка не равна наличию билетов."
+          },
+          {
+            "wrong": "Am ales ruta B deoarece să evităm riscul.",
+            "right": "Am ales ruta B ca să evităm riscul.",
+            "why": "Ca să выражает цель, deoarece вводит причину как предложение."
+          }
+        ],
+        "sheet": {
+          "title": "Сравнение маршрутов",
+          "formula": "источник → подтверждение → условие → критерий → решение → точный пересказ",
+          "rows": [
+            [
+              "Причина",
+              "Deoarece legătura este incertă..."
+            ],
+            [
+              "Условие",
+              "Ruta A e rapidă doar dacă schimbăm la timp."
+            ],
+            [
+              "Цель",
+              "Alegem B ca să evităm riscul."
+            ],
+            [
+              "Следствие",
+              "Astfel că vom anunța o altă oră."
+            ],
+            [
+              "Источник",
+              "Operatorul a confirmat doar ruta B."
+            ]
+          ],
+          "notes": [
+            "Не превращайте ar putea в гарантированное există.",
+            "Сообщите спутнику и неподтверждённые условия.",
+            "Не утверждайте факты реального расписания по учебной сцене."
+          ]
+        }
+      },
+      "words": [
+        {
+          "ro": "rută",
+          "ru": "маршрут"
+        },
+        {
+          "ro": "legătură",
+          "ru": "пересадка"
+        },
+        {
+          "ro": "întârziere",
+          "ru": "задержка"
+        },
+        {
+          "ro": "plecare",
+          "ru": "отправление"
+        },
+        {
+          "ro": "sosire",
+          "ru": "прибытие"
+        },
+        {
+          "ro": "loc disponibil",
+          "ru": "свободное место"
+        },
+        {
+          "ro": "confirmat",
+          "ru": "подтверждённый"
+        },
+        {
+          "ro": "neconfirmat",
+          "ru": "неподтверждённый"
+        },
+        {
+          "ro": "operator",
+          "ru": "оператор"
+        },
+        {
+          "ro": "anunț",
+          "ru": "объявление"
+        },
+        {
+          "ro": "tablou de afișaj",
+          "ru": "табло"
+        },
+        {
+          "ro": "condiție",
+          "ru": "условие"
+        },
+        {
+          "ro": "consecință",
+          "ru": "следствие"
+        },
+        {
+          "ro": "alternativă",
+          "ru": "альтернатива"
+        },
+        {
+          "ro": "risc",
+          "ru": "риск"
+        },
+        {
+          "ro": "însoțitor",
+          "ru": "спутник"
+        }
+      ],
+      "phrases": [
+        {
+          "ro": "Din câte am înțeles...",
+          "ru": "Насколько я понял..."
+        },
+        {
+          "ro": "Este confirmată legătura?",
+          "ru": "Пересадка подтверждена?"
+        },
+        {
+          "ro": "Doar dacă prindem legătura...",
+          "ru": "Только если успеем на пересадку..."
+        },
+        {
+          "ro": "Pe de o parte..., pe de altă parte...",
+          "ru": "С одной стороны..., с другой..."
+        },
+        {
+          "ro": "Ca să evităm riscul...",
+          "ru": "Чтобы избежать риска..."
+        },
+        {
+          "ro": "Angajata verifică încă...",
+          "ru": "Сотрудница ещё проверяет..."
+        },
+        {
+          "ro": "Nu pot confirma încă ora.",
+          "ru": "Я пока не могу подтвердить время."
+        },
+        {
+          "ro": "Vă transmit ce știm sigur.",
+          "ru": "Передаю то, что точно известно."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "B2.09.e501",
+          "type": "choice",
+          "prompt": "Какой вывод точен, если маршрут A быстрый только при удачной пересадке?",
+          "answers": [
+            "Ruta A este mai rapidă doar dacă prindem legătura."
+          ],
+          "explanation": "Doar dacă păstrează condiția deschisă și nu transformă conexiunea în fapt împlinit.",
+          "hint": "Сохраните doar dacă.",
+          "tag": "travel-condition",
+          "skill": "grammar",
+          "choices": [
+            "Ruta A este mai rapidă doar dacă prindem legătura.",
+            "Ruta A este mai rapidă fiindcă am prins deja legătura.",
+            "Ruta A este mai rapidă chiar dacă pierdem legătura."
+          ]
+        },
+        {
+          "id": "B2.09.e502",
+          "type": "choice",
+          "prompt": "Сотрудница лишь проверяет места. Как передать это спутнику?",
+          "answers": [
+            "Angajata verifică locurile; nu le-a confirmat încă."
+          ],
+          "explanation": "Нельзя превращать проверку в подтверждение.",
+          "hint": "Назовите статус информации.",
+          "tag": "travel-relay",
+          "skill": "grammar",
+          "choices": [
+            "Angajata a confirmat locurile pe ruta A, dar verifică prețul.",
+            "Angajata verifică locurile; nu le-a confirmat încă.",
+            "Angajata a anulat ruta A înainte de a verifica locurile."
+          ]
+        },
+        {
+          "id": "B2.09.e503",
+          "type": "choice",
+          "prompt": "В какой фразе ca să выражает именно цель?",
+          "answers": [
+            "Alegem ruta B ca să evităm o legătură nesigură."
+          ],
+          "explanation": "Ca să отвечает на вопрос ради чего.",
+          "hint": "Найдите намерение.",
+          "tag": "travel-purpose",
+          "skill": "grammar",
+          "choices": [
+            "Alegem ruta B deoarece legătura nesigură a fost deja evitată.",
+            "Alegem ruta B, astfel că legătura A fusese confirmată.",
+            "Alegem ruta B ca să evităm o legătură nesigură."
+          ]
+        },
+        {
+          "id": "B2.09.e504",
+          "type": "choice",
+          "prompt": "В вымышленном сценарии A быстрее только при удачной пересадке, а для B места подтверждены. Какая формула корректно противопоставляет эти два критерия?",
+          "answers": [
+            "Pe de o parte, A e mai rapidă; pe de altă parte, B are loc confirmat."
+          ],
+          "explanation": "Сопоставлены скорость и подтверждённое место.",
+          "hint": "Сравните разные критерии.",
+          "tag": "travel-comparison",
+          "skill": "grammar",
+          "choices": [
+            "Pe de o parte, A e mai rapidă; pe de altă parte, B are loc confirmat.",
+            "Pe de o parte, A e mai rapidă; pe de altă parte, B are doar locuri neconfirmate.",
+            "Pe de o parte, A e mai rapidă; pe de altă parte, B e mai rapidă în aceeași condiție."
+          ]
+        },
+        {
+          "id": "B2.09.e505",
+          "type": "gap",
+          "prompt": "Вставьте один союз из пары dacă / deoarece: Ruta A este mai rapidă doar ... prindem legătura.",
+          "answers": [
+            "dacă"
+          ],
+          "explanation": "Doar dacă ограничивает утверждение условием пересадки.",
+          "hint": "Это условие, не причина.",
+          "tag": "travel-if",
+          "skill": "grammar"
+        },
+        {
+          "id": "B2.09.e506",
+          "type": "gap",
+          "prompt": "Вставьте связку из пары ca să / astfel că: Am ales ruta B ... evităm o schimbare nesigură.",
+          "answers": [
+            "ca să"
+          ],
+          "explanation": "Ca să вводит цель выбора, а не уже случившееся следствие.",
+          "hint": "Ради чего выбран B?",
+          "tag": "travel-goal",
+          "skill": "grammar"
+        },
+        {
+          "id": "B2.09.e507",
+          "type": "gap",
+          "prompt": "Вставьте одно слово из пары confirmată / verificată: Angajata încă verifică disponibilitatea; legătura nu este ... .",
+          "answers": [
+            "confirmată"
+          ],
+          "explanation": "Форма confirmată согласуется с legătura; проверка ещё продолжается.",
+          "hint": "Что ещё не гарантировано?",
+          "tag": "travel-confirmation",
+          "skill": "grammar"
+        },
+        {
+          "id": "B2.09.e508",
+          "type": "gap",
+          "prompt": "Вставьте маркер результата из пары astfel / fiindcă: Am primit un răspuns complet, ... că i-am transmis Anei condițiile.",
+          "answers": [
+            "astfel"
+          ],
+          "explanation": "Astfel că указывает результат: после ответа удалось передать условия.",
+          "hint": "Следствие уже произошло.",
+          "tag": "travel-consequence",
+          "skill": "grammar"
+        },
+        {
+          "id": "B2.09.e509",
+          "type": "order",
+          "prompt": "Соберите ограниченный вывод, начните с Ruta: «Маршрут А быстрее только при подтверждённой пересадке».",
+          "answers": [
+            "Ruta A este mai rapidă doar cu legătura confirmată"
+          ],
+          "explanation": "Doar cu legătura confirmată ограничивает вывод.",
+          "hint": "Условие в конце.",
+          "tag": "travel-route-order",
+          "skill": "grammar",
+          "tokens": [
+            "Ruta",
+            "A",
+            "este",
+            "mai",
+            "rapidă",
+            "doar",
+            "cu",
+            "legătura",
+            "confirmată"
+          ]
+        },
+        {
+          "id": "B2.09.e510",
+          "type": "order",
+          "prompt": "Соберите сообщение, начните с Angajata: «Сотрудница ещё проверяет свободные места».",
+          "answers": [
+            "Angajata verifică încă locurile disponibile",
+            "Angajata încă verifică locurile disponibile"
+          ],
+          "explanation": "Încă показывает, что проверка не окончена.",
+          "hint": "Не заменяйте проверку гарантией.",
+          "tag": "travel-check-order",
+          "skill": "grammar",
+          "tokens": [
+            "Angajata",
+            "verifică",
+            "încă",
+            "locurile",
+            "disponibile"
+          ]
+        },
+        {
+          "id": "B2.09.e511",
+          "type": "order",
+          "prompt": "Соберите цель, начните с Alegem: «Выбираем B, чтобы избежать риска».",
+          "answers": [
+            "Alegem B ca să evităm riscul"
+          ],
+          "explanation": "Ca să вводит желаемый результат выбора.",
+          "hint": "Цель после выбора.",
+          "tag": "travel-purpose-order",
+          "skill": "grammar",
+          "tokens": [
+            "Alegem",
+            "B",
+            "ca",
+            "să",
+            "evităm",
+            "riscul"
+          ]
+        },
+        {
+          "id": "B2.09.e512",
+          "type": "order",
+          "prompt": "Соберите точный пересказ, начните с Nu: «Я ещё не могу подтвердить время прибытия».",
+          "answers": [
+            "Nu pot confirma încă ora sosirii",
+            "Nu pot încă confirma ora sosirii",
+            "Nu pot confirma ora sosirii încă"
+          ],
+          "explanation": "Încă показывает незавершённость проверки.",
+          "hint": "Сначала ограничение знания.",
+          "tag": "travel-uncertainty-order",
+          "skill": "grammar",
+          "tokens": [
+            "Nu",
+            "pot",
+            "confirma",
+            "încă",
+            "ora",
+            "sosirii"
+          ]
+        },
+        {
+          "id": "B2.09.e513",
+          "type": "read",
+          "prompt": "De ce nu consideră Ana ora afișată pentru ruta A o garanție?",
+          "answers": [
+            "Avantajul depinde de legătura și locurile neconfirmate."
+          ],
+          "explanation": "Textul explică riscul pierderii celei de-a doua plecări.",
+          "hint": "Urmăriți condiția avantajului.",
+          "tag": "travel-read-inference",
+          "skill": "reading",
+          "choices": [
+            "Avantajul depinde de legătura și locurile neconfirmate.",
+            "Avantajul depinde doar de un preț mai mic pe A.",
+            "Ora este garantată deoarece locurile pe B sunt confirmate."
+          ],
+          "text": "Într-o călătorie imaginară, Dima și Ana au aflat că autobuzul lor întârzie. Pe ecran apărea o rută A, care ar putea ajunge la destinație mai devreme dacă legătura din orașul intermediar este posibilă. Ora schimbării era strânsă, iar locurile pentru al doilea autobuz nu fuseseră confirmate. Ruta B pleca mai târziu și dura mai mult, dar un angajat a confirmat două locuri și accesul fără trepte, important pentru bagajul greu al Anei. Prețurile prezentate în această poveste sunt egale; nu există o informație despre tarife reale.\n\nDima a întrebat dacă legătura pentru ruta A era garantată. Angajata i-a spus că verifică disponibilitatea, dar nu poate promite încă locurile. El a notat separat ceea ce se știa și ceea ce rămânea deschis. Ana i-a cerut să nu aleagă ruta A numai pe baza orei afișate: dacă pierd a doua plecare, vor ajunge mult mai târziu decât pe ruta B. Dima a recunoscut că avantajul primei rute depinde de o condiție neconfirmată. Scopul lor era să ajungă înainte de întâlnirea de seară, însă această intenție nu dovedea că ruta A va funcționa.\n\nCei doi au ales ruta B după ce au comparat timpul, certitudinea locurilor și accesul. Dima i-a trimis unui prieten care îi aștepta un mesaj precis: întârzierea primei plecări este confirmată, locurile pe B sunt confirmate, iar ora exactă a sosirii rămâne orientativă. Nu a scris că ruta A fusese anulată, fiindcă nimeni nu afirmase acest lucru. Prietenul a putut astfel să-și ajusteze planul fără a confunda o posibilitate cu o promisiune."
+        },
+        {
+          "id": "B2.09.e514",
+          "type": "read",
+          "prompt": "Care trei criterii duc la alegerea rutei B?",
+          "answers": [
+            "Timpul, certitudinea locurilor și accesul."
+          ],
+          "explanation": "Comparația finală numește criteriile, iar prețurile sunt egale în poveste.",
+          "hint": "Citiți justificarea alegerii.",
+          "tag": "travel-read-criteria",
+          "skill": "reading",
+          "choices": [
+            "Timpul și prețul mai mic pe B, fără problema locurilor.",
+            "Timpul, certitudinea locurilor și accesul.",
+            "Ora de pe ecran și preferința prietenului, fără accesul Anei."
+          ],
+          "text": "Într-o călătorie imaginară, Dima și Ana au aflat că autobuzul lor întârzie. Pe ecran apărea o rută A, care ar putea ajunge la destinație mai devreme dacă legătura din orașul intermediar este posibilă. Ora schimbării era strânsă, iar locurile pentru al doilea autobuz nu fuseseră confirmate. Ruta B pleca mai târziu și dura mai mult, dar un angajat a confirmat două locuri și accesul fără trepte, important pentru bagajul greu al Anei. Prețurile prezentate în această poveste sunt egale; nu există o informație despre tarife reale.\n\nDima a întrebat dacă legătura pentru ruta A era garantată. Angajata i-a spus că verifică disponibilitatea, dar nu poate promite încă locurile. El a notat separat ceea ce se știa și ceea ce rămânea deschis. Ana i-a cerut să nu aleagă ruta A numai pe baza orei afișate: dacă pierd a doua plecare, vor ajunge mult mai târziu decât pe ruta B. Dima a recunoscut că avantajul primei rute depinde de o condiție neconfirmată. Scopul lor era să ajungă înainte de întâlnirea de seară, însă această intenție nu dovedea că ruta A va funcționa.\n\nCei doi au ales ruta B după ce au comparat timpul, certitudinea locurilor și accesul. Dima i-a trimis unui prieten care îi aștepta un mesaj precis: întârzierea primei plecări este confirmată, locurile pe B sunt confirmate, iar ora exactă a sosirii rămâne orientativă. Nu a scris că ruta A fusese anulată, fiindcă nimeni nu afirmase acest lucru. Prietenul a putut astfel să-și ajusteze planul fără a confunda o posibilitate cu o promisiune."
+        },
+        {
+          "id": "B2.09.e515",
+          "type": "read",
+          "prompt": "Ce ar fi o distorsionare a mesajului angajatei?",
+          "answers": [
+            "Să spunem că ruta A fusese anulată sau că locurile erau garantate."
+          ],
+          "explanation": "Ea verifică A; nici anularea, nici garanția nu rezultă.",
+          "hint": "Separă afirmația de inferență.",
+          "tag": "travel-read-relay",
+          "skill": "reading",
+          "choices": [
+            "Să spunem că angajata încă verifica locurile pe A.",
+            "Să spunem că operatorul a confirmat accesul fără trepte pe B.",
+            "Să spunem că ruta A fusese anulată sau că locurile erau garantate."
+          ],
+          "text": "Într-o călătorie imaginară, Dima și Ana au aflat că autobuzul lor întârzie. Pe ecran apărea o rută A, care ar putea ajunge la destinație mai devreme dacă legătura din orașul intermediar este posibilă. Ora schimbării era strânsă, iar locurile pentru al doilea autobuz nu fuseseră confirmate. Ruta B pleca mai târziu și dura mai mult, dar un angajat a confirmat două locuri și accesul fără trepte, important pentru bagajul greu al Anei. Prețurile prezentate în această poveste sunt egale; nu există o informație despre tarife reale.\n\nDima a întrebat dacă legătura pentru ruta A era garantată. Angajata i-a spus că verifică disponibilitatea, dar nu poate promite încă locurile. El a notat separat ceea ce se știa și ceea ce rămânea deschis. Ana i-a cerut să nu aleagă ruta A numai pe baza orei afișate: dacă pierd a doua plecare, vor ajunge mult mai târziu decât pe ruta B. Dima a recunoscut că avantajul primei rute depinde de o condiție neconfirmată. Scopul lor era să ajungă înainte de întâlnirea de seară, însă această intenție nu dovedea că ruta A va funcționa.\n\nCei doi au ales ruta B după ce au comparat timpul, certitudinea locurilor și accesul. Dima i-a trimis unui prieten care îi aștepta un mesaj precis: întârzierea primei plecări este confirmată, locurile pe B sunt confirmate, iar ora exactă a sosirii rămâne orientativă. Nu a scris că ruta A fusese anulată, fiindcă nimeni nu afirmase acest lucru. Prietenul a putut astfel să-și ajusteze planul fără a confunda o posibilitate cu o promisiune."
+        },
+        {
+          "id": "B2.09.e516",
+          "type": "read",
+          "prompt": "Ce rol are mesajul către prietenul care îi aștepta?",
+          "answers": [
+            "Îi permite să-și adapteze planul pe baza diferenței dintre certitudine și estimare."
+          ],
+          "explanation": "Medierea selectează informațiile relevante fără a exagera certitudinea.",
+          "hint": "Priviți ce știe după mesaj.",
+          "tag": "travel-read-mediation",
+          "skill": "reading",
+          "choices": [
+            "Îi permite să-și adapteze planul pe baza diferenței dintre certitudine și estimare.",
+            "Îi confirmă ora exactă de sosire pe B.",
+            "Îi transmite că ruta A este anulată oficial."
+          ],
+          "text": "Într-o călătorie imaginară, Dima și Ana au aflat că autobuzul lor întârzie. Pe ecran apărea o rută A, care ar putea ajunge la destinație mai devreme dacă legătura din orașul intermediar este posibilă. Ora schimbării era strânsă, iar locurile pentru al doilea autobuz nu fuseseră confirmate. Ruta B pleca mai târziu și dura mai mult, dar un angajat a confirmat două locuri și accesul fără trepte, important pentru bagajul greu al Anei. Prețurile prezentate în această poveste sunt egale; nu există o informație despre tarife reale.\n\nDima a întrebat dacă legătura pentru ruta A era garantată. Angajata i-a spus că verifică disponibilitatea, dar nu poate promite încă locurile. El a notat separat ceea ce se știa și ceea ce rămânea deschis. Ana i-a cerut să nu aleagă ruta A numai pe baza orei afișate: dacă pierd a doua plecare, vor ajunge mult mai târziu decât pe ruta B. Dima a recunoscut că avantajul primei rute depinde de o condiție neconfirmată. Scopul lor era să ajungă înainte de întâlnirea de seară, însă această intenție nu dovedea că ruta A va funcționa.\n\nCei doi au ales ruta B după ce au comparat timpul, certitudinea locurilor și accesul. Dima i-a trimis unui prieten care îi aștepta un mesaj precis: întârzierea primei plecări este confirmată, locurile pe B sunt confirmate, iar ora exactă a sosirii rămâne orientativă. Nu a scris că ruta A fusese anulată, fiindcă nimeni nu afirmase acest lucru. Prietenul a putut astfel să-și ajusteze planul fără a confunda o posibilitate cu o promisiune."
+        }
+      ],
+      "transfer": {
+        "prompt": "Спутнику нужно выбрать один из двух вымышленных маршрутов. Напишите сравнение на 140–180 слов с двумя критериями и непроверенным условием, затем кратко письменно передайте третьему человеку, что подтверждено. Реальные расписания здесь не используются; это самостоятельная практика.",
+        "checklist": [
+          "Cauza, scopul, condiția și consecința sunt distincte.",
+          "Nicio posibilitate nu devine garanție în rezumat.",
+          "Terțul primește informația necesară propriei decizii."
+        ],
+        "model": "În această călătorie imaginară, ruta A apare pe ecran cu o oră de sosire mai devreme, dar avantajul există numai dacă prindem legătura din orașul intermediar. Locurile pentru al doilea autobuz nu sunt încă confirmate. Ruta B durează mai mult și pleacă mai târziu; totuși, două locuri sunt confirmate, la fel și accesul fără trepte de care Ana are nevoie pentru bagaj. Prețul este același în această poveste, deci nu îl folosesc ca argument în favoarea uneia dintre rute.\n\nScopul nostru este să ajungem înainte de întâlnirea de seară. Dacă am pierde legătura pe A, am putea sosi chiar după varianta B. De aceea aș alege B, pentru care știm mai multe lucruri. Această alegere reduce un risc, dar nu garantează ora exactă a sosirii: prima plecare este întârziată. Aș cere încă o confirmare privind ora estimată și aș actualiza mesajul când avem informația.\n\nPrietenului care ne așteaptă i-aș spune: am ales ruta B, avem două locuri și accesul confirmate; ora sosirii este încă orientativă. Îți comunicăm schimbarea imediat ce primim un anunț nou."
+      }
+    },
+    {
+      "id": "LIFE.B2.DISCUSSION",
+      "level": "B2",
+      "domain": "discussion",
+      "title": "Публичный разговор: позиция, доказательство, ответ",
+      "anchorLessonId": "B2.12",
+      "prerequisites": [
+        "B1.15",
+        "B2.10",
+        "B2.11"
+      ],
+      "goal": "Обсудить рабочее или медийное решение публично: обосновать позицию, уточнить основание и ответить на действительное возражение.",
+      "fictionNote": "Все люди, организации, маршруты, условия и события в этой учебной ситуации вымышлены; проверяйте реальные условия отдельно.",
+      "theory": {
+        "core": "В публичной беседе тезис, основание, пример и вывод выполняют разные роли. Susțin că... обозначает позицию; deoarece... объясняет причину; de exemplu... иллюстрирует её; prin urmare... даёт вывод, который должен соответствовать силе оснований. Один удачный случай не доказывает универсальное правило. Когда собеседник возражает, перескажите его довод точно и спросите о непонятном. Вежливость проявляется в ответе на содержание, а не только в формуле Vă respect opinia.",
+        "detail": [
+          "Для темы работы, например, можно обсуждать пробную гибкую встречу, не утверждая, что она подходит всем. Aș propune un test într-o echipă ограничивает масштаб. Возражение о подготовке требует ответа о времени и распределении задач, а не ещё одного похвального слова о встречах. Можно признать часть аргумента: Aveți dreptate că pregătirea cere timp; tocmai de aceea aș include-o în evaluare. Такая уступка усиливает ясность позиции.",
+          "Если ссылка на медийный материал неполна, отделяйте утверждение автора от проверенного факта: Articolul susține că..., dar nu precizează cum a fost măsurat efectul. Не обвиняйте автора в обмане без основания. Спросите о методе, периоде и группе, к которым относится вывод. Уместны уточнения La ce date vă referiți? или În ce condiții ar funcționa? В дальнейшем можно пересказать дискуссию человеку, которого не было: кто что предложил, какие основания привёл и что осталось открытым.",
+          "Регистр зависит от контекста: в неформальной беседе можно начать Eu aș încerca..., на собрании звучит нейтральнее Aș propune o probă limitată. Смена регистра не меняет доказательства. Используйте маркеры pe de o parte / pe de altă parte для сопоставления, însă / totuși для ограничения, de exemplu для иллюстрации. Если вопрос другого участника касается затрат, не уходите к удобству. Попросите уточнить, какие затраты он имеет в виду, затем ответьте на них; при недостатке данных так и скажите. Уточняющий вопрос помогает избежать спора с позицией, которой собеседник не занимал. Спросите, относится ли его замечание к стоимости, времени, доступности или качеству результата. После ответа повторите его довод кратко и нейтрально. Затем можно предложить проверку: какие данные понадобятся, какой небольшой опыт позволит сравнить варианты, когда будет уместен вывод. Слова probabil и ar putea показывают возможность; нельзя механически заменить их на sigur, если источник содержит только предположение. В конце беседы назовите область согласия и открытый вопрос. Это даёт отсутствующему участнику полезную картину разговора без выдуманного консенсуса."
+        ],
+        "comparison": "«Я согласен» относится к человеку; «этот аргумент убедителен при таких условиях» относится к содержанию. Можно одновременно признать риск и оставить ограниченную пробу: это уточнение позиции, а не противоречие.",
+        "examples": [
+          {
+            "ro": "Aș propune o probă limitată într-o echipă.",
+            "ru": "Я предложил бы ограниченную проверку в одной команде."
+          },
+          {
+            "ro": "Un exemplu sugerează o posibilitate, nu dovedește o regulă generală.",
+            "ru": "Пример указывает на возможность, но не доказывает общее правило."
+          },
+          {
+            "ro": "Aveți dreptate că pregătirea cere timp.",
+            "ru": "Вы правы, что подготовка требует времени."
+          },
+          {
+            "ro": "Tocmai de aceea aș include acest efort în evaluare.",
+            "ru": "Именно поэтому я включил бы эти усилия в оценку."
+          },
+          {
+            "ro": "La ce date vă referiți când spuneți că metoda funcționează peste tot?",
+            "ru": "На какие данные вы ссылаетесь, говоря, что метод работает везде?"
+          },
+          {
+            "ro": "Articolul susține această idee, dar nu explică metoda de măsurare.",
+            "ru": "Статья отстаивает эту мысль, но не объясняет способ измерения."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "Articolul arată un caz, deci soluția funcționează peste tot.",
+            "right": "Articolul arată un caz; ar trebui verificate și alte contexte.",
+            "why": "Один пример не обосновывает универсальный вывод."
+          },
+          {
+            "wrong": "Aveți dreptate privind costul; oricum, întâlnirile sunt plăcute.",
+            "right": "Aveți dreptate privind costul; să includem timpul de pregătire în comparație.",
+            "why": "Ответ должен касаться именно названного возражения."
+          },
+          {
+            "wrong": "Autorul a mințit, fiindcă nu dă metoda.",
+            "right": "Articolul nu precizează metoda, deci nu putem evalua încă afirmația.",
+            "why": "Отсутствие описания метода не доказывает намеренную ложь."
+          }
+        ],
+        "sheet": {
+          "title": "Ответ на возражение",
+          "formula": "позиция → основание → пример → предел → уточнение → соразмерный вывод",
+          "rows": [
+            [
+              "Позиция",
+              "Aș propune o probă limitată."
+            ],
+            [
+              "Основание",
+              "Deoarece vrem să observăm costurile."
+            ],
+            [
+              "Пример",
+              "De exemplu, într-o singură echipă."
+            ],
+            [
+              "Возражение",
+              "Pregătirea ar cere timp."
+            ],
+            [
+              "Ответ",
+              "Să includem acest timp în evaluare."
+            ]
+          ],
+          "notes": [
+            "Пример не доказывает правило для всех.",
+            "Прежде чем отвечать, уточните предмет возражения.",
+            "Не приписывайте статье метод, которого в ней нет."
+          ]
+        }
+      },
+      "words": [
+        {
+          "ro": "poziție",
+          "ru": "позиция"
+        },
+        {
+          "ro": "argument",
+          "ru": "аргумент"
+        },
+        {
+          "ro": "obiecție",
+          "ru": "возражение"
+        },
+        {
+          "ro": "exemplu",
+          "ru": "пример"
+        },
+        {
+          "ro": "dovadă",
+          "ru": "доказательство"
+        },
+        {
+          "ro": "date",
+          "ru": "данные"
+        },
+        {
+          "ro": "metodă",
+          "ru": "метод"
+        },
+        {
+          "ro": "evaluare",
+          "ru": "оценка"
+        },
+        {
+          "ro": "probă limitată",
+          "ru": "ограниченная проба"
+        },
+        {
+          "ro": "efort",
+          "ru": "усилие"
+        },
+        {
+          "ro": "cost",
+          "ru": "затрата"
+        },
+        {
+          "ro": "context",
+          "ru": "контекст"
+        },
+        {
+          "ro": "concluzie",
+          "ru": "вывод"
+        },
+        {
+          "ro": "sursă",
+          "ru": "источник"
+        },
+        {
+          "ro": "întrebare de clarificare",
+          "ru": "уточняющий вопрос"
+        },
+        {
+          "ro": "rezultat",
+          "ru": "результат"
+        }
+      ],
+      "phrases": [
+        {
+          "ro": "Susțin că...",
+          "ru": "Я считаю, что..."
+        },
+        {
+          "ro": "Aș propune o probă limitată.",
+          "ru": "Я предложил бы ограниченную пробу."
+        },
+        {
+          "ro": "Aveți dreptate că...",
+          "ru": "Вы правы, что..."
+        },
+        {
+          "ro": "La ce date vă referiți?",
+          "ru": "На какие данные вы ссылаетесь?"
+        },
+        {
+          "ro": "În ce condiții ar funcționa?",
+          "ru": "При каких условиях это сработало бы?"
+        },
+        {
+          "ro": "Tocmai de aceea...",
+          "ru": "Именно поэтому..."
+        },
+        {
+          "ro": "Un exemplu nu dovedește...",
+          "ru": "Один пример не доказывает..."
+        },
+        {
+          "ro": "Nu știm încă dacă...",
+          "ru": "Мы пока не знаем, будет ли..."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "B2.12.e501",
+          "type": "choice",
+          "prompt": "Возражение касается времени подготовки. Какой ответ относится к нему?",
+          "answers": [
+            "Să includem timpul de pregătire în evaluarea probei."
+          ],
+          "explanation": "Реальный довод учтён как критерий оценки.",
+          "hint": "Ищите тот же предмет.",
+          "tag": "discussion-response",
+          "skill": "grammar",
+          "choices": [
+            "Să includem timpul de pregătire în evaluarea probei.",
+            "Să scurtăm agenda fără a măsura timpul de pregătire.",
+            "Să înlocuim orice evaluare a costului cu durata ședinței."
+          ]
+        },
+        {
+          "id": "B2.12.e502",
+          "type": "choice",
+          "prompt": "Статья приводит один случай. Какой вывод соразмерен?",
+          "answers": [
+            "Cazul sugerează o posibilitate, dar nu dovedește eficiența peste tot."
+          ],
+          "explanation": "Частный пример допускает гипотезу, не всеобщий факт.",
+          "hint": "Проверьте масштаб вывода.",
+          "tag": "discussion-evidence",
+          "skill": "grammar",
+          "choices": [
+            "Cazul dovedește eficiența doar pentru echipa din articol și, fără alte date, pentru echipe asemănătoare.",
+            "Cazul sugerează o posibilitate, dar nu dovedește eficiența peste tot.",
+            "Cazul arată o problemă de pregătire, deci metoda nu poate funcționa în nicio echipă."
+          ]
+        },
+        {
+          "id": "B2.12.e503",
+          "type": "choice",
+          "prompt": "Как спросить о неопределённом основании в нейтральном публичном регистре?",
+          "answers": [
+            "La ce date vă referiți?"
+          ],
+          "explanation": "Уточнение источника без необоснованного обвинения.",
+          "hint": "Нужен вопрос о данных.",
+          "tag": "discussion-clarification",
+          "skill": "grammar",
+          "choices": [
+            "La ce concluzie vreți să ajungem?",
+            "Nu sunteți sigur că datele confirmă deja această concluzie?",
+            "La ce date vă referiți?"
+          ]
+        },
+        {
+          "id": "B2.12.e504",
+          "type": "choice",
+          "prompt": "Какое предложение ясно отделяет содержание статьи от собственного вывода?",
+          "answers": [
+            "Articolul susține această idee, dar nu explică metoda."
+          ],
+          "explanation": "Указаны утверждение источника и его предел.",
+          "hint": "Называйте источник и ограничение.",
+          "tag": "discussion-source-limit",
+          "skill": "grammar",
+          "choices": [
+            "Articolul susține această idee, dar nu explică metoda.",
+            "Articolul măsoară efectul, dar nu spune ce a susținut autorul.",
+            "Articolul susține această idee, deci metoda de măsurare este corectă."
+          ]
+        },
+        {
+          "id": "B2.12.e505",
+          "type": "gap",
+          "prompt": "После общего предложения о пробе приведите ЧАСТНЫЙ ПРИМЕР, не логический вывод. Вставьте связку de exemplu / prin urmare: ... , am putea încerca într-o singură echipă.",
+          "answers": [
+            "De exemplu"
+          ],
+          "explanation": "De exemplu вводит частную иллюстрацию, не обязательный вывод.",
+          "hint": "Одна команда иллюстрирует пробу.",
+          "tag": "discussion-example",
+          "skill": "grammar"
+        },
+        {
+          "id": "B2.12.e506",
+          "type": "gap",
+          "prompt": "Собеседник заявил об измеренном эффекте. Спросите именно об исходных ДАННЫХ, на которых основан вывод, не о самом выводе. Вставьте слово из пары date / concluzie: La ce ... vă referiți?",
+          "answers": [
+            "date"
+          ],
+          "explanation": "Date — сведения, на которых строится вывод.",
+          "hint": "Вопрос о доказательствах.",
+          "tag": "discussion-data",
+          "skill": "grammar"
+        },
+        {
+          "id": "B2.12.e507",
+          "type": "gap",
+          "prompt": "Вставьте связку из пары totuși / deoarece: Pregătirea cere timp; ..., o probă limitată ne-ar ajuta să-l măsurăm.",
+          "answers": [
+            "totuși"
+          ],
+          "explanation": "Totuși обозначает уступку после признания затраты.",
+          "hint": "Позиция сохраняется при возражении.",
+          "tag": "discussion-concession",
+          "skill": "grammar"
+        },
+        {
+          "id": "B2.12.e508",
+          "type": "gap",
+          "prompt": "Вставьте одно слово из пары evaluare / exemplu: Să includem efortul în ... .",
+          "answers": [
+            "evaluare"
+          ],
+          "explanation": "Evaluare включает оценку усилий; exemplu лишь случай.",
+          "hint": "Что сравнивает затраты?",
+          "tag": "discussion-evaluation",
+          "skill": "grammar"
+        },
+        {
+          "id": "B2.12.e509",
+          "type": "order",
+          "prompt": "Соберите позицию, начните с Aș: «Предложил бы ограниченную пробу в одной команде».",
+          "answers": [
+            "Aș propune o probă limitată într-o echipă",
+            "Aș propune într-o echipă o probă limitată"
+          ],
+          "explanation": "Условная форма смягчает предложение; ограничение масштаба явно.",
+          "hint": "Не объявляйте всеобщий вывод.",
+          "tag": "discussion-proposal-order",
+          "skill": "grammar",
+          "tokens": [
+            "Aș",
+            "propune",
+            "o",
+            "probă",
+            "limitată",
+            "într-o",
+            "echipă"
+          ]
+        },
+        {
+          "id": "B2.12.e510",
+          "type": "order",
+          "prompt": "Соберите уточнение, начните с La: «На какие данные вы ссылаетесь?».",
+          "answers": [
+            "La ce date vă referiți"
+          ],
+          "explanation": "Устойчивое a se referi la требует la.",
+          "hint": "Вопрос о данных.",
+          "tag": "discussion-question-order",
+          "skill": "grammar",
+          "tokens": [
+            "La",
+            "ce",
+            "date",
+            "vă",
+            "referiți"
+          ]
+        },
+        {
+          "id": "B2.12.e511",
+          "type": "order",
+          "prompt": "Соберите ответ, начните с Să: «Включим время подготовки в оценку».",
+          "answers": [
+            "Să includem timpul de pregătire în evaluare",
+            "Să includem în evaluare timpul de pregătire"
+          ],
+          "explanation": "Ответ касается реальной затраты.",
+          "hint": "Сначала действие, затем критерий.",
+          "tag": "discussion-cost-order",
+          "skill": "grammar",
+          "tokens": [
+            "Să",
+            "includem",
+            "timpul",
+            "de",
+            "pregătire",
+            "în",
+            "evaluare"
+          ]
+        },
+        {
+          "id": "B2.12.e512",
+          "type": "order",
+          "prompt": "Соберите предел вывода, начните с Un: «Один пример не доказывает общее правило».",
+          "answers": [
+            "Un exemplu nu dovedește o regulă generală"
+          ],
+          "explanation": "Отрицание ограничивает силу примера.",
+          "hint": "Общее правило в конце.",
+          "tag": "discussion-limit-order",
+          "skill": "grammar",
+          "tokens": [
+            "Un",
+            "exemplu",
+            "nu",
+            "dovedește",
+            "o",
+            "regulă",
+            "generală"
+          ]
+        },
+        {
+          "id": "B2.12.e513",
+          "type": "read",
+          "prompt": "Ce rol are articolul în argumentul Irinei?",
+          "answers": [
+            "Este punctul de plecare pentru o întrebare, nu dovada universală."
+          ],
+          "explanation": "Ea propune o probă și precizează limitele cazului prezentat.",
+          "hint": "Urmăriți amploarea afirmației.",
+          "tag": "discussion-read-source",
+          "skill": "reading",
+          "choices": [
+            "Este punctul de plecare pentru o întrebare, nu dovada universală.",
+            "Este dovada că metoda reduce întotdeauna timpul total.",
+            "Este o critică a lui Victor pe care Irina o respinge fără probă."
+          ],
+          "text": "La o întâlnire publică imaginară, trei persoane au discutat ideea unor ședințe de lucru mai scurte. Un articol distribuit înainte de întâlnire relata experiența unei singure echipe care reușise să reducă durata ședințelor. Autorul sugera că metoda ar putea fi utilă și în alte locuri, însă nu preciza cât timp petrecuseră colegii pregătindu-se înainte. Irina a propus o probă limitată într-o altă echipă. Ea nu a spus că articolul dovedește eficiența metodei peste tot; l-a folosit ca punct de pornire pentru o întrebare verificabilă.\n\nVictor a obiectat că ședințele mai scurte ar putea muta munca în afara întâlnirii. Dacă fiecare participant ar pregăti un raport lung, timpul total poate chiar crește. Irina i-a reformulat obiecția înainte de a răspunde: contează durata întregului proces, nu doar minutele din sală. Ea a propus să fie măsurat și timpul de pregătire. Maria a întrebat dacă echipa ar avea o listă clară de subiecte; fără ea, comparația ar fi greu de interpretat. Participanții au convenit să formuleze criteriile înaintea probei.\n\nDupă discuție, Irina i-a relatat unui coleg absent atât promisiunea posibilă a ideii, cât și costul pe care Victor îl semnalase. Ea a precizat că încă nu există un rezultat pentru echipa lor și că articolul nu descria metoda complet. În loc să declare victoria unei tabere, a rezumat următorul pas: o probă mică, cu timpul de pregătire inclus și cu subiectele stabilite dinainte. Colegul a putut astfel să înțeleagă ce se va testa și de ce oamenii nu căzuseră pur și simplu de acord asupra concluziei."
+        },
+        {
+          "id": "B2.12.e514",
+          "type": "read",
+          "prompt": "Cum răspunde Irina obiecției lui Victor?",
+          "answers": [
+            "Include timpul de pregătire în măsurarea întregului proces."
+          ],
+          "explanation": "Ea reformulează obiecția și schimbă criteriul de evaluare în consecință.",
+          "hint": "Găsiți propoziția care reia riscul.",
+          "tag": "discussion-read-rebuttal",
+          "skill": "reading",
+          "choices": [
+            "Măsoară numai durata ședinței, deoarece pregătirea este exterioară.",
+            "Include timpul de pregătire în măsurarea întregului proces.",
+            "Acceptă costul pregătirii, dar nu-l include în criteriile probei."
+          ],
+          "text": "La o întâlnire publică imaginară, trei persoane au discutat ideea unor ședințe de lucru mai scurte. Un articol distribuit înainte de întâlnire relata experiența unei singure echipe care reușise să reducă durata ședințelor. Autorul sugera că metoda ar putea fi utilă și în alte locuri, însă nu preciza cât timp petrecuseră colegii pregătindu-se înainte. Irina a propus o probă limitată într-o altă echipă. Ea nu a spus că articolul dovedește eficiența metodei peste tot; l-a folosit ca punct de pornire pentru o întrebare verificabilă.\n\nVictor a obiectat că ședințele mai scurte ar putea muta munca în afara întâlnirii. Dacă fiecare participant ar pregăti un raport lung, timpul total poate chiar crește. Irina i-a reformulat obiecția înainte de a răspunde: contează durata întregului proces, nu doar minutele din sală. Ea a propus să fie măsurat și timpul de pregătire. Maria a întrebat dacă echipa ar avea o listă clară de subiecte; fără ea, comparația ar fi greu de interpretat. Participanții au convenit să formuleze criteriile înaintea probei.\n\nDupă discuție, Irina i-a relatat unui coleg absent atât promisiunea posibilă a ideii, cât și costul pe care Victor îl semnalase. Ea a precizat că încă nu există un rezultat pentru echipa lor și că articolul nu descria metoda complet. În loc să declare victoria unei tabere, a rezumat următorul pas: o probă mică, cu timpul de pregătire inclus și cu subiectele stabilite dinainte. Colegul a putut astfel să înțeleagă ce se va testa și de ce oamenii nu căzuseră pur și simplu de acord asupra concluziei."
+        },
+        {
+          "id": "B2.12.e515",
+          "type": "read",
+          "prompt": "De ce contează lista de subiecte cerută de Maria?",
+          "answers": [
+            "Fără ea, comparația dintre ședințe ar fi greu de interpretat."
+          ],
+          "explanation": "Criteriile și organizarea trebuie clare înainte de probă.",
+          "hint": "Priviți condiția formulată de Maria.",
+          "tag": "discussion-read-condition",
+          "skill": "reading",
+          "choices": [
+            "Ar dovedi singură că ședințele scurte sunt mai bune.",
+            "Ar elimina necesitatea de a măsura pregătirea.",
+            "Fără ea, comparația dintre ședințe ar fi greu de interpretat."
+          ],
+          "text": "La o întâlnire publică imaginară, trei persoane au discutat ideea unor ședințe de lucru mai scurte. Un articol distribuit înainte de întâlnire relata experiența unei singure echipe care reușise să reducă durata ședințelor. Autorul sugera că metoda ar putea fi utilă și în alte locuri, însă nu preciza cât timp petrecuseră colegii pregătindu-se înainte. Irina a propus o probă limitată într-o altă echipă. Ea nu a spus că articolul dovedește eficiența metodei peste tot; l-a folosit ca punct de pornire pentru o întrebare verificabilă.\n\nVictor a obiectat că ședințele mai scurte ar putea muta munca în afara întâlnirii. Dacă fiecare participant ar pregăti un raport lung, timpul total poate chiar crește. Irina i-a reformulat obiecția înainte de a răspunde: contează durata întregului proces, nu doar minutele din sală. Ea a propus să fie măsurat și timpul de pregătire. Maria a întrebat dacă echipa ar avea o listă clară de subiecte; fără ea, comparația ar fi greu de interpretat. Participanții au convenit să formuleze criteriile înaintea probei.\n\nDupă discuție, Irina i-a relatat unui coleg absent atât promisiunea posibilă a ideii, cât și costul pe care Victor îl semnalase. Ea a precizat că încă nu există un rezultat pentru echipa lor și că articolul nu descria metoda complet. În loc să declare victoria unei tabere, a rezumat următorul pas: o probă mică, cu timpul de pregătire inclus și cu subiectele stabilite dinainte. Colegul a putut astfel să înțeleagă ce se va testa și de ce oamenii nu căzuseră pur și simplu de acord asupra concluziei."
+        },
+        {
+          "id": "B2.12.e516",
+          "type": "read",
+          "prompt": "Ce păstrează relatarea Irinei către colegul absent?",
+          "answers": [
+            "Atât posibilul beneficiu, cât și costul și limitele dovezii."
+          ],
+          "explanation": "Rezumatul nu șterge obiecția sau incertitudinea.",
+          "hint": "Comparați opiniile și pasul convenit.",
+          "tag": "discussion-read-mediation",
+          "skill": "reading",
+          "choices": [
+            "Atât posibilul beneficiu, cât și costul și limitele dovezii.",
+            "Doar beneficiul posibil, deoarece obiecția nu a fost convenită.",
+            "Doar costul pregătirii, deoarece articolul a fost respins în totalitate."
+          ],
+          "text": "La o întâlnire publică imaginară, trei persoane au discutat ideea unor ședințe de lucru mai scurte. Un articol distribuit înainte de întâlnire relata experiența unei singure echipe care reușise să reducă durata ședințelor. Autorul sugera că metoda ar putea fi utilă și în alte locuri, însă nu preciza cât timp petrecuseră colegii pregătindu-se înainte. Irina a propus o probă limitată într-o altă echipă. Ea nu a spus că articolul dovedește eficiența metodei peste tot; l-a folosit ca punct de pornire pentru o întrebare verificabilă.\n\nVictor a obiectat că ședințele mai scurte ar putea muta munca în afara întâlnirii. Dacă fiecare participant ar pregăti un raport lung, timpul total poate chiar crește. Irina i-a reformulat obiecția înainte de a răspunde: contează durata întregului proces, nu doar minutele din sală. Ea a propus să fie măsurat și timpul de pregătire. Maria a întrebat dacă echipa ar avea o listă clară de subiecte; fără ea, comparația ar fi greu de interpretat. Participanții au convenit să formuleze criteriile înaintea probei.\n\nDupă discuție, Irina i-a relatat unui coleg absent atât promisiunea posibilă a ideii, cât și costul pe care Victor îl semnalase. Ea a precizat că încă nu există un rezultat pentru echipa lor și că articolul nu descria metoda complet. În loc să declare victoria unei tabere, a rezumat următorul pas: o probă mică, cu timpul de pregătire inclus și cu subiectele stabilite dinainte. Colegul a putut astfel să înțeleagă ce se va testa și de ce oamenii nu căzuseră pur și simplu de acord asupra concluziei."
+        }
+      ],
+      "transfer": {
+        "prompt": "Напишите позицию на 180–220 слов по вымышленному публичному предложению. Ответьте письменно на вопросы «Какие данные нужны?» и «Какие затраты пока неизвестны?». Перед собственным ответом кратко передайте противоположный довод отсутствующему коллеге. Это самостоятельная практика без автоматической оценки текста.",
+        "checklist": [
+          "Poziția are motiv, exemplu și limită.",
+          "Răspunsul la obiecție privește chiar costul invocat.",
+          "Relatarea păstrează argumentele ambelor părți."
+        ],
+        "model": "Aș propune o probă limitată pentru întâlniri de lucru mai scurte. O ședință poate fi utilă dacă oamenii au timp să explice problemele și să ia o decizie, însă durata ei nu este singurul criteriu. Articolul distribuit înaintea discuției descrie experiența unei echipe care a redus timpul petrecut în sală. Acesta este un exemplu interesant, dar articolul nu spune cât a durat pregătirea. Nu putem deduce dintr-un singur caz că toate echipele ar economisi timp.\n\nVictor a formulat o obiecție relevantă: dacă fiecare participant scrie un raport lung înaintea ședinței, munca totală ar putea crește. Aveți dreptate că această posibilitate trebuie examinată. Aș include timpul de pregătire în evaluare și aș compara durata întregului proces, nu doar minutele din sală. Maria a întrebat dacă lista subiectelor este stabilită dinainte. Și aceasta contează: fără o agendă clară, nu știm dacă diferența de durată vine din metoda testată sau din alte schimbări.\n\nAșadar, propun să încercăm varianta într-o singură echipă, cu o agendă convenită și cu aceleași criterii de măsurare înainte și după probă. Nu promit că soluția va funcționa peste tot. La întrebarea despre date, răspunsul meu este că avem doar cazul din articol, iar pentru echipa noastră trebuie să colectăm informații noi. La întrebarea despre costuri, aș arăta separat timpul de pregătire. Unui coleg absent i-aș relata că Victor se teme de mutarea muncii în afara ședinței; proba va verifica tocmai acest risc. Astfel, concluzia rămâne proporțională cu ce știm."
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Life situations and B2 coverage expansion1.4
+
+Userdirectlyrequests more theory/exercises especiallyshops,cafes,travel,neighbors,passersby and recheckingB2examreadiness. Optionalexamtargetquestionunanswered; assumegeneralCEFRB2+ILRsampleformats, nofixedcertificationguarantee. SamepersonalprivateSite/design/progress.
+
+Auditsourced /workspace/scratch/838bd61425ba/b2-coverage-audit.md: B2grammarsequence exists,butreadpassagesmedian146chars andwritingmodelsundersized; noauthenticlisteningassets. Thereforeexpandfunctionalpractice,sustainedreading/writing andtheorydepth, notjustitemcounts. Do notclaimB2fromXP or objectivegrammar. Audio naturalexternalofficialcheck remainsrequired; no synthesisreturns.
+
+Selectedapproach: contentassets with existinglessonanchors, supplementtheoryinexistingviews, separateLife+Exampracticeviews. PreserveoldlearningIDs/answers/events/schema/corecompletion andwordReview1.3contracts. NoDBmigration/newlearnerrecordtypes/dependencies. courseVersion1.4.0 viaexistingversion.ts; historicalgradeunchanged.
+
+Bindingdata/APIcontract docs/briefs/life-content-schema.md. Fourlevels each4lifeunits16items=256newitems; theory7A1+7A2+8B1+24B2=46supplements; all96lessonsreviewed; originalB2exampractice16extendedreadingquestions+24grammar=40newitems;4fullwritingmodels+4oralpracticeprompts/rubrics. Rootdoesnotclaimnativeeditorcertification.
+
+Integration: exports lifeUnits,lifeUnitMap,theoryExtensions (MaplessonId),coverageAudit,examB2,examExerciseMap,lifeExerciseMap. Add allnewobjectiveitems toexerciseMap/catalog andexerciseOwner(mappedtoREALanchorlesson), andpracticeExerciseMap (soexistinggenericfreshgateexcludesuntoucheditems). ExistingpracticeTopics staysoriginalA1.1four; corelessonExercisesunchanged. Genericdue/errorsnewitemsafterattemptwork; no life/examauto finish.
+
+UI: newpage life withlevel/domainchooser, concretegoal, prerequisiteslinks, fullRUtheory/translatedword+phrases andsheet beforefirstpractice; sixteenitemfrozenroundusingExercise, results/resume/replay derivedfromexistingattempts, transfer/modelonlyatEND. PreservestateonreferenceBack; no unsaveddrafttextareaswithfalsesavedstatus. ExistingTheoryViewdetails+CheatSheet/Referenceintegrates extensions; layeredsmallinitialrulepreserved. Newpage examB2 withcoverage/readinessmatrix, originalreading/grammarrounds, writingmodels/plans/rubrics andspeakingtasks; clearlyinternalpracticeandexternalnativecheckrequired. ExistingTraining/Reference/route expose linkswithoutcrowding. No newUI redesign/imageassets.
+
+QA:contentauditsgrammar/answerambiguity/novelty/lexicalprerequisites/appropriatelevel andauthoritativerules; validatecounts/IDs/ownerrefs/choices/orderforms/readwordlength/modelwordlength/sourceURLs; independentcode+language reviews. Testcatalogcorecompletionexclusion, bankfreshgating, resume/replay/back/assistance, largepassagemobile, noaudio/fakeB2pass. Runfullregressions+tsc+build,browserdesktop390px onFRESHsource(afterHMRcataloglessons learned). Nofakeproductionlearningwrites/authbypass; authpersistenceboundaryreporthonestly. Nativeprivatepublicationafterchecks.

@@ -1,0 +1,2694 @@
+[
+  {
+    "id": "EX.B2.R1",
+    "version": "1.0.0",
+    "kind": "reserve",
+    "title": "Резервный пробник 1 · Продукты, выбор и память места",
+    "listening": [
+      {
+        "id": "EX.B2.R1.listening.A",
+        "title": "O bucătărie fără meniu fix",
+        "instructions": "Ascultă relatarea și marchează A — adevărat sau F — fals.",
+        "script": "Când restaurantul nostru a început să folosească legume care nu mai puteau fi vândute în magazin, am crezut că problema principală va fi convingerea clienților. De fapt, primii clienți au fost curioși și ne-au sprijinit. Mai greu a fost să organizăm livrările: într-o zi primeam multe roșii, în alta aproape numai morcovi. Un meniu stabilit pentru o lună nu mai era posibil.\nAm încheiat un acord cu două magazine. Acestea nu ne oferă produse expirate, ci produse care îndeplinesc condițiile de consum, dar au ambalajul exterior deteriorat sau un aspect neuniform. Bucătarul verifică fiecare lot. Dacă nu putem stabili proveniența ori condițiile de păstrare, nu îl folosim, chiar dacă am avea nevoie de ingrediente.\nMeniul zilei apare abia la unsprezece. Pentru persoanele cu restricții alimentare publicăm separat lista ingredientelor. Nu promitem că putem modifica orice fel de mâncare; uneori propunem o alternativă, alteori explicăm sincer că nu avem una potrivită.\nLa început cumpăram mai puțin, dar pierdeam timp cu sortarea. Acum plătim un angajat care se ocupă de recepție, așa că nu susținem că mesele au devenit automat mai ieftine. Câștigul este folosirea mai atentă a alimentelor. În fiecare săptămână cântărim ce aruncăm și notăm cauza. Când resturile cresc, schimbăm porțiile sau numărul de preparate, nu ascundem rezultatul în raportul lunar.",
+        "items": [
+          {
+            "id": "EX.B2.R1.listening.A.01",
+            "familyId": "exam.EX.B2.R1.listening.A.01",
+            "kind": "choice",
+            "prompt": "Clienții au acceptat inițiativa mai ușor decât anticipase echipa.",
+            "answers": [
+              "A — adevărat"
+            ],
+            "explanation": "Начало противопоставляет опасения поддержке клиентов.",
+            "choices": [
+              "A — adevărat",
+              "F — fals"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.listening.A.02",
+            "familyId": "exam.EX.B2.R1.listening.A.02",
+            "kind": "choice",
+            "prompt": "Livrările au permis păstrarea aceluiași meniu timp de o lună.",
+            "answers": [
+              "F — fals"
+            ],
+            "explanation": "Непредсказуемый состав поставок исключил такой план.",
+            "choices": [
+              "F — fals",
+              "A — adevărat"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.listening.A.03",
+            "familyId": "exam.EX.B2.R1.listening.A.03",
+            "kind": "choice",
+            "prompt": "Produsele primite pot avea un aspect neuniform.",
+            "answers": [
+              "A — adevărat"
+            ],
+            "explanation": "Это один из прямо перечисленных критериев.",
+            "choices": [
+              "A — adevărat",
+              "F — fals"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.listening.A.04",
+            "familyId": "exam.EX.B2.R1.listening.A.04",
+            "kind": "choice",
+            "prompt": "Un lot cu proveniență neclară este folosit dacă lipsesc ingredientele.",
+            "answers": [
+              "F — fals"
+            ],
+            "explanation": "Неясное происхождение — основание отказа даже при необходимости.",
+            "choices": [
+              "F — fals",
+              "A — adevărat"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.listening.A.05",
+            "familyId": "exam.EX.B2.R1.listening.A.05",
+            "kind": "choice",
+            "prompt": "Meniul zilei este publicat la ora unsprezece.",
+            "answers": [
+              "A — adevărat"
+            ],
+            "explanation": "Время названо прямо.",
+            "choices": [
+              "A — adevărat",
+              "F — fals"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.listening.A.06",
+            "familyId": "exam.EX.B2.R1.listening.A.06",
+            "kind": "choice",
+            "prompt": "Restaurantul garantează adaptarea oricărui preparat.",
+            "answers": [
+              "F — fals"
+            ],
+            "explanation": "Команда прямо ограничивает такую возможность.",
+            "choices": [
+              "F — fals",
+              "A — adevărat"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.listening.A.07",
+            "familyId": "exam.EX.B2.R1.listening.A.07",
+            "kind": "choice",
+            "prompt": "Sortarea produselor implică și un cost de personal.",
+            "answers": [
+              "A — adevărat"
+            ],
+            "explanation": "Для приёмки оплачивается отдельный сотрудник.",
+            "choices": [
+              "A — adevărat",
+              "F — fals"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.listening.A.08",
+            "familyId": "exam.EX.B2.R1.listening.A.08",
+            "kind": "choice",
+            "prompt": "Resturile sunt măsurate numai o dată pe lună.",
+            "answers": [
+              "F — fals"
+            ],
+            "explanation": "Взвешивание еженедельное; отчёт месячный.",
+            "choices": [
+              "F — fals",
+              "A — adevărat"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EX.B2.R1.listening.B",
+        "title": "O arhivă de voci locale",
+        "instructions": "Completează cu 1–4 cuvinte din text. Răspunsul trebuie să se potrivească gramatical spațiului.",
+        "script": "Bună ziua! Muzeul local pregătește o arhivă cu amintirile oamenilor despre vechea zonă industrială. Nu căutăm numai relatări ale foștilor directori. Ne interesează și experiența celor care au lucrat în ateliere, au locuit lângă fabrică sau au avut rude acolo. Nu este necesar să aduceți documente pentru a participa.\nPrima sesiune de înregistrare va fi sâmbătă, în sala mică a muzeului. Intrarea se face prin curte, deoarece scara principală este în renovare. Rezervarea se face telefonic până joi. Fiecărui participant îi sunt alocate patruzeci de minute, însă înregistrarea propriu-zisă poate fi mai scurtă. Vom păstra timp pentru întrebări și pentru citirea acordului.\nPuteți veni cu un obiect care vă ajută să povestiți. Îl vom fotografia numai cu permisiunea dumneavoastră și îl veți lua acasă la plecare. Muzeul nu colectează obiecte în cadrul acestui proiect.\nDupă înregistrare, veți primi o transcriere. Veți putea corecta numele și datele, dar nu vom transforma povestea într-un text literar. Pentru publicare este necesar un acord separat. Dacă preferați, numele dumneavoastră nu va apărea în catalogul online. Înregistrările nepublicate rămân accesibile numai echipei de cercetare. O copie audio poate fi cerută după o lună. La finalul proiectului, participanții vor fi invitați la o întâlnire unde vor putea asculta fragmentele aprobate de ceilalți povestitori.",
+        "items": [
+          {
+            "id": "EX.B2.R1.listening.B.01",
+            "familyId": "exam.EX.B2.R1.listening.B.01",
+            "kind": "gap",
+            "prompt": "Intrarea la sesiune se face ___.",
+            "answers": [
+              "prin curte"
+            ],
+            "explanation": "Маршрут входа указан из-за ремонта лестницы."
+          },
+          {
+            "id": "EX.B2.R1.listening.B.02",
+            "familyId": "exam.EX.B2.R1.listening.B.02",
+            "kind": "gap",
+            "prompt": "Rezervarea este posibilă până ___.",
+            "answers": [
+              "joi"
+            ],
+            "explanation": "Последний день — четверг."
+          },
+          {
+            "id": "EX.B2.R1.listening.B.03",
+            "familyId": "exam.EX.B2.R1.listening.B.03",
+            "kind": "gap",
+            "prompt": "Intervalul alocat fiecărui participant este de ___.",
+            "answers": [
+              "patruzeci de minute"
+            ],
+            "explanation": "Продолжительность слота названа прямо."
+          },
+          {
+            "id": "EX.B2.R1.listening.B.04",
+            "familyId": "exam.EX.B2.R1.listening.B.04",
+            "kind": "gap",
+            "prompt": "După înregistrare, participantul primește o ___.",
+            "answers": [
+              "transcriere"
+            ],
+            "explanation": "Обещана расшифровка для проверки имён и дат."
+          },
+          {
+            "id": "EX.B2.R1.listening.B.05",
+            "familyId": "exam.EX.B2.R1.listening.B.05",
+            "kind": "gap",
+            "prompt": "Publicarea necesită un ___.",
+            "answers": [
+              "acord separat"
+            ],
+            "explanation": "Первоначального участия для публикации недостаточно."
+          },
+          {
+            "id": "EX.B2.R1.listening.B.06",
+            "familyId": "exam.EX.B2.R1.listening.B.06",
+            "kind": "gap",
+            "prompt": "O copie audio poate fi cerută după ___.",
+            "answers": [
+              "o lună"
+            ],
+            "explanation": "Срок получения копии — месяц."
+          }
+        ]
+      },
+      {
+        "id": "EX.B2.R1.listening.C",
+        "title": "Subtitrări la un teatru mic",
+        "instructions": "Alege răspunsul susținut de conversație.",
+        "script": "Jurnalist: Ați introdus subtitrări la spectacolele teatrului. A fost o decizie tehnică sau artistică?\nRegizoare: A început ca o problemă de acces. Un spectator cu dificultăți de auz ne-a scris că putea urmări mișcarea actorilor, dar pierdea legăturile dintre scene. Nu ne ceruse bilete gratuite, ci posibilitatea de a înțelege spectacolul. Am discutat apoi și cu persoane care învață româna.\nJurnalist: Ați proiectat pur și simplu textul piesei?\nRegizoare: Nu. Actorii schimbă ritmul, iar unele informații sunt transmise prin gesturi. Dacă am afișa tot textul deodată, spectatorii ar citi înaintea scenei. Am lucrat cu o persoană care urmărește fiecare reprezentație și schimbă segmentele la momentul potrivit. Ea trebuie să cunoască piesa, nu doar programul calculatorului.\nJurnalist: Au existat obiecții?\nRegizoare: Da, unii se temeau că ecranul va atrage toată atenția. La primele probe, într-adevăr, literele erau prea luminoase. Am redus contrastul și am mutat ecranul. Nu am eliminat însă subtitrările după prima reacție negativă.\nJurnalist: Cum evaluați rezultatul?\nRegizoare: Nu doar prin numărul de bilete vândute. Întrebăm spectatorii dacă au putut urmări relațiile dintre personaje și dacă poziția ecranului a fost comodă. Unele răspunsuri se contrazic. De aceea păstrăm două configurații și anunțăm dinainte ce variantă folosim. Nu pretindem că o singură soluție răspunde tuturor nevoilor.",
+        "items": [
+          {
+            "id": "EX.B2.R1.listening.C.01",
+            "familyId": "exam.EX.B2.R1.listening.C.01",
+            "kind": "choice",
+            "prompt": "Ce a cerut spectatorul în mesaj?",
+            "answers": [
+              "Acces la sensul spectacolului."
+            ],
+            "explanation": "Письмо касалось понимания, а не бесплатного билета.",
+            "choices": [
+              "Înlocuirea actorilor.",
+              "Acces la sensul spectacolului.",
+              "Reducerea prețului biletelor."
+            ]
+          },
+          {
+            "id": "EX.B2.R1.listening.C.02",
+            "familyId": "exam.EX.B2.R1.listening.C.02",
+            "kind": "choice",
+            "prompt": "De ce nu este afișat întregul text deodată?",
+            "answers": [
+              "Ar schimba raportul dintre lectură și acțiunea scenică."
+            ],
+            "explanation": "Зритель прочитал бы вперёд; время показа важно.",
+            "choices": [
+              "Ar schimba raportul dintre lectură și acțiunea scenică.",
+              "Nu există o versiune scrisă a piesei.",
+              "Actorii refuză să învețe replicile."
+            ]
+          },
+          {
+            "id": "EX.B2.R1.listening.C.03",
+            "familyId": "exam.EX.B2.R1.listening.C.03",
+            "kind": "choice",
+            "prompt": "Ce competență îi trebuie operatorului?",
+            "answers": [
+              "Cunoașterea spectacolului și a ritmului său."
+            ],
+            "explanation": "Оператор следит за каждым спектаклем и знает пьесу.",
+            "choices": [
+              "Doar instalarea calculatorului.",
+              "Experiență în vânzarea biletelor.",
+              "Cunoașterea spectacolului și a ritmului său."
+            ]
+          },
+          {
+            "id": "EX.B2.R1.listening.C.04",
+            "familyId": "exam.EX.B2.R1.listening.C.04",
+            "kind": "choice",
+            "prompt": "Cum a reacționat echipa la problema luminozității?",
+            "answers": [
+              "A ajustat condițiile de afișare."
+            ],
+            "explanation": "Изменены контраст и положение экрана.",
+            "choices": [
+              "A cerut publicului să nu privească scena.",
+              "A ajustat condițiile de afișare.",
+              "A renunțat definitiv la accesibilizare."
+            ]
+          },
+          {
+            "id": "EX.B2.R1.listening.C.05",
+            "familyId": "exam.EX.B2.R1.listening.C.05",
+            "kind": "choice",
+            "prompt": "De ce sunt păstrate două configurații?",
+            "answers": [
+              "Nevoile spectatorilor nu coincid întotdeauna."
+            ],
+            "explanation": "Отзывы противоречат друг другу; единого решения нет.",
+            "choices": [
+              "Nevoile spectatorilor nu coincid întotdeauna.",
+              "Teatrul nu poate alege limba piesei.",
+              "Una funcționează numai fără actori."
+            ]
+          },
+          {
+            "id": "EX.B2.R1.listening.C.06",
+            "familyId": "exam.EX.B2.R1.listening.C.06",
+            "kind": "choice",
+            "prompt": "Ce indicator interesează echipa?",
+            "answers": [
+              "Înțelegerea relațiilor dintre personaje."
+            ],
+            "explanation": "Этот критерий прямо назван при оценке результата.",
+            "choices": [
+              "Numai vânzarea biletelor.",
+              "Numărul de calculatoare.",
+              "Înțelegerea relațiilor dintre personaje."
+            ]
+          }
+        ]
+      }
+    ],
+    "reading": [
+      {
+        "id": "EX.B2.R1.reading.A",
+        "title": "Eticheta care spune prea puțin",
+        "instructions": "Citește articolul și alege varianta susținută de autor.",
+        "text": "Pe ambalajele multor produse alimentare apar cuvinte precum „local”, „tradițional” sau „responsabil”. Ele pot orienta cumpărătorul, dar nu răspund singure la întrebarea ce anume a fost verificat. Un produs poate fi pregătit într-un atelier apropiat, folosind ingrediente aduse de departe. Altul poate avea o rețetă nouă, deși este făcut integral din ingrediente din regiune. Distanța, rețeta și metoda de producție sunt criterii diferite.\nO cooperativă de consumatori a încercat să simplifice alegerea printr-o fișă publică pentru fiecare furnizor. Fișa nu acordă un punctaj general, ci precizează locul de producție, originea ingredientelor principale și modul în care sunt organizate livrările. Informațiile sunt actualizate de furnizor și verificate prin vizite periodice. Membrii cooperativei pot vedea și data ultimei vizite, nu doar fotografia unui producător zâmbitor.\nAceastă transparență nu elimină alegerile dificile. Un furnizor apropiat poate folosi ambalaje greu de reutilizat, iar unul mai îndepărtat poate livra în recipiente returnabile. Cooperativa nu afirmă că orice produs local are automat un impact mai mic. În schimb, explică de ce a ales un anumit furnizor pentru o categorie și ce compromis a acceptat. Cumpărătorul poate evalua criteriile, fără să fie obligat să considere un singur adjectiv drept garanție universală.\nNici verificarea nu este gratuită. Vizitele și actualizarea datelor cer timp, iar furnizorii mici nu au întotdeauna un angajat pentru documente. De aceea, cooperativa folosește un formular scurt și ajută la completarea lui, fără să completeze răspunsurile în locul producătorului. Lipsa unui site modern nu este tratată ca dovadă a lipsei de calitate.\nRezultatul important nu constă în dispariția incertitudinii. Membrii știu acum care informații sunt confirmate și care trebuie încă lămurite. O alegere informată poate rămâne imperfectă; este însă diferită de o decizie bazată pe o impresie creată de ambalaj. Eticheta devine utilă atunci când deschide accesul la explicații, nu când promite să înlocuiască toate întrebările.",
+        "items": [
+          {
+            "id": "EX.B2.R1.reading.A.01",
+            "familyId": "exam.EX.B2.R1.reading.A.01",
+            "kind": "choice",
+            "prompt": "Ce distincție face primul paragraf?",
+            "answers": [
+              "Originea, rețeta și metoda nu sunt același criteriu."
+            ],
+            "explanation": "Три характеристики явно разведены.",
+            "choices": [
+              "Distanța nu poate fi cunoscută.",
+              "Originea, rețeta și metoda nu sunt același criteriu.",
+              "Toate produsele tradiționale sunt locale."
+            ]
+          },
+          {
+            "id": "EX.B2.R1.reading.A.02",
+            "familyId": "exam.EX.B2.R1.reading.A.02",
+            "kind": "choice",
+            "prompt": "Ce conține fișa furnizorului?",
+            "answers": [
+              "Informații separate și data verificării."
+            ],
+            "explanation": "Паспорт содержит данные и дату визита.",
+            "choices": [
+              "Informații separate și data verificării.",
+              "Un singur punctaj fără explicații.",
+              "Doar o fotografie recentă."
+            ]
+          },
+          {
+            "id": "EX.B2.R1.reading.A.03",
+            "familyId": "exam.EX.B2.R1.reading.A.03",
+            "kind": "choice",
+            "prompt": "De ce este discutat ambalajul?",
+            "answers": [
+              "Arată că apropierea geografică nu decide totul."
+            ],
+            "explanation": "Пример показывает конфликт критериев.",
+            "choices": [
+              "Dovedește că livrarea la distanță este întotdeauna preferabilă.",
+              "Înlocuiește informația despre ingrediente.",
+              "Arată că apropierea geografică nu decide totul."
+            ]
+          },
+          {
+            "id": "EX.B2.R1.reading.A.04",
+            "familyId": "exam.EX.B2.R1.reading.A.04",
+            "kind": "choice",
+            "prompt": "Cum sunt sprijiniți producătorii mici?",
+            "answers": [
+              "Printr-un formular simplu și ajutor la completare."
+            ],
+            "explanation": "Помогают заполнить, но не отвечают за них.",
+            "choices": [
+              "Prin excluderea obligației de verificare.",
+              "Printr-un formular simplu și ajutor la completare.",
+              "Prin inventarea datelor lipsă."
+            ]
+          },
+          {
+            "id": "EX.B2.R1.reading.A.05",
+            "familyId": "exam.EX.B2.R1.reading.A.05",
+            "kind": "choice",
+            "prompt": "Cum este interpretată lipsa unui site modern?",
+            "answers": [
+              "Nu dovedește singură calitatea slabă."
+            ],
+            "explanation": "Автор прямо запрещает такой вывод.",
+            "choices": [
+              "Nu dovedește singură calitatea slabă.",
+              "Este un motiv automat de excludere.",
+              "Garantează respectarea tradiției."
+            ]
+          },
+          {
+            "id": "EX.B2.R1.reading.A.06",
+            "familyId": "exam.EX.B2.R1.reading.A.06",
+            "kind": "choice",
+            "prompt": "Care este concluzia articolului?",
+            "answers": [
+              "Informația clară permite evaluarea unor compromisuri."
+            ],
+            "explanation": "Вывод сохраняет неопределённость и осознанный выбор.",
+            "choices": [
+              "O etichetă bună elimină orice incertitudine.",
+              "Cumpărătorul trebuie să ignore toate explicațiile.",
+              "Informația clară permite evaluarea unor compromisuri."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EX.B2.R1.reading.B",
+        "title": "Trei servicii pentru cumpărături",
+        "instructions": "Asociază afirmațiile cu A, B sau C. Literele se pot repeta.",
+        "text": "A. Coșul comun\nUn grup de familii comandă săptămânal produse de la aceiași furnizori. Comenzile se închid marți, iar ridicarea se face vineri, într-un interval de două ore. Nu există livrare la domiciliu. O persoană diferită din grup verifică în fiecare săptămână numărul coletelor, dar nu desface ambalajele individuale. Dacă un membru nu poate veni, poate trimite pe cineva cu numărul comenzii. Produsele lipsă sunt anunțate înaintea plății finale. Grupul nu promite că fiecare săptămână va avea exact același conținut; informația despre disponibilitate este actualizată înainte de închiderea comenzilor.\n\nB. Magazinul cu recipiente\nClienții aduc recipiente curate pentru produse uscate. La intrare, un angajat cântărește recipientul gol și notează greutatea. La casă, aceasta este scăzută din total. Pentru ulei și produse care cer condiții speciale se folosesc numai recipientele magazinului, returnabile. Persoanele care vin prima dată pot împrumuta borcane contra unei garanții, recuperate la returnare. Magazinul nu susține că orice ambalaj personal este sigur pentru orice produs. În fiecare lună organizează o demonstrație despre păstrarea alimentelor, fără să condiționeze cumpărăturile de participarea la ea.\n\nC. Comanda de seară\nUn serviciu al pieței reunește la sfârșitul zilei produsele rămase la mai multe standuri. Clientul alege categoria, nu fiecare articol. Primește mesajul cu locul de ridicare abia după ce vânzătorii confirmă conținutul. Dacă un produs nu corespunde restricțiilor declarate la înscriere, comanda este anulată și suma este restituită. Nu se garantează înlocuirea lui în aceeași seară. Serviciul publică lunar cantitățile preluate, dar precizează că aceste cifre nu reprezintă întreaga risipă a pieței. Participanții sunt rugați să anunțe până la ora stabilită dacă nu mai pot ridica pachetul.",
+        "items": [
+          {
+            "id": "EX.B2.R1.reading.B.01",
+            "familyId": "exam.EX.B2.R1.reading.B.01",
+            "kind": "choice",
+            "prompt": "Greutatea ambalajului este scăzută la calculul prețului.",
+            "answers": [
+              "B"
+            ],
+            "explanation": "Это единственная услуга с взвешиванием пустой тары.",
+            "choices": [
+              "C",
+              "A",
+              "B"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.reading.B.02",
+            "familyId": "exam.EX.B2.R1.reading.B.02",
+            "kind": "choice",
+            "prompt": "Conținutul este ales pe categorii, fără selectarea fiecărui articol.",
+            "answers": [
+              "C"
+            ],
+            "explanation": "Услуга вечерних пакетов не позволяет выбрать каждый товар.",
+            "choices": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.reading.B.03",
+            "familyId": "exam.EX.B2.R1.reading.B.03",
+            "kind": "choice",
+            "prompt": "Responsabilitatea verificării coletelor se schimbă periodic.",
+            "answers": [
+              "A"
+            ],
+            "explanation": "Семьи по очереди проверяют количество посылок.",
+            "choices": [
+              "B",
+              "C",
+              "A"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.reading.B.04",
+            "familyId": "exam.EX.B2.R1.reading.B.04",
+            "kind": "choice",
+            "prompt": "Clientul poate recupera o garanție la returnarea unui obiect.",
+            "answers": [
+              "B"
+            ],
+            "explanation": "Залог за банку возвращается.",
+            "choices": [
+              "C",
+              "A",
+              "B"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.reading.B.05",
+            "familyId": "exam.EX.B2.R1.reading.B.05",
+            "kind": "choice",
+            "prompt": "Anularea poate fi urmată de restituirea sumei, fără înlocuire.",
+            "answers": [
+              "C"
+            ],
+            "explanation": "Это правило при несовместимости с заявленными ограничениями.",
+            "choices": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.reading.B.06",
+            "familyId": "exam.EX.B2.R1.reading.B.06",
+            "kind": "choice",
+            "prompt": "Ridicarea poate fi făcută de o altă persoană cu un cod.",
+            "answers": [
+              "A"
+            ],
+            "explanation": "Нужен номер заказа.",
+            "choices": [
+              "B",
+              "C",
+              "A"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.reading.B.07",
+            "familyId": "exam.EX.B2.R1.reading.B.07",
+            "kind": "choice",
+            "prompt": "Raportul public recunoaște o limită a cantităților măsurate.",
+            "answers": [
+              "C"
+            ],
+            "explanation": "Цифры не представляют всю потерю продуктов рынка.",
+            "choices": [
+              "C",
+              "A",
+              "B"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.reading.B.08",
+            "familyId": "exam.EX.B2.R1.reading.B.08",
+            "kind": "choice",
+            "prompt": "Există o activitate explicativă care nu este obligatorie pentru clienți.",
+            "answers": [
+              "B"
+            ],
+            "explanation": "Демонстрация хранения добровольная.",
+            "choices": [
+              "A",
+              "B",
+              "C"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EX.B2.R1.reading.C",
+        "title": "De la rețetă la mărturie",
+        "instructions": "Introdu A–H în spațiile 1–6. Două segmente sunt în plus.\nA. Astfel, aceeași rețetă a început să aibă mai multe versiuni documentate.\nB. Această condiție le permitea participanților să decidă ce devine public.\nC. Diferența i-a obligat să schimbe întrebarea de la care porniseră.\nD. De aceea, cantitățile nu puteau fi comparate fără explicații suplimentare.\nE. Prin urmare, expoziția a păstrat și urmele discuțiilor, nu numai rezultatele lor.\nF. Abia atunci echipa a înțeles de ce unele ingrediente lipseau din însemnări.\nG. În consecință, toate amintirile au fost înlocuite cu statistici comerciale.\nH. Totuși, programul autobuzelor nu s-a modificat în acel an.",
+        "text": "Cercetătorii unui muzeu au pornit să adune rețete considerate specifice unui sat. Se așteptau să găsească o formulă stabilă pentru fiecare preparat. Primele trei familii au descris însă ingrediente și procedee diferite pentru același fel de mâncare. [1] În loc să caute imediat varianta „corectă”, au început să întrebe când și de la cine fusese învățată fiecare rețetă.\nUnele caiete nu menționau ingredientele considerate evidente pentru persoana care gătea. O gospodină a explicat că nu scria sarea, pentru că nimeni din familie nu avea nevoie de această indicație. [2] Ceea ce părea o eroare era, de fapt, o presupoziție despre cititorul caietului.\nNici măsurile nu erau uniforme. „O cană” însemna vasul folosit în casa respectivă, iar „puțin” depindea de experiența celui care gătea. [3] Echipa a fotografiat vasele și a păstrat expresiile originale alături de explicațiile oferite în interviu.\nMai târziu, unii participanți au revenit cu o versiune folosită la sărbători și cu alta adaptată perioadelor în care anumite produse lipseau. [4] Muzeul nu le-a așezat într-un clasament, ci a indicat împrejurările în care era pregătită fiecare.\nÎnainte de publicare, fiecare participant a primit pagina sa și a putut elimina nume sau detalii personale. [5] Unii au acceptat vocea înregistrată, dar nu și fotografia; alții au preferat numai textul.\nLa deschiderea expoziției, vizitatorii puteau asculta explicațiile și vedea corecturile din transcrieri. [6] Rețetele prezentau atât mâncarea, cât și felul în care memoria, cititorul și împrejurările influențează ceea ce ajunge pe hârtie.",
+        "items": [
+          {
+            "id": "EX.B2.R1.reading.C.01",
+            "familyId": "exam.EX.B2.R1.reading.C.01",
+            "kind": "choice",
+            "prompt": "Spațiul 1.",
+            "answers": [
+              "C"
+            ],
+            "explanation": "Разные первые версии меняют исходный вопрос; далее он сформулирован заново.",
+            "choices": [
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H",
+              "A",
+              "B"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.reading.C.02",
+            "familyId": "exam.EX.B2.R1.reading.C.02",
+            "kind": "choice",
+            "prompt": "Spațiul 2.",
+            "answers": [
+              "F"
+            ],
+            "explanation": "После объяснения пропуска соли понятна причина отсутствующих ингредиентов.",
+            "choices": [
+              "D",
+              "E",
+              "F",
+              "G",
+              "H",
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.reading.C.03",
+            "familyId": "exam.EX.B2.R1.reading.C.03",
+            "kind": "choice",
+            "prompt": "Spațiul 3.",
+            "answers": [
+              "D"
+            ],
+            "explanation": "Неодинаковые чашки и «немного» требуют пояснений для сравнения.",
+            "choices": [
+              "E",
+              "F",
+              "G",
+              "H",
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.reading.C.04",
+            "familyId": "exam.EX.B2.R1.reading.C.04",
+            "kind": "choice",
+            "prompt": "Spațiul 4.",
+            "answers": [
+              "A"
+            ],
+            "explanation": "Праздничные и вынужденные варианты образуют несколько документированных версий.",
+            "choices": [
+              "F",
+              "G",
+              "H",
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.reading.C.05",
+            "familyId": "exam.EX.B2.R1.reading.C.05",
+            "kind": "choice",
+            "prompt": "Spațiul 5.",
+            "answers": [
+              "B"
+            ],
+            "explanation": "Предварительный просмотр даёт контроль публикации; далее приведены решения участников.",
+            "choices": [
+              "G",
+              "H",
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.reading.C.06",
+            "familyId": "exam.EX.B2.R1.reading.C.06",
+            "kind": "choice",
+            "prompt": "Spațiul 6.",
+            "answers": [
+              "E"
+            ],
+            "explanation": "Выставка сохраняет объяснения и правки, то есть следы совместной работы.",
+            "choices": [
+              "H",
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          }
+        ]
+      }
+    ],
+    "language": [
+      {
+        "id": "EX.B2.R1.language.A",
+        "title": "Un depozit folosit în comun",
+        "instructions": "Alege forma potrivită spațiului.",
+        "text": "Asociația [1] membri folosesc depozitul a stabilit reguli noi. Fiecare familie primește o cutie [2] poate pune produsele comandate. Coordonatoarea [3] trimite codul de acces persoanelor înscrise. Nimeni [4] obligat să lase cheia unui vecin. Produsele trebuie [5] până vineri. Dacă am fi avut un frigider mai mare, [6] păstra și alte alimente. Îi rugăm pe cei [7] sosesc târziu să anunțe. Datele [8] clienți sunt păstrate numai cât este necesar. Responsabilul a explicat [9] au fost schimbate orele. Noul program este mai scurt [10] cel de anul trecut, dar include și sâmbăta.",
+        "items": [
+          {
+            "id": "EX.B2.R1.language.A.01",
+            "familyId": "exam.EX.B2.R1.language.A.01",
+            "kind": "choice",
+            "prompt": "[1]",
+            "answers": [
+              "ai cărei"
+            ],
+            "explanation": "Asociația, женский владелец; membri, мужское множественное обладаемое: ai cărei.",
+            "choices": [
+              "ale căror",
+              "ai cărei",
+              "a cărei"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.language.A.02",
+            "familyId": "exam.EX.B2.R1.language.A.02",
+            "kind": "choice",
+            "prompt": "[2]",
+            "answers": [
+              "în care"
+            ],
+            "explanation": "Относительное место места хранения: cutie în care.",
+            "choices": [
+              "în care",
+              "căreia",
+              "pe cine"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.language.A.03",
+            "familyId": "exam.EX.B2.R1.language.A.03",
+            "kind": "choice",
+            "prompt": "[3]",
+            "answers": [
+              "le"
+            ],
+            "explanation": "Получатели множественные: persoanelor, le trimite.",
+            "choices": [
+              "îi",
+              "îl",
+              "le"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.language.A.04",
+            "familyId": "exam.EX.B2.R1.language.A.04",
+            "kind": "choice",
+            "prompt": "[4]",
+            "answers": [
+              "nu este"
+            ],
+            "explanation": "Nimeni требует отрицания и единственного глагола.",
+            "choices": [
+              "nu sunt",
+              "nu este",
+              "este"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.language.A.05",
+            "familyId": "exam.EX.B2.R1.language.A.05",
+            "kind": "choice",
+            "prompt": "[5]",
+            "answers": [
+              "ridicate"
+            ],
+            "explanation": "Produsele — среднее множественное; пассивное причастие ridicate.",
+            "choices": [
+              "ridicate",
+              "ridicat",
+              "ridicată"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.language.A.06",
+            "familyId": "exam.EX.B2.R1.language.A.06",
+            "kind": "choice",
+            "prompt": "[6]",
+            "answers": [
+              "am fi putut"
+            ],
+            "explanation": "Нереальное прошлое следствие: am fi putut.",
+            "choices": [
+              "vom putea",
+              "putem",
+              "am fi putut"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.language.A.07",
+            "familyId": "exam.EX.B2.R1.language.A.07",
+            "kind": "choice",
+            "prompt": "[7]",
+            "answers": [
+              "care"
+            ],
+            "explanation": "Cei care — подлежащее относительной части.",
+            "choices": [
+              "cui",
+              "care",
+              "cărora"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.language.A.08",
+            "familyId": "exam.EX.B2.R1.language.A.08",
+            "kind": "choice",
+            "prompt": "[8]",
+            "answers": [
+              "despre"
+            ],
+            "explanation": "Информация о клиентах: datele despre clienți.",
+            "choices": [
+              "despre",
+              "decât",
+              "dintre"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.language.A.09",
+            "familyId": "exam.EX.B2.R1.language.A.09",
+            "kind": "choice",
+            "prompt": "[9]",
+            "answers": [
+              "de ce"
+            ],
+            "explanation": "Косвенный вопрос о причине изменения часов.",
+            "choices": [
+              "pentru",
+              "deși",
+              "de ce"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.language.A.10",
+            "familyId": "exam.EX.B2.R1.language.A.10",
+            "kind": "choice",
+            "prompt": "[10]",
+            "answers": [
+              "decât"
+            ],
+            "explanation": "Сравнение mai scurt decât.",
+            "choices": [
+              "de la",
+              "decât",
+              "ca"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EX.B2.R1.language.B",
+        "title": "O livrare schimbată",
+        "instructions": "Scrie forma cerută. Nu modifica restul textului.",
+        "text": "Când am telefonat, furnizorul deja [1] (a pleca, mai-mult-ca-perfect, el). În timp ce noi [2] (a aștepta, imperfect), colega a verificat comanda. I-am scris [3] (clientă, dativ articulat singular) care organizase întâlnirea. Am cerut confirmarea [4] (adresă, genitiv articulat singular). Produsele erau [5] (proaspăt, acord cu produsele), dar două cutii fuseseră [6] (a deschide, participiu acordat cu cutii). Dacă ai fi sunat, [7] (a informa, condițional perfect, eu, cu pronumele te). Pentru mâine este important ca fiecare să [8] (a ști, conjunctiv prezent) noul program. Vă rog să [9] (a fi, conjunctiv prezent, voi) atenți la numărul comenzii. Niciun colet nu [10] (a avea, prezent) nevoie de o etichetă suplimentară.",
+        "items": [
+          {
+            "id": "EX.B2.R1.language.B.01",
+            "familyId": "exam.EX.B2.R1.language.B.01",
+            "kind": "gap",
+            "prompt": "[1] a pleca, el",
+            "answers": [
+              "plecase"
+            ],
+            "explanation": "Предшествование прошлому звонку, третье единственное."
+          },
+          {
+            "id": "EX.B2.R1.language.B.02",
+            "familyId": "exam.EX.B2.R1.language.B.02",
+            "kind": "gap",
+            "prompt": "[2] a aștepta, noi",
+            "answers": [
+              "așteptam"
+            ],
+            "explanation": "Длительное фоновое ожидание в imperfect."
+          },
+          {
+            "id": "EX.B2.R1.language.B.03",
+            "familyId": "exam.EX.B2.R1.language.B.03",
+            "kind": "gap",
+            "prompt": "[3] clientă",
+            "answers": [
+              "clientei"
+            ],
+            "explanation": "Дательный определённого женского существительного."
+          },
+          {
+            "id": "EX.B2.R1.language.B.04",
+            "familyId": "exam.EX.B2.R1.language.B.04",
+            "kind": "gap",
+            "prompt": "[4] adresă",
+            "answers": [
+              "adresei"
+            ],
+            "explanation": "Подтверждение адреса: genitiv."
+          },
+          {
+            "id": "EX.B2.R1.language.B.05",
+            "familyId": "exam.EX.B2.R1.language.B.05",
+            "kind": "gap",
+            "prompt": "[5] proaspăt",
+            "answers": [
+              "proaspete"
+            ],
+            "explanation": "Среднее множественное согласуется как женское."
+          },
+          {
+            "id": "EX.B2.R1.language.B.06",
+            "familyId": "exam.EX.B2.R1.language.B.06",
+            "kind": "gap",
+            "prompt": "[6] a deschide",
+            "answers": [
+              "deschise"
+            ],
+            "explanation": "Пассивное причастие согласовано с cutii."
+          },
+          {
+            "id": "EX.B2.R1.language.B.07",
+            "familyId": "exam.EX.B2.R1.language.B.07",
+            "kind": "gap",
+            "prompt": "[7] a informa, eu, condițional perfect, include pronumele te",
+            "answers": [
+              "te-aș fi informat"
+            ],
+            "explanation": "Нереализованное прошлое; te перед aș соединяется дефисом: te-aș fi informat."
+          },
+          {
+            "id": "EX.B2.R1.language.B.08",
+            "familyId": "exam.EX.B2.R1.language.B.08",
+            "kind": "gap",
+            "prompt": "[8] a ști",
+            "answers": [
+              "știe"
+            ],
+            "explanation": "Fiecare — третье единственное после să."
+          },
+          {
+            "id": "EX.B2.R1.language.B.09",
+            "familyId": "exam.EX.B2.R1.language.B.09",
+            "kind": "gap",
+            "prompt": "[9] a fi, voi",
+            "answers": [
+              "fiți"
+            ],
+            "explanation": "После să второе множественное."
+          },
+          {
+            "id": "EX.B2.R1.language.B.10",
+            "familyId": "exam.EX.B2.R1.language.B.10",
+            "kind": "gap",
+            "prompt": "[10] a avea",
+            "answers": [
+              "are"
+            ],
+            "explanation": "Niciun colet — единственное число; отрицание уже дано."
+          }
+        ]
+      },
+      {
+        "id": "EX.B2.R1.language.C",
+        "title": "Cum alegem furnizorul",
+        "instructions": "Completează fiecare spațiu cu un cuvânt sau cu o locuțiune potrivită contextului. Păstrează sensul și structura textului.",
+        "text": "Am organizat întâlnirea [1] a compara ofertele. Nu ne-am bazat numai [2] preț. Am ținut seama [3] timpul de livrare și am discutat cu firma [4] îi ceruserăm o estimare. [5] toate acestea, decizia nu a fost ușoară. Colegul [6] care l-am invitat a propus o perioadă de probă. Am fost de acord [7] este utilă. Ne-am asigurat [8] fiecare furnizor primește aceleași întrebări. După o lună vom renunța [9] varianta care nu respectă condițiile. Echipa trebuie [10] publice motivele alegerii.",
+        "items": [
+          {
+            "id": "EX.B2.R1.language.C.01",
+            "familyId": "exam.EX.B2.R1.language.C.01",
+            "kind": "gap",
+            "prompt": "[1]",
+            "answers": [
+              "pentru",
+              "spre"
+            ],
+            "explanation": "Pentru a compara exprimă scopul."
+          },
+          {
+            "id": "EX.B2.R1.language.C.02",
+            "familyId": "exam.EX.B2.R1.language.C.02",
+            "kind": "gap",
+            "prompt": "[2]",
+            "answers": [
+              "pe"
+            ],
+            "explanation": "A se baza pe ceva."
+          },
+          {
+            "id": "EX.B2.R1.language.C.03",
+            "familyId": "exam.EX.B2.R1.language.C.03",
+            "kind": "gap",
+            "prompt": "[3]",
+            "answers": [
+              "de"
+            ],
+            "explanation": "A ține seama de un criteriu."
+          },
+          {
+            "id": "EX.B2.R1.language.C.04",
+            "familyId": "exam.EX.B2.R1.language.C.04",
+            "kind": "gap",
+            "prompt": "[4]",
+            "answers": [
+              "căreia"
+            ],
+            "explanation": "Firma căreia îi ceruserăm; дательный повторен îi."
+          },
+          {
+            "id": "EX.B2.R1.language.C.05",
+            "familyId": "exam.EX.B2.R1.language.C.05",
+            "kind": "gap",
+            "prompt": "[5]",
+            "answers": [
+              "Cu"
+            ],
+            "explanation": "Уступительная связка дана в полном контексте."
+          },
+          {
+            "id": "EX.B2.R1.language.C.06",
+            "familyId": "exam.EX.B2.R1.language.C.06",
+            "kind": "gap",
+            "prompt": "[6]",
+            "answers": [
+              "pe"
+            ],
+            "explanation": "Colegul pe care l-am invitat."
+          },
+          {
+            "id": "EX.B2.R1.language.C.07",
+            "familyId": "exam.EX.B2.R1.language.C.07",
+            "kind": "gap",
+            "prompt": "[7]",
+            "answers": [
+              "că"
+            ],
+            "explanation": "A fi de acord că..."
+          },
+          {
+            "id": "EX.B2.R1.language.C.08",
+            "familyId": "exam.EX.B2.R1.language.C.08",
+            "kind": "gap",
+            "prompt": "[8]",
+            "answers": [
+              "că"
+            ],
+            "explanation": "A se asigura că un fapt este respectat."
+          },
+          {
+            "id": "EX.B2.R1.language.C.09",
+            "familyId": "exam.EX.B2.R1.language.C.09",
+            "kind": "gap",
+            "prompt": "[9]",
+            "answers": [
+              "la"
+            ],
+            "explanation": "A renunța la o variantă."
+          },
+          {
+            "id": "EX.B2.R1.language.C.10",
+            "familyId": "exam.EX.B2.R1.language.C.10",
+            "kind": "gap",
+            "prompt": "[10]",
+            "answers": [
+              "să"
+            ],
+            "explanation": "Trebuie să publice."
+          }
+        ]
+      },
+      {
+        "id": "EX.B2.R1.language.D",
+        "title": "Alegeri de consum",
+        "instructions": "Alege cuvântul potrivit sensului și combinației.",
+        "text": "Înainte de semnare am citit toate [1] contractului. Prețul mic nu este singurul [2] de alegere. Furnizorul trebuie să [3] termenul promis. Dacă apar greșeli, trimitem o [4] însoțită de numărul comenzii. O explicație clară poate [5] încrederea, dar nu înlocuiește corectarea problemei. La final, comparăm rezultatele cu [6] inițiale.",
+        "items": [
+          {
+            "id": "EX.B2.R1.language.D.01",
+            "familyId": "exam.EX.B2.R1.language.D.01",
+            "kind": "choice",
+            "prompt": "[1]",
+            "answers": [
+              "clauzele"
+            ],
+            "explanation": "Clauzele contractului — пункты договора.",
+            "choices": [
+              "clapele",
+              "clauzele",
+              "clădirile"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.language.D.02",
+            "familyId": "exam.EX.B2.R1.language.D.02",
+            "kind": "choice",
+            "prompt": "[2]",
+            "answers": [
+              "criteriu"
+            ],
+            "explanation": "Criteriu de alegere — основание выбора.",
+            "choices": [
+              "criteriu",
+              "crater",
+              "capitol"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.language.D.03",
+            "familyId": "exam.EX.B2.R1.language.D.03",
+            "kind": "choice",
+            "prompt": "[3]",
+            "answers": [
+              "respecte"
+            ],
+            "explanation": "A respecta termenul — соблюдать срок.",
+            "choices": [
+              "răspândească",
+              "răstoarne",
+              "respecte"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.language.D.04",
+            "familyId": "exam.EX.B2.R1.language.D.04",
+            "kind": "choice",
+            "prompt": "[4]",
+            "answers": [
+              "sesizare"
+            ],
+            "explanation": "Sesizare с номером заказа сообщает о проблеме.",
+            "choices": [
+              "selecție",
+              "sesizare",
+              "sesiune"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.language.D.05",
+            "familyId": "exam.EX.B2.R1.language.D.05",
+            "kind": "choice",
+            "prompt": "[5]",
+            "answers": [
+              "restabili"
+            ],
+            "explanation": "A restabili încrederea — восстановить доверие; нужен глагол.",
+            "choices": [
+              "restabili",
+              "restaurație",
+              "restanță"
+            ]
+          },
+          {
+            "id": "EX.B2.R1.language.D.06",
+            "familyId": "exam.EX.B2.R1.language.D.06",
+            "kind": "choice",
+            "prompt": "[6]",
+            "answers": [
+              "așteptările"
+            ],
+            "explanation": "Сопоставляют результат с первоначальными ожиданиями.",
+            "choices": [
+              "așezările",
+              "atingerile",
+              "așteptările"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EX.B2.R1.language.E",
+        "title": "Un sistem de recipiente",
+        "instructions": "Folosește o dată fiecare cuvânt: garanție, circuit, stoc, pierderile, evidență, condiție.",
+        "text": "Pentru fiecare recipient se plătește o [1], restituită la returnare. Recipientele intră apoi din nou în [2]. Magazinul păstrează un [3] de rezervă pentru zilele aglomerate. Pentru a limita [4], fiecare retur este înregistrat într-o [5] comună. Singura [6] pentru restituirea sumei este returnarea recipientului intact.",
+        "items": [
+          {
+            "id": "EX.B2.R1.language.E.01",
+            "familyId": "exam.EX.B2.R1.language.E.01",
+            "kind": "gap",
+            "prompt": "[1]",
+            "answers": [
+              "garanție"
+            ],
+            "explanation": "Залог возвращается при сдаче тары."
+          },
+          {
+            "id": "EX.B2.R1.language.E.02",
+            "familyId": "exam.EX.B2.R1.language.E.02",
+            "kind": "gap",
+            "prompt": "[2]",
+            "answers": [
+              "circuit"
+            ],
+            "explanation": "A intra din nou în circuit — вернуться в оборот."
+          },
+          {
+            "id": "EX.B2.R1.language.E.03",
+            "familyId": "exam.EX.B2.R1.language.E.03",
+            "kind": "gap",
+            "prompt": "[3]",
+            "answers": [
+              "stoc"
+            ],
+            "explanation": "Резервный запас магазина."
+          },
+          {
+            "id": "EX.B2.R1.language.E.04",
+            "familyId": "exam.EX.B2.R1.language.E.04",
+            "kind": "gap",
+            "prompt": "[4]",
+            "answers": [
+              "pierderile"
+            ],
+            "explanation": "Pierderile desemnează pierderile de recipiente vizate de procedură; forma articulată este oferită în bancul de cuvinte."
+          },
+          {
+            "id": "EX.B2.R1.language.E.05",
+            "familyId": "exam.EX.B2.R1.language.E.05",
+            "kind": "gap",
+            "prompt": "[5]",
+            "answers": [
+              "evidență"
+            ],
+            "explanation": "Единый учёт, evidență comună."
+          },
+          {
+            "id": "EX.B2.R1.language.E.06",
+            "familyId": "exam.EX.B2.R1.language.E.06",
+            "kind": "gap",
+            "prompt": "[6]",
+            "answers": [
+              "condiție"
+            ],
+            "explanation": "Условие возврата суммы."
+          }
+        ]
+      },
+      {
+        "id": "EX.B2.R1.language.F",
+        "title": "Informații verificabile",
+        "instructions": "Formează cuvântul din familia indicată, potrivit contextului.",
+        "text": "[1] (a păstra) corectă a alimentelor cere spațiu. O [2] (a compara) între două sisteme trebuie să includă costurile ascunse. Raportul ar trebui să fie [3] (inteligibilitate) pentru cititor. Cea mai mare [4] (dificil) este colectarea datelor. O echipă [5] (competență, adjectiv) verifică documentele. [6] (a reduce, substantiv articulat) pierderilor nu este imediată. Este nevoie de o procedură [7] (a repeta, adjectiv cu sensul „care poate fi repetată”), iar [8] (a participa, substantiv articulat) clienților rămâne voluntară.",
+        "items": [
+          {
+            "id": "EX.B2.R1.language.F.01",
+            "familyId": "exam.EX.B2.R1.language.F.01",
+            "kind": "gap",
+            "prompt": "[1] a păstra",
+            "answers": [
+              "Păstrarea"
+            ],
+            "explanation": "Отглагольное существительное, определённое подлежащее с уточнением."
+          },
+          {
+            "id": "EX.B2.R1.language.F.02",
+            "familyId": "exam.EX.B2.R1.language.F.02",
+            "kind": "gap",
+            "prompt": "[2] a compara",
+            "answers": [
+              "comparație"
+            ],
+            "explanation": "Существительное после o."
+          },
+          {
+            "id": "EX.B2.R1.language.F.03",
+            "familyId": "exam.EX.B2.R1.language.F.03",
+            "kind": "gap",
+            "prompt": "[3] inteligibilitate",
+            "answers": [
+              "inteligibil"
+            ],
+            "explanation": "Inteligibil este adjectivul din familia lui inteligibilitate; acord cu raportul."
+          },
+          {
+            "id": "EX.B2.R1.language.F.04",
+            "familyId": "exam.EX.B2.R1.language.F.04",
+            "kind": "gap",
+            "prompt": "[4] dificil",
+            "answers": [
+              "dificultate"
+            ],
+            "explanation": "Женское существительное после cea mai mare."
+          },
+          {
+            "id": "EX.B2.R1.language.F.05",
+            "familyId": "exam.EX.B2.R1.language.F.05",
+            "kind": "gap",
+            "prompt": "[5] competență",
+            "answers": [
+              "competentă"
+            ],
+            "explanation": "Echipă competentă: adjectiv feminin din familia lui competență."
+          },
+          {
+            "id": "EX.B2.R1.language.F.06",
+            "familyId": "exam.EX.B2.R1.language.F.06",
+            "kind": "gap",
+            "prompt": "[6] a reduce",
+            "answers": [
+              "Reducerea"
+            ],
+            "explanation": "Определённое отглагольное существительное перед родительным."
+          },
+          {
+            "id": "EX.B2.R1.language.F.07",
+            "familyId": "exam.EX.B2.R1.language.F.07",
+            "kind": "gap",
+            "prompt": "[7] a repeta",
+            "answers": [
+              "repetabilă"
+            ],
+            "explanation": "Возможность повторения, женский род по procedură."
+          },
+          {
+            "id": "EX.B2.R1.language.F.08",
+            "familyId": "exam.EX.B2.R1.language.F.08",
+            "kind": "gap",
+            "prompt": "[8] a participa",
+            "answers": [
+              "participarea"
+            ],
+            "explanation": "Определённое существительное с последующим родительным clienților."
+          }
+        ]
+      }
+    ],
+    "writing": [
+      {
+        "id": "EX.B2.R1.W.1",
+        "title": "O comandă incompletă",
+        "prompt": "Ai comandat produse pentru o întâlnire. Comanda a sosit la timp, dar lipsesc două articole, iar mesajul de confirmare le include. Scrie furnizorului: identifică situația, explică efectul asupra planului, propune două soluții acceptabile și cere confirmarea uneia. Nu afirma drepturi juridice pe care nu le cunoști.",
+        "targetWords": [
+          120,
+          140
+        ],
+        "model": "Stimată echipă,\nVă scriu despre comanda numărul 48, livrată astăzi pentru întâlnirea noastră de mâine. Pachetul a ajuns la ora stabilită, iar produsele primite sunt în stare bună. Totuși, lipsesc cele două platouri cu legume menționate în confirmare.\nAvem douăzeci de invitați, dintre care trei nu consumă produse de origine animală. Din acest motiv, nu putem înlocui pur și simplu platourile cu preparatele deja primite.\nDacă este posibil, vă rog să trimiteți produsele lipsă mâine, înainte de ora zece. Ca alternativă, putem ridica noi platourile dimineața, dacă ne comunicați adresa și ora exactă. Dacă niciuna dintre variante nu este disponibilă, vă rog să ne anunțați, pentru a găsi altă soluție.\nAtașez confirmarea și fotografia conținutului. Aștept răspunsul dumneavoastră până astăzi la ora șaptesprezece.\nCu mulțumiri,\nAlex Marin",
+        "annotations": [
+          "Есть номер заказа, наблюдаемое расхождение и практическое последствие.",
+          "Предложены доставка и самовывоз с конкретной границей времени.",
+          "Вежливый запрос не превращает желаемое решение в неподтверждённое правовое требование. Образец открывается для разбора после самостоятельной работы."
+        ]
+      },
+      {
+        "id": "EX.B2.R1.W.2",
+        "title": "Ce cumpărăm și ce aruncăm",
+        "prompt": "O revistă întreabă dacă reducerea risipei alimentare depinde mai ales de obiceiurile cumpărătorilor sau de organizarea magazinelor. Prezintă o poziție, dezvoltă două argumente, discută o obiecție serioasă și propune un mod de verificare a unei măsuri. Poți folosi exemple ipotetice.",
+        "targetWords": [
+          160,
+          180
+        ],
+        "model": "Consider că magazinele ar trebui să aibă un rol central în reducerea risipei alimentare, fără ca responsabilitatea cumpărătorilor să dispară. Ele pot schimba condițiile în care oamenii aleg, nu doar mesajele prin care sunt sfătuiți.\nÎn primul rând, porțiile și ambalajele influențează cantitatea cumpărată. O persoană care locuiește singură poate arunca alimente dacă singura variantă avantajoasă este un pachet foarte mare. Oferirea unor cantități mici la un preț rezonabil ar reduce această presiune.\nÎn al doilea rând, informațiile clare despre păstrare ar putea preveni greșeli. Un afiș general despre responsabilitate este mai puțin util decât o explicație precisă lângă produs.\nDesigur, se poate obiecta că oamenii cumpără uneori mai mult chiar când au alternative. Este adevărat, iar planificarea meselor rămâne importantă. Totuși, educația individuală nu înlocuiește schimbarea ofertei.\nAș testa timp de trei luni vânzarea în cantități flexibile și aș compara resturile cu perioada anterioară, ținând seama de numărul clienților. Astfel, măsura ar fi evaluată prin rezultate, nu numai prin popularitatea campaniei. Datele nu ar explica totul, dar ar permite o discuție mai atentă.",
+        "annotations": [
+          "Тезис распределяет ответственность, сохраняя явный приоритет.",
+          "Два разных механизма: размер покупки и информация о хранении.",
+          "Возражение признано, предложен проверяемый пилот с ограничением интерпретации данных."
+        ]
+      }
+    ],
+    "speaking": [
+      {
+        "id": "EX.B2.R1.S.1",
+        "title": "Interviu: o alegere schimbată",
+        "prompt": "Povestește despre o alegere de consum sau de transport pe care ai schimbat-o după ce ai primit informații noi. Poți folosi un exemplu ipotetic, precizând acest lucru.",
+        "followUps": [
+          "Ce informație a contat și cum ai verificat-o?",
+          "Ce dezavantaj ai acceptat?",
+          "Ce te-ar face să revizuiești din nou alegerea?"
+        ]
+      },
+      {
+        "id": "EX.B2.R1.S.2",
+        "title": "Negociere: masa unui eveniment",
+        "prompt": "Organizați un eveniment pentru treizeci de persoane. Tu dorești un meniu fix, ușor de comandat; partenerul preferă porții flexibile pentru a limita resturile. Aveți un buget limitat și câțiva invitați cu restricții alimentare. Negociați o soluție și împărțiți responsabilitățile.",
+        "followUps": [
+          "Furnizorul nu poate confirma toate ingredientele până vineri. Cum procedați?",
+          "Cere o clarificare despre o propunere a partenerului.",
+          "Rezumă acordul, limita lui și un plan de rezervă."
+        ]
+      },
+      {
+        "id": "EX.B2.R1.S.3",
+        "title": "Compară deplasările",
+        "prompt": "Compară scenele de mobilitate. Explică ce poate fi comod sau dificil în fiecare variantă pentru o persoană cu bagaje și pentru cineva care face aceeași călătorie zilnic. Nu presupune date care nu apar în imagine; formulează ipotezele ca ipoteze.",
+        "visual": "mobility",
+        "followUps": [
+          "Cum ar schimba ploaia alegerea?",
+          "Ce informație suplimentară ai cere înainte de a recomanda o variantă?",
+          "Alege un criteriu comun și compară din nou scenele."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EX.B2.R2",
+    "version": "1.0.0",
+    "kind": "reserve",
+    "title": "Резервный пробник 2 · Обучение, наука и передача опыта",
+    "listening": [
+      {
+        "id": "EX.B2.R2.listening.A",
+        "title": "Un curs reluat după o pauză",
+        "instructions": "Ascultă și stabilește dacă afirmațiile sunt adevărate sau false.",
+        "script": "M-am înscris la un curs de contabilitate după ce am lucrat doisprezece ani într-un atelier de mobilă. Nu voiam neapărat să părăsesc meseria. Voiam să înțeleg mai bine costurile, pentru că începusem să primesc comenzi pe cont propriu. La prima întâlnire eram convins că ceilalți vor ști deja toate cuvintele pe care eu nu le înțelegeam.\nÎn realitate, grupul avea experiențe foarte diferite. O colegă lucrase într-un birou, alt coleg îngrijea o fermă. Profesorul ne-a cerut să aducem câte un exemplu din activitatea noastră. Când am discutat despre costul unui dulap, am putut explica de ce timpul de uscare nu poate fi redus doar pentru a grăbi livrarea. Atunci am înțeles că aduceam și eu o cunoaștere utilă.\nDificultatea mea nu era calculul, ci limbajul documentelor. Am cerut o listă cu termenii principali înainte de fiecare lecție. Profesorul a acceptat, dar ne-a rugat să notăm și contextul, nu să învățăm traduceri izolate.\nAm lipsit două săptămâni din cauza unei comenzi urgente. Nu am abandonat cursul; am stabilit cu un coleg să refacem împreună exercițiile. Examenul final nu mi-a schimbat imediat veniturile. Mi-a schimbat însă felul în care discut cu clienții: explic separat materialele, timpul de lucru și eventualele modificări. Acum pot spune mai clar ce include prețul și ce nu pot promite înainte de a vedea lucrarea.",
+        "items": [
+          {
+            "id": "EX.B2.R2.listening.A.01",
+            "familyId": "exam.EX.B2.R2.listening.A.01",
+            "kind": "choice",
+            "prompt": "Vorbitorul s-a înscris numai pentru a renunța la meseria lui.",
+            "answers": [
+              "F — fals"
+            ],
+            "explanation": "Он прямо отрицает обязательное намерение сменить профессию.",
+            "choices": [
+              "F — fals",
+              "A — adevărat"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.listening.A.02",
+            "familyId": "exam.EX.B2.R2.listening.A.02",
+            "kind": "choice",
+            "prompt": "Membrii grupului aveau experiențe profesionale variate.",
+            "answers": [
+              "A — adevărat"
+            ],
+            "explanation": "Названы офис, ферма и мебельная мастерская.",
+            "choices": [
+              "A — adevărat",
+              "F — fals"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.listening.A.03",
+            "familyId": "exam.EX.B2.R2.listening.A.03",
+            "kind": "choice",
+            "prompt": "Profesorul a folosit exemple aduse de participanți.",
+            "answers": [
+              "A — adevărat"
+            ],
+            "explanation": "Он попросил пример из работы каждого.",
+            "choices": [
+              "F — fals",
+              "A — adevărat"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.listening.A.04",
+            "familyId": "exam.EX.B2.R2.listening.A.04",
+            "kind": "choice",
+            "prompt": "Problema principală a vorbitorului era calculul.",
+            "answers": [
+              "F — fals"
+            ],
+            "explanation": "Затруднение — язык документов, не расчёт.",
+            "choices": [
+              "A — adevărat",
+              "F — fals"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.listening.A.05",
+            "familyId": "exam.EX.B2.R2.listening.A.05",
+            "kind": "choice",
+            "prompt": "Lista termenilor trebuia învățată fără contexte.",
+            "answers": [
+              "F — fals"
+            ],
+            "explanation": "Преподаватель просит контексты, а не отдельные переводы.",
+            "choices": [
+              "F — fals",
+              "A — adevărat"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.listening.A.06",
+            "familyId": "exam.EX.B2.R2.listening.A.06",
+            "kind": "choice",
+            "prompt": "O comandă urgentă a provocat o absență temporară.",
+            "answers": [
+              "A — adevărat"
+            ],
+            "explanation": "Причина двухнедельного отсутствия названа.",
+            "choices": [
+              "A — adevărat",
+              "F — fals"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.listening.A.07",
+            "familyId": "exam.EX.B2.R2.listening.A.07",
+            "kind": "choice",
+            "prompt": "Examenul a dus imediat la o creștere a veniturilor.",
+            "answers": [
+              "F — fals"
+            ],
+            "explanation": "Немедленное влияние на доход отрицается.",
+            "choices": [
+              "F — fals",
+              "A — adevărat"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.listening.A.08",
+            "familyId": "exam.EX.B2.R2.listening.A.08",
+            "kind": "choice",
+            "prompt": "Cursul l-a ajutat să explice mai precis prețul lucrărilor.",
+            "answers": [
+              "A — adevărat"
+            ],
+            "explanation": "Это главный конкретный результат завершения рассказа.",
+            "choices": [
+              "A — adevărat",
+              "F — fals"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EX.B2.R2.listening.B",
+        "title": "Observații într-o grădină botanică",
+        "instructions": "Completează cu 1–4 cuvinte auzite, păstrând forma potrivită.",
+        "script": "Bună seara! Săptămâna viitoare începe programul prin care vizitatorii grădinii botanice pot contribui la observarea plantelor. Nu trebuie să recunoașteți toate speciile. La prima întâlnire veți primi fotografii și explicații pentru cele cinci plante pe care le urmărim în această etapă.\nÎntâlnirea are loc miercuri, la pavilionul de la intrare, la ora șaisprezece. Vă rugăm să aduceți un telefon încărcat. Dacă nu aveți unul, anunțați la înscriere și veți lucra într-o pereche. Nu este necesară instalarea unei aplicații: formularul poate fi deschis într-un browser.\nObservațiile trebuie trimise până duminică seara. Pentru fiecare plantă veți nota locul, stadiul frunzelor și data. Dacă nu sunteți siguri de identificare, bifați opțiunea „neconfirmat”. O fotografie neclară nu va fi tratată ca dovadă sigură, chiar dacă numele completat pare corect. Echipa va verifica informațiile înainte de a le include în raport.\nVă rugăm să nu rupeți frunze și să nu ieșiți de pe alei pentru o fotografie mai bună. Programul urmărește schimbările sezoniere, nu strângerea de exemplare. După două săptămâni, rezultatele provizorii vor fi prezentate la o întâlnire online. Participanții vor putea pune întrebări despre datele eliminate. Faptul că o observație nu este inclusă nu înseamnă că persoana a lucrat inutil: și explicația unei incertitudini ne ajută să îmbunătățim instrucțiunile pentru etapa următoare.",
+        "items": [
+          {
+            "id": "EX.B2.R2.listening.B.01",
+            "familyId": "exam.EX.B2.R2.listening.B.01",
+            "kind": "gap",
+            "prompt": "Locul primei întâlniri este ___.",
+            "answers": [
+              "pavilionul de la intrare"
+            ],
+            "explanation": "Место названо полностью."
+          },
+          {
+            "id": "EX.B2.R2.listening.B.02",
+            "familyId": "exam.EX.B2.R2.listening.B.02",
+            "kind": "gap",
+            "prompt": "Participanții sunt rugați să aducă un ___.",
+            "answers": [
+              "telefon încărcat"
+            ],
+            "explanation": "Нужен заряженный телефон."
+          },
+          {
+            "id": "EX.B2.R2.listening.B.03",
+            "familyId": "exam.EX.B2.R2.listening.B.03",
+            "kind": "gap",
+            "prompt": "Formularul poate fi deschis într-un ___.",
+            "answers": [
+              "browser"
+            ],
+            "explanation": "Специальная установка не требуется."
+          },
+          {
+            "id": "EX.B2.R2.listening.B.04",
+            "familyId": "exam.EX.B2.R2.listening.B.04",
+            "kind": "gap",
+            "prompt": "Observațiile se trimit până ___.",
+            "answers": [
+              "duminică seara"
+            ],
+            "explanation": "Последний срок указан прямо."
+          },
+          {
+            "id": "EX.B2.R2.listening.B.05",
+            "familyId": "exam.EX.B2.R2.listening.B.05",
+            "kind": "gap",
+            "prompt": "Dacă identificarea nu este sigură, se bifează ___.",
+            "answers": [
+              "neconfirmat"
+            ],
+            "explanation": "Это точное имя опции."
+          },
+          {
+            "id": "EX.B2.R2.listening.B.06",
+            "familyId": "exam.EX.B2.R2.listening.B.06",
+            "kind": "gap",
+            "prompt": "Rezultatele provizorii sunt prezentate după ___.",
+            "answers": [
+              "două săptămâni"
+            ],
+            "explanation": "Срок показа предварительных результатов."
+          }
+        ]
+      },
+      {
+        "id": "EX.B2.R2.listening.C",
+        "title": "Un manual scris de cursanți",
+        "instructions": "Ascultă interviul și alege un răspuns.",
+        "script": "Reporter: Centrul dumneavoastră publică un manual realizat împreună cu participanții la cursuri. Nu ar fi fost mai simplu să îl scrie profesorii?\nCoordonatoare: Ar fi fost mai rapid, probabil. Dar profesorii cunosc atât de bine procedurile încât uneori nu mai observă unde se blochează un începător. Cursanții au adus întrebări pe care echipa nu le anticipase. Nu le-am cerut să redacteze reguli din memorie, ci să descrie un moment în care instrucțiunea nu îi ajutase.\nReporter: Cum ați ales exemplele?\nCoordonatoare: Am păstrat situațiile întâlnite de mai multe persoane. O poveste foarte interesantă, dar imposibil de înțeles fără detalii personale, nu era neapărat potrivită. Am schimbat numele și am cerut acordul pentru publicare. Unele persoane au preferat să contribuie fără să apară în lista autorilor.\nReporter: Cine a avut ultimul cuvânt asupra explicațiilor?\nCoordonatoare: Profesorii răspund pentru exactitatea lor. Totuși, fiecare pagină a fost citită de cineva care nu participase la redactare. Dacă acel cititor nu putea urma pașii, nu consideram pagina terminată doar pentru că era corectă tehnic.\nReporter: Manualul va înlocui întâlnirile?\nCoordonatoare: Nu. El îi ajută pe oameni să pregătească întrebări și să revină asupra unei proceduri. Unele dificultăți apar abia când lucrează efectiv. Vom păstra întâlnirile și vom actualiza manualul la șase luni. O versiune datată este mai onestă decât promisiunea unui ghid valabil pentru totdeauna.",
+        "items": [
+          {
+            "id": "EX.B2.R2.listening.C.01",
+            "familyId": "exam.EX.B2.R2.listening.C.01",
+            "kind": "choice",
+            "prompt": "De ce au fost implicați cursanții?",
+            "answers": [
+              "Puteau arăta dificultăți devenite invizibile pentru experți."
+            ],
+            "explanation": "Новички выявили неучтённые точки затруднения.",
+            "choices": [
+              "Puteau arăta dificultăți devenite invizibile pentru experți.",
+              "Erau singurii care cunoșteau regulile tehnice.",
+              "Profesorii nu mai doreau să participe."
+            ]
+          },
+          {
+            "id": "EX.B2.R2.listening.C.02",
+            "familyId": "exam.EX.B2.R2.listening.C.02",
+            "kind": "choice",
+            "prompt": "Ce au descris inițial participanții?",
+            "answers": [
+              "Momente în care o instrucțiune nu era suficientă."
+            ],
+            "explanation": "Координатор явно описывает начальное задание.",
+            "choices": [
+              "Reguli reconstruite exclusiv din memorie.",
+              "Biografiile complete ale profesorilor.",
+              "Momente în care o instrucțiune nu era suficientă."
+            ]
+          },
+          {
+            "id": "EX.B2.R2.listening.C.03",
+            "familyId": "exam.EX.B2.R2.listening.C.03",
+            "kind": "choice",
+            "prompt": "Ce criteriu a influențat alegerea exemplelor?",
+            "answers": [
+              "Relevanța pentru mai multe persoane."
+            ],
+            "explanation": "Выбирали повторяющиеся ситуации, избегая лишних личных деталей.",
+            "choices": [
+              "Obligativitatea de a semna ca autor.",
+              "Relevanța pentru mai multe persoane.",
+              "Numărul detaliilor personale."
+            ]
+          },
+          {
+            "id": "EX.B2.R2.listening.C.04",
+            "familyId": "exam.EX.B2.R2.listening.C.04",
+            "kind": "choice",
+            "prompt": "Cum a fost verificată inteligibilitatea?",
+            "answers": [
+              "Prin lectura unei persoane neimplicate în redactare."
+            ],
+            "explanation": "Независимый читатель должен проследить шаги.",
+            "choices": [
+              "Prin lectura unei persoane neimplicate în redactare.",
+              "Numai prin votul autorilor.",
+              "Prin eliminarea tuturor exemplelor."
+            ]
+          },
+          {
+            "id": "EX.B2.R2.listening.C.05",
+            "familyId": "exam.EX.B2.R2.listening.C.05",
+            "kind": "choice",
+            "prompt": "Ce rol va avea manualul?",
+            "answers": [
+              "Va sprijini întâlnirile și revenirea la proceduri."
+            ],
+            "explanation": "Он дополняет занятия, а не заменяет их.",
+            "choices": [
+              "Va elimina orice nevoie de practică.",
+              "Va înlocui definitiv profesorii.",
+              "Va sprijini întâlnirile și revenirea la proceduri."
+            ]
+          },
+          {
+            "id": "EX.B2.R2.listening.C.06",
+            "familyId": "exam.EX.B2.R2.listening.C.06",
+            "kind": "choice",
+            "prompt": "De ce este importantă data versiunii?",
+            "answers": [
+              "Arată că informația poate avea nevoie de actualizare."
+            ],
+            "explanation": "Указана полугодовая актуализация вместо вечной действительности.",
+            "choices": [
+              "Împiedică cititorii să pună întrebări.",
+              "Arată că informația poate avea nevoie de actualizare.",
+              "Garantează valabilitatea permanentă."
+            ]
+          }
+        ]
+      }
+    ],
+    "reading": [
+      {
+        "id": "EX.B2.R2.reading.A",
+        "title": "Ce măsoară o platformă de învățare",
+        "instructions": "Alege răspunsul susținut de text.",
+        "text": "O platformă de cursuri anunță că utilizatorii au petrecut cu treizeci la sută mai mult timp în aplicație decât în luna precedentă. Cifra poate sugera interes, dar nu dovedește singură un progres al învățării. O persoană poate rămâne mult timp pe o pagină pentru că explicația este dificilă, pentru că a fost întreruptă sau pentru că a uitat să închidă fereastra. Durata este o urmă a activității, nu o descriere completă a ei.\nO echipă de profesori a decis să compare acest indicator cu sarcini scurte realizate fără ajutor. Participanții primeau un caz nou și trebuiau să explice alegerea unei proceduri. Nu era suficient să recunoască un răspuns văzut anterior. În unele grupe, timpul petrecut pe platformă scăzuse, dar rezultatele la cazurile noi se îmbunătățiseră. Utilizatorii găseau mai repede informația și nu mai repetau paginile pe care le stăpâneau.\nNici sarcina de control nu era însă o măsură universală. Cei care lucrau bine în scris puteau avea dificultăți când trebuiau să explice aceeași procedură unui coleg. De aceea, echipa a adăugat o activitate în perechi și o scurtă discuție despre erori. Rezultatele nu au fost adunate într-o singură etichetă de tipul „participant bun” sau „participant slab”. Fiecare primea informații despre ceea ce putea face și despre situațiile care încă necesitau sprijin.\nPlatforma a fost schimbată și ea. Seria de zile consecutive a rămas vizibilă, fiindcă îi motiva pe unii cursanți. Dar nu mai era prezentată drept dovadă a competenței. La sfârșitul săptămânii, utilizatorul vedea exemple de sarcini reușite, tipul de ajutor folosit și o recomandare pentru următoarea încercare.\nAutorii proiectului nu propun renunțarea la datele de utilizare. Ele pot arăta unde oamenii se opresc sau abandonează. Limita apare când un indicator ușor de numărat devine substitut pentru scopul real. O platformă utilă trebuie să-i ajute pe oameni să lucreze mai bine și în afara ei, chiar dacă acest lucru reduce timpul petrecut în aplicație.",
+        "items": [
+          {
+            "id": "EX.B2.R2.reading.A.01",
+            "familyId": "exam.EX.B2.R2.reading.A.01",
+            "kind": "choice",
+            "prompt": "Ce limită are timpul petrecut în aplicație?",
+            "answers": [
+              "Poate avea cauze care nu indică învățare."
+            ],
+            "explanation": "В первом абзаце перечислены конкурирующие объяснения длительности.",
+            "choices": [
+              "Poate avea cauze care nu indică învățare.",
+              "Nu poate fi înregistrat niciodată.",
+              "Arată întotdeauna progresul exact."
+            ]
+          },
+          {
+            "id": "EX.B2.R2.reading.A.02",
+            "familyId": "exam.EX.B2.R2.reading.A.02",
+            "kind": "choice",
+            "prompt": "Ce cereau sarcinile noi?",
+            "answers": [
+              "Aplicarea și explicarea unei alegeri fără ajutor."
+            ],
+            "explanation": "Второй абзац описывает перенос на новый случай.",
+            "choices": [
+              "Copierea unui răspuns anterior.",
+              "Păstrarea ferestrei deschise.",
+              "Aplicarea și explicarea unei alegeri fără ajutor."
+            ]
+          },
+          {
+            "id": "EX.B2.R2.reading.A.03",
+            "familyId": "exam.EX.B2.R2.reading.A.03",
+            "kind": "choice",
+            "prompt": "De ce putea scădea timpul de utilizare?",
+            "answers": [
+              "Unii participanți găseau mai eficient informațiile necesare."
+            ],
+            "explanation": "Сокращение времени сопровождалось улучшением результатов.",
+            "choices": [
+              "Platforma interzicea repetarea.",
+              "Unii participanți găseau mai eficient informațiile necesare.",
+              "Toți renunțaseră la curs."
+            ]
+          },
+          {
+            "id": "EX.B2.R2.reading.A.04",
+            "familyId": "exam.EX.B2.R2.reading.A.04",
+            "kind": "choice",
+            "prompt": "De ce a fost introdus lucrul în perechi?",
+            "answers": [
+              "Competența scrisă nu garanta explicarea către altcineva."
+            ],
+            "explanation": "Задача расширяет проверяемый вид действия.",
+            "choices": [
+              "Competența scrisă nu garanta explicarea către altcineva.",
+              "Testele scrise nu conțineau deloc informații.",
+              "Profesorii nu puteau citi răspunsurile."
+            ]
+          },
+          {
+            "id": "EX.B2.R2.reading.A.05",
+            "familyId": "exam.EX.B2.R2.reading.A.05",
+            "kind": "choice",
+            "prompt": "Cum este tratată seria de zile consecutive?",
+            "answers": [
+              "Ca posibilă motivație, nu ca dovadă suficientă a competenței."
+            ],
+            "explanation": "Мотивационное значение сохранено без заявления о владении навыком.",
+            "choices": [
+              "Ca singur rezultat relevant.",
+              "Ca informație care trebuie ascunsă tuturor.",
+              "Ca posibilă motivație, nu ca dovadă suficientă a competenței."
+            ]
+          },
+          {
+            "id": "EX.B2.R2.reading.A.06",
+            "familyId": "exam.EX.B2.R2.reading.A.06",
+            "kind": "choice",
+            "prompt": "Care este scopul general susținut de autor?",
+            "answers": [
+              "Transferul competenței în afara platformei."
+            ],
+            "explanation": "Последнее предложение прямо называет работу вне приложения.",
+            "choices": [
+              "Înlocuirea tuturor explicațiilor cu cifre.",
+              "Transferul competenței în afara platformei.",
+              "Creșterea nelimitată a timpului online."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EX.B2.R2.reading.B",
+        "title": "Trei moduri de a întâlni știința",
+        "instructions": "Asociază fiecare afirmație cu A, B sau C. O literă se poate folosi de mai multe ori.",
+        "text": "A. Laboratorul de apă\nVizitatorii compară probe aduse de echipă și învață să folosească instrumente simple. Nu se testează potabilitatea apei aduse de acasă și nu se eliberează certificate. Fiecare grup primește o fișă pe care notează metoda și rezultatul, inclusiv măsurătorile care nu pot fi repetate. La final se discută ce concluzii sunt susținute și ce întrebări cer un laborator specializat. Participanții nu trebuie să aibă pregătire în chimie, dar copiii sub doisprezece ani lucrează împreună cu un adult. Rezervarea este necesară, deoarece numărul instrumentelor este limitat.\n\nB. Plimbarea de noapte\nUn astronom amator conduce o observație în afara centrului. Locul exact este anunțat după prognoza de după-amiază. Dacă norii împiedică observarea, întâlnirea are loc în sala clubului, unde se discută fotografii făcute în alte seri. Biletul nu este restituit numai pentru schimbarea activității, dar participanții primesc acces la o altă plimbare. Nu este necesar un telescop propriu. Echipa oferă aparatura, iar participanții pot aduce un scaun pliabil. Organizatorul explică înainte de plecare că nu toate obiectele din fotografii pot fi văzute identic cu ochiul liber.\n\nC. Harta sunetelor\nUn grup înregistrează sunetele dintr-o zonă a orașului în momente diferite ale zilei. Fiecare participant poate împrumuta un aparat pentru trei zile. Înregistrările sunt încărcate cu locul și ora, însă vocile identificabile nu sunt publicate fără acord. Echipa selectează fragmentele pentru o hartă online și păstrează și informația despre condițiile de înregistrare. Scopul nu este să stabilească medical efectele zgomotului, ci să compare experiențe și să formuleze întrebări pentru o cercetare ulterioară. O întâlnire lunară permite discutarea fragmentelor excluse din versiunea publică.",
+        "items": [
+          {
+            "id": "EX.B2.R2.reading.B.01",
+            "familyId": "exam.EX.B2.R2.reading.B.01",
+            "kind": "choice",
+            "prompt": "Echipamentul poate fi luat acasă pentru o perioadă limitată.",
+            "answers": [
+              "C"
+            ],
+            "explanation": "Записывающее устройство выдаётся на три дня.",
+            "choices": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.reading.B.02",
+            "familyId": "exam.EX.B2.R2.reading.B.02",
+            "kind": "choice",
+            "prompt": "Vremea poate schimba locul și forma întâlnirii.",
+            "answers": [
+              "B"
+            ],
+            "explanation": "Облачность ведёт к обсуждению фотографий в клубе.",
+            "choices": [
+              "B",
+              "C",
+              "A"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.reading.B.03",
+            "familyId": "exam.EX.B2.R2.reading.B.03",
+            "kind": "choice",
+            "prompt": "Nu sunt eliberate documente despre siguranța probelor personale.",
+            "answers": [
+              "A"
+            ],
+            "explanation": "Не тестируют принесённую воду на пригодность и не выдают сертификаты.",
+            "choices": [
+              "C",
+              "A",
+              "B"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.reading.B.04",
+            "familyId": "exam.EX.B2.R2.reading.B.04",
+            "kind": "choice",
+            "prompt": "Publicarea vocilor depinde de permisiunea persoanelor.",
+            "answers": [
+              "C"
+            ],
+            "explanation": "Есть явное требование согласия.",
+            "choices": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.reading.B.05",
+            "familyId": "exam.EX.B2.R2.reading.B.05",
+            "kind": "choice",
+            "prompt": "Este oferită o participare ulterioară dacă activitatea este schimbată.",
+            "answers": [
+              "B"
+            ],
+            "explanation": "При замене прогулки дают доступ к другой.",
+            "choices": [
+              "B",
+              "C",
+              "A"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.reading.B.06",
+            "familyId": "exam.EX.B2.R2.reading.B.06",
+            "kind": "choice",
+            "prompt": "Se notează și rezultate care nu pot fi reproduse.",
+            "answers": [
+              "A"
+            ],
+            "explanation": "Лабораторная карточка сохраняет такие измерения.",
+            "choices": [
+              "C",
+              "A",
+              "B"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.reading.B.07",
+            "familyId": "exam.EX.B2.R2.reading.B.07",
+            "kind": "choice",
+            "prompt": "Condițiile tehnice ale materialului rămân asociate cu el.",
+            "answers": [
+              "C"
+            ],
+            "explanation": "У аудио сохраняют условия записи.",
+            "choices": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.reading.B.08",
+            "familyId": "exam.EX.B2.R2.reading.B.08",
+            "kind": "choice",
+            "prompt": "Numărul aparatelor impune înscrierea prealabilă.",
+            "answers": [
+              "A"
+            ],
+            "explanation": "Это причина обязательной записи в лабораторию.",
+            "choices": [
+              "B",
+              "C",
+              "A"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EX.B2.R2.reading.C",
+        "title": "Când experiența trebuie explicată",
+        "instructions": "Introdu segmentele A–H în spațiile 1–6. Două segmente rămân nefolosite.\nA. Această diferență a devenit punctul de plecare al colaborării.\nB. Astfel, explicația putea fi verificată înainte de plecarea specialistului.\nC. Tocmai aceste semne erau absente din instrucțiunea scrisă.\nD. Prin urmare, filmarea a fost împărțită în secvențe ușor de găsit.\nE. Această posibilitate a făcut actualizarea mai puțin costisitoare.\nF. La final, documentarea a schimbat și felul în care echipa discuta greșelile.\nG. Din acest motiv, toate uneltele au fost donate unei alte fabrici.\nH. Totuși, nimeni nu a mai avut voie să pună întrebări.",
+        "text": "Înainte de pensionare, un tehnician a fost rugat să lase instrucțiuni pentru utilajele pe care le întreținuse timp de douăzeci de ani. El considera operațiile obișnuite, în timp ce un coleg nou le găsea greu de urmărit. [1] Cei doi au decis să descrie împreună o verificare completă.\nLa prima probă, tehnicianul a spus că o piesă trebuie schimbată „când începe să sune altfel”. Colegul nu știa ce diferență să caute. Au comparat atunci două înregistrări și au observat și o vibrație vizibilă. [2] Textul a fost completat cu exemple și cu limita de la care era necesară oprirea utilajului.\nO filmare de patruzeci de minute s-a dovedit dificil de folosit în timpul lucrului. Pentru o singură întrebare, colegul trebuia să caute mult. [3] Fiecare secvență avea un titlu, o fotografie a piesei și o trimitere la instrucțiunea corespunzătoare.\nApoi, un al treilea angajat a încercat procedura numai pe baza materialelor. Tehnicianul a urmărit fără să intervină, cu excepția momentelor care implicau siguranța. [4] Unde cititorul se oprea, echipa reformula pasul sau adăuga un avertisment.\nMaterialele au fost păstrate într-un format care permitea înlocuirea unei singure secvențe. Dacă o piesă sau o regulă se schimba, nu era necesară refacerea întregului ghid. [5] Lângă fiecare secvență apăreau data revizuirii și persoana care verificase-o.\n[6] Întrebarea nu mai era doar cine uitase un pas, ci și ce informație lipsea din explicație. Experiența specialistului nu fusese transferată integral, însă devenise mai ușor de discutat, testat și completat de ceilalți.",
+        "items": [
+          {
+            "id": "EX.B2.R2.reading.C.01",
+            "familyId": "exam.EX.B2.R2.reading.C.01",
+            "kind": "choice",
+            "prompt": "Spațiul 1.",
+            "answers": [
+              "A"
+            ],
+            "explanation": "Противопоставление привычки эксперта и трудности новичка запускает совместную работу.",
+            "choices": [
+              "D",
+              "E",
+              "F",
+              "G",
+              "H",
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.reading.C.02",
+            "familyId": "exam.EX.B2.R2.reading.C.02",
+            "kind": "choice",
+            "prompt": "Spațiul 2.",
+            "answers": [
+              "C"
+            ],
+            "explanation": "Вибрация и различие звука — указанные признаки, отсутствовавшие в инструкции.",
+            "choices": [
+              "E",
+              "F",
+              "G",
+              "H",
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.reading.C.03",
+            "familyId": "exam.EX.B2.R2.reading.C.03",
+            "kind": "choice",
+            "prompt": "Spațiul 3.",
+            "answers": [
+              "D"
+            ],
+            "explanation": "Трудность поиска в длинном видео ведёт к делению на фрагменты.",
+            "choices": [
+              "F",
+              "G",
+              "H",
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.reading.C.04",
+            "familyId": "exam.EX.B2.R2.reading.C.04",
+            "kind": "choice",
+            "prompt": "Spațiul 4.",
+            "answers": [
+              "B"
+            ],
+            "explanation": "Независимая проба проверяет объяснение, пока специалист ещё доступен.",
+            "choices": [
+              "G",
+              "H",
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.reading.C.05",
+            "familyId": "exam.EX.B2.R2.reading.C.05",
+            "kind": "choice",
+            "prompt": "Spațiul 5.",
+            "answers": [
+              "E"
+            ],
+            "explanation": "Возможность заменить один фрагмент снижает стоимость обновления.",
+            "choices": [
+              "H",
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.reading.C.06",
+            "familyId": "exam.EX.B2.R2.reading.C.06",
+            "kind": "choice",
+            "prompt": "Spațiul 6.",
+            "answers": [
+              "F"
+            ],
+            "explanation": "Последний абзац обобщает изменение разговора об ошибках, пояснённое следующим предложением.",
+            "choices": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          }
+        ]
+      }
+    ],
+    "language": [
+      {
+        "id": "EX.B2.R2.language.A",
+        "title": "Un curs în alt oraș",
+        "instructions": "Alege forma care completează corect textul.",
+        "text": "Cursul [1] m-am înscris începe luni. Profesoara [2] i-am scris a răspuns repede. Un coleg mi-a cerut ghidul și [3] voi trimite diseară. Dacă ar avea mai mult timp, [4] participa și la atelier. Nu este suficient [5] memorăm definițiile. Materialele sunt destinate [6] care au parcurs introducerea. Fiecare dintre pagini [7] verificată înainte de publicare. Nu cunosc pe nimeni [8] fi lucrat cu acest aparat. Cu [9] repetăm mai atent, cu atât observăm mai multe detalii. Prefer explicațiile scurte, [10] exemplelor fără context.",
+        "items": [
+          {
+            "id": "EX.B2.R2.language.A.01",
+            "familyId": "exam.EX.B2.R2.language.A.01",
+            "kind": "choice",
+            "prompt": "[1]",
+            "answers": [
+              "la care"
+            ],
+            "explanation": "A se înscrie la un curs; относительная связь сохраняет la.",
+            "choices": [
+              "la care",
+              "pe care",
+              "căruia"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.language.A.02",
+            "familyId": "exam.EX.B2.R2.language.A.02",
+            "kind": "choice",
+            "prompt": "[2]",
+            "answers": [
+              "căreia"
+            ],
+            "explanation": "Profesoara căreia i-am scris — дательный с повтором îi.",
+            "choices": [
+              "care",
+              "pe care",
+              "căreia"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.language.A.03",
+            "familyId": "exam.EX.B2.R2.language.A.03",
+            "kind": "choice",
+            "prompt": "[3]",
+            "answers": [
+              "i-l"
+            ],
+            "explanation": "Ghidul передаётся коллеге: lui + ghidul → i-l.",
+            "choices": [
+              "mi-l",
+              "i-l",
+              "îl îi"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.language.A.04",
+            "familyId": "exam.EX.B2.R2.language.A.04",
+            "kind": "choice",
+            "prompt": "[4]",
+            "answers": [
+              "ar"
+            ],
+            "explanation": "Нереальное условие ar avea требует ar participa.",
+            "choices": [
+              "ar",
+              "va",
+              "să"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.language.A.05",
+            "familyId": "exam.EX.B2.R2.language.A.05",
+            "kind": "choice",
+            "prompt": "[5]",
+            "answers": [
+              "să"
+            ],
+            "explanation": "Nu este suficient să memorăm — зависимое действие с conjunctiv.",
+            "choices": [
+              "de",
+              "pentru",
+              "să"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.language.A.06",
+            "familyId": "exam.EX.B2.R2.language.A.06",
+            "kind": "choice",
+            "prompt": "[6]",
+            "answers": [
+              "celor"
+            ],
+            "explanation": "A fi destinat cuiva — дательный множественного celor.",
+            "choices": [
+              "cele",
+              "celor",
+              "cei"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.language.A.07",
+            "familyId": "exam.EX.B2.R2.language.A.07",
+            "kind": "choice",
+            "prompt": "[7]",
+            "answers": [
+              "a fost"
+            ],
+            "explanation": "Fiecare — единственное число, пассив a fost verificată.",
+            "choices": [
+              "a fost",
+              "au fost",
+              "vor fi"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.language.A.08",
+            "familyId": "exam.EX.B2.R2.language.A.08",
+            "kind": "choice",
+            "prompt": "[8]",
+            "answers": [
+              "care să"
+            ],
+            "explanation": "Отрицательное неопределённое лицо с предполагаемым опытом: care să fi lucrat.",
+            "choices": [
+              "care a",
+              "pe care",
+              "care să"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.language.A.09",
+            "familyId": "exam.EX.B2.R2.language.A.09",
+            "kind": "choice",
+            "prompt": "[9]",
+            "answers": [
+              "cât"
+            ],
+            "explanation": "Корреляция cu cât ... cu atât.",
+            "choices": [
+              "care",
+              "cât",
+              "câți"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.language.A.10",
+            "familyId": "exam.EX.B2.R2.language.A.10",
+            "kind": "choice",
+            "prompt": "[10]",
+            "answers": [
+              "în locul"
+            ],
+            "explanation": "Предпочтение объяснения вместо неконтекстных примеров: în locul + genitiv.",
+            "choices": [
+              "în locul",
+              "în ciuda",
+              "datorită"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EX.B2.R2.language.B",
+        "title": "Revizuirea unei explicații",
+        "instructions": "Completează cu forma precis indicată.",
+        "text": "După ce cursanții [1] (a termina, mai-mult-ca-perfect, ei) exercițiul, profesoara a început discuția. [2] (a citi, gerunziu) răspunsurile, a observat o dificultate comună. Analiza [3] (soluție, genitiv articulat singular) a durat mai mult decât planificaseră. Le-a cerut [4] (participant, dativ articulat plural) să ofere exemple. Apoi a vorbit cu persoana [5] (al cărui, acord cu persoana și lucrare) lucrare era neclară. Fișele au fost [6] (a rescrie, participiu acordat), iar exemplele au devenit mai [7] (precis, acord cu exemplele). Dacă aș fi avut timp, [8] (a revizui, condițional perfect, eu) și introducerea. Este important ca autorul să [9] (a putea, conjunctiv prezent) explica fiecare alegere. Mâine noi [10] (a continua, viitor cu voi) discuția.",
+        "items": [
+          {
+            "id": "EX.B2.R2.language.B.01",
+            "familyId": "exam.EX.B2.R2.language.B.01",
+            "kind": "gap",
+            "prompt": "[1] a termina, ei",
+            "answers": [
+              "terminaseră"
+            ],
+            "explanation": "Mai-mult-ca-perfect, третье множественное; действие предшествует обсуждению."
+          },
+          {
+            "id": "EX.B2.R2.language.B.02",
+            "familyId": "exam.EX.B2.R2.language.B.02",
+            "kind": "gap",
+            "prompt": "[2] a citi, gerunziu",
+            "answers": [
+              "Citind"
+            ],
+            "explanation": "Обстоятельственный gerunziu от citi; субъект тот же, преподавательница."
+          },
+          {
+            "id": "EX.B2.R2.language.B.03",
+            "familyId": "exam.EX.B2.R2.language.B.03",
+            "kind": "gap",
+            "prompt": "[3] soluție",
+            "answers": [
+              "soluției"
+            ],
+            "explanation": "Родительный определённого женского существительного."
+          },
+          {
+            "id": "EX.B2.R2.language.B.04",
+            "familyId": "exam.EX.B2.R2.language.B.04",
+            "kind": "gap",
+            "prompt": "[4] participant",
+            "answers": [
+              "participanților"
+            ],
+            "explanation": "Дательный определённого множественного."
+          },
+          {
+            "id": "EX.B2.R2.language.B.05",
+            "familyId": "exam.EX.B2.R2.language.B.05",
+            "kind": "gap",
+            "prompt": "[5] al cărui",
+            "answers": [
+              "a cărei"
+            ],
+            "explanation": "Lucrare — женское единственное a; persoana — женский владелец cărei."
+          },
+          {
+            "id": "EX.B2.R2.language.B.06",
+            "familyId": "exam.EX.B2.R2.language.B.06",
+            "kind": "gap",
+            "prompt": "[6] a rescrie",
+            "answers": [
+              "rescrise"
+            ],
+            "explanation": "Fișele женское множественное, пассив согласуется."
+          },
+          {
+            "id": "EX.B2.R2.language.B.07",
+            "familyId": "exam.EX.B2.R2.language.B.07",
+            "kind": "gap",
+            "prompt": "[7] precis",
+            "answers": [
+              "precise"
+            ],
+            "explanation": "Exemplele среднего множественного требует женскую форму."
+          },
+          {
+            "id": "EX.B2.R2.language.B.08",
+            "familyId": "exam.EX.B2.R2.language.B.08",
+            "kind": "gap",
+            "prompt": "[8] a revizui",
+            "answers": [
+              "aș fi revizuit"
+            ],
+            "explanation": "Нереализованное действие в прошлом, первое лицо."
+          },
+          {
+            "id": "EX.B2.R2.language.B.09",
+            "familyId": "exam.EX.B2.R2.language.B.09",
+            "kind": "gap",
+            "prompt": "[9] a putea",
+            "answers": [
+              "poată"
+            ],
+            "explanation": "Третья форма после să: poată."
+          },
+          {
+            "id": "EX.B2.R2.language.B.10",
+            "familyId": "exam.EX.B2.R2.language.B.10",
+            "kind": "gap",
+            "prompt": "[10] a continua",
+            "answers": [
+              "vom continua"
+            ],
+            "explanation": "Первое множественное будущего с voi."
+          }
+        ]
+      },
+      {
+        "id": "EX.B2.R2.language.C",
+        "title": "Reguli pentru un grup de studiu",
+        "instructions": "Completează fiecare spațiu cu un cuvânt sau cu o locuțiune potrivită contextului. Păstrează sensul și structura textului.",
+        "text": "Grupul s-a întâlnit de două ori luna aceasta, iar a doua întâlnire a fost mai lungă [1] prima. Nu am renunțat [2] discuții când un exercițiu a fost dificil. Am rugat un coleg [3] explice procedura și i-am mulțumit [4] ajutor. [5] loc să copiem răspunsul, am comparat motivele. Explicația [6] care am primit-o era clară, [7] nu rezolva toate cazurile. Am discutat cu profesorul [8] îi trimiseserăm întrebarea. El ne-a asigurat [9] greșelile pot fi folosite pentru a alege exerciții noi. Vom reveni [10] aceste exemple după o săptămână.",
+        "items": [
+          {
+            "id": "EX.B2.R2.language.C.01",
+            "familyId": "exam.EX.B2.R2.language.C.01",
+            "kind": "gap",
+            "prompt": "[1]",
+            "answers": [
+              "decât"
+            ],
+            "explanation": "Comparativul de superioritate mai lungă introduce termenul de comparație prin decât."
+          },
+          {
+            "id": "EX.B2.R2.language.C.02",
+            "familyId": "exam.EX.B2.R2.language.C.02",
+            "kind": "gap",
+            "prompt": "[2]",
+            "answers": [
+              "la"
+            ],
+            "explanation": "A renunța la ceva."
+          },
+          {
+            "id": "EX.B2.R2.language.C.03",
+            "familyId": "exam.EX.B2.R2.language.C.03",
+            "kind": "gap",
+            "prompt": "[3]",
+            "answers": [
+              "să"
+            ],
+            "explanation": "A ruga pe cineva să facă ceva."
+          },
+          {
+            "id": "EX.B2.R2.language.C.04",
+            "familyId": "exam.EX.B2.R2.language.C.04",
+            "kind": "gap",
+            "prompt": "[4]",
+            "answers": [
+              "pentru"
+            ],
+            "explanation": "A mulțumi pentru ajutor."
+          },
+          {
+            "id": "EX.B2.R2.language.C.05",
+            "familyId": "exam.EX.B2.R2.language.C.05",
+            "kind": "gap",
+            "prompt": "[5]",
+            "answers": [
+              "În"
+            ],
+            "explanation": "Locuțiune de substituție a acțiunii."
+          },
+          {
+            "id": "EX.B2.R2.language.C.06",
+            "familyId": "exam.EX.B2.R2.language.C.06",
+            "kind": "gap",
+            "prompt": "[6]",
+            "answers": [
+              "pe"
+            ],
+            "explanation": "Explicația pe care am primit-o."
+          },
+          {
+            "id": "EX.B2.R2.language.C.07",
+            "familyId": "exam.EX.B2.R2.language.C.07",
+            "kind": "gap",
+            "prompt": "[7]",
+            "answers": [
+              "însă",
+              "dar"
+            ],
+            "explanation": "Însă și dar exprimă contrastul dintre claritatea explicației și faptul că ea nu acoperă toate cazurile."
+          },
+          {
+            "id": "EX.B2.R2.language.C.08",
+            "familyId": "exam.EX.B2.R2.language.C.08",
+            "kind": "gap",
+            "prompt": "[8]",
+            "answers": [
+              "căruia"
+            ],
+            "explanation": "Profesorul căruia îi trimiseserăm întrebarea."
+          },
+          {
+            "id": "EX.B2.R2.language.C.09",
+            "familyId": "exam.EX.B2.R2.language.C.09",
+            "kind": "gap",
+            "prompt": "[9]",
+            "answers": [
+              "că"
+            ],
+            "explanation": "A asigura pe cineva că..."
+          },
+          {
+            "id": "EX.B2.R2.language.C.10",
+            "familyId": "exam.EX.B2.R2.language.C.10",
+            "kind": "gap",
+            "prompt": "[10]",
+            "answers": [
+              "la"
+            ],
+            "explanation": "A reveni la exemple."
+          }
+        ]
+      },
+      {
+        "id": "EX.B2.R2.language.D",
+        "title": "Cum formulăm o observație",
+        "instructions": "Alege cuvântul adecvat.",
+        "text": "O concluzie trebuie să se [1] pe date. Dacă două fenomene apar împreună, nu este suficient pentru a stabili o relație de [2]. Cercetătorul precizează [3] metodei, nu numai avantajele ei. O măsurătoare neobișnuită trebuie [4], înainte de a fi eliminată. În raport, diferența dintre fapt și [5] trebuie să rămână clară. O întrebare bine formulată poate deschide o nouă [6] de cercetare.",
+        "items": [
+          {
+            "id": "EX.B2.R2.language.D.01",
+            "familyId": "exam.EX.B2.R2.language.D.01",
+            "kind": "choice",
+            "prompt": "[1]",
+            "answers": [
+              "bazeze"
+            ],
+            "explanation": "A se baza pe date — опираться на данные.",
+            "choices": [
+              "bazeze",
+              "răzgândească",
+              "descurce"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.language.D.02",
+            "familyId": "exam.EX.B2.R2.language.D.02",
+            "kind": "choice",
+            "prompt": "[2]",
+            "answers": [
+              "cauzalitate"
+            ],
+            "explanation": "Relație de cauzalitate — причинная связь.",
+            "choices": [
+              "localitate",
+              "actualitate",
+              "cauzalitate"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.language.D.03",
+            "familyId": "exam.EX.B2.R2.language.D.03",
+            "kind": "choice",
+            "prompt": "[3]",
+            "answers": [
+              "limitele"
+            ],
+            "explanation": "Ограничения метода, не его языки или свет.",
+            "choices": [
+              "luminile",
+              "limitele",
+              "limbile"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.language.D.04",
+            "familyId": "exam.EX.B2.R2.language.D.04",
+            "kind": "choice",
+            "prompt": "[4]",
+            "answers": [
+              "verificată"
+            ],
+            "explanation": "Перед удалением необычное измерение проверяют.",
+            "choices": [
+              "verificată",
+              "vopsită",
+              "vizitată"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.language.D.05",
+            "familyId": "exam.EX.B2.R2.language.D.05",
+            "kind": "choice",
+            "prompt": "[5]",
+            "answers": [
+              "interpretare"
+            ],
+            "explanation": "Отличают факт от интерпретации.",
+            "choices": [
+              "întrerupere",
+              "întreținere",
+              "interpretare"
+            ]
+          },
+          {
+            "id": "EX.B2.R2.language.D.06",
+            "familyId": "exam.EX.B2.R2.language.D.06",
+            "kind": "choice",
+            "prompt": "[6]",
+            "answers": [
+              "direcție"
+            ],
+            "explanation": "Direcție de cercetare — направление исследования.",
+            "choices": [
+              "destinație",
+              "direcție",
+              "distanță"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EX.B2.R2.language.E",
+        "title": "Organizarea unui atelier",
+        "instructions": "Folosește o dată fiecare cuvânt: ritmul, etape, nivel, feedback, scopul, pauză.",
+        "text": "Înainte de înscriere, organizatorul explică [1] atelierului. Participanții nu trebuie să aibă același [2] de experiență. Activitatea este împărțită în trei [3], fiecare cu o sarcină clară. Profesorul adaptează [4] de lucru după primele răspunsuri. La jumătatea întâlnirii este o [5]. La final, fiecare primește [6] despre o reușită și despre un aspect de exersat.",
+        "items": [
+          {
+            "id": "EX.B2.R2.language.E.01",
+            "familyId": "exam.EX.B2.R2.language.E.01",
+            "kind": "gap",
+            "prompt": "[1]",
+            "answers": [
+              "scopul"
+            ],
+            "explanation": "Scopul atelierului cere forma articulată scopul, oferită în bancul de cuvinte."
+          },
+          {
+            "id": "EX.B2.R2.language.E.02",
+            "familyId": "exam.EX.B2.R2.language.E.02",
+            "kind": "gap",
+            "prompt": "[2]",
+            "answers": [
+              "nivel"
+            ],
+            "explanation": "Nivel de experiență — уровень опыта."
+          },
+          {
+            "id": "EX.B2.R2.language.E.03",
+            "familyId": "exam.EX.B2.R2.language.E.03",
+            "kind": "gap",
+            "prompt": "[3]",
+            "answers": [
+              "etape"
+            ],
+            "explanation": "Три этапа с отдельными задачами."
+          },
+          {
+            "id": "EX.B2.R2.language.E.04",
+            "familyId": "exam.EX.B2.R2.language.E.04",
+            "kind": "gap",
+            "prompt": "[4]",
+            "answers": [
+              "ritmul"
+            ],
+            "explanation": "Profesorul adaptează ritmul de lucru: ritmul este obiectul identificat al ajustării."
+          },
+          {
+            "id": "EX.B2.R2.language.E.05",
+            "familyId": "exam.EX.B2.R2.language.E.05",
+            "kind": "gap",
+            "prompt": "[5]",
+            "answers": [
+              "pauză"
+            ],
+            "explanation": "Перерыв посередине занятия."
+          },
+          {
+            "id": "EX.B2.R2.language.E.06",
+            "familyId": "exam.EX.B2.R2.language.E.06",
+            "kind": "gap",
+            "prompt": "[6]",
+            "answers": [
+              "feedback"
+            ],
+            "explanation": "Обратная связь содержит успех и следующий шаг."
+          }
+        ]
+      },
+      {
+        "id": "EX.B2.R2.language.F",
+        "title": "O învățare atentă",
+        "instructions": "Formează din familia indicată cuvântul potrivit.",
+        "text": "[1] (a observa, substantiv articulat) detaliilor este importantă. O explicație [2] (claritate) reduce numărul întrebărilor inutile. [3] (a pregăti, substantiv articulat) materialelor cere timp. Profesorul urmărește [4] (a dezvolta, substantiv articulat) capacității de argumentare. O activitate [5] (colaborare) îi implică pe toți. [6] (a evalua, substantiv articulat) nu se limitează la un punctaj. Un răspuns [7] (reflexivitate, adjectiv cu sensul „care arată reflecție”) poate recunoaște o incertitudine. În final, [8] (a aplica, substantiv articulat) regulii într-un caz nou arată mai mult decât repetarea ei.",
+        "items": [
+          {
+            "id": "EX.B2.R2.language.F.01",
+            "familyId": "exam.EX.B2.R2.language.F.01",
+            "kind": "gap",
+            "prompt": "[1] a observa",
+            "answers": [
+              "Observarea"
+            ],
+            "explanation": "Определённое существительное с зависимым родительным."
+          },
+          {
+            "id": "EX.B2.R2.language.F.02",
+            "familyId": "exam.EX.B2.R2.language.F.02",
+            "kind": "gap",
+            "prompt": "[2] claritate",
+            "answers": [
+              "clară"
+            ],
+            "explanation": "Прилагательное женского рода по explicație."
+          },
+          {
+            "id": "EX.B2.R2.language.F.03",
+            "familyId": "exam.EX.B2.R2.language.F.03",
+            "kind": "gap",
+            "prompt": "[3] a pregăti",
+            "answers": [
+              "Pregătirea"
+            ],
+            "explanation": "Отглагольное существительное, подлежащее."
+          },
+          {
+            "id": "EX.B2.R2.language.F.04",
+            "familyId": "exam.EX.B2.R2.language.F.04",
+            "kind": "gap",
+            "prompt": "[4] a dezvolta",
+            "answers": [
+              "dezvoltarea"
+            ],
+            "explanation": "Существительное с определённым артиклем и зависимым genitiv."
+          },
+          {
+            "id": "EX.B2.R2.language.F.05",
+            "familyId": "exam.EX.B2.R2.language.F.05",
+            "kind": "gap",
+            "prompt": "[5] colaborare",
+            "answers": [
+              "colaborativă"
+            ],
+            "explanation": "Женское прилагательное по activitate."
+          },
+          {
+            "id": "EX.B2.R2.language.F.06",
+            "familyId": "exam.EX.B2.R2.language.F.06",
+            "kind": "gap",
+            "prompt": "[6] a evalua",
+            "answers": [
+              "Evaluarea"
+            ],
+            "explanation": "Определённое существительное подлежащего."
+          },
+          {
+            "id": "EX.B2.R2.language.F.07",
+            "familyId": "exam.EX.B2.R2.language.F.07",
+            "kind": "gap",
+            "prompt": "[7] reflexivitate",
+            "answers": [
+              "reflexiv"
+            ],
+            "explanation": "Reflexiv — adjectivul din familia lui reflexivitate; aici se referă la reflecție, nu la categoria gramaticală."
+          },
+          {
+            "id": "EX.B2.R2.language.F.08",
+            "familyId": "exam.EX.B2.R2.language.F.08",
+            "kind": "gap",
+            "prompt": "[8] a aplica",
+            "answers": [
+              "aplicarea"
+            ],
+            "explanation": "Определённое существительное с родительным regulii."
+          }
+        ]
+      }
+    ],
+    "writing": [
+      {
+        "id": "EX.B2.R2.W.1",
+        "title": "Schimbarea programului unui curs",
+        "prompt": "Frecventezi un curs pentru adulți. Organizatorul propune mutarea tuturor întâlnirilor de seară dimineața. Scrie un e-mail: explică situația ta, recunoaște un posibil avantaj al schimbării, propune două alternative și cere informații despre modul în care se va lua decizia.",
+        "targetWords": [
+          120,
+          140
+        ],
+        "model": "Stimată doamnă coordonatoare,\nAm primit propunerea de a muta cursul de fotografie dimineața și aș dori să vă prezint situația mea. Lucrez până la ora șaisprezece, astfel încât noul program nu mi-ar permite să continui, deși am participat regulat până acum.\nÎnțeleg că lumina naturală ar putea fi utilă pentru exercițiile practice. Totuși, întâlnirile de seară au fost un motiv important pentru care am ales acest curs.\nVă propun să păstrați explicațiile seara și să organizați o singură ieșire dimineața, anunțată din timp. O altă variantă ar fi două grupe care să folosească aceleași materiale, dar să lucreze la ore diferite.\nNe puteți spune dacă participanții vor fi consultați înaintea deciziei? Aș aprecia și o dată până la care programul va fi confirmat, pentru a-mi organiza activitatea.\nVă mulțumesc,\nIrina Matei",
+        "annotations": [
+          "Письмо объясняет личное ограничение и признаёт смысл аргумента другой стороны.",
+          "Предложены два различных способа сохранить доступность курса.",
+          "Запрошены процедура решения и срок подтверждения, а не только личное исключение."
+        ]
+      },
+      {
+        "id": "EX.B2.R2.W.2",
+        "title": "Învățare în grup sau individuală",
+        "prompt": "Un centru educațional poate finanța fie întâlniri de studiu în grup, fie o colecție de materiale pentru lucru individual. Susține o prioritate, explică două argumente, răspunde unei obiecții și precizează pentru ce categorie de cursanți alegerea ta ar putea fi mai puțin potrivită.",
+        "targetWords": [
+          160,
+          180
+        ],
+        "model": "Aș acorda prioritate întâlnirilor de studiu în grup, cu condiția ca ele să fie organizate în jurul unor sarcini clare. Materialele individuale sunt utile, dar nu arată întotdeauna unde explicația trebuie adaptată.\nPrimul avantaj al grupului este posibilitatea de a compara raționamente. Două persoane pot obține același rezultat prin metode diferite, iar discuția le ajută să înțeleagă limitele fiecărei metode. Al doilea avantaj este feedbackul imediat. O întrebare formulată de un coleg poate face vizibilă o dificultate pe care ceilalți nu știau să o numească.\nO obiecție serioasă privește programul fix. Persoanele care lucrează în schimburi nu pot participa regulat. Pentru ele, alegerea mea ar fi mai puțin potrivită. Centrul ar trebui să ofere măcar fișele întâlnirilor și posibilitatea de a trimite întrebări, chiar dacă investiția principală rămâne în grupuri.\nNu susțin că prezența într-o sală garantează învățarea. Aș verifica dacă participanții pot rezolva singuri un caz nou după discuție. Dacă întâlnirile produc numai conversație plăcută, fără progres observabil, formatul trebuie schimbat, nu apărat doar pentru că este popular.",
+        "annotations": [
+          "Два аргумента описывают разные учебные механизмы, не просто общение.",
+          "Оговорка выделяет конкретную группу, для которой вариант менее доступен.",
+          "Вывод предлагает проверку переноса и условие пересмотра решения."
+        ]
+      }
+    ],
+    "speaking": [
+      {
+        "id": "EX.B2.R2.S.1",
+        "title": "Interviu: ce ai învățat de la altcineva",
+        "prompt": "Descrie o situație în care ai învățat o procedură de la altă persoană. Explică ce ai înțeles imediat, ce ai verificat și cum ai putea transmite acum procedura mai departe.",
+        "followUps": [
+          "Ce presupunea persoana că știai deja?",
+          "Cum ai verifica dacă un începător te-a înțeles?",
+          "Ce parte nu ai putea explica încă sigur?"
+        ]
+      },
+      {
+        "id": "EX.B2.R2.S.2",
+        "title": "Negociere: un atelier cu participanți diferiți",
+        "prompt": "Organizați un atelier cu începători și persoane cu experiență. Tu preferi o sarcină comună; partenerul propune grupe separate. Discutați sprijinul necesar, timpul profesorului, feedbackul și modul de a evita plictiseala sau excluderea. Stabiliți un plan testabil pentru prima întâlnire.",
+        "followUps": [
+          "Un participant nu poate folosi aplicația aleasă. Cum adaptați planul?",
+          "Cere partenerului un exemplu de sarcină potrivită.",
+          "Precizați ce veți observa înainte de a păstra formatul."
+        ]
+      },
+      {
+        "id": "EX.B2.R2.S.3",
+        "title": "Compară situații de învățare",
+        "prompt": "Compară cele două scene de învățare: organizarea activității, sprijinul posibil și dificultățile probabile. Distinge ce vezi de ceea ce presupui. Spune ce situație ai alege pentru o abilitate practică și pentru pregătirea unui examen, justificând separat.",
+        "visual": "learning",
+        "followUps": [
+          "Cum ar schimba alegerea experiența participantului?",
+          "Ce formă de feedback ar fi utilă în fiecare scenă?",
+          "Ce nu poți deduce doar din imagine?"
+        ]
+      }
+    ]
+  }
+]

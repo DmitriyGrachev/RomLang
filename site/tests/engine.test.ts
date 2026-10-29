@@ -1,0 +1,12 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {grade,scheduleReview,sessionPlan} from '../lib/course/engine.ts';
+const item={answers:['Eu sunt din România.','Sunt din România.']};
+test('case, spaces and punctuation do not reject a valid sentence',()=>assert.deepEqual(grade('  eu  sunt din România! ',item),{correct:true,spelling:false,canonical:'Eu sunt din România.'}));
+test('missing diacritics are accepted with an explicit spelling correction',()=>assert.deepEqual(grade('Sunt din Romania',item),{correct:true,spelling:true,canonical:'Sunt din România.'}));
+test('different words and missing words do not pass by similarity',()=>{assert.equal(grade('Sunt în România',item).correct,false);assert.equal(grade('sunt',item).correct,false);assert.equal(grade('',item).correct,false)});
+test('valid alternative is preserved as canonical answer',()=>assert.equal(grade('Sunt din România',item).canonical,'Sunt din România.'));
+test('Romanian comma and cedilla historical unicode compare fairly',()=>assert.equal(grade('eşti',{answers:['ești']}).correct,true));
+test('review repeats after 1 then 3 days and a failure resets to today',()=>{assert.equal(scheduleReview(0,true,'2026-10-25T12:00:00Z').due,'2026-10-26T12:00:00.000Z');assert.equal(scheduleReview(1,true,'2026-10-25T12:00:00Z').due,'2026-10-28T12:00:00.000Z');assert.equal(scheduleReview(4,false,'2026-10-25T12:00:00Z').streak,0)});
+test('daily session keeps all six skills blocks inside chosen budget',()=>{for(const m of [60,75,90] as const){assert.equal(sessionPlan(m).reduce((s,x)=>s+x.minutes,0),m);assert.equal(sessionPlan(m).length,6)}});
+test('obsolete choice drafts are not submitted as invisible answers after a content correction',async()=>{const {initialExerciseAnswer}=await import('../lib/course/engine.ts');assert.equal(initialExerciseAnswer({type:'read',choices:['Из Украины','Из Румынии','Из Польши']},'Из России'),'');assert.equal(initialExerciseAnswer({type:'read',choices:['Из Украины']},'Из Украины'),'Из Украины');assert.equal(initialExerciseAnswer({type:'gap'},'ț'),'ț')});

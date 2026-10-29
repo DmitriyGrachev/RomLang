@@ -1,0 +1,3029 @@
+{
+  "level": "B1",
+  "units": [
+    {
+      "id": "LIFE.B1.TRAVEL",
+      "level": "B1",
+      "domain": "travel",
+      "title": "Изменение маршрута: звонок и выбор",
+      "anchorLessonId": "B1.17",
+      "prerequisites": [
+        "A2.21",
+        "B1.01",
+        "B1.10",
+        "B1.13",
+        "B1.17"
+      ],
+      "goal": "Уточнить неизвестный участок поездки, сравнить варианты и передать подтверждённый план спутнику.",
+      "fictionNote": "Все организации, люди, сообщения и условия в этой сцене вымышлены; времена не являются действующим расписанием.",
+      "theory": {
+        "core": "В разговоре об изменённой поездке отделяйте сообщение оператора от своей догадки. Назовите поездку, спросите ровно о пропущенной детали, затем повторите подтверждённое время и действие. Если два варианта различаются пересадкой, выбирайте по собственному ограничению, а не по одному слову «быстрее».",
+        "detail": [
+          "Сначала восстановите событие: Trenul de dimineață a fost anulat — утренний поезд отменили; nu am auzit ultima parte — не расслышал последнюю часть. В вопросе Puteți repeta ora plecării? объект уточнения — время отправления. Puteți confirma dacă schimbăm trenul? спрашивает, нужна ли пересадка. При плохой связи не говорите Da, am înțeles, если вам неизвестно, в какой день ехать. Формула Dacă am înțeles bine, plecăm luni, nu marți приглашает собеседника проверить ваше понимание; отрицание сохраняет важное исправление.",
+          "После звонка сравните содержание двух вариантов: prima variantă are o schimbare, a doua nu are schimbare. Разделите цену, срок и условие: дешевле, но с пересадкой; позже, зато без неё. Условие Dacă trebuie să ajung înainte de șase, aș alege prima variantă говорит о вашем выборе, а не о правилах перевозчика. Aș prefera — вежливое предпочтение. Dacă предложено как реальное условие, используйте знакомое настоящее время; для гипотезы можно сказать Dacă aș avea mai mult timp, aș alege altă variantă. Не превращайте мнение в обещание службы.",
+          "Передайте спутнику только проверенное: Am sunat. Mi s-a spus că o variantă pleacă dimineața. Ora sosirii nu a fost confirmată. Если оператор исправил «понедельник» на «вторник», второе слово и есть актуальная информация. Для пересказа отметьте источник Din câte am înțeles, но при критичной неясности продолжайте вопросом, а не придуманной цифрой. Завершите коротким сообщением: изменение, выбранная возможность, что ещё надо подтвердить и кто это сделает. Это коммуникативная задача, а не проверка настоящего расписания.",
+          "Проверьте две отдельные строки своих заметок: время отправления и время прибытия. Если подтверждена только первая, вопрос о второй остаётся открытым, даже когда маршрут выглядит удобным. Пересадка описывает структуру пути, а не автоматически задержку: вариант без пересадки может отправляться позже. На карточке сравнения отмечайте «подтверждено», «неизвестно» и «зависит от моего ограничения». После исправления дня перепишите весь итог, потому что старая версия легко остаётся в сообщении спутнику. При проверке собеседник должен суметь подтвердить именно выбранную интерпретацию."
+        ],
+        "comparison": "Русское «я понял» может скрыть неясную деталь; румынское Dacă am înțeles bine… требует озвучить именно проверяемую версию. Английский if не запрещает румынское будущее после dacă, хотя в этих упражнениях достаточно настоящего времени и condițional.",
+        "examples": [
+          {
+            "ro": "Nu am auzit ultima parte. Puteți repeta ora plecării?",
+            "ru": "Я не расслышал последнюю часть. Можете повторить время отправления?"
+          },
+          {
+            "ro": "Ați spus luni sau marți?",
+            "ru": "Вы сказали понедельник или вторник?"
+          },
+          {
+            "ro": "Dacă am înțeles bine, prima variantă are o schimbare.",
+            "ru": "Если я правильно понял, первый вариант с пересадкой."
+          },
+          {
+            "ro": "Aș prefera varianta fără schimbare, dacă ajungem la timp.",
+            "ru": "Я предпочёл бы вариант без пересадки, если мы прибудем вовремя."
+          },
+          {
+            "ro": "Ora sosirii variantei fără schimbare nu este confirmată. Voi întreba din nou.",
+            "ru": "Время прибытия варианта без пересадки не подтверждено. Я спрошу ещё раз."
+          },
+          {
+            "ro": "I-am transmis Anei doar informația confirmată.",
+            "ru": "Я передал Ане только подтверждённую информацию."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "Am înțeles; luni sau marți?",
+            "right": "Nu am prins ziua. Ați spus luni sau marți?",
+            "why": "Не утверждайте понимание, когда день ещё неясен."
+          },
+          {
+            "wrong": "Varianta fără schimbare sigur ajunge la șase.",
+            "right": "Ora sosirii variantei fără schimbare nu a fost confirmată.",
+            "why": "Не объявляйте гипотезу подтверждённым расписанием."
+          },
+          {
+            "wrong": "Aș prefera să ajungem; deci ajungem sigur.",
+            "right": "Aș prefera să ajungem; puteți confirma ora sosirii?",
+            "why": "Предпочтение не является гарантией."
+          }
+        ],
+        "sheet": {
+          "title": "Изменение маршрута: звонок и выбор",
+          "formula": "сообщение → потерянная деталь → проверка → сравнение → передача",
+          "rows": [
+            [
+              "связь",
+              "Nu am auzit ultima parte."
+            ],
+            [
+              "точный вопрос",
+              "Puteți repeta ora plecării?"
+            ],
+            [
+              "проверка двух дней",
+              "Ați spus luni sau marți?"
+            ],
+            [
+              "предпочтение",
+              "Aș prefera varianta fără schimbare."
+            ],
+            [
+              "неизвестное",
+              "Ora sosirii nu este confirmată."
+            ]
+          ],
+          "notes": [
+            "Сохраняйте в пересказе исправление nu…, ci… .",
+            "Перед выбором проверьте своё ограничение по времени.",
+            "Не добавляйте время прибытия, которого не сообщили."
+          ]
+        }
+      },
+      "words": [
+        {
+          "ro": "anulare",
+          "ru": "отмена"
+        },
+        {
+          "ro": "schimbare",
+          "ru": "пересадка; изменение"
+        },
+        {
+          "ro": "variantă",
+          "ru": "вариант"
+        },
+        {
+          "ro": "plecare",
+          "ru": "отправление"
+        },
+        {
+          "ro": "sosire",
+          "ru": "прибытие"
+        },
+        {
+          "ro": "legătură",
+          "ru": "связь; соединение"
+        },
+        {
+          "ro": "ultima parte",
+          "ru": "последняя часть"
+        },
+        {
+          "ro": "ora plecării",
+          "ru": "время отправления"
+        },
+        {
+          "ro": "ora sosirii",
+          "ru": "время прибытия"
+        },
+        {
+          "ro": "prima variantă",
+          "ru": "первый вариант"
+        },
+        {
+          "ro": "a doua variantă",
+          "ru": "второй вариант"
+        },
+        {
+          "ro": "fără schimbare",
+          "ru": "без пересадки"
+        },
+        {
+          "ro": "a confirma",
+          "ru": "подтверждать"
+        },
+        {
+          "ro": "a repeta",
+          "ru": "повторять"
+        },
+        {
+          "ro": "a prefera",
+          "ru": "предпочитать"
+        },
+        {
+          "ro": "a transmite",
+          "ru": "передавать сообщение"
+        },
+        {
+          "ro": "zi",
+          "ru": "день"
+        },
+        {
+          "ro": "mesaj",
+          "ru": "сообщение"
+        }
+      ],
+      "phrases": [
+        {
+          "ro": "Nu am auzit ultima parte.",
+          "ru": "Я не услышал последнюю часть."
+        },
+        {
+          "ro": "Puteți repeta ora plecării?",
+          "ru": "Можете повторить время отправления?"
+        },
+        {
+          "ro": "Ați spus luni sau marți?",
+          "ru": "Вы сказали понедельник или вторник?"
+        },
+        {
+          "ro": "Dacă am înțeles bine…",
+          "ru": "Если я правильно понял…"
+        },
+        {
+          "ro": "Aș prefera varianta fără schimbare.",
+          "ru": "Я предпочёл бы вариант без пересадки."
+        },
+        {
+          "ro": "Puteți confirma ora sosirii?",
+          "ru": "Можете подтвердить время прибытия?"
+        },
+        {
+          "ro": "Din câte am înțeles…",
+          "ru": "Насколько я понял…"
+        },
+        {
+          "ro": "Ora sosirii nu este confirmată.",
+          "ru": "Время прибытия не подтверждено."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "B1.17.e501",
+          "type": "choice",
+          "prompt": "В письме сказано: «не четверг, а пятница». Выберите исправление.",
+          "answers": [
+            "Nu joi, ci vineri."
+          ],
+          "choices": [
+            "Nu joi, ci vineri.",
+            "Nu vineri, ci joi.",
+            "Joi, nu vineri."
+          ],
+          "explanation": "Nu…, ci… отвергает четверг и утверждает пятницу.",
+          "hint": "Отрицание перед отвергнутым днём.",
+          "tag": "travel-correction",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.17.e502",
+          "type": "choice",
+          "prompt": "Вы не услышали время отправления. Какой вопрос наиболее точен?",
+          "answers": [
+            "Puteți repeta ora plecării?"
+          ],
+          "choices": [
+            "Puteți repeta ora sosirii?",
+            "Puteți repeta ora plecării?",
+            "Puteți confirma ziua plecării?"
+          ],
+          "explanation": "Вопрос запрашивает только утраченную деталь.",
+          "hint": "Нужна ora plecării.",
+          "tag": "travel-repair",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.17.e503",
+          "type": "choice",
+          "prompt": "Вы предпочли бы вариант без пересадки.",
+          "answers": [
+            "Aș prefera varianta fără schimbare."
+          ],
+          "choices": [
+            "Aș prefera varianta cu schimbare.",
+            "Aș prefera prima variantă.",
+            "Aș prefera varianta fără schimbare."
+          ],
+          "explanation": "Aș prefera обозначает предпочтение, не факт расписания.",
+          "hint": "Начните с Aș prefera.",
+          "tag": "travel-preference",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.17.e504",
+          "type": "choice",
+          "prompt": "Прибытие первого варианта не подтверждено.",
+          "answers": [
+            "Ora sosirii nu este confirmată."
+          ],
+          "choices": [
+            "Ora sosirii nu este confirmată.",
+            "Ora plecării nu este confirmată.",
+            "Ora sosirii este confirmată."
+          ],
+          "explanation": "Отрицание сохраняет пробел; варианты с уверенностью выходят за источник.",
+          "hint": "Назовите ora sosirii.",
+          "tag": "travel-unknown",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.17.e505",
+          "type": "gap",
+          "prompt": "Дополните уточнение: Puteți repeta ora ___? (отправления)",
+          "answers": [
+            "plecării"
+          ],
+          "explanation": "В сочетании ora plecării речь о времени отправления.",
+          "hint": "Слово дано в словаре и листе.",
+          "tag": "travel-phrase",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.17.e506",
+          "type": "gap",
+          "prompt": "Дополните корректировку: Nu joi, ___ vineri.",
+          "answers": [
+            "ci"
+          ],
+          "explanation": "После nu отвергнутый вариант противопоставлен через ci.",
+          "hint": "Сравните два дня.",
+          "tag": "travel-contrast",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.17.e507",
+          "type": "gap",
+          "prompt": "Скажите «я предпочёл бы»: ___ prefera varianta fără schimbare.",
+          "answers": [
+            "Aș"
+          ],
+          "explanation": "Condițional для первого лица: aș prefera.",
+          "hint": "Вспомните B1.13.",
+          "tag": "travel-conditional",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.17.e508",
+          "type": "gap",
+          "prompt": "Неизвестное прибытие: Ora sosirii nu este ___.",
+          "answers": [
+            "confirmată"
+          ],
+          "explanation": "Причастие согласуется с ora (женский род).",
+          "hint": "Фраза дана целиком в теории.",
+          "tag": "travel-evidence",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.17.e509",
+          "type": "order",
+          "prompt": "Соберите просьбу повторить время отправления.",
+          "answers": [
+            "Puteți repeta ora plecării?"
+          ],
+          "tokens": [
+            "ora",
+            "plecării?",
+            "Puteți",
+            "repeta"
+          ],
+          "explanation": "Вежливая просьба + точная деталь.",
+          "hint": "Начните с Puteți.",
+          "tag": "travel-order",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.17.e510",
+          "type": "order",
+          "prompt": "Соберите исправление дня.",
+          "answers": [
+            "Nu joi, ci vineri."
+          ],
+          "tokens": [
+            "ci",
+            "vineri.",
+            "Nu",
+            "joi,"
+          ],
+          "explanation": "Исправление выражено nu…, ci… .",
+          "hint": "Первый день отвергается.",
+          "tag": "travel-order",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.17.e511",
+          "type": "order",
+          "prompt": "Соберите предпочтение без пересадки.",
+          "answers": [
+            "Aș prefera varianta fără schimbare."
+          ],
+          "tokens": [
+            "fără",
+            "schimbare.",
+            "Aș",
+            "prefera",
+            "varianta"
+          ],
+          "explanation": "Aș prefera обозначает личный выбор.",
+          "hint": "Начните с Aș.",
+          "tag": "travel-order",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.17.e512",
+          "type": "order",
+          "prompt": "Соберите честный итог о неизвестном прибытии.",
+          "answers": [
+            "Ora sosirii nu este confirmată."
+          ],
+          "tokens": [
+            "confirmată.",
+            "Ora",
+            "nu",
+            "sosirii",
+            "este"
+          ],
+          "explanation": "Сообщите отсутствие подтверждения, не выдумывая время.",
+          "hint": "Начните с Ora.",
+          "tag": "travel-order",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.17.e513",
+          "type": "read",
+          "prompt": "Почему Дима пока не обещает Ане, что прямой поезд подойдёт для встречи?",
+          "answers": [
+            "Время прибытия прямого поезда не подтверждено"
+          ],
+          "choices": [
+            "Он знает, что прямой поезд прибудет после шести",
+            "Время прибытия прямого поезда не подтверждено",
+            "Прямой поезд отменили вместе со средовым рейсом"
+          ],
+          "text": "Într-un exercițiu despre o călătorie imaginară, Dima primește un mesaj: plecarea de miercuri dimineață nu mai are loc. Mesajul oferă două variante pentru joi, dar nu arată ora sosirii celei de-a doua. Prima variantă pleacă joi la opt, are o schimbare de tren și ajunge la ora 17:30. A doua pleacă joi la unsprezece și nu are schimbare. Dima trebuie să fie la întâlnire înainte de ora șase, însă Ana are o geantă grea și preferă un drum fără schimbare. Dima sună pentru a verifica dacă există o variantă care respectă ambele nevoi. La început nu aude ultima parte a răspunsului și întreabă dacă operatorul a spus miercuri sau joi. Operatorul răspunde: „Nu miercuri, ci joi.” Confirmă ora sosirii primei variante, dar nu o cunoaște încă pe cea pentru trenul direct. Dima îi scrie Anei că primul drum ar ajunge înaintea întâlnirii, dar ar cere o schimbare. Al doilea ar evita schimbarea, însă sosirea rămâne necunoscută. Îi propune să ceară confirmarea sosirii trenului direct înainte să aleagă împreună.",
+          "explanation": "Время отправления прямого поезда известно, но прибытие не названо; требование встречи поэтому нельзя проверить.",
+          "hint": "Сопоставьте прямой поезд и ограничение до шести.",
+          "tag": "travel-inference",
+          "skill": "reading"
+        },
+        {
+          "id": "B1.17.e514",
+          "type": "read",
+          "prompt": "Какой день отправления подтвердил оператор после исправления?",
+          "answers": [
+            "Четверг вместо среды"
+          ],
+          "choices": [
+            "Среду вместо четверга",
+            "Пятницу вместо среды",
+            "Четверг вместо среды"
+          ],
+          "text": "Într-un exercițiu despre o călătorie imaginară, Dima primește un mesaj: plecarea de miercuri dimineață nu mai are loc. Mesajul oferă două variante pentru joi, dar nu arată ora sosirii celei de-a doua. Prima variantă pleacă joi la opt, are o schimbare de tren și ajunge la ora 17:30. A doua pleacă joi la unsprezece și nu are schimbare. Dima trebuie să fie la întâlnire înainte de ora șase, însă Ana are o geantă grea și preferă un drum fără schimbare. Dima sună pentru a verifica dacă există o variantă care respectă ambele nevoi. La început nu aude ultima parte a răspunsului și întreabă dacă operatorul a spus miercuri sau joi. Operatorul răspunde: „Nu miercuri, ci joi.” Confirmă ora sosirii primei variante, dar nu o cunoaște încă pe cea pentru trenul direct. Dima îi scrie Anei că primul drum ar ajunge înaintea întâlnirii, dar ar cere o schimbare. Al doilea ar evita schimbarea, însă sosirea rămâne necunoscută. Îi propune să ceară confirmarea sosirii trenului direct înainte să aleagă împreună.",
+          "explanation": "Nu miercuri, ci joi исправляет среду на четверг.",
+          "hint": "Найдите nu…, ci… .",
+          "tag": "travel-correction",
+          "skill": "reading"
+        },
+        {
+          "id": "B1.17.e515",
+          "type": "read",
+          "prompt": "Какое сообщение Ане верно сохраняет оба ограничения и сведения оператора?",
+          "answers": [
+            "Первый поезд успевает до шести, но требует пересадки; прямой поезд пока без времени прибытия"
+          ],
+          "choices": [
+            "Первый поезд успевает до шести, но требует пересадки; прямой поезд пока без времени прибытия",
+            "Прямой поезд точно успевает до шести и не требует пересадки",
+            "Первый поезд отправляется в среду и не требует пересадки"
+          ],
+          "text": "Într-un exercițiu despre o călătorie imaginară, Dima primește un mesaj: plecarea de miercuri dimineață nu mai are loc. Mesajul oferă două variante pentru joi, dar nu arată ora sosirii celei de-a doua. Prima variantă pleacă joi la opt, are o schimbare de tren și ajunge la ora 17:30. A doua pleacă joi la unsprezece și nu are schimbare. Dima trebuie să fie la întâlnire înainte de ora șase, însă Ana are o geantă grea și preferă un drum fără schimbare. Dima sună pentru a verifica dacă există o variantă care respectă ambele nevoi. La început nu aude ultima parte a răspunsului și întreabă dacă operatorul a spus miercuri sau joi. Operatorul răspunde: „Nu miercuri, ci joi.” Confirmă ora sosirii primei variante, dar nu o cunoaște încă pe cea pentru trenul direct. Dima îi scrie Anei că primul drum ar ajunge înaintea întâlnirii, dar ar cere o schimbare. Al doilea ar evita schimbarea, însă sosirea rămâne necunoscută. Îi propune să ceară confirmarea sosirii trenului direct înainte să aleagă împreună.",
+          "explanation": "Первый помогает с ограничением времени, второй с желанием ехать без смены; для второго прибытие не подтверждено.",
+          "hint": "Найдите, что сообщено о каждом варианте.",
+          "tag": "travel-relay",
+          "skill": "reading"
+        },
+        {
+          "id": "B1.17.e516",
+          "type": "read",
+          "prompt": "Что они должны сделать до выбора, согласно Диме?",
+          "answers": [
+            "Запросить прибытие прямого поезда, прежде чем выбрать"
+          ],
+          "choices": [
+            "Отменить встречу, потому что оба поезда опаздывают",
+            "Запросить прибытие прямого поезда, прежде чем выбрать",
+            "Выбрать прямой поезд по одному времени отправления"
+          ],
+          "text": "Într-un exercițiu despre o călătorie imaginară, Dima primește un mesaj: plecarea de miercuri dimineață nu mai are loc. Mesajul oferă două variante pentru joi, dar nu arată ora sosirii celei de-a doua. Prima variantă pleacă joi la opt, are o schimbare de tren și ajunge la ora 17:30. A doua pleacă joi la unsprezece și nu are schimbare. Dima trebuie să fie la întâlnire înainte de ora șase, însă Ana are o geantă grea și preferă un drum fără schimbare. Dima sună pentru a verifica dacă există o variantă care respectă ambele nevoi. La început nu aude ultima parte a răspunsului și întreabă dacă operatorul a spus miercuri sau joi. Operatorul răspunde: „Nu miercuri, ci joi.” Confirmă ora sosirii primei variante, dar nu o cunoaște încă pe cea pentru trenul direct. Dima îi scrie Anei că primul drum ar ajunge înaintea întâlnirii, dar ar cere o schimbare. Al doilea ar evita schimbarea, însă sosirea rămâne necunoscută. Îi propune să ceară confirmarea sosirii trenului direct înainte să aleagă împreună.",
+          "explanation": "Выбор зависит от времени прибытия прямого поезда и потребности Аны ехать без пересадки.",
+          "hint": "Прочитайте финальное предложение.",
+          "tag": "travel-plan",
+          "skill": "reading"
+        }
+      ],
+      "transfer": {
+        "prompt": "Напишите учебный обмен сообщениями о вымышленной поездке: один вариант с пересадкой, второй без; время прибытия первого неизвестно. Составьте спутнику письменный итог после обмена.",
+        "checklist": [
+          "Названа потерянная деталь и задан точный вопрос.",
+          "Подтверждённые сведения отделены от неизвестного прибытия.",
+          "Предложен следующий шаг с ответственным участником."
+        ],
+        "model": "Nu am auzit ora sosirii primei variante. Puteți confirma această oră? Ana, am verificat: ambele variante pleacă vineri. Prima pleacă la nouă și are o schimbare; a doua pleacă la unsprezece fără schimbare. Ora sosirii primei variante nu este încă confirmată. Voi suna din nou, apoi alegem împreună."
+      }
+    },
+    {
+      "id": "LIFE.B1.CAFE",
+      "level": "B1",
+      "domain": "cafe",
+      "title": "Ошибка в заказе: факты и просьба",
+      "anchorLessonId": "B1.18",
+      "prerequisites": [
+        "A1.21",
+        "A2.17",
+        "B1.10",
+        "B1.15",
+        "B1.18"
+      ],
+      "goal": "Сообщить об ошибке в обслуживании без догадки о причине, уточнить варианты и подтвердить договорённость.",
+      "fictionNote": "Все организации, люди, сообщения и условия в этой сцене вымышлены; времена не являются действующим расписанием.",
+      "theory": {
+        "core": "Для вежливой жалобы в кафе назовите заказ и наблюдаемое расхождение: Am comandat ceai, dar am primit cafea. Затем запросите действие: Aș dori să știu ce variante există. Цель — чтобы собеседник понял проверяемый факт и желаемый следующий шаг; причина ошибки может остаться неизвестной.",
+        "detail": [
+          "Первая часть обращения указывает, что именно произошло: Am comandat…, am primit… . Perfect compus показывает завершённые шаги, а nu știu de ce сохраняет границу знания. Если проблема касается счёта, назовите строку и то, что видите, вместо обвинения. Например, Pe notă apar două ceaiuri, dar am primit unul. Это наблюдение не доказывает, кто ввёл заказ неверно. Слова nota и comanda различайте: nota — счёт, comanda — заказ. В вымышленной ситуации условия замены и оплаты уточняются у сотрудника, а не объявляются правилом.",
+          "Вторая часть называет просьбу. Ați putea verifica nota? — вежливый вопрос о проверке; Vă rog să îmi spuneți dacă puteți schimba băutura — просьба сообщить, возможна ли замена. Если вариантов несколько, сначала выясните ограничения: Pot alege alt ceai? или Cât trebuie să aștept? После ответа перефразируйте условие: Dacă am înțeles bine, schimbați băutura, iar nota va fi verificată. Здесь уточнение не означает, что замена уже совершена. Слова aș dori, ați putea выражают вежливую дистанцию; сохраняйте уважительное обращение Vă на протяжении разговора.",
+          "Если второй человек исправляет вашу первоначальную версию, используйте de fapt: Credeam că pe notă este un suc; de fapt, este apă. Тогда жалобу надо изменить. Если напиток готовится позже, отличайте обещанный шаг от выполненного: O aducem în câteva minute — обещание сотрудника; Am primit-o — уже состоявшееся получение. Короткий итог для спутника должен назвать, что согласовано и что ещё ожидается. Это тренировка коммуникации по придуманному чеку, а не обещание какой-либо политики реального кафе.",
+          "Два источника могут расходиться: ваша память о заказе и запись сотрудника. Сначала сравните их с полученным напитком и счётом, затем попросите проверить запись. Одна лишняя строка счёта и неправильный напиток — две разные проблемы; сотрудник может исправить обе, но одно обещание не доказывает, что исправление уже сделано. При пересказе спутнику различайте comanda inițială, nota corectată и băutura adusă. Если строка оказалась водой, измените жалобу вместо повторения старой версии. Вопрос о вариантах оставляет место реальному ответу организации.",
+          "Перед итогом проверьте, что вы различаете две стадии: сотрудник сказал, что проверит счёт, и сотрудник действительно принёс исправленный счёт. Между ними может быть пауза. В просьбе указывайте, какую именно строку надо проверить; иначе собеседник может исправить напиток, но оставить запись без изменения."
+        ],
+        "comparison": "Русское «жалоба» не требует резкого тона: румынские Ați putea verifica… и Aș dori să știu… указывают проверяемую просьбу. Английское complaint тоже не сообщает, кто виноват; причинный вывод требует отдельного основания.",
+        "examples": [
+          {
+            "ro": "Am comandat ceai, dar am primit cafea.",
+            "ru": "Я заказал чай, но получил кофе."
+          },
+          {
+            "ro": "Pe notă apar două ceaiuri, dar am primit unul.",
+            "ru": "В счёте указано два чая, но я получил один."
+          },
+          {
+            "ro": "Ați putea verifica nota, vă rog?",
+            "ru": "Не могли бы вы проверить счёт?"
+          },
+          {
+            "ro": "Nu știu de ce s-a întâmplat.",
+            "ru": "Я не знаю, почему это произошло."
+          },
+          {
+            "ro": "Aș dori să știu ce variante există.",
+            "ru": "Я хотел бы узнать, какие есть варианты."
+          },
+          {
+            "ro": "Dacă am înțeles bine, schimbați băutura și verificați nota.",
+            "ru": "Если я правильно понял, вы замените напиток и проверите счёт."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "Ați greșit intenționat.",
+            "right": "Am comandat ceai, dar am primit cafea.",
+            "why": "Первое высказывание приписывает намерение без данных."
+          },
+          {
+            "wrong": "Vreau înapoi banii, fiindcă am dreptul mereu.",
+            "right": "Aș dori să știu ce variante există în această situație.",
+            "why": "Учебная сцена не задаёт действующую политику возмещения."
+          },
+          {
+            "wrong": "Nota e bună, dar verificați nota greșită.",
+            "right": "Pe notă apar două ceaiuri; ați putea verifica această linie?",
+            "why": "Укажите наблюдаемое расхождение и конкретную строку."
+          }
+        ],
+        "sheet": {
+          "title": "Ошибка в заказе: факты и просьба",
+          "formula": "заказ → расхождение → точная просьба → уточнение ответа → итог",
+          "rows": [
+            [
+              "заказ",
+              "Am comandat ceai."
+            ],
+            [
+              "наблюдение",
+              "Am primit cafea."
+            ],
+            [
+              "счёт",
+              "Pe notă apar două ceaiuri."
+            ],
+            [
+              "запрос",
+              "Ați putea verifica nota?"
+            ],
+            [
+              "проверка",
+              "Dacă am înțeles bine, schimbați băutura."
+            ]
+          ],
+          "notes": [
+            "Не подменяйте наблюдение догадкой о сотруднике.",
+            "Nota и comanda обозначают разные объекты.",
+            "Сохраняйте Vă/puteți при вежливом обращении."
+          ]
+        }
+      },
+      "words": [
+        {
+          "ro": "comandă",
+          "ru": "заказ"
+        },
+        {
+          "ro": "notă",
+          "ru": "счёт в кафе"
+        },
+        {
+          "ro": "linie",
+          "ru": "строка счёта"
+        },
+        {
+          "ro": "băutură",
+          "ru": "напиток"
+        },
+        {
+          "ro": "ceai",
+          "ru": "чай"
+        },
+        {
+          "ro": "cafea",
+          "ru": "кофе"
+        },
+        {
+          "ro": "desert",
+          "ru": "десерт"
+        },
+        {
+          "ro": "client",
+          "ru": "клиент"
+        },
+        {
+          "ro": "angajat",
+          "ru": "сотрудник"
+        },
+        {
+          "ro": "variantă",
+          "ru": "вариант"
+        },
+        {
+          "ro": "schimbare",
+          "ru": "замена; изменение"
+        },
+        {
+          "ro": "a comanda",
+          "ru": "заказывать"
+        },
+        {
+          "ro": "a primi",
+          "ru": "получать"
+        },
+        {
+          "ro": "a verifica",
+          "ru": "проверять"
+        },
+        {
+          "ro": "a schimba",
+          "ru": "менять"
+        },
+        {
+          "ro": "a aduce",
+          "ru": "приносить"
+        },
+        {
+          "ro": "a aștepta",
+          "ru": "ждать"
+        },
+        {
+          "ro": "de fapt",
+          "ru": "на самом деле, при исправлении"
+        }
+      ],
+      "phrases": [
+        {
+          "ro": "Am comandat ceai, dar am primit cafea.",
+          "ru": "Я заказал чай, но получил кофе."
+        },
+        {
+          "ro": "Pe notă apar două ceaiuri.",
+          "ru": "В счёте указано два чая."
+        },
+        {
+          "ro": "Ați putea verifica nota?",
+          "ru": "Не могли бы вы проверить счёт?"
+        },
+        {
+          "ro": "Nu știu care este cauza.",
+          "ru": "Я не знаю причину."
+        },
+        {
+          "ro": "Aș dori să știu ce variante există.",
+          "ru": "Я хотел бы узнать варианты."
+        },
+        {
+          "ro": "Puteți schimba băutura?",
+          "ru": "Можете заменить напиток?"
+        },
+        {
+          "ro": "Dacă am înțeles bine…",
+          "ru": "Если я правильно понял…"
+        },
+        {
+          "ro": "Vă mulțumesc pentru verificare.",
+          "ru": "Благодарю вас за проверку."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "B1.18.e501",
+          "type": "choice",
+          "prompt": "Вы заказали чай, получили кофе. Выберите точное наблюдение.",
+          "answers": [
+            "Am comandat ceai, dar am primit cafea."
+          ],
+          "choices": [
+            "Am comandat ceai, dar am primit cafea.",
+            "Am comandat cafea, dar am primit ceai.",
+            "Am comandat ceai și am primit ceai."
+          ],
+          "explanation": "Первая версия сообщает только проверяемое расхождение.",
+          "hint": "Сравните заказ и получение.",
+          "tag": "cafe-fact",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.18.e502",
+          "type": "choice",
+          "prompt": "На счёте две позиции чая; попросите проверить счёт.",
+          "answers": [
+            "Ați putea verifica nota?"
+          ],
+          "choices": [
+            "Ați putea verifica băutura?",
+            "Ați putea verifica nota?",
+            "Ați putea verifica comanda?"
+          ],
+          "explanation": "Вежливый вопрос указывает действие и объект.",
+          "hint": "Начните с Ați putea.",
+          "tag": "cafe-request",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.18.e503",
+          "type": "choice",
+          "prompt": "Вы не знаете причины.",
+          "answers": [
+            "Nu știu care este cauza."
+          ],
+          "choices": [
+            "Nu știu dacă nota este corectă.",
+            "Știu că nota a fost corectată.",
+            "Nu știu care este cauza."
+          ],
+          "explanation": "Неизвестное обозначается без обвинения.",
+          "hint": "Слово cauza в теории.",
+          "tag": "cafe-evidence",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.18.e504",
+          "type": "choice",
+          "prompt": "Подтвердите: получите чай, а не кофе.",
+          "answers": [
+            "Voi primi ceai, nu cafea."
+          ],
+          "choices": [
+            "Voi primi ceai, nu cafea.",
+            "Voi primi și ceai, și cafea.",
+            "Am primit deja ceaiul nou."
+          ],
+          "explanation": "Voi primi показывает ожидаемый шаг, а nu отвергает кофе.",
+          "hint": "Итог ещё не исполнен.",
+          "tag": "cafe-next",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.18.e505",
+          "type": "gap",
+          "prompt": "Нужен счёт: Ați putea verifica ___?",
+          "answers": [
+            "nota"
+          ],
+          "explanation": "Nota — счёт в кафе; comanda — заказ.",
+          "hint": "Назовите объект проверки.",
+          "tag": "cafe-lexicon",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.18.e506",
+          "type": "gap",
+          "prompt": "Контраст: Am comandat ceai, ___ am primit cafea.",
+          "answers": [
+            "dar"
+          ],
+          "explanation": "Dar соединяет заказ и расхождение.",
+          "hint": "Нужна противительная связка.",
+          "tag": "cafe-contrast",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.18.e507",
+          "type": "gap",
+          "prompt": "В счёте: Pe notă apar două ___. (чая, множественное число)",
+          "answers": [
+            "ceaiuri"
+          ],
+          "explanation": "Форма ceaiuri уже дана в примере и таблице.",
+          "hint": "Сравните Pe notă apar… .",
+          "tag": "cafe-form",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.18.e508",
+          "type": "gap",
+          "prompt": "Вежливая просьба: Ați ___ verifica nota?",
+          "answers": [
+            "putea"
+          ],
+          "explanation": "Ați putea + инфинитив смягчает вопрос.",
+          "hint": "Вспомните условную форму B1.13.",
+          "tag": "cafe-register",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.18.e509",
+          "type": "order",
+          "prompt": "Соберите проверяемое расхождение.",
+          "answers": [
+            "Am comandat ceai, dar am primit cafea."
+          ],
+          "tokens": [
+            "dar",
+            "cafea.",
+            "Am",
+            "comandat",
+            "ceai,",
+            "am",
+            "primit"
+          ],
+          "explanation": "Прошедшие действия названы в правильном порядке.",
+          "hint": "Сначала заказ.",
+          "tag": "cafe-order",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.18.e510",
+          "type": "order",
+          "prompt": "Соберите просьбу проверить счёт.",
+          "answers": [
+            "Ați putea verifica nota?"
+          ],
+          "tokens": [
+            "verifica",
+            "nota?",
+            "Ați",
+            "putea"
+          ],
+          "explanation": "Ați putea + инфинитив и объект.",
+          "hint": "Начните с Ați.",
+          "tag": "cafe-order",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.18.e511",
+          "type": "order",
+          "prompt": "Соберите границу знания.",
+          "answers": [
+            "Nu știu care este cauza."
+          ],
+          "tokens": [
+            "cauza.",
+            "Nu",
+            "care",
+            "știu",
+            "este"
+          ],
+          "explanation": "Фраза не приписывает причину кому-либо.",
+          "hint": "Начните с Nu.",
+          "tag": "cafe-order",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.18.e512",
+          "type": "order",
+          "prompt": "Соберите итог об ожидаемом напитке.",
+          "answers": [
+            "Voi primi ceai, nu cafea."
+          ],
+          "tokens": [
+            "nu",
+            "cafea.",
+            "Voi",
+            "primi",
+            "ceai,"
+          ],
+          "explanation": "Будущее отделяет ожидаемый результат от полученного ранее кофе.",
+          "hint": "Начните с Voi.",
+          "tag": "cafe-order",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.18.e513",
+          "type": "read",
+          "prompt": "Почему Дима не обвиняет сотрудницу в намеренной ошибке?",
+          "answers": [
+            "Он знает расхождение, но не знает причины"
+          ],
+          "choices": [
+            "Он знает, что ошибка произошла при записи заказа",
+            "Он знает расхождение, но не знает причины",
+            "Он уже получил исправленный счёт до разговора"
+          ],
+          "text": "Într-o cafenea imaginară, Dima comandă un ceai și un desert. Când primește comanda, vede o cafea în loc de ceai. Pe nota adusă la masă apar două ceaiuri și un desert. Dima nu știe de ce a apărut eroarea și nu spune că angajatul a făcut-o intenționat. El explică: „Am comandat un ceai, dar am primit o cafea. Pe notă apar două ceaiuri, deși am primit doar o băutură. Ați putea verifica, vă rog?” Angajata verifică mai întâi comanda scrisă. Îi spune că în comanda inițială figurează un singur ceai și un desert; a doua linie de pe notă a fost adăugată din greșeală. Propune să aducă ceaiul comandat și să corecteze nota. Dima întreabă dacă desertul rămâne pe notă, pentru că îl primise deja. Angajata confirmă că da. Dima repetă înțelegerea: va primi ceaiul, nu cafeaua, iar nota corectată va cuprinde un ceai și un desert. El așteaptă noua băutură și noua notă înainte să le spună colegilor că problema a fost rezolvată.",
+          "explanation": "Текст различает видимую ошибку и неизвестное происхождение этой ошибки.",
+          "hint": "Найдите nu știe de ce.",
+          "tag": "cafe-evidence",
+          "skill": "reading"
+        },
+        {
+          "id": "B1.18.e514",
+          "type": "read",
+          "prompt": "Что сотрудница установила при проверке первоначального заказа?",
+          "answers": [
+            "Там были один чай и десерт"
+          ],
+          "choices": [
+            "Там были два чая без десерта",
+            "Там был только кофе",
+            "Там были один чай и десерт"
+          ],
+          "text": "Într-o cafenea imaginară, Dima comandă un ceai și un desert. Când primește comanda, vede o cafea în loc de ceai. Pe nota adusă la masă apar două ceaiuri și un desert. Dima nu știe de ce a apărut eroarea și nu spune că angajatul a făcut-o intenționat. El explică: „Am comandat un ceai, dar am primit o cafea. Pe notă apar două ceaiuri, deși am primit doar o băutură. Ați putea verifica, vă rog?” Angajata verifică mai întâi comanda scrisă. Îi spune că în comanda inițială figurează un singur ceai și un desert; a doua linie de pe notă a fost adăugată din greșeală. Propune să aducă ceaiul comandat și să corecteze nota. Dima întreabă dacă desertul rămâne pe notă, pentru că îl primise deja. Angajata confirmă că da. Dima repetă înțelegerea: va primi ceaiul, nu cafeaua, iar nota corectată va cuprinde un ceai și un desert. El așteaptă noua băutură și noua notă înainte să le spună colegilor că problema a fost rezolvată.",
+          "explanation": "Первоначальный заказ и ошибочная строка счёта отличаются.",
+          "hint": "Сравните comanda inițială и nota.",
+          "tag": "cafe-source",
+          "skill": "reading"
+        },
+        {
+          "id": "B1.18.e515",
+          "type": "read",
+          "prompt": "Какой итог Дима повторяет?",
+          "answers": [
+            "Один чай и десерт в исправленном счёте"
+          ],
+          "choices": [
+            "Один чай и десерт в исправленном счёте",
+            "Две чашки чая и кофе",
+            "Десерт исключён из счёта"
+          ],
+          "text": "Într-o cafenea imaginară, Dima comandă un ceai și un desert. Când primește comanda, vede o cafea în loc de ceai. Pe nota adusă la masă apar două ceaiuri și un desert. Dima nu știe de ce a apărut eroarea și nu spune că angajatul a făcut-o intenționat. El explică: „Am comandat un ceai, dar am primit o cafea. Pe notă apar două ceaiuri, deși am primit doar o băutură. Ați putea verifica, vă rog?” Angajata verifică mai întâi comanda scrisă. Îi spune că în comanda inițială figurează un singur ceai și un desert; a doua linie de pe notă a fost adăugată din greșeală. Propune să aducă ceaiul comandat și să corecteze nota. Dima întreabă dacă desertul rămâne pe notă, pentru că îl primise deja. Angajata confirmă că da. Dima repetă înțelegerea: va primi ceaiul, nu cafeaua, iar nota corectată va cuprinde un ceai și un desert. El așteaptă noua băutură și noua notă înainte să le spună colegilor că problema a fost rezolvată.",
+          "explanation": "Десерт остаётся, лишняя строка чая убирается.",
+          "hint": "Ищите nota corectată.",
+          "tag": "cafe-summary",
+          "skill": "reading"
+        },
+        {
+          "id": "B1.18.e516",
+          "type": "read",
+          "prompt": "Почему решение пока не названо завершённым?",
+          "answers": [
+            "Он ещё ждёт новый напиток и новый счёт"
+          ],
+          "choices": [
+            "Он ждёт другой десерт",
+            "Он ещё ждёт новый напиток и новый счёт",
+            "Он потерял исходный заказ"
+          ],
+          "text": "Într-o cafenea imaginară, Dima comandă un ceai și un desert. Când primește comanda, vede o cafea în loc de ceai. Pe nota adusă la masă apar două ceaiuri și un desert. Dima nu știe de ce a apărut eroarea și nu spune că angajatul a făcut-o intenționat. El explică: „Am comandat un ceai, dar am primit o cafea. Pe notă apar două ceaiuri, deși am primit doar o băutură. Ați putea verifica, vă rog?” Angajata verifică mai întâi comanda scrisă. Îi spune că în comanda inițială figurează un singur ceai și un desert; a doua linie de pe notă a fost adăugată din greșeală. Propune să aducă ceaiul comandat și să corecteze nota. Dima întreabă dacă desertul rămâne pe notă, pentru că îl primise deja. Angajata confirmă că da. Dima repetă înțelegerea: va primi ceaiul, nu cafeaua, iar nota corectată va cuprinde un ceai și un desert. El așteaptă noua băutură și noua notă înainte să le spună colegilor că problema a fost rezolvată.",
+          "explanation": "Предложенное действие не равно уже выполненному действию.",
+          "hint": "Прочитайте последнюю фразу.",
+          "tag": "cafe-inference",
+          "skill": "reading"
+        }
+      ],
+      "transfer": {
+        "prompt": "Напишите короткое обращение в вымышленном кафе: в заказе чай, принесли кофе, в счёте две позиции чая. Спросите варианты и затем сформулируйте подтверждённый итог.",
+        "checklist": [
+          "Названы исходный заказ и две наблюдаемые ошибки.",
+          "Содержится вежливая конкретная просьба без обвинения.",
+          "Итог отличает обещанную замену от уже полученного."
+        ],
+        "model": "Bună ziua. Am comandat un ceai, dar am primit o cafea. Pe notă apar două ceaiuri, deși am primit doar o băutură. Ați putea verifica nota și spune ce variante există? Dacă am înțeles bine, veți aduce ceaiul și veți corecta nota. Voi aștepta noua notă înainte să confirm că problema este rezolvată."
+      }
+    },
+    {
+      "id": "LIFE.B1.NEIGHBOR",
+      "level": "B1",
+      "domain": "neighbor",
+      "title": "Шум и пробный компромисс",
+      "anchorLessonId": "B1.15",
+      "prerequisites": [
+        "A2.20",
+        "B1.11",
+        "B1.13",
+        "B1.14",
+        "B1.15"
+      ],
+      "goal": "Описать наблюдение, признать потребность соседа и согласовать проверяемый пробный порядок.",
+      "fictionNote": "Все организации, люди, сообщения и условия в этой сцене вымышлены; времена не являются действующим расписанием.",
+      "theory": {
+        "core": "Разговор с соседом легче вести, если назвать наблюдение и его влияние, а затем выслушать другую сторону. Aud muzică după ora nouă описывает, что вы слышите; Vecinul nu mă respectă приписывает мотив. Предложение Putem încerca… задаёт пробу; согласие означает ясные часы и действие, которое обе стороны проверят.",
+        "detail": [
+          "Начните с конкретного периода и последствия: Ieri seara auzeam muzică după ora nouă și nu puteam lucra. Здесь imperfect auzeam и nu puteam создаёт фон конкретного вечера, а не подсчёт всех случаев. Не обобщайте одним наблюдением: în fiecare seară потребовало бы других данных. Спросите можно ли обсудить ситуацию: Putem vorbi puțin despre zgomot? Сосед может сообщить ограничение, о котором вы не знали, например, репетиция нужна группе до девяти. Подтвердите понятое: Înțeleg că aveți nevoie de timp pentru repetiție.",
+          "Затем отделите позицию от требования. Mi se pare că după ora nouă este greu să lucrez — личная оценка и эффект; Trebuie să terminați imediat — сильное требование, которое не предлагает совместной проверки. Удобная мягкая альтернатива: Ar fi bine să încercăm o oră mai devreme. Dacă terminăm la nouă, eu pot lucra după aceea. Здесь dacă выражает практическое условие, а не гарантию будущего. Назовите две части компромисса: сосед заканчивает в согласованное время, вы заранее сообщаете, если вам потребуется тишина раньше в особый день.",
+          "Закрепите смысл после возражения. Если сосед не может в среду, не записывайте «каждый день до девяти». Можно выбрать пробу для вторника и четверга, а субботу обсудить отдельно. Скажите Mai exact… при уточнении дней; De fapt… при исправлении старой версии. Завершение должно назвать срок пробы и повторный разговор: Încercăm o săptămână și vorbim vineri. Если уступка касается только музыки, не расширяйте её на любой шум в здании. Сцена намеренно вымышленная и не устанавливает местные нормы тишины.",
+          "В итоговом сообщении полезно перечислить дни по отдельности. Если два дня согласованы, а третий остаётся открытым, одно общее «три раза в неделю» стирает важную границу. Пробный порядок может закончиться новым обсуждением, поэтому запишите, когда к нему вернётесь. Когда сосед объясняет поздний приход группы, это повод изменить предложение, а не доказательство вашей неправоты. Не называйте причиной шума неуважение: вы слышали музыку, но не наблюдали намерение. Проверяемый компромисс содержит действие каждого участника и условие пересмотра."
+        ],
+        "comparison": "Русское «согласен» иногда воспринимается как согласие со всей фразой. Румынское Sunt de acord să încercăm… называет конкретное действие; Sunt de acord cu tine выражает согласие с человеком, но не фиксирует расписание пробы.",
+        "examples": [
+          {
+            "ro": "Putem vorbi puțin despre zgomot?",
+            "ru": "Можем немного поговорить о шуме?"
+          },
+          {
+            "ro": "Ieri auzeam muzică după ora nouă.",
+            "ru": "Вчера после девяти я слышал музыку."
+          },
+          {
+            "ro": "Înțeleg că aveți nevoie de timp pentru repetiție.",
+            "ru": "Понимаю, что вам нужно время для репетиции."
+          },
+          {
+            "ro": "Ar fi bine să încercăm un program mai clar.",
+            "ru": "Хорошо бы попробовать более ясный порядок."
+          },
+          {
+            "ro": "Dacă terminăm la nouă, pot lucra după aceea.",
+            "ru": "Если мы закончим в девять, я смогу работать после этого."
+          },
+          {
+            "ro": "Încercăm două seri și vorbim din nou luni.",
+            "ru": "Попробуем два вечера и вновь поговорим в понедельник."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "Faceți zgomot în fiecare seară!",
+            "right": "Ieri seara auzeam muzică după ora nouă.",
+            "why": "Одно наблюдение не подтверждает «каждый вечер»."
+          },
+          {
+            "wrong": "Sunt de acord cu tine.",
+            "right": "Sunt de acord să încercăm două seri și să vorbim din nou luni.",
+            "why": "Для проверяемого соглашения нужны действие и срок новой беседы."
+          },
+          {
+            "wrong": "Dacă am fi încercat, ar fi fost bine.",
+            "right": "Dacă încercăm o săptămână, putem discuta vineri.",
+            "why": "Прошедшая контрфактическая форма здесь не нужна и выходит за ранний B1."
+          }
+        ],
+        "sheet": {
+          "title": "Шум и пробный компромисс",
+          "formula": "наблюдение → ограничение соседа → проба с условиями → повторный разговор",
+          "rows": [
+            [
+              "наблюдение",
+              "Ieri auzeam muzică după ora nouă."
+            ],
+            [
+              "признание",
+              "Înțeleg că aveți nevoie de timp."
+            ],
+            [
+              "совет",
+              "Ar fi bine să încercăm…"
+            ],
+            [
+              "условие",
+              "Dacă terminăm la nouă, pot lucra."
+            ],
+            [
+              "проверка",
+              "Încercăm două seri și vorbim luni."
+            ]
+          ],
+          "notes": [
+            "Не превращайте один случай в «всегда».",
+            "Согласие с человеком не заменяет согласование конкретных дней.",
+            "Пробный порядок не является законом или правилом дома."
+          ]
+        }
+      },
+      "words": [
+        {
+          "ro": "zgomot",
+          "ru": "шум"
+        },
+        {
+          "ro": "muzică",
+          "ru": "музыка"
+        },
+        {
+          "ro": "repetiție",
+          "ru": "репетиция"
+        },
+        {
+          "ro": "vecin",
+          "ru": "сосед"
+        },
+        {
+          "ro": "program",
+          "ru": "порядок; расписание"
+        },
+        {
+          "ro": "observație",
+          "ru": "наблюдение"
+        },
+        {
+          "ro": "nevoie",
+          "ru": "потребность"
+        },
+        {
+          "ro": "limită",
+          "ru": "ограничение"
+        },
+        {
+          "ro": "probă",
+          "ru": "проба"
+        },
+        {
+          "ro": "săptămână",
+          "ru": "неделя"
+        },
+        {
+          "ro": "luni",
+          "ru": "понедельник"
+        },
+        {
+          "ro": "miercuri",
+          "ru": "среда"
+        },
+        {
+          "ro": "vineri",
+          "ru": "пятница"
+        },
+        {
+          "ro": "a încerca",
+          "ru": "пробовать"
+        },
+        {
+          "ro": "a termina",
+          "ru": "заканчивать"
+        },
+        {
+          "ro": "a discuta",
+          "ru": "обсуждать"
+        },
+        {
+          "ro": "a anunța",
+          "ru": "сообщать заранее"
+        },
+        {
+          "ro": "a accepta",
+          "ru": "принимать предложение"
+        }
+      ],
+      "phrases": [
+        {
+          "ro": "Putem vorbi puțin despre zgomot?",
+          "ru": "Можем немного поговорить о шуме?"
+        },
+        {
+          "ro": "Ieri auzeam muzică după ora nouă.",
+          "ru": "Вчера после девяти я слышал музыку."
+        },
+        {
+          "ro": "Înțeleg că aveți nevoie de timp.",
+          "ru": "Понимаю, что вам нужно время."
+        },
+        {
+          "ro": "Ar fi bine să încercăm…",
+          "ru": "Хорошо бы попробовать…"
+        },
+        {
+          "ro": "Dacă terminăm la nouă…",
+          "ru": "Если закончим в девять…"
+        },
+        {
+          "ro": "Sunt de acord să încercăm două seri.",
+          "ru": "Согласен попробовать два вечера."
+        },
+        {
+          "ro": "Mai exact, ultima zi o discutăm separat.",
+          "ru": "Точнее, последний день мы обсудим отдельно."
+        },
+        {
+          "ro": "Vorbim din nou luni.",
+          "ru": "Снова поговорим в понедельник."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "B1.15.e501",
+          "type": "choice",
+          "prompt": "Вы слышали музыку один вечер. Выберите точное сообщение.",
+          "answers": [
+            "Ieri auzeam muzică după ora nouă."
+          ],
+          "choices": [
+            "Ieri auzeam muzică după ora nouă.",
+            "Ieri auzeam muzică înainte de ora nouă.",
+            "Ieri nu auzeam muzică după ora nouă."
+          ],
+          "explanation": "Ieri ограничивает утверждение наблюдением.",
+          "hint": "Не обобщайте один вечер.",
+          "tag": "neighbor-observation",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.15.e502",
+          "type": "choice",
+          "prompt": "Признайте ограничение собеседницы.",
+          "answers": [
+            "Înțeleg că aveți nevoie de timp."
+          ],
+          "choices": [
+            "Înțeleg că nu aveți timp.",
+            "Înțeleg că aveți nevoie de timp.",
+            "Înțeleg că luni nu este posibil."
+          ],
+          "explanation": "Фраза показывает, что потребность услышана.",
+          "hint": "Начните с Înțeleg.",
+          "tag": "neighbor-listen",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.15.e503",
+          "type": "choice",
+          "prompt": "Мягко предложите пробу.",
+          "answers": [
+            "Ar fi bine să încercăm o săptămână."
+          ],
+          "choices": [
+            "Ar fi bine să discutăm după o săptămână.",
+            "Ar fi bine să păstrăm programul vechi.",
+            "Ar fi bine să încercăm o săptămână."
+          ],
+          "explanation": "Ar fi bine să смягчает предложение и не выдает его за приказ.",
+          "hint": "Форма B1.15.",
+          "tag": "neighbor-proposal",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.15.e504",
+          "type": "choice",
+          "prompt": "Зафиксируйте среду как не согласованную.",
+          "answers": [
+            "Miercuri rămâne de discutat."
+          ],
+          "choices": [
+            "Miercuri rămâne de discutat.",
+            "Miercuri este confirmată.",
+            "Miercuri se termină la nouă."
+          ],
+          "explanation": "Это сохраняет открытую деталь соглашения.",
+          "hint": "Найдите фразу в итоговом сообщении.",
+          "tag": "neighbor-boundary",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.15.e505",
+          "type": "gap",
+          "prompt": "Скажите «хорошо бы»: ___ fi bine să încercăm.",
+          "answers": [
+            "Ar"
+          ],
+          "explanation": "Ar fi bine să + conjunctiv — мягкий совет.",
+          "hint": "Формула дана до практики.",
+          "tag": "neighbor-softness",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.15.e506",
+          "type": "gap",
+          "prompt": "Условие: ___ terminăm la nouă, pot lucra.",
+          "answers": [
+            "Dacă"
+          ],
+          "explanation": "Dacă вводит практическое условие.",
+          "hint": "Начало условной части.",
+          "tag": "neighbor-condition",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.15.e507",
+          "type": "gap",
+          "prompt": "Согласие на действие: Sunt de acord ___ încercăm.",
+          "answers": [
+            "să"
+          ],
+          "explanation": "С действием используется să, с человеком — cu.",
+          "hint": "Сравните теорию B1.15.",
+          "tag": "neighbor-agreement",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.15.e508",
+          "type": "gap",
+          "prompt": "Уточнение: ___ exact, miercuri discutăm separat.",
+          "answers": [
+            "Mai"
+          ],
+          "explanation": "Mai exact вводит конкретизацию первоначальной версии.",
+          "hint": "Фраза дана в словосочетаниях.",
+          "tag": "neighbor-precision",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.15.e509",
+          "type": "order",
+          "prompt": "Соберите просьбу поговорить о шуме.",
+          "answers": [
+            "Putem vorbi puțin despre zgomot?"
+          ],
+          "tokens": [
+            "despre",
+            "zgomot?",
+            "Putem",
+            "vorbi",
+            "puțin"
+          ],
+          "explanation": "Вопрос открывает обсуждение конкретной темы.",
+          "hint": "Начните с Putem.",
+          "tag": "neighbor-order",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.15.e510",
+          "type": "order",
+          "prompt": "Соберите признание потребности соседа.",
+          "answers": [
+            "Înțeleg că aveți nevoie de timp."
+          ],
+          "tokens": [
+            "timp.",
+            "Înțeleg",
+            "că",
+            "aveți",
+            "nevoie",
+            "de"
+          ],
+          "explanation": "Названы взгляд собеседника и его ограничение.",
+          "hint": "Начните с Înțeleg.",
+          "tag": "neighbor-order",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.15.e511",
+          "type": "order",
+          "prompt": "Соберите мягкое предложение.",
+          "answers": [
+            "Ar fi bine să încercăm o săptămână."
+          ],
+          "tokens": [
+            "o",
+            "săptămână.",
+            "Ar",
+            "fi",
+            "bine",
+            "să",
+            "încercăm"
+          ],
+          "explanation": "Формула ар fi bine să + личная форма.",
+          "hint": "Начните с Ar.",
+          "tag": "neighbor-order",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.15.e512",
+          "type": "order",
+          "prompt": "Соберите границу договорённости.",
+          "answers": [
+            "Miercuri rămâne de discutat."
+          ],
+          "tokens": [
+            "de",
+            "discutat.",
+            "Miercuri",
+            "rămâne"
+          ],
+          "explanation": "Среда остаётся открытой.",
+          "hint": "Начните с Miercuri.",
+          "tag": "neighbor-order",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.15.e513",
+          "type": "read",
+          "prompt": "Почему Дима не пишет «соседка шумит каждый вечер»?",
+          "answers": [
+            "Он наблюдал конкретный вечер, а не каждый день"
+          ],
+          "choices": [
+            "Он знает, что репетиция была только в тот день",
+            "Он наблюдал конкретный вечер, а не каждый день",
+            "Мара подтвердила, что в другие дни шума не бывает"
+          ],
+          "text": "Într-o clădire imaginară din București, Dima lucrează uneori acasă seara. Sâmbătă a auzit muzică în timpul unei ședințe de lucru și nu a putut urmări întrebările colegilor. Duminică îi spune vecinei Mara ce a observat, fără să spună că ea face zgomot mereu. Mara explică faptul că grupul ei repetă marți, joi și sâmbătă. Marți și joi poate închide ușa camerei și termina repetiția la opt și jumătate, dar sâmbătă grupul folosește altă cameră și ora de încheiere rămâne de discutat. Dima răspunde că înțelege această limită. Propune o probă de două săptămâni: Mara închide ușa și termină la opt și jumătate marți și joi. În schimb, Dima îi trimite din timp orele ședințelor sale de lucru, ca Mara să știe când trebuie să vorbească mai încet. Mara acceptă aceste două seri, dar nu promite încă nimic pentru sâmbătă. Dima îi scrie: „Încercăm marți și joi. Sâmbătă rămâne de discutat. La sfârșitul celor două săptămâni verificăm împreună dacă această probă a ajutat.” Mesajul descrie acordul lor, nu o regulă oficială a clădirii.",
+          "explanation": "Один конкретный вечер не доказывает частоту шума в остальные дни.",
+          "hint": "Найдите, какой день Дима наблюдал.",
+          "tag": "neighbor-evidence",
+          "skill": "reading"
+        },
+        {
+          "id": "B1.15.e514",
+          "type": "read",
+          "prompt": "Что остаётся открытым после разговора?",
+          "answers": [
+            "Порядок на субботу"
+          ],
+          "choices": [
+            "Время окончания репетиции во вторник",
+            "Закрытие двери в четверг",
+            "Порядок на субботу"
+          ],
+          "text": "Într-o clădire imaginară din București, Dima lucrează uneori acasă seara. Sâmbătă a auzit muzică în timpul unei ședințe de lucru și nu a putut urmări întrebările colegilor. Duminică îi spune vecinei Mara ce a observat, fără să spună că ea face zgomot mereu. Mara explică faptul că grupul ei repetă marți, joi și sâmbătă. Marți și joi poate închide ușa camerei și termina repetiția la opt și jumătate, dar sâmbătă grupul folosește altă cameră și ora de încheiere rămâne de discutat. Dima răspunde că înțelege această limită. Propune o probă de două săptămâni: Mara închide ușa și termină la opt și jumătate marți și joi. În schimb, Dima îi trimite din timp orele ședințelor sale de lucru, ca Mara să știe când trebuie să vorbească mai încet. Mara acceptă aceste două seri, dar nu promite încă nimic pentru sâmbătă. Dima îi scrie: „Încercăm marți și joi. Sâmbătă rămâne de discutat. La sfârșitul celor două săptămâni verificăm împreună dacă această probă a ajutat.” Mesajul descrie acordul lor, nu o regulă oficială a clădirii.",
+          "explanation": "Субботняя комната и срок ещё не согласованы.",
+          "hint": "Сравните все три дня.",
+          "tag": "neighbor-constraint",
+          "skill": "reading"
+        },
+        {
+          "id": "B1.15.e515",
+          "type": "read",
+          "prompt": "Какие взаимные действия составляют пробу?",
+          "answers": [
+            "Мара закрывает дверь и заканчивает в половине девятого в два дня; Дима заранее сообщает часы рабочих встреч"
+          ],
+          "choices": [
+            "Мара закрывает дверь и заканчивает в половине девятого в два дня; Дима заранее сообщает часы рабочих встреч",
+            "Мара заканчивает во все три дня в половине девятого; Дима ничего не сообщает",
+            "Мара закрывает дверь только в субботу; Дима отменяет встречи"
+          ],
+          "text": "Într-o clădire imaginară din București, Dima lucrează uneori acasă seara. Sâmbătă a auzit muzică în timpul unei ședințe de lucru și nu a putut urmări întrebările colegilor. Duminică îi spune vecinei Mara ce a observat, fără să spună că ea face zgomot mereu. Mara explică faptul că grupul ei repetă marți, joi și sâmbătă. Marți și joi poate închide ușa camerei și termina repetiția la opt și jumătate, dar sâmbătă grupul folosește altă cameră și ora de încheiere rămâne de discutat. Dima răspunde că înțelege această limită. Propune o probă de două săptămâni: Mara închide ușa și termină la opt și jumătate marți și joi. În schimb, Dima îi trimite din timp orele ședințelor sale de lucru, ca Mara să știe când trebuie să vorbească mai încet. Mara acceptă aceste două seri, dar nu promite încă nimic pentru sâmbătă. Dima îi scrie: „Încercăm marți și joi. Sâmbătă rămâne de discutat. La sfârșitul celor două săptămâni verificăm împreună dacă această probă a ajutat.” Mesajul descrie acordul lor, nu o regulă oficială a clădirii.",
+          "explanation": "Проба описывает действие каждой стороны для двух дней, не включая субботу.",
+          "hint": "Найдите два действия после În schimb.",
+          "tag": "neighbor-tradeoff",
+          "skill": "reading"
+        },
+        {
+          "id": "B1.15.e516",
+          "type": "read",
+          "prompt": "Почему по окончании двух недель они снова проверят результат?",
+          "answers": [
+            "Пробу согласовали на две недели и хотят понять, помогла ли она"
+          ],
+          "choices": [
+            "Дима уже сообщил, что проба не помогла",
+            "Пробу согласовали на две недели и хотят понять, помогла ли она",
+            "Они заранее согласовали постоянное правило для всех дней"
+          ],
+          "text": "Într-o clădire imaginară din București, Dima lucrează uneori acasă seara. Sâmbătă a auzit muzică în timpul unei ședințe de lucru și nu a putut urmări întrebările colegilor. Duminică îi spune vecinei Mara ce a observat, fără să spună că ea face zgomot mereu. Mara explică faptul că grupul ei repetă marți, joi și sâmbătă. Marți și joi poate închide ușa camerei și termina repetiția la opt și jumătate, dar sâmbătă grupul folosește altă cameră și ora de încheiere rămâne de discutat. Dima răspunde că înțelege această limită. Propune o probă de două săptămâni: Mara închide ușa și termină la opt și jumătate marți și joi. În schimb, Dima îi trimite din timp orele ședințelor sale de lucru, ca Mara să știe când trebuie să vorbească mai încet. Mara acceptă aceste două seri, dar nu promite încă nimic pentru sâmbătă. Dima îi scrie: „Încercăm marți și joi. Sâmbătă rămâne de discutat. La sfârșitul celor două săptămâni verificăm împreună dacă această probă a ajutat.” Mesajul descrie acordul lor, nu o regulă oficială a clădirii.",
+          "explanation": "Проба рассчитана на две недели, её результат станет понятен после этого периода.",
+          "hint": "Свяжите срок пробы и последнюю фразу.",
+          "tag": "neighbor-inference",
+          "skill": "reading"
+        }
+      ],
+      "transfer": {
+        "prompt": "Обсудите вымышленную репетицию соседа и запишите итог в двух-трёх фразах: одна конкретная жалоба, потребность другой стороны, проба только для двух дней.",
+        "checklist": [
+          "Наблюдение ограничено известным случаем.",
+          "Признана потребность соседа и предложена проба.",
+          "Названы согласованные дни и отдельно несогласованный день."
+        ],
+        "model": "Ieri seara auzeam muzică după ora nouă și nu puteam lucra. Înțeleg că aveți nevoie de timp pentru repetiție. Ar fi bine să încercăm luni și vineri până la nouă, iar miercuri să discutăm separat. Vă voi anunța din timp dacă am o întâlnire de lucru mai devreme. Vorbim din nou vinerea viitoare."
+      }
+    },
+    {
+      "id": "LIFE.B1.SERVICE",
+      "level": "B1",
+      "domain": "service",
+      "title": "Рабочее сообщение и передача указаний",
+      "anchorLessonId": "B1.20",
+      "prerequisites": [
+        "A1.20",
+        "B1.09",
+        "B1.10",
+        "B1.17",
+        "B1.19",
+        "B1.20"
+      ],
+      "goal": "Написать короткое рабочее сообщение и точно передать прохожему указание, сохранив источник и неизвестное.",
+      "fictionNote": "Все организации, люди, сообщения и условия в этой сцене вымышлены; времена не являются действующим расписанием.",
+      "theory": {
+        "core": "В рабочем сообщении полезно разделить выполненное, открытый вопрос и следующий шаг: Am verificat…, Nu știu încă…, Voi întreba… . Если вы передаёте третьему лицу указание администратора или прохожего, сохраняйте направление, место и границу знания. «Мне показалось» нельзя незаметно превратить в «администратор подтвердил».",
+        "detail": [
+          "Сообщение коллеге начинается с цели: Vă scriu în legătură cu întâlnirea de mâine. Затем сообщите факт, который уже проверили: Am verificat intrarea din curte. Если табличка закрыла привычный проход, но не указала время открытия, скажите Ora redeschiderii nu este precizată. Для вопроса используйте Aș dori să știu dacă intrarea principală este deschisă. Косвенное dacă здесь означает «ли», а не условие. Не сообщайте коллегам о вложенном плане, если не прикрепили файл. Тема письма конкретизирует ситуацию, например Intrarea pentru întâlnire, чтобы получатель понял действие.",
+          "Для письменного указания прежде определите, куда человеку нужно попасть: Căutați intrarea din curte sau intrarea principală? Затем письменно перескажите указанный путь в коротких шагах: Mergeți până la colț, apoi faceți la stânga. Dacă nu ați auzit stânga или dreapta, попросите повторить именно направление. Относительная связь locul unde ne întâlnim помогает описать пункт назначения; strada pe care mergeți требует pe care, но для ясной первой инструкции можно обойтись двумя простыми предложениями. Передача от другого говорящего требует точной атрибуции: Administratorul mi-a spus că intrarea din curte este deschisă. Не добавляйте обещание доступности, которого никто не дал.",
+          "Когда источник меняет указание, обновите пересказ явно: Inițial am spus „la dreapta”; de fapt, trebuie să mergeți la stânga. В письменном отчёте отделите это исправление от уже выполненного: Am întrebat administratorul; am transmis direcția corectată; încă aștept confirmarea orei. Эти три статуса помогают коллегам действовать без догадок. Адресатам на dumneavoastră пишите Vă rog, puteți, а знакомому коллеге по договорённости возможны îți и poți; не смешивайте регистры без причины. Названия улиц и часы здесь вымышлены, поэтому инструкция годится только для учебной сцены.",
+          "Перед передачей маршрута нарисуйте в заметке две точки: исходное место и вход, который ищут. Направление «налево» зависит от точки отсчёта, поэтому привяжите его к углу после движения вперёд. Сообщение коллегам и ответ прохожему имеют разных адресатов: первым нужен статус входа и открытый вопрос, второму — последовательность шагов. Если администратор уточнил поворот, исправьте прежнюю фразу явно, чтобы две версии не сосуществовали. Время открытия и время ходьбы остаются неизвестными, пока источник их не назвал. Это особенно важно при пересказе чужой инструкции."
+        ],
+        "comparison": "В русском и английском косвенный вопрос «открыт ли вход» может выглядеть как условие. Румынское Vreau să știu dacă este deschis сообщает вопрос; Dacă este deschis, intrăm формулирует условие действия.",
+        "examples": [
+          {
+            "ro": "Vă scriu în legătură cu intrarea pentru întâlnire.",
+            "ru": "Пишу вам по поводу входа для встречи."
+          },
+          {
+            "ro": "Am verificat intrarea din curte.",
+            "ru": "Я проверил вход со двора."
+          },
+          {
+            "ro": "Ora redeschiderii nu este precizată.",
+            "ru": "Время повторного открытия не указано."
+          },
+          {
+            "ro": "Aș dori să știu dacă intrarea principală este deschisă.",
+            "ru": "Я хотел бы узнать, открыт ли главный вход."
+          },
+          {
+            "ro": "Administratorul mi-a spus să merg până la colț.",
+            "ru": "Администратор сказал мне идти до угла."
+          },
+          {
+            "ro": "Inițial am spus la dreapta; de fapt, este la stânga.",
+            "ru": "Сначала я сказал направо; на самом деле налево."
+          }
+        ],
+        "mistakes": [
+          {
+            "wrong": "Vă trimit planul atașat.",
+            "right": "Vă trimit indicațiile în acest mesaj.",
+            "why": "Обещайте вложение только если оно действительно есть."
+          },
+          {
+            "wrong": "Sigur se deschide la nouă.",
+            "right": "Ora redeschiderii nu este precizată.",
+            "why": "Нет подтверждённого часа открытия."
+          },
+          {
+            "wrong": "Administratorul a spus la dreapta.",
+            "right": "Inițial am spus la dreapta; administratorul a confirmat la stânga.",
+            "why": "Источник и исправление нельзя перепутать."
+          }
+        ],
+        "sheet": {
+          "title": "Рабочее сообщение и передача указаний",
+          "formula": "цель → проверено → не выяснено → вопрос → исправленная передача",
+          "rows": [
+            [
+              "тема письма",
+              "Intrarea pentru întâlnire"
+            ],
+            [
+              "факт",
+              "Am verificat intrarea din curte."
+            ],
+            [
+              "неизвестное",
+              "Ora redeschiderii nu este precizată."
+            ],
+            [
+              "косвенный вопрос",
+              "Aș dori să știu dacă este deschisă."
+            ],
+            [
+              "путь",
+              "Mergeți până la colț, apoi la stânga."
+            ]
+          ],
+          "notes": [
+            "Не называйте вложение, которого нет.",
+            "Уточняйте направление, прежде чем передавать его прохожему.",
+            "Источник указания и ваше прежнее предположение различайте явно."
+          ]
+        }
+      },
+      "words": [
+        {
+          "ro": "intrare",
+          "ru": "вход"
+        },
+        {
+          "ro": "intrarea din curte",
+          "ru": "вход со двора"
+        },
+        {
+          "ro": "intrarea principală",
+          "ru": "главный вход"
+        },
+        {
+          "ro": "colț",
+          "ru": "угол"
+        },
+        {
+          "ro": "stânga",
+          "ru": "налево; левая сторона"
+        },
+        {
+          "ro": "dreapta",
+          "ru": "направо; правая сторона"
+        },
+        {
+          "ro": "administrator",
+          "ru": "администратор"
+        },
+        {
+          "ro": "coleg",
+          "ru": "коллега"
+        },
+        {
+          "ro": "trecător",
+          "ru": "прохожий"
+        },
+        {
+          "ro": "indicație",
+          "ru": "указание"
+        },
+        {
+          "ro": "direcție",
+          "ru": "направление"
+        },
+        {
+          "ro": "întâlnire",
+          "ru": "встреча"
+        },
+        {
+          "ro": "mesaj",
+          "ru": "сообщение"
+        },
+        {
+          "ro": "confirmare",
+          "ru": "подтверждение"
+        },
+        {
+          "ro": "a verifica",
+          "ru": "проверять"
+        },
+        {
+          "ro": "a transmite",
+          "ru": "передавать"
+        },
+        {
+          "ro": "a preciza",
+          "ru": "точно указывать"
+        },
+        {
+          "ro": "a întreba",
+          "ru": "спрашивать"
+        }
+      ],
+      "phrases": [
+        {
+          "ro": "Vă scriu în legătură cu…",
+          "ru": "Пишу вам по поводу…"
+        },
+        {
+          "ro": "Am verificat intrarea din curte.",
+          "ru": "Я проверил вход со двора."
+        },
+        {
+          "ro": "Ora nu este precizată.",
+          "ru": "Время не указано."
+        },
+        {
+          "ro": "Aș dori să știu dacă este deschisă.",
+          "ru": "Я хотел бы узнать, открыта ли она."
+        },
+        {
+          "ro": "Mergeți până la colț.",
+          "ru": "Идите до угла."
+        },
+        {
+          "ro": "Apoi faceți la stânga.",
+          "ru": "Затем поверните налево."
+        },
+        {
+          "ro": "Puteți repeta direcția?",
+          "ru": "Можете повторить направление?"
+        },
+        {
+          "ro": "De fapt, este la stânga.",
+          "ru": "На самом деле это налево."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "B1.20.e501",
+          "type": "choice",
+          "prompt": "Как обозначить неизвестное время открытия?",
+          "answers": [
+            "Ora redeschiderii nu este precizată."
+          ],
+          "choices": [
+            "Ora redeschiderii nu este precizată.",
+            "Ora plecării nu este precizată.",
+            "Ora redeschiderii este precizată."
+          ],
+          "explanation": "Неизвестное не следует заменять выдуманным часом.",
+          "hint": "Формула из теории.",
+          "tag": "service-evidence",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.20.e502",
+          "type": "choice",
+          "prompt": "Вопрос о том, открыт ли главный вход.",
+          "answers": [
+            "Aș dori să știu dacă intrarea principală este deschisă."
+          ],
+          "choices": [
+            "Dacă intrarea principală este deschisă, intrăm.",
+            "Aș dori să știu dacă intrarea principală este deschisă.",
+            "Aș dori să știu când se deschide intrarea."
+          ],
+          "explanation": "После aș dori să știu dacă вводит косвенный вопрос.",
+          "hint": "Это вопрос, не условие.",
+          "tag": "service-indirect",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.20.e503",
+          "type": "choice",
+          "prompt": "Подтверждённая вежливая инструкция прохожему.",
+          "answers": [
+            "Mergeți până la colț, apoi faceți la stânga."
+          ],
+          "choices": [
+            "Mergeți până la colț, apoi faceți la dreapta.",
+            "Mergeți la stânga, apoi până la colț.",
+            "Mergeți până la colț, apoi faceți la stânga."
+          ],
+          "explanation": "Направление взято из ответа администратора.",
+          "hint": "После угла — stânga.",
+          "tag": "service-direction",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.20.e504",
+          "type": "choice",
+          "prompt": "Как исправить неверное «направо»?",
+          "answers": [
+            "De fapt, trebuie să mergeți la stânga."
+          ],
+          "choices": [
+            "De fapt, trebuie să mergeți la stânga.",
+            "De fapt, trebuie să mergeți la dreapta.",
+            "Inițial am spus la stânga; rămâne la stânga."
+          ],
+          "explanation": "De fapt явно исправляет прежнюю догадку.",
+          "hint": "Слово stânga.",
+          "tag": "service-correction",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.20.e505",
+          "type": "gap",
+          "prompt": "Направление: Apoi faceți la ___. (налево)",
+          "answers": [
+            "stânga"
+          ],
+          "explanation": "Направление после угла было подтверждено как stânga.",
+          "hint": "Контраст stânga / dreapta.",
+          "tag": "service-direction",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.20.e506",
+          "type": "gap",
+          "prompt": "Неизвестное: Ora redeschiderii nu este ___.",
+          "answers": [
+            "precizată"
+          ],
+          "explanation": "Причастие согласуется с ora, как в готовой фразе.",
+          "hint": "Фраза дана до упражнений.",
+          "tag": "service-evidence",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.20.e507",
+          "type": "gap",
+          "prompt": "Косвенный вопрос: Aș dori să știu ___ intrarea este deschisă.",
+          "answers": [
+            "dacă"
+          ],
+          "explanation": "После știu это «ли», не условие.",
+          "hint": "Вспомните B1.10.",
+          "tag": "service-indirect",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.20.e508",
+          "type": "gap",
+          "prompt": "Исправление: ___ fapt, este la stânga.",
+          "answers": [
+            "De"
+          ],
+          "explanation": "De fapt — целая формула исправления.",
+          "hint": "В словаре: de fapt.",
+          "tag": "service-correction",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.20.e509",
+          "type": "order",
+          "prompt": "Соберите цель рабочего сообщения.",
+          "answers": [
+            "Vă scriu în legătură cu intrarea."
+          ],
+          "tokens": [
+            "legătură",
+            "cu",
+            "intrarea.",
+            "Vă",
+            "scriu",
+            "în"
+          ],
+          "explanation": "Письмо рано называет предмет.",
+          "hint": "Начните с Vă.",
+          "tag": "service-order",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.20.e510",
+          "type": "order",
+          "prompt": "Соберите честное неизвестное.",
+          "answers": [
+            "Ora redeschiderii nu este precizată."
+          ],
+          "tokens": [
+            "este",
+            "precizată.",
+            "Ora",
+            "redeschiderii",
+            "nu"
+          ],
+          "explanation": "Отрицание сохраняет неизвестный час.",
+          "hint": "Начните с Ora.",
+          "tag": "service-order",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.20.e511",
+          "type": "order",
+          "prompt": "Соберите подтверждённый путь.",
+          "answers": [
+            "Mergeți până la colț, apoi faceți la stânga."
+          ],
+          "tokens": [
+            "la",
+            "stânga.",
+            "Mergeți",
+            "până",
+            "la",
+            "colț,",
+            "apoi",
+            "faceți"
+          ],
+          "explanation": "Путь содержит две последовательные части.",
+          "hint": "Начните с Mergeți.",
+          "tag": "service-order",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.20.e512",
+          "type": "order",
+          "prompt": "Соберите явное исправление.",
+          "answers": [
+            "De fapt, este la stânga."
+          ],
+          "tokens": [
+            "stânga.",
+            "De",
+            "fapt,",
+            "este",
+            "la"
+          ],
+          "explanation": "De fapt вводит исправление направления.",
+          "hint": "Начните с De.",
+          "tag": "service-order",
+          "skill": "grammar"
+        },
+        {
+          "id": "B1.20.e513",
+          "type": "read",
+          "prompt": "Какое ограничение важно для встречи в восемь и известно из объявления и проверки?",
+          "answers": [
+            "Главный вход откроется в десять, а вход со двора закроется в девять"
+          ],
+          "choices": [
+            "Оба входа откроются только в десять",
+            "Главный вход откроется в десять, а вход со двора закроется в девять",
+            "Вход со двора закроется до начала встречи"
+          ],
+          "text": "Într-un exercițiu imaginar, echipa lui Dima are o întâlnire la ora opt într-o clădire cu două intrări. Un anunț de pe ușa principală spune că aceasta este închisă temporar și se va deschide la ora zece. Dima verifică intrarea din curte: este deschisă acum, dar administratorul spune că se închide la nouă. Scrie colegilor: „Pentru întâlnirea de la opt, folosiți intrarea din curte. Intrarea principală se deschide la zece, iar cea din curte se închide la nouă.” Un trecător îl întreabă apoi cum ajunge la intrarea din curte. Dima crede inițial că trebuie să meargă la stânga, dar nu este sigur. Îl întreabă pe administrator înainte să dea indicații. Administratorul îi spune: „Mergeți până la colț, apoi faceți la dreapta. Ușa din curte este lângă un copac mare.” Dima îi transmite trecătorului direcția corectată. Nu îi spune cât durează mersul, pentru că nimeni nu a măsurat timpul. Într-un al doilea mesaj, le spune colegilor că a explicat traseul unui trecător, dar îi roagă să nu presupună că intrarea din curte va fi deschisă după ora nouă.",
+          "explanation": "Встреча в восемь может использовать вход со двора, но его доступность после девяти не следует предполагать.",
+          "hint": "Сопоставьте часы двух входов.",
+          "tag": "service-gap",
+          "skill": "reading"
+        },
+        {
+          "id": "B1.20.e514",
+          "type": "read",
+          "prompt": "Почему Дима спрашивает администратора перед ответом прохожему?",
+          "answers": [
+            "Он не уверен в направлении и хочет проверить его"
+          ],
+          "choices": [
+            "Он знает путь, но не знает, какой вход нужен прохожему",
+            "Он хочет уточнить у администратора время начала встречи",
+            "Он не уверен в направлении и хочет проверить его"
+          ],
+          "text": "Într-un exercițiu imaginar, echipa lui Dima are o întâlnire la ora opt într-o clădire cu două intrări. Un anunț de pe ușa principală spune că aceasta este închisă temporar și se va deschide la ora zece. Dima verifică intrarea din curte: este deschisă acum, dar administratorul spune că se închide la nouă. Scrie colegilor: „Pentru întâlnirea de la opt, folosiți intrarea din curte. Intrarea principală se deschide la zece, iar cea din curte se închide la nouă.” Un trecător îl întreabă apoi cum ajunge la intrarea din curte. Dima crede inițial că trebuie să meargă la stânga, dar nu este sigur. Îl întreabă pe administrator înainte să dea indicații. Administratorul îi spune: „Mergeți până la colț, apoi faceți la dreapta. Ușa din curte este lângă un copac mare.” Dima îi transmite trecătorului direcția corectată. Nu îi spune cât durează mersul, pentru că nimeni nu a măsurat timpul. Într-un al doilea mesaj, le spune colegilor că a explicat traseul unui trecător, dar îi roagă să nu presupună că intrarea din curte va fi deschisă după ora nouă.",
+          "explanation": "Сомнение касается левого поворота; он спрашивает прежде чем передать указание.",
+          "hint": "Найдите crede inițial и nu este sigur.",
+          "tag": "service-evidence",
+          "skill": "reading"
+        },
+        {
+          "id": "B1.20.e515",
+          "type": "read",
+          "prompt": "Какой маршрут подтверждён?",
+          "answers": [
+            "До угла, затем направо, дверь рядом с большим деревом"
+          ],
+          "choices": [
+            "До угла, затем направо, дверь рядом с большим деревом",
+            "До угла, затем налево, дверь рядом с деревом",
+            "Направо сразу от главной двери, дверь рядом со скамейкой"
+          ],
+          "text": "Într-un exercițiu imaginar, echipa lui Dima are o întâlnire la ora opt într-o clădire cu două intrări. Un anunț de pe ușa principală spune că aceasta este închisă temporar și se va deschide la ora zece. Dima verifică intrarea din curte: este deschisă acum, dar administratorul spune că se închide la nouă. Scrie colegilor: „Pentru întâlnirea de la opt, folosiți intrarea din curte. Intrarea principală se deschide la zece, iar cea din curte se închide la nouă.” Un trecător îl întreabă apoi cum ajunge la intrarea din curte. Dima crede inițial că trebuie să meargă la stânga, dar nu este sigur. Îl întreabă pe administrator înainte să dea indicații. Administratorul îi spune: „Mergeți până la colț, apoi faceți la dreapta. Ușa din curte este lângă un copac mare.” Dima îi transmite trecătorului direcția corectată. Nu îi spune cât durează mersul, pentru că nimeni nu a măsurat timpul. Într-un al doilea mesaj, le spune colegilor că a explicat traseul unui trecător, dar îi roagă să nu presupună că intrarea din curte va fi deschisă după ora nouă.",
+          "explanation": "Подтверждённый поворот — направо после угла; ориентир — дерево.",
+          "hint": "Читайте ответ администратора, не первоначальную догадку.",
+          "tag": "service-relay",
+          "skill": "reading"
+        },
+        {
+          "id": "B1.20.e516",
+          "type": "read",
+          "prompt": "Что нельзя заключить из двух сообщений коллегам?",
+          "answers": [
+            "Вход со двора останется открытым после девяти"
+          ],
+          "choices": [
+            "Главный вход откроется в десять",
+            "Вход со двора останется открытым после девяти",
+            "Дима объяснил маршрут прохожему"
+          ],
+          "text": "Într-un exercițiu imaginar, echipa lui Dima are o întâlnire la ora opt într-o clădire cu două intrări. Un anunț de pe ușa principală spune că aceasta este închisă temporar și se va deschide la ora zece. Dima verifică intrarea din curte: este deschisă acum, dar administratorul spune că se închide la nouă. Scrie colegilor: „Pentru întâlnirea de la opt, folosiți intrarea din curte. Intrarea principală se deschide la zece, iar cea din curte se închide la nouă.” Un trecător îl întreabă apoi cum ajunge la intrarea din curte. Dima crede inițial că trebuie să meargă la stânga, dar nu este sigur. Îl întreabă pe administrator înainte să dea indicații. Administratorul îi spune: „Mergeți până la colț, apoi faceți la dreapta. Ușa din curte este lângă un copac mare.” Dima îi transmite trecătorului direcția corectată. Nu îi spune cât durează mersul, pentru că nimeni nu a măsurat timpul. Într-un al doilea mesaj, le spune colegilor că a explicat traseul unui trecător, dar îi roagă să nu presupună că intrarea din curte va fi deschisă după ora nouă.",
+          "explanation": "Администратор сообщил о закрытии в девять, значит нельзя обещать доступ позже.",
+          "hint": "Сравните время закрытия и последнее предупреждение.",
+          "tag": "service-inference",
+          "skill": "reading"
+        }
+      ],
+      "transfer": {
+        "prompt": "Напишите коллеге вымышленный статус двух входов, а затем объясните прохожему путь после уточнения у администратора. Неизвестное время открытия не заполняйте догадкой.",
+        "checklist": [
+          "В сообщении отделены проверенный вход и неизвестное время.",
+          "Маршрут дан двумя последовательными шагами с исправленным направлением.",
+          "Указан источник и следующий шаг для коллеги."
+        ],
+        "model": "Vă scriu în legătură cu intrarea pentru întâlnire. Am verificat intrarea din curte: este deschisă. Intrarea principală este închisă acum, iar ora redeschiderii nu este precizată. Vă voi anunța dacă primesc o confirmare. Administratorul mi-a spus să merg până la colț și apoi la stânga. Domnule, mergeți până la colț, apoi faceți la stânga; ușa este lângă o bancă."
+      }
+    }
+  ],
+  "theory": [
+    {
+      "lessonId": "B1.01",
+      "title": "Фон, событие и итог в прошлом",
+      "sections": [
+        {
+          "title": "Различие смыслов",
+          "body": [
+            "Когда вы рассказываете о прошлом, сначала определите, что является шагом истории, а что обстановкой. Perfect compus представляет действие как завершённый отрезок: Am sunat de trei ori — три звонка за ограниченный период. Imperfect показывает происходившее изнутри: Sunam când a intrat colega — я звонил, когда вошла коллега. Поэтому нельзя выбирать время только по словам ieri или des. Вчерашний день может содержать длящийся фон, а частое действие можно подсчитать как законченную серию. Отметьте точку зрения говорящего до выбора окончания."
+          ],
+          "examples": [
+            {
+              "ro": "Când am ieșit, ploua.",
+              "ru": "Когда я вышел, шёл дождь."
+            },
+            {
+              "ro": "Ieri am sunat de trei ori.",
+              "ru": "Вчера я позвонил трижды."
+            }
+          ]
+        },
+        {
+          "title": "Форма и контекст",
+          "body": [
+            "Собирайте imperfect по лицу: lucram, lucrai, lucra, lucram, lucrați, lucrau; eram, erai, era, eram, erați, erau. Perfect compus имеет вспомогательный am, ai, a, am, ați, au плюс неизменяемое здесь причастие: ea a plecat, ei au plecat. В сцене Ploua când am plecat дождь не получает отдельной границы, уход становится событием. В A plouat toată ziua день рассматривается целиком; Ploua toată ziua рисует длительную сцену. Обе фразы возможны с разным намерением рассказчика."
+          ],
+          "examples": [
+            {
+              "ro": "Atunci lucram acasă.",
+              "ru": "Тогда я работал дома."
+            },
+            {
+              "ro": "Luna trecută am lucrat acolo o săptămână.",
+              "ru": "В прошлом месяце я проработал там неделю."
+            }
+          ]
+        },
+        {
+          "title": "Самопроверка",
+          "body": [
+            "Проверяйте рассказ двумя вопросами: что уже шло в момент события и что изменило ситуацию? Если речь о привычке прошлого, используйте контекст вроде În copilărie mergeam des acolo. Если подводите счёт, скажите În acea lună am mers de patru ori. После написания прочитайте фразу без временного наречия: видна ли ваша точка зрения из глагола и контекста? Для краткого отчёта полезны два столбца: фон и завершённые шаги. Это помогает не смешивать продолжавшуюся работу с уже отправленным сообщением.",
+            "Для контроля составьте пару о том же дне: Ploua când am ieșit сообщает фон в момент выхода; A plouat toată ziua подводит итог дню. Первая формулировка не сообщает, когда дождь начался или закончился. Вторая не утверждает, что вы непрерывно наблюдали дождь. Обе могут быть правдой одновременно, потому что отличаются задачей рассказчика. Если в упражнении обе формы выглядели бы возможными, добавьте контекст с наблюдаемой точкой зрения, а не объявляйте одну грамматической ошибкой."
+          ],
+          "examples": [
+            {
+              "ro": "În copilărie mergeam des la bunici.",
+              "ru": "В детстве я часто ездил к бабушке и дедушке."
+            },
+            {
+              "ro": "Când ai intrat, citeam mesajul.",
+              "ru": "Когда ты вошёл, я читал сообщение."
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "Ieri ploua este întotdeauna greșit.",
+          "right": "Ieri ploua când am ieșit.",
+          "why": "Ieri не запрещает фон."
+        },
+        {
+          "wrong": "Ea au plecat.",
+          "right": "Ea a plecat.",
+          "why": "Вспомогательный глагол согласуется с лицом и числом."
+        },
+        {
+          "wrong": "Am sunat de trei ori în fiecare seară din copilărie.",
+          "right": "În copilărie sunam des; ieri am sunat de trei ori.",
+          "why": "Привычка и ограниченный подсчёт требуют разной рамки."
+        }
+      ],
+      "decisionGuide": [
+        "Определите завершённый шаг или разворачивающийся фон.",
+        "Установите лицо и временную рамку действия.",
+        "Проверьте, передаёт ли выбранная форма ваш смысл без опоры только на ieri."
+      ],
+      "sheetRows": [
+        [
+          "шаг",
+          "Am intrat în casă."
+        ],
+        [
+          "фон",
+          "Când am intrat, ploua."
+        ],
+        [
+          "привычка",
+          "În copilărie mergeam des."
+        ],
+        [
+          "подсчитанный итог",
+          "Ieri am sunat de trei ori."
+        ]
+      ],
+      "sources": [
+        {
+          "title": "CEFR Companion Volume (Council of Europe, 2020)",
+          "url": "https://rm.coe.int/cefr-companion-volume-with-new-descriptors-2020/16809ea0d4"
+        },
+        {
+          "title": "UBB, Descrierea minimală a limbii române (2016)",
+          "url": "https://video.elearning.ubbcluj.ro/wp-content/uploads/2016/09/Descrierea-minimala-a-limbii-romane-12-IULIE-2016.pdf"
+        }
+      ]
+    },
+    {
+      "lessonId": "B1.07",
+      "title": "Конкретный человек как прямое дополнение",
+      "sections": [
+        {
+          "title": "Различие смыслов",
+          "body": [
+            "Когда действие направлено на названного человека, роль участника надо сделать ясной. Îl văd pe Andrei: Andrei тот, кого я вижу. Pe mine mă așteaptă: меня ждут. В этих базовых моделях pe сопровождается коротким местоимением, потому что именно так передаётся выделенный прямой объект. Сравните Citesc cartea: книга является обычным предметом, здесь не нужно pe. Нельзя утверждать, что всякий человек всегда требует pe: Am întâlnit un coleg вводит неопределённого коллегу без такого выделения."
+          ],
+          "examples": [
+            {
+              "ro": "Îl văd pe Andrei.",
+              "ru": "Я вижу Андрея."
+            },
+            {
+              "ro": "O văd pe Maria.",
+              "ru": "Я вижу Марию."
+            }
+          ]
+        },
+        {
+          "title": "Форма и контекст",
+          "body": [
+            "В настоящем времени формы третьего лица расположены перед глаголом: îl văd, o văd, îi văd, le văd. Для конкретных групп: Îi văd pe colegii mei, Le văd pe colegele mele. В perfect compus положение меняется: L-am văzut pe Andrei, I-am văzut pe colegi, Le-am văzut pe colege, но Am văzut-o pe Maria. Последняя форма особенно часто переносится неправильно по образцу мужского рода. При отрицании встречаются nu îl văd и nu-l văd; в упражнении выбирайте уже показанную форму, а не изобретайте новую."
+          ],
+          "examples": [
+            {
+              "ro": "Îi văd pe colegii mei.",
+              "ru": "Я вижу своих коллег-мужчин."
+            },
+            {
+              "ro": "Le văd pe colegele mele.",
+              "ru": "Я вижу своих коллег-женщин."
+            }
+          ]
+        },
+        {
+          "title": "Самопроверка",
+          "body": [
+            "Прежде чем выбирать местоимение, спросите «кого вижу?» и «каков род и число названной группы?». Затем определите время: настоящее или perfect compus. Сохраняйте контраст между действием и получателем: Îi văd pe colegi — вижу коллег-мужчин; Îi scriu Mariei — пишу Марии, здесь îi дательное по роли и глаголу. Одинаковая поверхность îi не гарантирует одинаковую функцию. При пересказе не упускайте имя, если два человека могли бы быть обозначены одним местоимением: повторённое имя уменьшает неоднозначность.",
+            "Сначала выпишите целое предложение, затем отметьте субъект и объект. В Îl aștept pe Andrei именно я жду, а Андрей ожидаемый человек; в Pe mine mă așteaptă субъект может быть не назван, но я всё равно объект. Одинаковая буква pe не делает всякое существительное объектом. Проверка простым вопросом кого? помогает, однако окончательный выбор формы зависит и от рода, числа, времени. Для обычной книги Citesc cartea не копируйте модель имени человека."
+          ],
+          "examples": [
+            {
+              "ro": "L-am văzut pe Andrei.",
+              "ru": "Я увидел Андрея."
+            },
+            {
+              "ro": "Am văzut-o pe Maria.",
+              "ru": "Я увидел Марию."
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "Văd pe Andrei.",
+          "right": "Îl văd pe Andrei.",
+          "why": "В изучаемой модели с личным именем сохраняйте короткое местоимение."
+        },
+        {
+          "wrong": "O-am văzut pe Maria.",
+          "right": "Am văzut-o pe Maria.",
+          "why": "Для женского единственного в perfect compus местоимение после причастия."
+        },
+        {
+          "wrong": "Citesc pe cartea.",
+          "right": "Citesc cartea.",
+          "why": "Обычный предмет не получает pe в этой модели."
+        }
+      ],
+      "decisionGuide": [
+        "Определите, является ли названный человек конкретным прямым объектом.",
+        "Выберите îl/o/îi/le по роду и числу объекта.",
+        "Проверьте позицию местоимения в настоящем или perfect compus."
+      ],
+      "sheetRows": [
+        [
+          "м. ед.",
+          "Îl văd pe Andrei."
+        ],
+        [
+          "ж. ед.",
+          "O văd pe Maria."
+        ],
+        [
+          "прошедшее м.",
+          "L-am văzut pe Andrei."
+        ],
+        [
+          "прошедшее ж.",
+          "Am văzut-o pe Maria."
+        ]
+      ],
+      "sources": [
+        {
+          "title": "CEFR Companion Volume (Council of Europe, 2020)",
+          "url": "https://rm.coe.int/cefr-companion-volume-with-new-descriptors-2020/16809ea0d4"
+        },
+        {
+          "title": "UBB, Descrierea minimală a limbii române (2016)",
+          "url": "https://video.elearning.ubbcluj.ro/wp-content/uploads/2016/09/Descrierea-minimala-a-limbii-romane-12-IULIE-2016.pdf"
+        }
+      ]
+    },
+    {
+      "lessonId": "B1.09",
+      "title": "Care: кто действует и над кем действуют",
+      "sections": [
+        {
+          "title": "Различие смыслов",
+          "body": [
+            "Относительная часть уточняет уже названного участника. Colega care mă ajută — коллега помогает мне; Colega pe care o ajut — я помогаю коллеге. Для выбора задайте вопрос внутри придаточного: кто совершает действие? Когда уточняемое существительное является подлежащим, достаточно care. Когда оно является выделенным прямым дополнением, используйте pe care и подходящее короткое местоимение. Поэтому cartea pe care o citesc и textul pe care îl citesc различаются родом слова, к которому относится придаточная часть."
+          ],
+          "examples": [
+            {
+              "ro": "Colega care mă ajută vine azi.",
+              "ru": "Коллега, которая мне помогает, придёт сегодня."
+            },
+            {
+              "ro": "Colega pe care o ajut vine azi.",
+              "ru": "Коллега, которой я помогаю, придёт сегодня."
+            }
+          ]
+        },
+        {
+          "title": "Форма и контекст",
+          "body": [
+            "Другие отношения требуют своего предлога: colega cu care lucrez — коллега, с которой я работаю; problema despre care vorbim — проблема, о которой говорим. Не ставьте pe автоматически перед каждым care. Для места возможно locul unde ne întâlnim или locul în care ne întâlnim. У unde уже есть значение места, поэтому în unde не требуется. Если предмет до придаточного вообще не назван, выражение ceea ce может выступить целиком: Ceea ce vreau să spun este simplu. Это не замена pe care после любого существительного."
+          ],
+          "examples": [
+            {
+              "ro": "Cartea pe care o citesc este aici.",
+              "ru": "Книга, которую я читаю, здесь."
+            },
+            {
+              "ro": "Textul pe care îl citesc este aici.",
+              "ru": "Текст, который я читаю, здесь."
+            }
+          ]
+        },
+        {
+          "title": "Самопроверка",
+          "body": [
+            "Разбирайте длинный текст двумя стрелками: сначала найдите существительное до care, затем определите его роль внутри уточнения. Если два возможных предмета стоят рядом, повторите существительное или разбейте фразу, чтобы адресат не угадывал. В указании маршрута locul unde ne întâlnim помогает уточнить место, а в сообщении о документе documentul pe care îl caut arată конкретный объект поиска. Контекст задаёт смысл, а не один русский перевод «который». Для первой самостоятельной речи выбирайте короткие конструкции с ясным ближайшим предшественником.",
+            "Если хотите уточнить вход, скажите intrarea pe care o caut — вход, который я ищу; intrarea care este deschisă — вход, который открыт. В первом случае вы субъект поиска, во втором вход субъект состояния. Такая минимальная пара показывает смену роли без изменения исходного существительного. В длинном сообщении после местоимения повторите имя входа, если две двери упомянуты подряд. Понятная ссылка важнее того, насколько изящным выглядит предложение."
+          ],
+          "examples": [
+            {
+              "ro": "Este colega cu care lucrez.",
+              "ru": "Это коллега, с которой я работаю."
+            },
+            {
+              "ro": "Acesta este locul unde ne întâlnim.",
+              "ru": "Это место, где мы встречаемся."
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "Colega care o ajut vine.",
+          "right": "Colega pe care o ajut vine.",
+          "why": "Коллега здесь объект моей помощи."
+        },
+        {
+          "wrong": "Locul în unde venim.",
+          "right": "Locul unde venim.",
+          "why": "Перед unde не нужен ещё один предлог места."
+        },
+        {
+          "wrong": "Problema pe care vorbim.",
+          "right": "Problema despre care vorbim.",
+          "why": "A vorbi despre требует связи despre."
+        }
+      ],
+      "decisionGuide": [
+        "Найдите слово, которое уточняется.",
+        "Определите его роль внутри придаточной части.",
+        "Выберите care, pe care + местоимение или требуемый предлог + care."
+      ],
+      "sheetRows": [
+        [
+          "подлежащее",
+          "colega care mă ajută"
+        ],
+        [
+          "объект ж.",
+          "colega pe care o ajut"
+        ],
+        [
+          "собеседник",
+          "colega cu care vorbesc"
+        ],
+        [
+          "место",
+          "locul unde ne întâlnim"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "CEFR Companion Volume (Council of Europe, 2020)",
+          "url": "https://rm.coe.int/cefr-companion-volume-with-new-descriptors-2020/16809ea0d4"
+        },
+        {
+          "title": "UBB, Descrierea minimală a limbii române (2016)",
+          "url": "https://video.elearning.ubbcluj.ro/wp-content/uploads/2016/09/Descrierea-minimala-a-limbii-romane-12-IULIE-2016.pdf"
+        }
+      ]
+    },
+    {
+      "lessonId": "B1.13",
+      "title": "Condițional для выбора и вежливой дистанции",
+      "sections": [
+        {
+          "title": "Различие смыслов",
+          "body": [
+            "Condițional prezent полезен, когда вы называете предпочтение, возможность или мягкую просьбу. Aș dori o informație выражает запрос с дистанцией, но не обещает, что адресат обязан ответить именно так. Aș prefera varianta fără schimbare сообщает личный выбор. Ați putea repeta ora? обращается на dumneavoastră к одному человеку или к нескольким. Сама условная форма не превращает обвинение в учтивую реплику: нужна точная цель вопроса, корректное обращение и готовность выслушать ответ."
+          ],
+          "examples": [
+            {
+              "ro": "Aș dori o informație.",
+              "ru": "Я хотел бы получить сведения."
+            },
+            {
+              "ro": "Ați putea repeta ora?",
+              "ru": "Не могли бы вы повторить время?"
+            }
+          ]
+        },
+        {
+          "title": "Форма и контекст",
+          "body": [
+            "Форма состоит из aș, ai, ar, am, ați, ar и инфинитива без a: eu aș merge, tu ai merge, ea ar merge, noi am merge, voi ați merge, ei ar merge. Не путайте am merge с am mers: первое возможно сейчас или позже, второе сообщает завершённый поход. Чаще всего в жизненных сценах нужны aș vrea, aș dori, aș putea, ar fi bine и ați putea. После aș propune să выбирайте форму по исполнителю: Aș propune să mutăm întâlnirea — переносим мы."
+          ],
+          "examples": [
+            {
+              "ro": "Aș prefera varianta fără schimbare.",
+              "ru": "Я предпочёл бы вариант без пересадки."
+            },
+            {
+              "ro": "Noi am merge mâine.",
+              "ru": "Мы бы пошли завтра."
+            }
+          ]
+        },
+        {
+          "title": "Самопроверка",
+          "body": [
+            "Проверьте, что условная форма действительно соответствует коммуникативной цели. Если вы уже получили подтверждение, напишите Am primit răspunsul, а не Aș primi răspunsul. Если вежливо спрашиваете о вариантах, Aș dori să știu ce variante există уместнее утверждения о гарантированном результате. В Mi-ar plăcea să merg ощущающий участник указан через mi-, поэтому *eu aș place неверно. Для воображаемой ситуации добавьте условие из B1.14: Dacă aș avea timp, aș merge. Нереализованное прошлое этим уроком ещё не тренируется.",
+            "Вежливость проверяется и по точности запроса. Ați putea verifica nota? сообщает конкретное действие; Ați putea face ceva? оставляет задачу неясной. Условное ați putea не доказывает, что собеседник действительно может выполнить просьбу; ответ может содержать ограничение или альтернативу. После ответа повторите предложенный вариант, не заменяя его первоначальным желанием. Если адресат подтвердил только проверку, не пишите, что замена уже выполнена. Условная форма выражает позицию говорящего, а не обязательство адресата.",
+            "Сравните также два сообщения о результате: Am verificat ora сообщает сделанную проверку; Aș verifica ora выражает возможное действие. В письме о проблеме выбирайте форму по реальному статусу, а не по желанию звучать мягче. Не объединяйте в одно обещание проверку, замену и подтверждение, если собеседник согласился только на первый шаг."
+          ],
+          "examples": [
+            {
+              "ro": "Aș propune să mutăm întâlnirea.",
+              "ru": "Я предложил бы перенести встречу."
+            },
+            {
+              "ro": "Mi-ar plăcea să merg.",
+              "ru": "Мне было бы приятно пойти."
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "Noi am mers mâine dacă am putea.",
+          "right": "Noi am merge mâine dacă am putea.",
+          "why": "Am mers — прошедшее; am merge — условное."
+        },
+        {
+          "wrong": "Aș propune să mutați noi întâlnirea.",
+          "right": "Aș propune să mutăm întâlnirea.",
+          "why": "После să форма согласуется с исполнителем действия."
+        },
+        {
+          "wrong": "Eu aș place să merg.",
+          "right": "Mi-ar plăcea să merg.",
+          "why": "У a plăcea ощущающий участник выражен дательным mi-."
+        }
+      ],
+      "decisionGuide": [
+        "Назовите действие: просьба, предпочтение, предложение или факт.",
+        "Выберите форму условного по лицу говорящего или адресата.",
+        "После să проверьте лицо следующего действия и вежливость всей фразы."
+      ],
+      "sheetRows": [
+        [
+          "я хотел бы",
+          "Aș dori să întreb."
+        ],
+        [
+          "вы могли бы",
+          "Ați putea repeta?"
+        ],
+        [
+          "мы бы пошли",
+          "Am merge mâine."
+        ],
+        [
+          "предлагаю нам",
+          "Aș propune să mutăm ora."
+        ]
+      ],
+      "sources": [
+        {
+          "title": "CEFR Companion Volume (Council of Europe, 2020)",
+          "url": "https://rm.coe.int/cefr-companion-volume-with-new-descriptors-2020/16809ea0d4"
+        },
+        {
+          "title": "UBB, Descrierea minimală a limbii române (2016)",
+          "url": "https://video.elearning.ubbcluj.ro/wp-content/uploads/2016/09/Descrierea-minimala-a-limbii-romane-12-IULIE-2016.pdf"
+        }
+      ]
+    },
+    {
+      "lessonId": "B1.15",
+      "title": "Позиция, возражение и договорённость",
+      "sections": [
+        {
+          "title": "Различие смыслов",
+          "body": [
+            "В обсуждении шумного вечера или общего дела сначала разделите наблюдение и оценку. Ieri auzeam muzică после определённого часа сообщает наблюдение; Mi se pare că este prea târziu выражает вашу оценку. Cred că… и după părerea mea также не превращают взгляд в доказанный факт. Если собеседник объяснил своё ограничение, отразите его точно: Înțeleg că aveți nevoie de timp pentru repetiție. Эта фраза не означает автоматического согласия с любым решением; она показывает, что следующий вариант учитывает услышанное."
+          ],
+          "examples": [
+            {
+              "ro": "Mi se pare că este prea târziu.",
+              "ru": "Мне кажется, что это слишком поздно."
+            },
+            {
+              "ro": "Înțeleg că aveți nevoie de timp.",
+              "ru": "Понимаю, что вам нужно время."
+            }
+          ]
+        },
+        {
+          "title": "Форма и контекст",
+          "body": [
+            "Согласие с человеком оформляется Sunt de acord cu tine, согласие на действие — Sunt de acord să încercăm un program nou. Для мягкого возражения используйте Înțeleg, dar… и назовите конкретное препятствие. Ar fi bine să terminăm repetiția la nouă предлагает завершить репетицию к девяти и задаёт проверяемую пробу; Trebuie să terminați — сильное требование. Выбор зависит от отношения между людьми и от того, нужен ли совместный поиск решения. Условие Dacă terminăm la nouă, pot lucra după aceea связывает ограничение с возможным результатом, но не объявляет общего правила дома."
+          ],
+          "examples": [
+            {
+              "ro": "Sunt de acord cu tine.",
+              "ru": "Я согласен с тобой."
+            },
+            {
+              "ro": "Sunt de acord să încercăm.",
+              "ru": "Я согласен попробовать."
+            }
+          ]
+        },
+        {
+          "title": "Самопроверка",
+          "body": [
+            "Хороший компромисс меняет условия для обеих сторон или хотя бы делает шаги каждого видимыми. В учебной сцене сосед заканчивает в два конкретных дня, а вы заранее сообщаете о встрече, требующей тишины. Если среда не согласована, напишите Miercuri rămâne de discutat; иначе запись создаст ложное обещание. Назовите срок пробы и дату повторного разговора: Încercăm o săptămână și vorbim vineri. В реальном разговоре можно принять, отклонить или изменить предложение; упражнение проверяет ясность формулировки, а не навязывает одно «правильное» социальное решение.",
+            "Пробный компромисс можно оценивать по ясности, а не по тому, кто «выиграл». Спросите: какие дни названы, что делает каждый, что остаётся открытым и когда стороны вернутся к разговору? Если один участник не может принять среду, честная запись сохраняет этот пробел. Уступка для двух дней не становится правилом для всех дней. Такая проверка особенно нужна после письменного согласия, когда один человек мог понять общий принцип, а другой — только конкретную неделю."
+          ],
+          "examples": [
+            {
+              "ro": "Ar fi bine să discutăm vineri.",
+              "ru": "Хорошо бы поговорить в пятницу."
+            },
+            {
+              "ro": "Miercuri rămâne de discutat.",
+              "ru": "Среда остаётся предметом обсуждения."
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "Sunt de acord cu încercăm.",
+          "right": "Sunt de acord să încercăm.",
+          "why": "С действием нужна конструкция să + глагол."
+        },
+        {
+          "wrong": "Sunt de acord să tine.",
+          "right": "Sunt de acord cu tine.",
+          "why": "Для согласия с человеком используется cu."
+        },
+        {
+          "wrong": "Miercuri este confirmată.",
+          "right": "Miercuri rămâne de discutat.",
+          "why": "Не объявляйте несогласованный день подтверждённым."
+        }
+      ],
+      "decisionGuide": [
+        "Назовите наблюдение и отделите свою оценку.",
+        "Повторите ограничение другого человека, затем предложите условие.",
+        "Зафиксируйте конкретные дни, шаги и ещё открытые вопросы."
+      ],
+      "sheetRows": [
+        [
+          "оценка",
+          "Mi se pare că…"
+        ],
+        [
+          "признание",
+          "Înțeleg că aveți nevoie de timp."
+        ],
+        [
+          "действие",
+          "Sunt de acord să încercăm."
+        ],
+        [
+          "открытый вопрос",
+          "Miercuri rămâne de discutat."
+        ]
+      ],
+      "sources": [
+        {
+          "title": "CEFR Companion Volume (Council of Europe, 2020)",
+          "url": "https://rm.coe.int/cefr-companion-volume-with-new-descriptors-2020/16809ea0d4"
+        },
+        {
+          "title": "UBB, Descrierea minimală a limbii române (2016)",
+          "url": "https://video.elearning.ubbcluj.ro/wp-content/uploads/2016/09/Descrierea-minimala-a-limbii-romane-12-IULIE-2016.pdf"
+        }
+      ]
+    },
+    {
+      "lessonId": "B1.17",
+      "title": "Звонок при потере части сообщения",
+      "sections": [
+        {
+          "title": "Различие смыслов",
+          "body": [
+            "Телефон убирает жесты и видимый контекст, поэтому вопрос «можете повторить?» полезно сделать точным. Назовите цель звонка: Vă sun în legătură cu plecarea de mâine. Если связь оборвалась, скажите Nu am auzit ultima parte или S-a întrerupt legătura. После этого спросите только о важной потерянной детали: Puteți repeta ora plecării? Так собеседник понимает, что проблема не в теме всего разговора. Скажите Nu vă aud bine, когда дело именно в качестве связи, а не в сложном содержании."
+          ],
+          "examples": [
+            {
+              "ro": "Vă sun în legătură cu plecarea.",
+              "ru": "Звоню по поводу отправления."
+            },
+            {
+              "ro": "S-a întrerupt legătura.",
+              "ru": "Связь оборвалась."
+            }
+          ]
+        },
+        {
+          "title": "Форма и контекст",
+          "body": [
+            "При двух похожих вариантах назовите оба: Ați spus joi sau vineri? Если собеседник ответил Nu joi, ci vineri, в следующем пересказе используйте пятницу. Формула Dacă am înțeles bine… нужна, чтобы проверить вашу интерпретацию: Dacă am înțeles bine, ambele variante pleacă vineri. Не говорите «подтверждено» о времени прибытия, если человек только подтвердил отправление. Din câte am înțeles мягко помечает ваш пересказ; если действие зависит от точной цифры, задайте дополнительный вопрос."
+          ],
+          "examples": [
+            {
+              "ro": "Puteți repeta ora plecării?",
+              "ru": "Можете повторить время отправления?"
+            },
+            {
+              "ro": "Ați spus joi sau vineri?",
+              "ru": "Вы сказали четверг или пятницу?"
+            }
+          ]
+        },
+        {
+          "title": "Самопроверка",
+          "body": [
+            "Завершение звонка должно обозначить следующий шаг: Vă trimit un mesaj de confirmare или Vă sun din nou după ce verific. Если нужно передать содержание другому человеку, кратко укажите источник: Operatorul a confirmat ziua, dar nu a confirmat ora sosirii. В этом примере вы не дополняете отсутствующую цифру догадкой. Различайте вопрос и утверждение: Ați spus joi sau vineri? ещё не ответ; Deci plecăm vineri — версия, которую можно подтвердить. Выдуманные числа в упражнении служат языковой практике и не отражают поездки в городе.",
+            "Контрольное повторение полезно делать после исправления, а не до него. Если оператор сказал сначала joi и затем Nu joi, ci vineri, ваш итог должен содержать vineri. При нескольких числах записывайте рядом название каждой величины: plecare, sosire, număr. Иначе можно верно услышать цифру, но отнести её к другому событию. Перед завершением звонка спросите только о критичной недостающей информации и отметьте, кто проверит её позже. Простое Da ещё не является проверкой."
+          ],
+          "examples": [
+            {
+              "ro": "Dacă am înțeles bine, plecăm vineri.",
+              "ru": "Если я правильно понял, мы отправляемся в пятницу."
+            },
+            {
+              "ro": "Vă trimit un mesaj de confirmare.",
+              "ru": "Я отправлю вам сообщение с подтверждением."
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "Da, am înțeles, dar ce zi este?",
+          "right": "Nu am prins ziua. Ați spus joi sau vineri?",
+          "why": "Не утверждайте понимание при неизвестном дне."
+        },
+        {
+          "wrong": "Operatorul a confirmat și sosirea.",
+          "right": "Operatorul a confirmat plecarea; sosirea nu este confirmată.",
+          "why": "Не расширяйте подтверждение на другую деталь."
+        },
+        {
+          "wrong": "Puteți repeta tot?",
+          "right": "Puteți repeta ora plecării?",
+          "why": "Точная просьба лучше восстанавливает потерянный фрагмент."
+        }
+      ],
+      "decisionGuide": [
+        "Назовите цель звонка и точный участок потери связи.",
+        "Спросите о двух версиях или конкретной недостающей детали.",
+        "Повторите исправленную версию и отдельно отметьте то, чего не подтвердили."
+      ],
+      "sheetRows": [
+        [
+          "цель",
+          "Vă sun în legătură cu…"
+        ],
+        [
+          "потеря",
+          "Nu am auzit ultima parte."
+        ],
+        [
+          "развилка",
+          "Ați spus joi sau vineri?"
+        ],
+        [
+          "проверка",
+          "Dacă am înțeles bine…"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "CEFR Companion Volume (Council of Europe, 2020)",
+          "url": "https://rm.coe.int/cefr-companion-volume-with-new-descriptors-2020/16809ea0d4"
+        },
+        {
+          "title": "UBB, Descrierea minimală a limbii române (2016)",
+          "url": "https://video.elearning.ubbcluj.ro/wp-content/uploads/2016/09/Descrierea-minimala-a-limbii-romane-12-IULIE-2016.pdf"
+        }
+      ]
+    },
+    {
+      "lessonId": "B1.18",
+      "title": "Обращение: наблюдение, просьба, граница знания",
+      "sections": [
+        {
+          "title": "Различие смыслов",
+          "body": [
+            "В кафе, магазине или другой вымышленной службе сначала отделите факт от объяснения. Am comandat ceai, dar am primit cafea сообщает наблюдаемое расхождение. Cred că angajatul a uitat — предположение, для которого может не быть основания. Если счёт не соответствует заказу, назовите конкретную строку: Pe notă apar două ceaiuri, dar am primit unul. Это позволяет проверить запись без личного обвинения. Упоминание даты или номера помогает только тогда, когда у вас действительно есть эта информация; не придумывайте реквизиты для убедительности."
+          ],
+          "examples": [
+            {
+              "ro": "Am comandat ceai, dar am primit cafea.",
+              "ru": "Я заказал чай, но получил кофе."
+            },
+            {
+              "ro": "Pe notă apar două ceaiuri.",
+              "ru": "В счёте указаны два чая."
+            }
+          ]
+        },
+        {
+          "title": "Форма и контекст",
+          "body": [
+            "Затем назовите действие, которого ждёте: Ați putea verifica nota? или Vă rog să îmi spuneți ce variante există. Condițional ați putea и aș dori задаёт вежливую дистанцию, но смысл просьбы всё равно должен быть точным. Если условия решения неизвестны, спросите о них: Puteți schimba băutura? Когда речь о правах, сроках возврата или гарантии, учебная фраза не заменяет реальные условия организации. Здесь проверяется языковая форма и точность информации, а не юридический вывод."
+          ],
+          "examples": [
+            {
+              "ro": "Nu știu care este cauza.",
+              "ru": "Я не знаю причину."
+            },
+            {
+              "ro": "Ați putea verifica nota?",
+              "ru": "Не могли бы вы проверить счёт?"
+            }
+          ]
+        },
+        {
+          "title": "Самопроверка",
+          "body": [
+            "После ответа отделите обещание от выполненного действия. Veți aduce ceaiul означает будущий шаг, Am primit ceaiul — завершённое получение. Для проверки скажите Dacă am înțeles bine, schimbați băutura și verificați nota. Если сотрудник исправил старую версию, используйте de fapt: Credeam că a doua linie era o băutură; de fapt, era un desert. Тогда ваше обращение должно измениться вместе с данными. В коротком письменном итоге назовите предмет, проверенный результат и то, чего ещё ждёте, сохраняя спокойное обращение на dumneavoastră.",
+            "Проверяйте глагольное время в итоговом сообщении. Am primit описывает уже полученное, voi primi — ожидаемое. Если сотрудник лишь предложил принести новый напиток, не сообщайте спутнику, что проблема решена. Сверьте отдельно заказ, физически полученный предмет и исправленный счёт; разные части могут быть завершены в разное время. Исправление собственной ошибки также нормально: de fapt вводит новую проверенную версию и помогает не спорить за утверждение, от которого вы сами отказались."
+          ],
+          "examples": [
+            {
+              "ro": "Vă rog să îmi spuneți ce variante există.",
+              "ru": "Прошу сказать, какие есть варианты."
+            },
+            {
+              "ro": "Dacă am înțeles bine, schimbați băutura.",
+              "ru": "Если я правильно понял, вы замените напиток."
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "Angajatul a greșit intenționat.",
+          "right": "Am comandat ceai, dar am primit cafea.",
+          "why": "Намерение нельзя вывести из ошибки заказа."
+        },
+        {
+          "wrong": "Vreau sigur banii înapoi.",
+          "right": "Aș dori să știu ce variante există.",
+          "why": "Учебная сцена не определяет условия конкретной службы."
+        },
+        {
+          "wrong": "Am primit ceaiul nou, deși încă aștept.",
+          "right": "Voi primi ceaiul nou; încă aștept.",
+          "why": "Обещанный шаг не равен выполненному."
+        }
+      ],
+      "decisionGuide": [
+        "Назовите предмет, заказ и наблюдаемое расхождение.",
+        "Попросите проверить конкретный объект или сообщить варианты.",
+        "После ответа повторите согласованное, отделив ожидание от результата."
+      ],
+      "sheetRows": [
+        [
+          "факт",
+          "Am comandat ceai; am primit cafea."
+        ],
+        [
+          "счёт",
+          "Pe notă apar două ceaiuri."
+        ],
+        [
+          "просьба",
+          "Ați putea verifica nota?"
+        ],
+        [
+          "итог",
+          "Dacă am înțeles bine…"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "CEFR Companion Volume (Council of Europe, 2020)",
+          "url": "https://rm.coe.int/cefr-companion-volume-with-new-descriptors-2020/16809ea0d4"
+        },
+        {
+          "title": "UBB, Descrierea minimală a limbii române (2016)",
+          "url": "https://video.elearning.ubbcluj.ro/wp-content/uploads/2016/09/Descrierea-minimala-a-limbii-romane-12-IULIE-2016.pdf"
+        }
+      ]
+    },
+    {
+      "lessonId": "B1.20",
+      "title": "Письмо, статус и точный пересказ указаний",
+      "sections": [
+        {
+          "title": "Различие смыслов",
+          "body": [
+            "Рабочее письмо читатель должен понять без угадывания цели. Тема Intrarea pentru întâlnire лучше общего O întrebare: она указывает предмет. В первой фразе Vă scriu în legătură cu… назовите, зачем пишете; затем только нужные для ответа сведения. Если знакомая форма общения — dumneavoastră, сохраняйте Vă, puteți, dumneavoastră. Если коллеги давно договорились говорить на tu, возможны îți и poți, но переход внутри одного короткого письма может сделать адресата неясным. Не упоминайте приложенный файл, если не приложили его."
+          ],
+          "examples": [
+            {
+              "ro": "Vă scriu în legătură cu intrarea.",
+              "ru": "Пишу вам по поводу входа."
+            },
+            {
+              "ro": "Am verificat intrarea din curte.",
+              "ru": "Я проверил вход со двора."
+            }
+          ]
+        },
+        {
+          "title": "Форма и контекст",
+          "body": [
+            "Статус разделите по времени и достоверности: Am verificat intrarea din curte — выполнено; Ora redeschiderii nu este precizată — текущий пробел; Voi întreba administratorul — следующий шаг. Модель запроса Aș dori să știu dacă intrarea principală este deschisă содержит косвенный вопрос «открыт ли». Иная фраза Dacă intrarea este deschisă, intrăm означает условие. Такое различие защищает от ошибочного пересказа, будто открытый вход уже подтверждён. В ответе сначала закройте заданный вопрос, затем обозначьте оставшиеся неизвестные детали."
+          ],
+          "examples": [
+            {
+              "ro": "Ora redeschiderii nu este precizată.",
+              "ru": "Время открытия не указано."
+            },
+            {
+              "ro": "Aș dori să știu dacă este deschisă.",
+              "ru": "Я хотел бы узнать, открыта ли она."
+            }
+          ]
+        },
+        {
+          "title": "Самопроверка",
+          "body": [
+            "При передаче указания прохожему сначала удостоверьтесь в направлении: Puteți repeta direcția? Затем сообщите простые последовательные шаги: Mergeți până la colț, apoi faceți la stânga. Если ранее сказали направо, исправьте явно: Inițial am spus la dreapta; de fapt, este la stânga. Источник информации тоже важен: Administratorul mi-a spus… не равнозначно Cred că… . Не добавляйте время ходьбы, если его не назвали. Проверка перед отправкой включает адресата, тему, вложение, факты, открытый вопрос и действие, которого вы ждёте.",
+            "Для передачи чужого указания выпишите источник и последнюю подтверждённую версию рядом. Слово de fapt вводит исправление, но адресату всё равно нужен новый полный маршрут. Если раньше было направо, а теперь налево после угла, скажите от какой точки начинаются шаги. В письме не скрывайте незавершённую проверку: Voi întreba сообщает намерение, тогда как Am întrebat сообщает уже выполненный звонок. Собеседник должен понять, что он может сделать сейчас и чего ещё нельзя заключить."
+          ],
+          "examples": [
+            {
+              "ro": "Mergeți până la colț, apoi faceți la stânga.",
+              "ru": "Идите до угла, затем поверните налево."
+            },
+            {
+              "ro": "De fapt, este la stânga.",
+              "ru": "На самом деле это налево."
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "Vă trimit documentul atașat.",
+          "right": "Vă trimit informația în acest mesaj.",
+          "why": "Если файла нет, не утверждайте, что он приложен."
+        },
+        {
+          "wrong": "Dacă este deschisă?",
+          "right": "Aș dori să știu dacă este deschisă.",
+          "why": "Вводная часть показывает, что это косвенный вопрос."
+        },
+        {
+          "wrong": "Cred că e la dreapta, deci spuneți că administratorul a confirmat.",
+          "right": "Nu sunt sigur; voi verifica direcția cu administratorul.",
+          "why": "Личная догадка не должна становиться подтверждением источника."
+        }
+      ],
+      "decisionGuide": [
+        "Назовите адресата, тему и ожидаемый ответ.",
+        "Разделите выполненное, неизвестное и следующий шаг.",
+        "Передавая маршрут, проверьте источник и исправьте устаревшее направление явно."
+      ],
+      "sheetRows": [
+        [
+          "тема",
+          "Intrarea pentru întâlnire"
+        ],
+        [
+          "сделано",
+          "Am verificat intrarea din curte."
+        ],
+        [
+          "открытый вопрос",
+          "Ora nu este precizată."
+        ],
+        [
+          "маршрут",
+          "Până la colț, apoi la stânga."
+        ]
+      ],
+      "sources": [
+        {
+          "title": "CEFR Companion Volume (Council of Europe, 2020)",
+          "url": "https://rm.coe.int/cefr-companion-volume-with-new-descriptors-2020/16809ea0d4"
+        },
+        {
+          "title": "UBB, Descrierea minimală a limbii române (2016)",
+          "url": "https://video.elearning.ubbcluj.ro/wp-content/uploads/2016/09/Descrierea-minimala-a-limbii-romane-12-IULIE-2016.pdf"
+        }
+      ]
+    }
+  ],
+  "audit": [
+    {
+      "lessonId": "B1.01",
+      "status": "expanded",
+      "findings": "Фон и ограниченный итог уже разведены; добавлена проверка точки зрения на звонках и подсчитанной серии.",
+      "coverage": [
+        "imperfect/PC",
+        "контекст времени",
+        "два взгляда на период"
+      ]
+    },
+    {
+      "lessonId": "B1.02",
+      "status": "reviewed",
+      "findings": "Când, în timp ce, după ce и înainte să сопоставлены; в новых сценах используются последовательность звонка и уточнения, отдельный блок не нужен.",
+      "coverage": [
+        "одновременность",
+        "порядок шагов",
+        "граница"
+      ]
+    },
+    {
+      "lessonId": "B1.03",
+      "status": "reviewed",
+      "findings": "Gerunziu представлен с общим исполнителем; новые повседневные диалоги не требуют продуктивного gerunziu.",
+      "coverage": [
+        "распознавание -ând/-ind",
+        "общий субъект",
+        "без форсирования"
+      ]
+    },
+    {
+      "lessonId": "B1.04",
+      "status": "reviewed",
+      "findings": "Рассказ различает фон, поворот и исправление de fapt; наблюдение шума и ошибка направления дают перенос на конкретные сообщения.",
+      "coverage": [
+        "хронология",
+        "уточнение",
+        "точность участников"
+      ]
+    },
+    {
+      "lessonId": "B1.05",
+      "status": "reviewed",
+      "findings": "Genitiv/dativ и женское определение показаны; новые фразы ora plecării/ora sosirii и адресат сообщения опираются на этот урок.",
+      "coverage": [
+        "принадлежность",
+        "получатель",
+        "форма plecării"
+      ]
+    },
+    {
+      "lessonId": "B1.06",
+      "status": "reviewed",
+      "findings": "Al/a и cel/cea в исходной теории достаточно для распознавания; практические сцены не вынуждают продуктивные редкие сочетания.",
+      "coverage": [
+        "род предмета",
+        "владелец",
+        "эллипсис предмета"
+      ]
+    },
+    {
+      "lessonId": "B1.07",
+      "status": "expanded",
+      "findings": "Обязательное pe с конкретным именем и перемещение коротких форм дополнены картой лица, рода, числа и времени.",
+      "coverage": [
+        "pe + местоимение",
+        "PC женское -o",
+        "предмет без pe"
+      ]
+    },
+    {
+      "lessonId": "B1.08",
+      "status": "reviewed",
+      "findings": "Дательный адресат и возвратная принадлежность различены; при передаче сообщений проверена роль получателя.",
+      "coverage": [
+        "îi как получатель",
+        "își как владелец",
+        "прошедшие краткие формы"
+      ]
+    },
+    {
+      "lessonId": "B1.09",
+      "status": "expanded",
+      "findings": "Care как субъект и pe care как объект подкреплены ролью предшественника и предлогами для места/собеседника.",
+      "coverage": [
+        "care/pe care",
+        "предлог + care",
+        "unde"
+      ]
+    },
+    {
+      "lessonId": "B1.10",
+      "status": "reviewed",
+      "findings": "Косвенный вопрос с dacă и вопросительным словом хорошо введён; сервисная задача различает «ли» и условное если.",
+      "coverage": [
+        "вопрос да/нет",
+        "смена лица",
+        "вопрос против условия"
+      ]
+    },
+    {
+      "lessonId": "B1.11",
+      "status": "reviewed",
+      "findings": "Причина/цель/следствие уже различены; жалоба не делает гипотезу причиной, а маршрут связывает цель звонка с уточнением.",
+      "coverage": [
+        "причина",
+        "цель",
+        "следствие"
+      ]
+    },
+    {
+      "lessonId": "B1.12",
+      "status": "reviewed",
+      "findings": "Отрицательное согласование и свободный выбор покрыты исходной теорией; новые сценарии не тестируют неопределённые формы без подготовки.",
+      "coverage": [
+        "nimeni/nu",
+        "fiecare",
+        "orice"
+      ]
+    },
+    {
+      "lessonId": "B1.13",
+      "status": "expanded",
+      "findings": "Condițional дополнен точными функциями просьбы, предпочтения и предложения без подмены результата обещанием.",
+      "coverage": [
+        "парадигма",
+        "вежливая просьба",
+        "предпочтение"
+      ]
+    },
+    {
+      "lessonId": "B1.14",
+      "status": "reviewed",
+      "findings": "Реальное и воображаемое dacă различены в исходном уроке; выбор поездки и проба с соседом применяют реальное условие.",
+      "coverage": [
+        "реальное условие",
+        "гипотеза сейчас",
+        "dacă как условие"
+      ]
+    },
+    {
+      "lessonId": "B1.15",
+      "status": "expanded",
+      "findings": "Мнение, признание аргумента, два типа согласия и проверяемая проба расширены на соседский спор.",
+      "coverage": [
+        "с человеком cu",
+        "с действием să",
+        "компромисс"
+      ]
+    },
+    {
+      "lessonId": "B1.16",
+      "status": "reviewed",
+      "findings": "Согласование пассива и se представлены на исходных формах; в жизни применяется только знакомое nu este confirmată/precizată с явным существительным.",
+      "coverage": [
+        "согласование причастия",
+        "se-процесс",
+        "состояние двери"
+      ]
+    },
+    {
+      "lessonId": "B1.17",
+      "status": "expanded",
+      "findings": "Телефонный ремонт расширен на сбой связи, два дня и передачу подтверждённой версии поездки.",
+      "coverage": [
+        "точный переспрос",
+        "исправление nu…ci",
+        "подтверждение"
+      ]
+    },
+    {
+      "lessonId": "B1.18",
+      "status": "expanded",
+      "findings": "Факт/догадка/запрос дополнены кафе-счётом и различием обещанной замены от выполненной.",
+      "coverage": [
+        "наблюдение",
+        "вежливая просьба",
+        "граница знания"
+      ]
+    },
+    {
+      "lessonId": "B1.19",
+      "status": "reviewed",
+      "findings": "Роль/процесс/результат работы достаточно изложены; сервисное сообщение использует проверенный шаг и следующее действие.",
+      "coverage": [
+        "роль",
+        "порядок процесса",
+        "простое объяснение"
+      ]
+    },
+    {
+      "lessonId": "B1.20",
+      "status": "expanded",
+      "findings": "Структура рабочего письма расширена статусом, косвенным вопросом, точной передачей маршрута и исправлением источника.",
+      "coverage": [
+        "тема письма",
+        "сделано/неизвестно/следующий шаг",
+        "адресат"
+      ]
+    },
+    {
+      "lessonId": "B1.21",
+      "status": "reviewed",
+      "findings": "Понимание письменной речи пока опирается на текстовые опоры; новый звонок тренирует речевое уточнение, но не предъявляется как проверка живого аудирования.",
+      "coverage": [
+        "цель сообщения",
+        "отрицание и исправление",
+        "запрос повторения"
+      ]
+    },
+    {
+      "lessonId": "B1.22",
+      "status": "reviewed",
+      "findings": "Тип, срок и неизвестная деталь объявления покрыты исходной теорией; сервисная сцена требует не придумывать время открытия.",
+      "coverage": [
+        "объявление",
+        "начало/срок",
+        "неуказанное время"
+      ]
+    },
+    {
+      "lessonId": "B1.23",
+      "status": "reviewed",
+      "findings": "Переформулирование без добавления фактов хорошо введено; передача маршрута и итога звонка проверяет точность без нового грамматического блока.",
+      "coverage": [
+        "суть и две опоры",
+        "граница источника",
+        "исправление"
+      ]
+    },
+    {
+      "lessonId": "B1.24",
+      "status": "reviewed",
+      "findings": "Проект включает новый вопрос и самоанализ; перенос после каждой сцены остаётся самостоятельным, не автоматически оценённым.",
+      "coverage": [
+        "подготовленный текст",
+        "неожиданный вопрос",
+        "самоанализ"
+      ]
+    }
+  ]
+}

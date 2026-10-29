@@ -1,0 +1,686 @@
+{
+  "missions": [
+    {
+      "missionId": "MISSION.B2.1",
+      "phrases": [
+        {
+          "ro": "Ai venit la sala veche. Locul fusese schimbat ieri, după ce trimiseserăm primele invitații.",
+          "ru": "Ты пришёл в старый зал. Место проведения изменили вчера, после того как мы отправили первые приглашения.",
+          "note": "Fusese schimbat — «было изменено к тому моменту»; trimiseserăm — «мы уже отправили». Формы устанавливают порядок событий до прихода."
+        },
+        {
+          "ro": "Eu primisem doar prima invitație. Când a fost trimisă actualizarea?",
+          "ru": "Я получил только первое приглашение. Когда отправили обновление?",
+          "note": "Primisem показывает ранее полученное приглашение. A fost trimisă — прошедшее страдательное: «было отправлено»."
+        },
+        {
+          "ro": "Dacă s-a schimbat locul, înseamnă că ați vrut să nu particip.",
+          "ru": "Если место изменилось, значит, вы хотели, чтобы я не участвовал."
+        },
+        {
+          "ro": "Nu aceasta a fost intenția. Am trimis un mesaj nou, dar nu știm încă dacă a ajuns la toate adresele.",
+          "ru": "Намерение было иным. Мы отправили новое сообщение, но пока не знаем, дошло ли оно до всех адресов."
+        },
+        {
+          "ro": "Înțeleg. E posibil ca mesajul să nu fi ajuns la mine; hai să verificăm ora trimiterii.",
+          "ru": "Понимаю. Возможно, сообщение до меня не дошло; давай проверим время отправки.",
+          "note": "E posibil ca… să nu fi ajuns — «возможно, не дошло»: предположение о прошлом. Hai să… — разговорное «давай / давайте…»."
+        },
+        {
+          "ro": "Actualizarea a plecat aseară. Întâlnirea s-a încheiat înainte să ne suni.",
+          "ru": "Обновление отправили вчера вечером. Встреча закончилась до того, как ты нам позвонил."
+        },
+        {
+          "ro": "Dacă aș fi văzut mesajul, aș fi venit la noul loc. Putem confirma primirea pentru data viitoare?",
+          "ru": "Если бы я увидел сообщение, я пришёл бы на новое место. Можем в следующий раз подтверждать получение?",
+          "note": "Dacă aș fi văzut…, aș fi venit… — нереальное условие о прошлом: «если бы увидел…, пришёл бы…»."
+        },
+        {
+          "ro": "Deci întâlnirea se va încheia după apelul meu de ieri.",
+          "ru": "Значит, встреча закончится после моего вчерашнего звонка."
+        },
+        {
+          "ro": "Nu, întâlnirea se terminase deja când ai sunat. Vorbim despre un eveniment încheiat.",
+          "ru": "Нет, встреча уже закончилась, когда ты позвонил. Речь о завершённом событии."
+        },
+        {
+          "ro": "Am înțeles: se terminase înainte de apel. Pentru viitor, aș propune o confirmare de primire.",
+          "ru": "Я понял: она закончилась до звонка. На будущее я предложил бы подтверждать получение.",
+          "note": "Se terminase помещает конец встречи до звонка. Aș propune — вежливое «я предложил бы», confirmare de primire — подтверждение получения."
+        },
+        {
+          "ro": "Da, vom cere o confirmare scurtă. Vrei să-ți trimit și rezumatul discuției?",
+          "ru": "Да, будем просить короткое подтверждение. Хочешь, я пришлю тебе и краткое содержание обсуждения?"
+        },
+        {
+          "ro": "Da, te rog. Voi citi rezumatul și voi verifica separat ce a împiedicat primirea mesajului.",
+          "ru": "Да, пожалуйста. Я прочитаю краткое содержание и отдельно проверю, что помешало получению сообщения."
+        },
+        {
+          "ro": "Decizia fusese anunțată luni. Acum circulă un mesaj că echipa ar fi renunțat la ea, dar nu este confirmat.",
+          "ru": "Решение объявили в понедельник. Теперь ходит сообщение, будто команда от него отказалась, но подтверждения нет.",
+          "note": "Fusese anunțată — ранее объявленное решение. Ar fi renunțat здесь передаёт чужую неподтверждённую версию: «будто отказалась»."
+        },
+        {
+          "ro": "Să separăm decizia anunțată de versiunea neconfirmată. Cine a trimis noul mesaj?",
+          "ru": "Давайте отделим объявленное решение от неподтверждённой версии. Кто отправил новое сообщение?"
+        },
+        {
+          "ro": "Voi anunța imediat că decizia a fost anulată sigur.",
+          "ru": "Я немедленно объявлю, что решение точно отменено."
+        },
+        {
+          "ro": "Nu avem o confirmare a anulării. Mesajul poate fi interpretat și ca o cerere de clarificări.",
+          "ru": "Подтверждения отмены нет. Сообщение можно понять и как запрос уточнений."
+        },
+        {
+          "ro": "Atunci nu voi prezenta anularea ca fapt. Să verificăm formularea originală.",
+          "ru": "Тогда я не буду представлять отмену как факт. Давайте проверим исходную формулировку."
+        },
+        {
+          "ro": "Mesajul spune că unele condiții trebuie revăzute, nu că proiectul este oprit.",
+          "ru": "В сообщении говорится, что некоторые условия нужно пересмотреть, а не что проект остановлен."
+        },
+        {
+          "ro": "E posibil să fi confundat revizuirea condițiilor cu anularea. Aș cere o explicație directă.",
+          "ru": "Возможно, пересмотр условий перепутали с отменой. Я попросил бы прямое объяснение.",
+          "note": "Să fi confundat обозначает возможную уже совершённую ошибку. Без названного субъекта контекст уточняет, кто перепутал; перевод сохраняет эту неопределённость."
+        },
+        {
+          "ro": "Orice revizuire înseamnă automat că proiectul nu a existat.",
+          "ru": "Любой пересмотр автоматически означает, что проекта не существовало."
+        },
+        {
+          "ro": "Condițiile se pot schimba fără ca proiectul să fie anulat. Decizia inițială rămâne punctul de referință.",
+          "ru": "Условия могут меняться без отмены проекта. Исходное решение остаётся точкой отсчёта."
+        },
+        {
+          "ro": "Da. Dacă am fi văzut de la început mesajul complet, am fi evitat această presupunere.",
+          "ru": "Да. Если бы мы с самого начала увидели полное сообщение, то избежали бы этого предположения.",
+          "note": "Am fi văzut / am fi evitat — формы для noi: «если бы мы увидели…, мы избежали бы…»."
+        },
+        {
+          "ro": "Îi voi scrie coordonatoarei și voi întreba ce anume se revizuiește.",
+          "ru": "Я напишу координатору и спрошу, что именно пересматривают."
+        },
+        {
+          "ro": "Până primim răspunsul, voi spune doar că există o solicitare de revizuire, nu o anulare confirmată.",
+          "ru": "Пока мы не получим ответ, я буду говорить только о наличии запроса на пересмотр, а не о подтверждённой отмене.",
+          "note": "Până primim răspunsul — «пока не получим ответ». Doar ограничивает сообщение тем, что известно."
+        }
+      ],
+      "notes": [
+        "Mai mult ca perfect (primisem, se terminase) показывает, что уже произошло к выбранному моменту прошлого. Для несостоявшегося другого исхода используйте dacă aș fi + причастие, aș fi + причастие: «если бы… то…».",
+        "Отделяйте исходный факт от слуха и предположения. E posibil să fi… — «возможно, уже…»; ar fi renunțat в пересказе слуха сохраняет статус неподтверждённой версии."
+      ]
+    },
+    {
+      "missionId": "MISSION.B2.2",
+      "phrases": [
+        {
+          "ro": "Raportul vi l-am trimis, iar dumneavoastră ați confirmat primirea lui. Anexa este într-un dosar separat; nu știu dacă aveți acces la ea.",
+          "ru": "Отчёт я вам отправила, и вы подтвердили его получение. Приложение находится в отдельной папке; не знаю, есть ли у вас доступ.",
+          "note": "В vi l-am trimis местоимение vi означает «вам», l- заменяет raportul. La ea относится к anexa: «к ней / к приложению»."
+        },
+        {
+          "ro": "Raportul l-am primit. Anexa nu o găsim; ne-o puteți trimite separat?",
+          "ru": "Отчёт я получил. Приложение мы не находим; не могли бы вы отправить его нам отдельно?",
+          "note": "L- повторяет raportul, o — anexa. В ne-o получатель ne — «нам», предмет o — «её»."
+        },
+        {
+          "ro": "Nu am primit nimic, deci trimiteți totul de la început.",
+          "ru": "Я ничего не получил, поэтому отправьте всё с самого начала."
+        },
+        {
+          "ro": "Să verificăm separat: raportul a ajuns, iar accesul la anexă rămâne de clarificat.",
+          "ru": "Проверим отдельно: отчёт дошёл, а доступ к приложению ещё нужно прояснить."
+        },
+        {
+          "ro": "Corect. Vă rog să ne trimiteți doar anexa sau să ne indicați unde o putem consulta.",
+          "ru": "Верно. Пожалуйста, отправьте нам только приложение или укажите, где мы можем с ним ознакомиться."
+        },
+        {
+          "ro": "V-o trimit separat. După primire, anexele trebuie verificate înainte de întâlnire.",
+          "ru": "Я отправлю её вам отдельно. После получения приложения нужно проверить до встречи."
+        },
+        {
+          "ro": "Cine va verifica anexele și cui îi trimitem observațiile?",
+          "ru": "Кто проверит приложения и кому мы отправляем замечания?",
+          "note": "Cine? — «кто?» как исполнитель; cui? — «кому?» как получатель. Îi повторяет получателя в краткой форме."
+        },
+        {
+          "ro": "Dacă anexele trebuie verificate, înseamnă că ele au fost deja aprobate.",
+          "ru": "Если приложения нужно проверить, значит, их уже утвердили."
+        },
+        {
+          "ro": "Nu au fost încă aprobate. Verificarea este etapa următoare.",
+          "ru": "Их пока не утвердили. Проверка — следующий этап."
+        },
+        {
+          "ro": "Am înțeles. Mai avem de verificat anexele; vă rog să precizați responsabilul.",
+          "ru": "Я понял. Нам ещё предстоит проверить приложения; пожалуйста, уточните, кто за это отвечает.",
+          "note": "Mai avem de verificat — «нам ещё предстоит проверить». De verificat — supin, обозначающий оставшуюся задачу."
+        },
+        {
+          "ro": "Colega căreia i-ați scris ieri va verifica datele. Ei îi puteți transmite observațiile.",
+          "ru": "Данные проверит коллега, которой вы вчера написали. Ей можно передать замечания.",
+          "note": "Căreia — «которой», i- повторяет адресата письма. Ei îi… подчёркивает «именно ей»."
+        },
+        {
+          "ro": "Voi numi colega explicit în mesaj, ca toți participanții să știe cui să răspundă.",
+          "ru": "Я прямо укажу коллегу в сообщении, чтобы все участники знали, кому отвечать."
+        },
+        {
+          "ro": "Am scris: „Ana a discutat cu Ioana despre schița acesteia.” Crezi că se înțelege a cui este schița?",
+          "ru": "Я написал: «Ана обсудила с Иоаной её схему». Как думаешь, понятно, чья схема?"
+        },
+        {
+          "ro": "Nu suficient de clar. Aș numi proprietara schiței; la cine vă referiți?",
+          "ru": "Недостаточно ясно. Я назвал бы владелицу схемы; кого вы имеете в виду?",
+          "note": "La cine vă referiți? — «кого вы имеете в виду?» Явно названный владелец устраняет двусмысленность местоимения."
+        },
+        {
+          "ro": "Acesteia poate însemna numai Ana, în orice context.",
+          "ru": "«Acesteia» может означать только Ану в любом контексте."
+        },
+        {
+          "ro": "Ambele nume sunt feminine. Eu mă refeream la Ioana.",
+          "ru": "Оба имени женского рода. Я имел в виду Иоану."
+        },
+        {
+          "ro": "Atunci aș scrie „schița Ioanei”, ca să nu depindem de o interpretare.",
+          "ru": "Тогда я написал бы «схема Иоаны», чтобы нам не зависеть от трактовки."
+        },
+        {
+          "ro": "Ioana a citit datele și a observat o diferență. Aș vrea o frază mai compactă.",
+          "ru": "Иоана прочитала данные и заметила различие. Я хотел бы более компактную фразу."
+        },
+        {
+          "ro": "Citind datele, Ioana a observat o diferență.",
+          "ru": "Читая данные, Иоана заметила различие.",
+          "note": "Citind — gerunziu «читая». И читала, и заметила Иоана; общий исполнитель делает конструкцию ясной."
+        },
+        {
+          "ro": "Citind datele, diferența a fost observată de la sine.",
+          "ru": "При чтении данных различие было замечено само собой.",
+          "note": "Буквальный ответ сохраняет неудачную конструкцию: читатель данных не назван, а подлежащим стала diferența. De la sine — «само собой»."
+        },
+        {
+          "ro": "Diferența nu citește date. Să păstrăm Ioana ca subiect al ambelor acțiuni.",
+          "ru": "Различие не читает данные. Сохраним Иоану субъектом обоих действий."
+        },
+        {
+          "ro": "Da: verificând datele, Ioana a observat diferența.",
+          "ru": "Да: проверяя данные, Иоана заметила различие."
+        },
+        {
+          "ro": "Mai trebuie să precizăm că trei aspecte rămân de explicat.",
+          "ru": "Ещё нужно указать, что три аспекта предстоит объяснить."
+        },
+        {
+          "ro": "Voi adăuga: „Mai sunt trei aspecte de explicat”, apoi voi numi fiecare aspect.",
+          "ru": "Я добавлю: «Ещё три аспекта нужно объяснить», а затем назову каждый аспект.",
+          "note": "Mai sunt… de explicat — «ещё… предстоит объяснить». Fiecare aspect — «каждый аспект»."
+        }
+      ],
+      "notes": [
+        "Короткие местоимения обозначают участников и предмет: vi l-am trimis — «я вам его отправил», ne-o puteți trimite — «вы можете нам её отправить», v-o trimit — «я её вам отправляю». Сначала выясните, какой документ уже получен.",
+        "В неоднозначной инструкции называйте владельца: schița Ioanei. В конструкции Citind datele, Ioana… действие gerunziu и личного глагола относится к Иоане; de explicat / de verificat указывают на оставшуюся работу."
+      ]
+    },
+    {
+      "missionId": "MISSION.B2.3",
+      "phrases": [
+        {
+          "ro": "Băncile ar fi utile, dar mă tem că nu ar mai rămâne loc pentru livrări. Cum răspunde propunerea ta acestei probleme?",
+          "ru": "Скамейки были бы полезны, но я опасаюсь, что не останется места для доставки. Как твоё предложение решает эту проблему?"
+        },
+        {
+          "ro": "Obiecția este importantă. Aș verifica spațiul de trecere înainte de a stabili amplasarea.",
+          "ru": "Это важное возражение. Я проверил бы место для прохода, прежде чем определять расположение.",
+          "note": "Aș verifica — предложение осторожного следующего шага. Înainte de a + инфинитив — «прежде чем…»."
+        },
+        {
+          "ro": "Mie îmi plac băncile, deci problema livrărilor nu mai contează.",
+          "ru": "Мне нравятся скамейки, поэтому проблема доставки больше не имеет значения."
+        },
+        {
+          "ro": "Nu contest că ar fi plăcut să avem bănci. Întreb cum păstrăm accesul.",
+          "ru": "Я не спорю, что скамейки были бы приятны. Я спрашиваю, как сохранить доступ."
+        },
+        {
+          "ro": "Aveți dreptate. Să comparăm două amplasări și să păstrăm o zonă de trecere.",
+          "ru": "Вы правы. Давайте сравним два варианта размещения и сохраним зону для прохода."
+        },
+        {
+          "ro": "Câțiva locatari au susținut ideea. Este suficient pentru o schimbare permanentă?",
+          "ru": "Несколько жильцов поддержали идею. Достаточно ли этого для постоянного изменения?"
+        },
+        {
+          "ro": "Nu neapărat. Susținerea justifică o discuție și un test, nu dovedește acordul tuturor.",
+          "ru": "Не обязательно. Поддержка даёт основание для обсуждения и пробы, но не доказывает согласия всех.",
+          "note": "Nu neapărat — «не обязательно»; justifică — «даёт основание», dovedește — «доказывает». Tuturor — «всех»."
+        },
+        {
+          "ro": "Da, câteva opinii demonstrează automat acordul tuturor locatarilor.",
+          "ru": "Да, несколько мнений автоматически доказывают согласие всех жильцов."
+        },
+        {
+          "ro": "Unii locatari nu au fost consultați. Aș prefera să nu vorbim în numele lor.",
+          "ru": "С некоторыми жильцами не посоветовались. Мне бы хотелось, чтобы мы не говорили от их имени."
+        },
+        {
+          "ro": "Atunci să cerem și opiniile lor și să prezentăm propunerea ca etapă de probă.",
+          "ru": "Тогда давайте спросим и их мнение и представим предложение как пробный этап.",
+          "note": "Să cerem / să prezentăm выражают совместное предложение «давайте…». Ca etapă de probă — «как пробный этап»."
+        },
+        {
+          "ro": "Aș accepta proba dacă accesul rămâne liber și dacă evaluăm folosirea spațiului.",
+          "ru": "Я согласилась бы на пробу, если доступ останется свободным и мы оценим использование пространства."
+        },
+        {
+          "ro": "De acord. Vom numi aceste două condiții și vom discuta rezultatele înainte de decizia finală.",
+          "ru": "Согласен. Мы укажем эти два условия и обсудим результаты до окончательного решения.",
+          "note": "De acord — «согласен / согласна». Vom numi / vom discuta — будущее для noi: «мы укажем / обсудим»."
+        },
+        {
+          "ro": "Participarea online ar economisi deplasarea, dar unii colegi nu au acces ușor la instrument.",
+          "ru": "Участие онлайн избавило бы от поездки, но некоторым коллегам трудно получить доступ к инструменту."
+        },
+        {
+          "ro": "Pe de o parte economisim deplasarea; pe de altă parte, trebuie păstrată o opțiune accesibilă și lor.",
+          "ru": "С одной стороны, мы избавляемся от поездки; с другой — нужно сохранить вариант, доступный и для них.",
+          "note": "Pe de o parte…, pe de altă parte… сопоставляет две стороны. Și lor — «и им / также для них»; trebuie păstrată — «нужно сохранить»."
+        },
+        {
+          "ro": "Dacă mie îmi merge, rezultă că le merge tuturor.",
+          "ru": "Если у меня работает, значит, работает у всех."
+        },
+        {
+          "ro": "Situațiile diferă. Întrebarea este cum îi includem și pe cei care au dificultăți.",
+          "ru": "Ситуации различаются. Вопрос в том, как включить и тех, кому трудно."
+        },
+        {
+          "ro": "Aș propune o variantă mixtă și aș verifica direct de ce sprijin au nevoie.",
+          "ru": "Я предложил бы смешанный вариант и прямо выяснил бы, какая помощь им нужна.",
+          "note": "De ce sprijin au nevoie означает «какая помощь им нужна»: ce определяет sprijin, а не задаёт вопрос «почему»."
+        },
+        {
+          "ro": "Varianta mixtă ar cere mai multă organizare. Ai luat în calcul acest efort?",
+          "ru": "Смешанный вариант потребовал бы больше организации. Ты учёл эти усилия?"
+        },
+        {
+          "ro": "Da, acesta este un cost real. Tocmai de aceea aș începe cu o singură întâlnire și aș nota timpul necesar.",
+          "ru": "Да, это реальные затраты. Именно поэтому я начал бы с одной встречи и записал бы необходимое время.",
+          "note": "Tocmai de aceea — «именно поэтому»; o singură întâlnire — «одна-единственная встреча». Aș începe / aș nota — условное предложение плана."
+        },
+        {
+          "ro": "Organizarea nu contează dacă scopul este bun.",
+          "ru": "Организация не имеет значения, если цель хорошая."
+        },
+        {
+          "ro": "Scopul este important, dar fără organizare întâlnirea poate deveni greu de urmărit.",
+          "ru": "Цель важна, но без организации за встречей может быть трудно следить."
+        },
+        {
+          "ro": "Înțeleg. Vom include pregătirea și sprijinul tehnic în evaluare.",
+          "ru": "Понимаю. Мы включим подготовку и техническую поддержку в оценку."
+        },
+        {
+          "ro": "Atunci să precizăm ce am considera un rezultat util, înainte de test.",
+          "ru": "Тогда давайте до проверки уточним, что мы считали бы полезным результатом."
+        },
+        {
+          "ro": "Aș urmări participarea, claritatea discuției și timpul de pregătire, fără să promit că varianta va fi cea mai bună pentru toți.",
+          "ru": "Я отслеживал бы участие, ясность обсуждения и время подготовки, не обещая, что этот вариант будет лучшим для всех.",
+          "note": "A urmări здесь — «отслеживать». Fără să… — «не делая / без того чтобы…»; cea mai bună — «лучшая»."
+        }
+      ],
+      "notes": [
+        "Признайте возражение, затем назовите проверяемое условие: Obiecția este importantă; aș verifica… — «Возражение важно; я проверил бы…». Susținerea — поддержка, acordul tuturor — согласие всех: это разные основания.",
+        "Pe de o parte…, pe de altă parte… — «С одной стороны…, с другой стороны…». Для пробного решения заранее согласуйте условия, критерии оценки и момент окончательного решения."
+      ]
+    },
+    {
+      "missionId": "MISSION.B2.4",
+      "phrases": [
+        {
+          "ro": "Poate ar fi bine să mai așteptăm. Nu sunt sigur că avem toate detaliile.",
+          "ru": "Может быть, лучше ещё подождать. Я не уверен, что у нас есть все подробности."
+        },
+        {
+          "ro": "Când spui să așteptăm, te referi la decizie sau la întâlnirea de mâine?",
+          "ru": "Когда ты говоришь, что нужно подождать, ты имеешь в виду решение или завтрашнюю встречу?",
+          "note": "Te referi la…? уточняет предмет высказывания: «ты имеешь в виду…?» Să așteptăm — «чтобы мы подождали / нам подождать»."
+        },
+        {
+          "ro": "Voi scrie tuturor că ai anulat întâlnirea.",
+          "ru": "Я напишу всем, что ты отменил встречу."
+        },
+        {
+          "ro": "Nu am anulat nimic. Vreau doar să verificăm ce ne lipsește înainte de alegere.",
+          "ru": "Я ничего не отменял. Я хочу лишь проверить, чего нам не хватает до выбора."
+        },
+        {
+          "ro": "Am înțeles. Voi separa verificarea detaliilor de data întâlnirii.",
+          "ru": "Я понял. Я отделю проверку подробностей от даты встречи.",
+          "note": "A separa X de Y — «отделять X от Y». Voi separa обозначает, как говорящий построит дальнейший пересказ."
+        },
+        {
+          "ro": "Întâlnirea rămâne mâine, dar nu aș lua încă o decizie definitivă.",
+          "ru": "Встреча остаётся завтра, но я бы пока не принимал окончательного решения."
+        },
+        {
+          "ro": "Echipei îi voi scrie: întâlnirea rămâne stabilită, iar decizia finală depinde de clarificarea detaliilor.",
+          "ru": "Команде я напишу: встреча остаётся в силе, а окончательное решение зависит от уточнения подробностей.",
+          "note": "Echipei îi — «команде», с повторением получателя. Depinde de… — «зависит от…»; rămâne stabilită — «остаётся назначенной»."
+        },
+        {
+          "ro": "Voi scrie că proiectul a fost respins definitiv.",
+          "ru": "Я напишу, что проект окончательно отвергнут."
+        },
+        {
+          "ro": "Nu resping proiectul. Propun să nu închidem discuția înainte de verificare.",
+          "ru": "Я не отвергаю проект. Я предлагаю не завершать обсуждение до проверки."
+        },
+        {
+          "ro": "Atunci voi spune că susții continuarea discuției și amânarea concluziei, nu anularea proiectului.",
+          "ru": "Тогда я скажу, что ты поддерживаешь продолжение обсуждения и откладывание вывода, а не отмену проекта."
+        },
+        {
+          "ro": "Da, aceasta este poziția mea. Te rog să păstrezi și faptul că este o propunere.",
+          "ru": "Да, это моя позиция. Сохрани, пожалуйста, и то, что это предложение."
+        },
+        {
+          "ro": "Voi formula „propune să clarificăm detaliile înainte de decizia finală”, fără să o prezint ca hotărâre luată.",
+          "ru": "Я сформулирую: «Предлагает уточнить подробности до окончательного решения», не представляя это как уже принятое решение.",
+          "note": "Propune să… сохраняет статус предложения. Hotărâre luată — уже принятое решение; fără să o prezint — «не представляя это»."
+        },
+        {
+          "ro": "Prietenei i-ai spus: „N-am găsit anexa, iar ne pun pe drumuri.” Ce vei scrie organizației?",
+          "ru": "Подруге ты сказал: «Не нашёл приложение, опять нас гоняют». Что ты напишешь организации?",
+          "note": "N-am — разговорное сокращение nu am. A pune pe drumuri — «заставлять ходить по делам, гонять»; iar здесь — «опять»."
+        },
+        {
+          "ro": "Voi spune ce anexă nu am găsit și voi cere accesul, fără să atribui o intenție.",
+          "ru": "Я скажу, какое приложение не нашёл, и попрошу доступ, не приписывая им намерений."
+        },
+        {
+          "ro": "Voi afirma că au ascuns-o intenționat, ca să pară mai oficial.",
+          "ru": "Я заявлю, что они спрятали его намеренно, чтобы это выглядело официальнее."
+        },
+        {
+          "ro": "Nu știm de ce lipsește. Avem doar faptul că nu ai găsit fișierul menționat.",
+          "ru": "Мы не знаем, почему его нет. Известно только, что ты не нашёл упомянутый файл."
+        },
+        {
+          "ro": "Corect. Aș începe: „Nu am găsit anexa menționată în mesajul despre proiect.”",
+          "ru": "Верно. Я начал бы так: «Я не нашёл приложение, упомянутое в сообщении о проекте».",
+          "note": "Menționată — «упомянутая» и согласуется с anexa. Такая формулировка описывает наблюдение, не приписывая причин."
+        },
+        {
+          "ro": "Cum formulezi cererea către o persoană pe care nu o cunoști?",
+          "ru": "Как сформулируешь просьбу незнакомому человеку?"
+        },
+        {
+          "ro": "Îmi puteți indica unde pot consulta anexa sau mi-o puteți retrimite, vă rog?",
+          "ru": "Не могли бы вы указать, где я могу ознакомиться с приложением, или отправить его мне ещё раз, пожалуйста?",
+          "note": "Îmi / mi- — «мне», o — «её», то есть приложение. Puteți… vă rog оформляет вежливую просьбу к незнакомому адресату."
+        },
+        {
+          "ro": "Ai grijă să mi-o trimiți imediat, altfel sigur ești vinovat.",
+          "ru": "Смотри, отправь мне его немедленно, иначе ты точно виноват.",
+          "note": "Ai / trimiți / ești — обращение на ты; imediat — «немедленно», altfel — «иначе». Реплика содержит приказ и обвинение."
+        },
+        {
+          "ro": "Aș păstra dumneavoastră și o cerere directă, fără o acuzație pe care nu o putem susține.",
+          "ru": "Я бы сохранила обращение на вы и прямую просьбу без обвинения, которое мы не можем обосновать."
+        },
+        {
+          "ro": "Vă rog să-mi retrimiteți anexa sau să-mi indicați unde o pot consulta.",
+          "ru": "Пожалуйста, отправьте мне приложение повторно или укажите, где я могу с ним ознакомиться.",
+          "note": "Vă rog să… — «пожалуйста, …» на вы; retrimiteți — «отправьте повторно», a consulta — «ознакомиться»."
+        },
+        {
+          "ro": "Mai trebuie să spui de ce ai nevoie de ea înainte de discuție.",
+          "ru": "Ещё нужно объяснить, почему она нужна тебе до обсуждения."
+        },
+        {
+          "ro": "Voi adăuga că vreau să pregătesc întrebările, nu că există un termen obligatoriu pe care nu l-am verificat.",
+          "ru": "Я добавлю, что хочу подготовить вопросы, а не что есть обязательный срок, который я не проверил."
+        }
+      ],
+      "notes": [
+        "Перед пересказом уточняйте намерение: Când spui…, te referi la…? — «Когда ты говоришь…, ты имеешь в виду…?» Сохраняйте различие между предложением, решением и отменой.",
+        "Для официального запроса используйте dumneavoastră, puteți и vă rog. Назовите нужный файл и просьбу дать доступ; разговорное iar ne pun pe drumuri передаёт жалобу, но само по себе не устанавливает причину проблемы."
+      ]
+    },
+    {
+      "missionId": "MISSION.B2.5",
+      "phrases": [
+        {
+          "ro": "Am găsit două articole care spun că noul program a crescut participarea. Ambele trimit însă la același comunicat.",
+          "ru": "Я нашла две статьи, в которых говорится, что новый график повысил участие. Однако обе ссылаются на одно сообщение."
+        },
+        {
+          "ro": "Avem două relatări, dar nu neapărat două confirmări independente. Ce date oferă comunicatul?",
+          "ru": "У нас два сообщения, но не обязательно два независимых подтверждения. Какие данные приводит пресс-релиз?",
+          "note": "Nu neapărat — «не обязательно». Relatare — сообщение о событии; confirmare independentă — отдельное подтверждение из независимого источника."
+        },
+        {
+          "ro": "Două articole înseamnă sigur două verificări separate.",
+          "ru": "Две статьи точно означают две отдельные проверки."
+        },
+        {
+          "ro": "Autorii au preluat aceeași informație. Niciunul nu descrie o verificare proprie.",
+          "ru": "Авторы повторили одну информацию. Ни один не описывает собственную проверку."
+        },
+        {
+          "ro": "Atunci voi menționa sursa comună și voi evita să spun că informația este confirmată de două ori.",
+          "ru": "Тогда я укажу общий источник и не буду говорить, что информация подтверждена дважды.",
+          "note": "Sursa comună — общий исходный источник. Voi evita să spun — «я не буду говорить / избегу утверждения»."
+        },
+        {
+          "ro": "Comunicatul arată că participarea a crescut, dar în aceeași perioadă au fost trimise și invitații personale.",
+          "ru": "В сообщении указано, что участие выросло, но в тот же период отправили и личные приглашения."
+        },
+        {
+          "ro": "Creșterea este descrisă, dar nu știm cât se datorează programului și cât invitațiilor.",
+          "ru": "Рост описан, но мы не знаем, какая его часть обусловлена графиком, а какая — приглашениями.",
+          "note": "A se datora + дательный — «быть обусловленным чем-либо». Cât… și cât… спрашивает, какая часть приходится на каждый фактор."
+        },
+        {
+          "ro": "Invitațiile nu pot conta, fiindcă titlul menționează numai programul.",
+          "ru": "Приглашения не могут влиять, потому что в заголовке упоминается только график."
+        },
+        {
+          "ro": "Titlul poate simplifica. Textul nu separă efectele celor două schimbări.",
+          "ru": "Заголовок может упрощать. Текст не разделяет эффекты двух изменений."
+        },
+        {
+          "ro": "Aș cere o comparație care să țină cont și de invitații înainte de a atribui cauza.",
+          "ru": "Я запросил бы сравнение, учитывающее и приглашения, прежде чем приписывать чему-либо причинную роль.",
+          "note": "A ține cont de… — «учитывать…». Care să… описывает требуемое сравнение, înainte de a… — «прежде чем…»."
+        },
+        {
+          "ro": "Cum ai rezuma materialul într-o singură frază?",
+          "ru": "Как ты пересказал бы материал одной фразой?"
+        },
+        {
+          "ro": "Potrivit comunicatului, participarea a crescut după două schimbări, dar contribuția fiecăreia rămâne de clarificat.",
+          "ru": "Согласно пресс-релизу, участие выросло после двух изменений, но вклад каждого ещё предстоит уточнить.",
+          "note": "Potrivit comunicatului — «согласно пресс-релизу». Fiecăreia относится к каждому из двух изменений; rămâne de clarificat — «ещё предстоит уточнить»."
+        },
+        {
+          "ro": "Varianta A arată mai bine în schiță. Putem spune deja că are un impact mai bun asupra mediului?",
+          "ru": "Вариант А выглядит лучше на схеме. Можно ли уже сказать, что его воздействие на среду лучше?"
+        },
+        {
+          "ro": "Nu doar din aspect. Ce impact comparăm și pe ce perioadă?",
+          "ru": "На основании одного внешнего вида — нет. Какое воздействие мы сравниваем и за какой период?",
+          "note": "Nu doar din aspect — краткое «не только на основании внешнего вида». Pe ce perioadă? задаёт период, по которому нужно сравнивать воздействие."
+        },
+        {
+          "ro": "Da, dacă arată mai bine, sigur consumă mai puține resurse.",
+          "ru": "Да, если он выглядит лучше, то точно расходует меньше ресурсов."
+        },
+        {
+          "ro": "Schița nu oferă date despre materiale, pregătire sau întreținere.",
+          "ru": "Схема не даёт данных о материалах, подготовке или обслуживании."
+        },
+        {
+          "ro": "Atunci să cerem aceste informații înainte de comparație.",
+          "ru": "Тогда давайте запросим эту информацию до сравнения."
+        },
+        {
+          "ro": "Prima variantă ar necesita mai puțină pregătire, dar a doua ar putea fi mai ușor de întreținut.",
+          "ru": "Первый вариант потребовал бы меньше подготовки, но второй мог бы быть проще в обслуживании."
+        },
+        {
+          "ro": "Aș compara ambele etape pe același interval și aș include accesul pentru diferite grupuri.",
+          "ru": "Я сравнил бы оба этапа за один и тот же период и учёл бы доступ для разных групп.",
+          "note": "Ambele etape — «оба этапа»; pe același interval — «за один и тот же период». Aș compara / aș include — предложенный способ проверки."
+        },
+        {
+          "ro": "Să ignorăm întreținerea, pentru că se întâmplă mai târziu.",
+          "ru": "Давайте не будем учитывать обслуживание, потому что оно происходит позже."
+        },
+        {
+          "ro": "Pe termen lung, întreținerea poate schimba rezultatul comparației.",
+          "ru": "В долгосрочной перспективе обслуживание может изменить результат сравнения."
+        },
+        {
+          "ro": "Ai dreptate. Voi separa avantajul inițial de efectele pe termen lung.",
+          "ru": "Ты прав. Я отделю первоначальное преимущество от долгосрочных последствий.",
+          "note": "Pe termen lung — «в долгосрочной перспективе». A separa… de… разграничивает первоначальное преимущество и последующие эффекты."
+        },
+        {
+          "ro": "Ce concluzie putem formula deocamdată?",
+          "ru": "Какой вывод мы можем пока сформулировать?"
+        },
+        {
+          "ro": "Avem avantaje diferite, dar nu încă o bază suficientă pentru un câștigător general. Următorul pas este să strângem date comparabile.",
+          "ru": "У вариантов разные преимущества, но достаточных оснований для определения лучшего в целом у нас пока нет. Следующий шаг — собрать сопоставимые данные."
+        }
+      ],
+      "notes": [
+        "Проверяйте исходный источник: două relatări — два сообщения, două confirmări independente — два независимых подтверждения. Potrivit comunicatului… — «Согласно пресс-релизу…» обозначает источник утверждения.",
+        "Сравнивайте варианты по одинаковому периоду и условиям. A ține cont de… — «учитывать…»; a se datora… — «быть обусловленным…»; rămâne de clarificat — «ещё предстоит уточнить»."
+      ]
+    },
+    {
+      "missionId": "MISSION.B2.6",
+      "phrases": [
+        {
+          "ro": "Ai prezentat un rezultat util într-o echipă. De ce crezi că s-ar repeta și în alte echipe?",
+          "ru": "Ты представил полезный результат в одной команде. Почему думаешь, что он повторился бы и в других командах?"
+        },
+        {
+          "ro": "Nu pot spune încă că s-ar repeta. Exemplul susține un test nou, nu o concluzie pentru toate echipele.",
+          "ru": "Я пока не могу сказать, что он повторится. Пример даёт основание для новой проверки, а не для вывода обо всех командах.",
+          "note": "Încă с отрицанием — «пока». S-ar repeta — «повторился бы»; susține здесь — «даёт основание», без обещания общего результата."
+        },
+        {
+          "ro": "Fiindcă am folosit o prezentare clară, rezultatul este demonstrat pentru toate echipele.",
+          "ru": "Поскольку я использовал ясную презентацию, результат доказан для всех команд."
+        },
+        {
+          "ro": "Prezentarea a fost clară, dar întrebarea mea era despre aplicabilitatea rezultatului.",
+          "ru": "Выступление было ясным, но мой вопрос касался применимости результата."
+        },
+        {
+          "ro": "Aveți dreptate. Datele mele privesc o singură echipă; aș verifica alte condiții separat.",
+          "ru": "Вы правы. Мои данные касаются одной команды; другие условия я проверил бы отдельно.",
+          "note": "Aveți dreptate — «вы правы»; privesc здесь значит «касаются». O singură ограничивает данные одной командой."
+        },
+        {
+          "ro": "Ce ai include în următoarea verificare?",
+          "ru": "Что ты включил бы в следующую проверку?"
+        },
+        {
+          "ro": "Aș defini criteriile înainte: timpul total, erorile rămase și efortul de pregătire. Aș nota și condițiile fiecărei echipe.",
+          "ru": "Я заранее определил бы критерии: общее время, оставшиеся ошибки и затраты усилий на подготовку. Я также отметил бы условия каждой команды.",
+          "note": "Aș defini / aș nota — предложения к следующей проверке. Fiecărei echipe — «каждой команды»."
+        },
+        {
+          "ro": "Aș număra doar câți oameni au apreciat titlul prezentării.",
+          "ru": "Я посчитал бы только, скольким людям понравилось название презентации."
+        },
+        {
+          "ro": "Un titlu apreciat nu arată cât efort presupune schimbarea.",
+          "ru": "Понравившийся заголовок не показывает, каких усилий требует изменение."
+        },
+        {
+          "ro": "Atunci voi reveni la criteriile procesului și voi include costurile pregătirii.",
+          "ru": "Тогда я вернусь к критериям процесса и учту затраты на подготовку."
+        },
+        {
+          "ro": "Cum vei încheia fără să promiți mai mult decât știi?",
+          "ru": "Как ты завершишь, не обещая больше известного?"
+        },
+        {
+          "ro": "Rezultatul inițial este promițător, dar propun să decidem după o comparație nouă, cu criterii stabilite înainte.",
+          "ru": "Первоначальный результат многообещающий, но я предлагаю принять решение после нового сравнения по заранее установленным критериям.",
+          "note": "Promițător — «многообещающий». Propun să decidem — «предлагаю принять решение»; stabilite înainte — установленные заранее."
+        },
+        {
+          "ro": "În text, două pronume nu au referenți clari. În discuție, uneori explici mult înainte să răspunzi la întrebare.",
+          "ru": "В тексте непонятно, к кому или к чему относятся два местоимения. В разговоре ты иногда долго объясняешь, прежде чем ответить на вопрос."
+        },
+        {
+          "ro": "Voi lucra separat la referințe și la răspunsul direct, apoi le voi verifica într-o sarcină nouă.",
+          "ru": "Я буду отдельно работать над тем, к чему относятся местоимения, и над прямым ответом, а затем проверю это в новом задании.",
+          "note": "Referințe здесь — связь местоимений с тем, к кому или к чему они относятся. Într-o sarcină nouă — «в новом задании»."
+        },
+        {
+          "ro": "Voi reciti același model și voi considera că am certificat nivelul B2.",
+          "ru": "Я перечитаю тот же образец и буду считать, что подтвердил уровень B2."
+        },
+        {
+          "ro": "Modelul poate ajuta, dar avem nevoie de o încercare independentă. Certificarea cere o evaluare distinctă.",
+          "ru": "Образец может помочь, но нужна самостоятельная попытка. Для сертификации требуется отдельная оценка."
+        },
+        {
+          "ro": "Da. Voi folosi modelul la pregătire, iar la verificare voi răspunde fără el.",
+          "ru": "Да. Я буду использовать образец при подготовке, а при проверке отвечу без него.",
+          "note": "La pregătire / la verificare разграничивают подготовку и проверку. Fără el означает «без него», то есть без образца."
+        },
+        {
+          "ro": "Cum vom observa dacă te-ai descurcat mai bine?",
+          "ru": "Как мы увидим, что стало лучше?"
+        },
+        {
+          "ro": "Cititorul va identifica fiecare referent, iar ascultătorul va primi întâi răspunsul, apoi motivul și limita.",
+          "ru": "Читатель определит, к кому или к чему относится каждое местоимение, а слушатель сначала получит ответ, затем обоснование и указание границ этого ответа.",
+          "note": "Referent — тот, к кому или к чему относится выражение. Întâi…, apoi… задаёт порядок ответа; limita — граница того, что утверждается."
+        },
+        {
+          "ro": "Vom număra numai câte minute am ținut fișierul deschis.",
+          "ru": "Мы посчитаем только, сколько минут я держал файл открытым."
+        },
+        {
+          "ro": "Timpul ne spune cât ai lucrat, nu dacă mesajul s-a înțeles.",
+          "ru": "Время показывает, сколько ты работал, а не поняли ли сообщение."
+        },
+        {
+          "ro": "Atunci voi păstra timpul ca observație, dar progresul îl voi verifica prin înțelegerea unui cititor și prin întrebări noi.",
+          "ru": "Тогда я сохраню время как наблюдение, но прогресс проверю по тому, что понял читатель, и с помощью новых вопросов.",
+          "note": "Progresul îl… выделяет объект «прогресс» и повторяет его местоимением îl. Prin… обозначает способ проверки: «через / с помощью…»."
+        },
+        {
+          "ro": "Care este următorul pas concret?",
+          "ru": "Какой следующий конкретный шаг?"
+        },
+        {
+          "ro": "Voi scrie un mesaj nou și voi înregistra un răspuns nepregătit. Apoi voi cere feedback pe aceleași două criterii și voi ajusta planul.",
+          "ru": "Я напишу новое сообщение и запишу неподготовленный ответ. Затем попрошу обратную связь по тем же двум критериям и скорректирую план.",
+          "note": "Voi + инфинитив обозначает будущие действия. Pe aceleași două criterii — «по тем же двум критериям»; nepregătit — без предварительной подготовки."
+        }
+      ],
+      "notes": [
+        "Ограничивайте вывод рамкой данных: Datele mele privesc o singură echipă — «Мои данные касаются одной команды». Для следующей проверки заранее назовите критерии, условия и затраты на подготовку.",
+        "В новом задании сначала дайте прямой ответ, затем обоснование и границу вывода. Уточняйте, к кому или к чему относится каждое местоимение; самостоятельная попытка показывает прогресс лучше повторного чтения образца."
+      ]
+    }
+  ]
+}

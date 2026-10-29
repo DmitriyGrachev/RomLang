@@ -1,0 +1,14 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {emptySnapshot,validateEvent,reduceEvents} from '../lib/course/records.ts';
+import {courseVersion} from '../lib/course/version.ts';
+import type {LearningEvent,ExerciseItem} from '../lib/course/types.ts';
+const item:ExerciseItem={id:'A1.03.e1',type:'gap',prompt:'Eu ___',answers:['sunt'],explanation:'a fi',hint:'fi',skill:'grammar',tag:'a-fi'};
+const c={exercises:new Map([[item.id,item]]),lessonIds:new Set(['A1.03']),wordIds:new Set(['word']),missions:new Map(),lessonExercises:new Map([['A1.03',[item.id]]]),productionCriteria:new Map([['A1.03',3]])};
+const event=(id:string,type:LearningEvent['type'],payload:Record<string,unknown>):LearningEvent=>({id,type,payload,at:'2026-10-25T12:00:00Z'});
+test('saved outcome retains original grading when the answer bank changes',()=>{const e=validateEvent(event('a','attempt',{exerciseId:item.id,answer:'sunt'}),c,emptySnapshot());const revised={...c,exercises:new Map([[item.id,{...item,answers:['este']}]])};const s=reduceEvents([e],revised);assert.equal(s.xp,5);assert.equal(s.attempts[item.id][0].correct,true);assert.equal(e.payload.courseVersion,courseVersion)});
+test('client-forged adjudication is replaced by a real grade on ingestion',()=>{const e=validateEvent(event('a','attempt',{exerciseId:item.id,answer:'este',result:{correct:true},correct:true}),c,emptySnapshot());assert.equal(reduceEvents([e],c).xp,0)});
+test('assistance survives hiding the hint and returning to an exercise',()=>{const assist=validateEvent(event('help','assist',{key:item.id}),c,emptySnapshot());const s=reduceEvents([assist],c);const attempt=validateEvent(event('answer','attempt',{exerciseId:item.id,answer:'sunt',assisted:false}),c,s);assert.equal(reduceEvents([assist,attempt],c).attempts[item.id][0].assisted,true)});
+test('closing a production model does not erase its exposure history',()=>{const first=validateEvent(event('p1','production',{lessonId:'A1.03',text:'test',criteria:[],modelViewed:true}),c,emptySnapshot());const second=validateEvent(event('p2','production',{lessonId:'A1.03',text:'test',criteria:[],modelViewed:false}),c,reduceEvents([first],c));assert.equal(second.payload.modelViewed,true)});
+test('out-of-range checklist marks are removed on ingestion',()=>{const a=validateEvent(event('p','production',{lessonId:'A1.03',text:'',criteria:[9,10,11],spoken:true}),c,emptySnapshot());assert.deepEqual(a.payload.criteria,[]);assert.equal(reduceEvents([a],c).productions['A1.03'].criteria.length,0)});
+test('restored numeric preference produces a numeric budget',()=>{const e=validateEvent(event('pref','preference',{minutes:'60'}),c,emptySnapshot());assert.equal(e.payload.minutes,60)});
